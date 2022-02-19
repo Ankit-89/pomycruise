@@ -1,0 +1,52 @@
+.two-image-rotator-container {
+    & .left-inner-content p {
+        font-size: 16px;
+        line-height: 30px;
+        font-family: var(--font-h3);
+    }
+    & .rotator-pagination-wrapper {
+        font-size: 14px;
+        background: var(--color-primary1);
+        white-space: normal;
+    }
+    & .pagination-nav .button {
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    & .pagination-nav .prev-btn:before {
+        background-image: url(~postbooking-theme/images/SVG/Carousel_Arrow_Left.svg);
+    }
+    & .pagination-nav .next-btn:before {
+        background-image: url(~postbooking-theme/images/SVG/Carousel_Arrow_Right.svg);
+    }
+    & .pagination-nav .slick-disabled {
+        opacity: 0.3;
+    }
+    & .left-inner-content p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    & .quote-text {
+        font-size: 14px;
+        line-height: 24px;
+        font-family: var(--font-h3);
+        border-left: 1px solid var(--color-tertiary28);
+    }
+    & .quote-text p {
+        font-size: 12px;
+    }
+    & .pagination-nav {
+        font-feature-settings: 'lnum' 1;
+    }
+
+    & .pullquote {
+        font-style: italic;
+    }
+
+    & .pullquote:before,
+    & .pullquote:after {
+        content: '"';
+    }
+}

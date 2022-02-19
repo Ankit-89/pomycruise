@@ -1,0 +1,13 @@
+{
+  "type": "interimConfirmationPage",
+  "id": "1620747465403",
+  "attributes": {
+    "labels": {
+      "previousLabel": "Previous",
+      "confirmationPageLoadingMessage": "Confirmation Page is loading."
+    }
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

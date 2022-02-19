@@ -1,0 +1,18 @@
+{
+	"type": "flightSeatBooker",
+	"id": "1632223864715",
+	"attributes": {
+	  "title": "Flight seat booker ",
+	  "bodyText1": "You may have the ability to pre-purchase your preferred flight seats on selected P&O Cruises charter flights.  This is available when flying with TUI Airways on the Fly Mediterranean and Fly Caribbean programme. Seats are subject to availability and bookings close around one week prior to departure. Seats are currently not available, please check back soon. ",
+	  "ctaLink": {
+		"label": "To book your seats, please click here FSB",
+		"url": "http://cuk-dev-fsb2.carnivaluk.com/login/auto-login/",
+		"isExternal": false,
+		"absoluteUrl": "http://cuk-dev-fsb2.carnivaluk.com/login/auto-login/"
+	  },
+	  "targetPath": ""
+	},
+	"meta": {
+	  "render": "dynamic"
+	}
+  }

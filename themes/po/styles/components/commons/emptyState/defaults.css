@@ -1,0 +1,39 @@
+.empty-img {
+    &::before {
+        font-family: var(--font-icomoon);
+        font-size: 50px;
+        color: var(--color-primary4);
+    }
+}
+
+.ordersDetails {
+    & .empty-img::before {
+        content: "\e910";
+    }
+}
+
+
+.summaryDetailsModuleMycruise {
+    & .empty-img::before {
+        content: "\e904";
+    }
+}
+
+.shorexEmpty {
+    & .empty-img::before {
+        content: "\E92C";
+    }
+}
+.flightsInfo {
+    & .empty-img::before {
+        content: "\e924";
+    }
+}
+
+
+.empty-container {
+    border: 1px dashed var(--color-secondary5);
+}
+.empty-description {
+    @mixin style-body1;
+}

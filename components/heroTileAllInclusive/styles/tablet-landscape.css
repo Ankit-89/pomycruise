@@ -1,0 +1,59 @@
+.hero-tile-container {
+    text-align: left;
+    & .infocard-back {
+        @mixin cta-secondary-up;
+        background: var(--color-primary1);
+        padding: 0 25px 0 35px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px;
+        display: inline-block;
+        position: absolute;
+        top: -180px;
+        left: 32px;
+        & span {
+            display: inline-block;
+            line-height: 40px;
+        }
+        &:before {
+            display: none;
+        }
+        &:after {
+            transform: rotate(90deg) translateY(-3px);
+            position: absolute;
+            left: 10px;
+            line-height: 40px;
+            top: 0;
+        }
+        &:hover:after {
+            transform: rotate(90deg) translateY(0);
+        }
+    }
+    & .ht-background {
+        @mixin ht-max-height;
+    }
+    & .infocard-wrapper {
+        margin: -127px auto 0;
+        &.left {
+            margin-left: 64px;
+        }
+        &.right {
+            margin-right: 64px;
+        }
+    }
+}
+
+.hero-tile-container .infocard {
+    & .title {
+        max-width: 70%;
+        text-align: left;
+        margin: 0 0 30px 0;
+    }
+    & .hero-tile-variant {
+        lost-column: 3/12 2 0;
+        text-align: right;
+        position: absolute;
+        top: 67px;
+        right: 60px;
+    }
+}

@@ -1,0 +1,17 @@
+.itemsList {
+    @mixin grid-wrap;
+
+    & .title {
+        text-align: center;
+    }
+    & .itemsList__item {
+        list-style: none;
+        padding-bottom: 20px;
+        & .titleItem {
+            padding-bottom: 8px;
+        }
+        & .desc {
+            @mixin style-body2;
+        }
+    }
+}

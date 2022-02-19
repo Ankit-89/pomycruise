@@ -1,0 +1,45 @@
+{
+  "type": "acceptCookie",
+  "id": "1506523161446",
+  "attributes": {
+    "childComponents": [
+      {
+        "type": "copyBlock",
+        "id": "1506523161458",
+        "attributes": {
+          "copyBlockList": [
+            {
+              "text": "<h4>Third-party cookies</h4>\r\n<p>Costa also uses third-party cookies, installed by Google Analytics for example, to process statistical analyses of the user's browsing habits, on the number of pages visited or the number of clicks the user makes on a page when browsing. Costa processes the results of these analyses for statistical purposes on website user behaviour, in order to improve and fine-tune website content. If you would like further information about third-party cookies, and for information about how to manage or refuse them, click on the links in the table:</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<table class=\"pure-table pure-table-bordered\">\r\n<tbody><tr><th>Source</th>\r\n<th>Cookie Domain Name</th>\r\n<th>Cookie type</th>\r\n<th>Cookie policy</th>\r\n</tr><tr><td>​Google Adwords</td>\r\n<td>googleadservices</td>\r\n<td>Profiling</td>\r\n<td><a href=\"http://www.google.com/intl/policies/technologies/ads/\" target=\"_blank\">http://www.google.com/intl/policies/technologies/ads/</a></td>\r\n</tr><tr><td>Google Analytics</td>\r\n<td>google-analytics.com</td>\r\n<td>Statistical, Profiling</td>\r\n<td><a href=\"https://support.google.com/analytics/answer/6004245\" target=\"_blank\">https://support.google.com/analytics/answer/6004245</a></td>\r\n</tr><tr><td>Adobe Target / Test&amp;Target</td>\r\n<td>adobetag.com</td>\r\n<td>Profiling</td>\r\n<td><a href=\"http://www.adobe.com/privacy/opt-out.html\" target=\"_blank\">http://www.adobe.com/privacy/opt-out.html</a></td>\r\n</tr></tbody></table>\r\n"
+            }
+          ]
+        },
+        "meta": {
+          "render": "dynamic"
+        }
+      }
+    ],
+    "textBlockTitle": "Strictly Necessary Cookies",
+    "textBlock": "<p>Some cookies are essential for our website to work properly. These cookies allow us to provide the services requested by users and allow you to browse the website to the best of its capabilities. This type of cookie cannot be disabled because it is needed for the website to work properly.<br>\r\n\r\n</p>\r\n\r\n",
+    "cookieList": [
+      {
+        "cookieTitle": "Performance and functionality cookies ",
+        "cookieDescription": "<p>Performance cookies gather anonymous information about the pages visited by users. They are used to track the pages most frequently sought and are useful for improving links between pages and determining the reason for possible error messages. Functionality cookies also save the choices made by users in order to improve navigation and your online experience. These cookies are used, for example, to allow you to save a cruise in your list of &quot;favourites&quot;. If you remove these cookies, which do not gather any sensitive user data, you will lose some of the functionalities of the website, which will therefore perform less well.<br>\r\n</p>\r\n",
+        "cookieName": "disablePerfCookie"
+      },
+      {
+        "cookieTitle": "Identification or advertising cookies",
+        "cookieDescription": "<p>These cookies gather information about your browsing habits in order to bring you advertising that is important and relevant to your interests. Sensitive user data will not be tracked, but we advise you to visit the http://www.youronlinechoices.com/uk/ website for more information. If you remove these cookies, you won't lose any functionality.<br>\r\n</p>\r\n",
+        "cookieName": "disableAnalyticsCookie"
+      }
+    ],
+    "labels": {
+      "refuse": "Refuse12345678901234",
+      "save": "Save",
+      "cookieSaved": "Your Cookie is saved.",
+      "accept": "Accept12345678901234"
+    }
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

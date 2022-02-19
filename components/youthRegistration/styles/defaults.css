@@ -1,0 +1,1165 @@
+.youthRegistration {
+    text-align: -webkit-center;
+
+    & .header {
+        text-align: left;
+        width: auto;
+        padding: 0px 20px 16px;
+
+        & .title {
+            font-family: var(--font-h5);
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            color: var(--color-primary3);
+        }
+    }
+
+    & .description__container {
+        @mixin style-body1;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: left;
+        width: 100%;
+        display: block;
+        padding-top: 7px;
+
+        & .description__body__left {
+            padding-right: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+
+            & .description__body {
+                color: #000000;
+                padding: 0px 20px;
+            }
+
+            & .privacy__notice {
+                @mixin style-body1;
+                font-family: var(--font-h5);
+                font-size: 14px;
+                color: var(--color-primary3);
+                padding: 0px 20px;
+
+                & a {
+                    &:hover,
+                    &:visited,
+                    &:active,
+                    &:focus {
+                        color: var(--color-primary3);
+                    }
+                }
+            }
+
+            & .cruiseInfo_container {
+                display: flex;
+                margin-top: 17px;
+                padding: 0px 20px;
+                flex-direction: column;
+
+                & .embarkDate_container {
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-weight: 600;
+                    width: 165px;
+                    color: #000000;
+
+                    & .value {
+                        margin-top: 7px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                        text-transform: uppercase;
+                        color: var(--color-primary3);
+                    }
+                }
+                & .cruiseNumber_container {
+                    margin-bottom: 12px;
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-weight: 600;
+                    width: 165px;
+                    color: #000000;
+
+                    & .value {
+                        margin-top: 7px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                        text-transform: uppercase;
+                        color: var(--color-primary3);
+                    }
+                }
+            }
+
+            & .passengerSelectFieldContainer {
+                @mixin style-body1;
+                text-align: left;
+                width: auto;
+                padding: 0px 20px;
+                margin-top: 25px;
+                position: relative;
+
+                & p {
+                    margin-bottom: 3px;
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: #000000;
+                }
+
+                & .select-group {
+                    width: 100%;
+                }
+
+                & .react-select-container {
+                    @mixin select-group;
+                    border-radius: 0px;
+
+                    & .react-select__control {
+                        border-radius: 0px;
+                        border: 1px solid var(--color-secondary5);
+                        & .react-select__value-container {
+                            height: 55px;
+                        }
+
+                        & .react-select__indicators {
+                            display: none;
+                        }
+                    }
+
+                    & .react-select__menu {
+                        & .react-select__menu-list {
+                            & .react-select__option {
+                                background-color: none;
+
+                                &:active {
+                                    background-color: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            & .dateOfBirth_container {
+                display: flex;
+                margin-top: 17px;
+                padding: 0px 20px;
+
+                & .embarkDate_container {
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-weight: 600;
+                    width: 165px;
+                    color: #000000;
+
+                    & .value {
+                        margin-top: 7px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                        text-transform: uppercase;
+                        color: var(--color-primary3);
+                    }
+                }
+                & .cruiseNumber_container {
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-weight: 600;
+                    width: 165px;
+                    color: #000000;
+
+                    & .value {
+                        margin-top: 7px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 22px;
+                        text-transform: uppercase;
+                        color: var(--color-primary3);
+                    }
+                }
+            }
+
+            & .note__container {
+                margin-top: 28px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 0px 20px;
+                color: #000000;
+
+                & .cta-secondary {
+                    color: var(--color-primary3);
+                    font-size: 16px;
+                    text-transform: inherit;
+                }
+            }
+
+            & .astrick-mandatory-label {
+                margin-top: 26px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 0px 20px;
+                color: #000000;
+            }
+        }
+
+        & .description__body__right {
+            @mixin style-body1;
+            padding: 10px 20px 17px 20px;
+            background-color: var(--color-secondary6);
+            word-break: break-word;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            color: var(--color-primary6);
+
+            display: flex;
+            flex-direction: column;
+
+            & div {
+                margin-bottom: 34px;
+                & .email_address_label {
+                    color: var(--color-primary6);
+                }
+                & .email_address_value {
+                    font-weight: bold;
+                    color: var(--color-primary3);
+                }
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+
+    & .qa__item.edit__mode {
+        margin: 20px 0px;
+        list-style: none;
+        width: 100%;
+        & .qa__body {
+            @mixin style-body1;
+            text-align: left;
+            vertical-align: middle;
+            padding: 20px;
+            border-radius: 0px;
+            background: var(--color-secondary2);
+            color: #000000;
+
+            & .mandatory_box {
+                & .qa__question {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    width: 100%;
+                    margin-bottom: 25px;
+                    display: flex;
+                    align-items: center;
+                    text-align: justify;
+
+                    & .tooltip-wrapper {
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+
+                        & .tooltip__icon {
+                            @mixin tooltip;
+                            align-self: flex-start;
+                            vertical-align: top;
+                            display: inline-block;
+                            position: inherit;
+                            margin: 1px 10px;
+                            width: auto;
+                            height: auto;
+                            top: 0;
+                            left: 0;
+                            &:before {
+                                content: '\e90c';
+                                font-family: var(--font-icomoon);
+                                display: inline-block;
+                                vertical-align: top;
+                                font-size: 16px;
+                            }
+                            & .common-input-group input[type='text'] {
+                                padding-right: 45px;
+                            }
+
+                            & .tooltip__dd {
+                                text-align: left;
+                                position: absolute;
+                                top: -15px;
+                                left: -365px;
+                                right: 0;
+                                max-width: 350px;
+                                min-width: 210px;
+                                height: auto;
+                                padding: 15px 20px;
+                                width: auto;
+                                border: 1px solid var(--color-secondary5);
+                                border-radius: 3px;
+                                &:before {
+                                    content: '';
+                                    position: absolute;
+                                    left: 340px;
+                                    content: '';
+                                    width: 18px;
+                                    height: 18px;
+                                    position: absolute;
+                                    top: 14px;
+                                    display: block;
+                                    transform: rotate(-45deg);
+                                    z-index: -1;
+                                    background-color: var(--color-primary1);
+                                    border-right: 1px solid
+                                        var(--color-secondary5);
+                                    border-bottom: 1px solid
+                                        var(--color-secondary5);
+                                }
+                            }
+                        }
+                    }
+                }
+                & .qa__answer {
+                    width: 100%;
+
+                    & .buttonContainer {
+                        justify-content: space-between;
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        & .cta-primary-light-blue {
+                            min-width: 48%;
+                            background: var(--color-primary1);
+                            color: var(--color-secondary1);
+                            border: 2px solid var(--color-secondary1);
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 17px;
+                            /* identical to box height */
+                            max-height: 50px;
+                            margin-bottom: 10px;
+
+                            text-align: center;
+
+                            &:hover {
+                                background: #3e90cf;
+                                color: var(--color-primary1);
+                            }
+                            &:active,
+                            &:focus {
+                                background: var(--color-secondary1);
+                                color: var(--color-primary1);
+                                outline-color: var(--color-primary3);
+                            }
+                        }
+
+                        & .active {
+                            background: var(--color-secondary1);
+                            color: var(--color-primary1);
+                            outline-color: var(--color-primary3);
+                        }
+
+                        & .cta-primary {
+                            min-width: 48%;
+                            background: var(--color-primary1);
+                            color: var(--color-secondary1);
+                            border: 2px solid var(--color-secondary1);
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 17px;
+                            /* identical to box height */
+                            max-height: 50px;
+
+                            text-align: center;
+
+                            &:hover {
+                                background: #b0263a;
+                                color: var(--color-primary1);
+                                border: 2px solid var(--color-primary2);
+                            }
+
+                            &:active,
+                            &:focus {
+                                background: #b0263a;
+                                color: var(--color-primary1);
+                                border: 2px solid var(--color-primary2);
+                            }
+                        }
+                    }
+                }
+            }
+
+            & .additional_box {
+                & .additional__question {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    letter-spacing: 0.3px;
+
+                    color: #000000;
+                    margin-bottom: 12px;
+                }
+
+                & textarea {
+                    resize: none;
+                    padding: 10px;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 17px;
+                    letter-spacing: 0.3px;
+                    width: 92%;
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    & .edit__mode {
+        & .error__msg {
+            @mixin style-body1;
+            font-size: 14px;
+            width: 95%;
+            text-align: left;
+            color: var(--color-secondary3);
+        }
+    }
+
+    & .assignCarerHeaderLabel {
+        @mixin style-body1;
+        text-align: left;
+        width: 80%;
+
+        & .title {
+            font-family: var(--font-h5);
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 29px;
+            color: var(--color-primary3);
+            margin-bottom: 12px;
+        }
+
+        & .description {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.3px;
+
+            color: #000000;
+        }
+    }
+
+    & .carter_container {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+
+        & .form_container {
+            padding: 20px;
+            margin: 0px 0px 10px 0px;
+            @mixin style-body1;
+            background: #f2f0e8;
+            border-radius: 0px;
+            text-align: left;
+
+            & .error-msg-container {
+                font-size: 0.75rem;
+                line-height: 1.3125rem;
+                letter-spacing: 0;
+                color: var(--color-secondary3);
+            }
+
+            & .removeCtaContainer {
+                float: right;
+                margin-right: 5px;
+                margin-bottom: 5px;
+                color: var(--color-primary3);
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                &:after {
+                    content: '\e906';
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 1.0625rem;
+                    font-family: var(--font-icomoon);
+                    display: inline-block;
+                    color: var(--color-primary3);
+                    vertical-align: middle;
+                    margin-left: 10px;
+                }
+            }
+
+            & .form-field-row {
+                margin-bottom: 10px;
+
+                & .common-input-group {
+                    margin-bottom: 24px;
+                    & .input-label {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 17px;
+                    }
+                }
+            }
+
+            & .birthDate-container {
+                @mixin style-body1;
+                width: 100%;
+                margin-bottom: 30px;
+
+                & .label {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    margin-bottom: 3px;
+                }
+
+                & .birthDate-select-group {
+                    display: flex;
+                    flex-direction: column;
+
+                    & .select-day {
+                        width: 100%;
+                        background-color: #fff;
+                    }
+
+                    & .select-month {
+                        width: 100%;
+                        background-color: #fff;
+                    }
+
+                    & .select-year {
+                        width: 100%;
+                        background-color: #fff;
+                    }
+
+                    & .index-margin {
+                        margin: 20px 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    & .add-more-parental-cta-container {
+        margin-bottom: 16px;
+        padding: 20px;
+        padding-top: 0px;
+        width: auto;
+
+        & .cta-primary-light-blue {
+            line-height: 3.125rem;
+            background-color: var(--color-primary1);
+            color: var(--color-secondary1);
+            border: 2px solid var(--color-secondary1);
+            border-radius: 10px;
+            height: auto;
+        }
+    }
+
+    & .parentalResponsibility-container {
+        @mixin style-body1;
+        width: auto;
+        background: var(--color-secondary2);
+        text-align: left;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+        /* & .left-section { */
+        text-align: left;
+        & .parentalResponsibilityLabel {
+            margin-bottom: 16px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #000000;
+        }
+
+        & .readAgainLabel {
+            cursor: pointer;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+            text-decoration: underline;
+
+            color: #0076ce;
+        }
+        /* } */
+    }
+
+    & .parentalResponsibility-container1 {
+        @mixin style-body1;
+        width: auto;
+        background: var(--color-secondary2);
+        text-align: left;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+
+        & .left-section {
+            text-align: left;
+            width: calc(100% - 20px);
+            float: left;
+            & .parentalResponsibilityLabel {
+                margin-bottom: 16px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+
+                color: #000000;
+                float: none;
+            }
+
+            & .readAgainLabel {
+                cursor: pointer;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;
+                text-decoration: underline;
+
+                color: #0076ce;
+                float: none;
+            }
+        }
+
+        & .right-section {
+            & span {
+                width: 20px;
+                background-color: rgb(0, 39, 118);
+                border-radius: 50%;
+                height: 20px;
+                float: left;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 12px;
+                transform: rotate(15deg);
+                line-height: normal;
+                font-weight: 900;
+            }
+        }
+    }
+
+    & .error-text {
+        font-size: 0.875rem;
+        width: auto;
+        padding: 0px 20px;
+        text-align: left;
+        color: var(--color-secondary3);
+    }
+
+    & .youthRegistration__earlyState {
+        & .youthRegistration__earlyStateIcon {
+            color: var(--color-primary4);
+            &:before {
+                width: 30%;
+                font-size: 30px;
+            }
+        }
+        & .youthRegistration__earlyStateText {
+            @mixin style-h3;
+        }
+        & .youthRegistration__earlyStateSubtext {
+            @mixin style-body1;
+            color: var(--color-primary3);
+        }
+    }
+
+    & .youthRegistration__successState {
+        & .youthRegistration__successStateIcon {
+            color: var(--color-primary4);
+            &:before {
+                width: 30%;
+                font-size: 45px;
+            }
+        }
+        & .youthRegistration__successStateText {
+            @mixin style-h3;
+            font-weight: bold;
+        }
+        & .youthRegistration__successStateSubtext {
+            @mixin style-body1;
+            color: var(--color-primary3);
+        }
+    }
+
+    & .youthRegistration__failureState {
+        & .youthRegistration__failureStateIcon {
+            color: var(--color-primary2);
+            &:before {
+                width: 30%;
+                font-size: 30px;
+            }
+        }
+        & .youthRegistration__failureStateText {
+            @mixin style-h3;
+            color: var(--color-primary2);
+        }
+        & .youthRegistration__failureStateSubtext {
+            @mixin style-body1;
+            color: var(--color-primary6);
+        }
+    }
+
+    & .youthRegistration__earlyState {
+        border: 1px solid var(--color-secondary5);
+        padding: 70px 10px;
+        max-width: 1103px;
+        margin: 40px 20px;
+        & .youthRegistration__discoverWrapper {
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        & .youthRegistration__earlyStateIcon {
+            display: block;
+            position: relative;
+            width: 60%;
+            height: 50px;
+            background-color: var(--color-primary1);
+            margin: 0 auto 20px;
+            &:before {
+                content: '\e91d';
+                font-family: var(--font-icomoon);
+                height: 60px;
+                background: var(--color-primary1);
+                position: relative;
+                z-index: 1;
+                display: block;
+                margin: auto;
+                /* this has to be edited for the SIZE ICON */
+                line-height: 49px;
+            }
+            &:after {
+                content: '';
+                height: 1px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: #cccccc;
+            }
+        }
+        & .youthRegistration__earlyStateHeader {
+            text-align: center;
+            width: 60%;
+        }
+
+        & .youthRegistration__earlyStateContent {
+            font-family: var(--font-body1);
+            color: var(--color-primary5);
+        }
+
+        & .youthRegistration__earlyStateText {
+            & + .youthRegistration__earlyStateSubtext {
+                margin-top: 20px;
+            }
+        }
+        & .youthRegistration__earlyStateHeader {
+            margin-bottom: 55px;
+        }
+    }
+
+    & .youthRegistration__underAgeState {
+        border: 1px solid var(--color-secondary5);
+        padding: 70px 10px;
+        max-width: 1103px;
+        margin: 40px 20px;
+        & .youthRegistration__discoverWrapper {
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        & .youthRegistration__underAgeStateIcon {
+            display: block;
+            position: relative;
+            width: 60%;
+            height: 50px;
+            background-color: var(--color-primary1);
+            margin: 0 auto 20px;
+            color: var(--color-primary4);
+            &:before {
+                content: '\e900';
+                font-family: var(--font-icomoon);
+                height: 60px;
+                background: var(--color-primary1);
+                position: relative;
+                z-index: 1;
+                display: block;
+                margin: auto;
+                width: 30%;
+                font-size: 35px;
+                /* this has to be edited for the SIZE ICON */
+                line-height: 49px;
+            }
+            &:after {
+                content: '';
+                height: 1px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: #cccccc;
+            }
+        }
+        & .youthRegistration__underAgeStateHeader {
+            text-align: center;
+        }
+
+        & .youthRegistration__underAgeStateContent {
+            font-family: var(--font-body1);
+            color: var(--color-primary5);
+        }
+
+        & .youthRegistration__underAgeStateText {
+            & + .youthRegistration__underAgeStateSubtext {
+                margin-top: 20px;
+                color: var(--color-primary3);
+            }
+        }
+        & .youthRegistration__underAgeStateHeader {
+            margin-bottom: 55px;
+        }
+    }
+
+    & .youthRegistration__failureState {
+        border: 1px solid var(--color-secondary5);
+        padding: 70px 10px 0px;
+        max-width: 1103px;
+        margin: 40px 20px;
+        & .youthRegistration__discoverWrapper {
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        & .youthRegistration__failureStateIcon {
+            display: block;
+            position: relative;
+            width: 60%;
+            height: 50px;
+            background-color: var(--color-primary1);
+            margin: 0 auto 20px;
+            &:before {
+                content: '\E908';
+                font-family: var(--font-icomoon);
+                height: 60px;
+                background: var(--color-primary1);
+                position: relative;
+                z-index: 1;
+                display: block;
+                margin: auto;
+                /* this has to be edited for the SIZE ICON */
+                line-height: 49px;
+            }
+            &:after {
+                content: '';
+                height: 1px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: #cccccc;
+            }
+        }
+        & .youthRegistration__failureStateHeader {
+            text-align: center;
+            max-width: 60%;
+
+            & .font_size {
+                font-size: 15px;
+            }
+        }
+
+        & .youthRegistration__failureStateContent {
+            font-family: var(--font-body1);
+            color: var(--color-primary5);
+            max-width: 60%;
+        }
+
+        & .youthRegistration__failureStateText {
+            & + .youthRegistration__failureStateSubtext {
+                margin-top: 20px;
+            }
+        }
+        & .youthRegistration__failureStateHeader {
+            margin-bottom: 55px;
+        }
+    }
+
+    & .youthRegistration__successState {
+        border: 1px solid var(--color-secondary5);
+        padding: 70px 10px 0px;
+        max-width: 1103px;
+        margin: 40px 20px;
+        & .youthRegistration__discoverWrapper {
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        & .youthRegistration__successStateIcon {
+            display: block;
+            position: relative;
+            width: 60%;
+            height: 50px;
+            background-color: var(--color-primary1);
+            margin: 0 auto 20px;
+            &:before {
+                content: '\E913';
+                font-family: var(--font-icomoon);
+                height: 60px;
+                background: var(--color-primary1);
+                position: relative;
+                z-index: 1;
+                display: block;
+                margin: auto;
+                /* this has to be edited for the SIZE ICON */
+                line-height: 49px;
+            }
+            &:after {
+                content: '';
+                height: 1px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: #cccccc;
+            }
+        }
+        & .youthRegistration__successStateHeader {
+            text-align: inherit;
+        }
+
+        & .youthRegistration__successStateContent {
+            font-family: var(--font-body1);
+            color: var(--color-primary5);
+        }
+
+        & .youthRegistration__successStateSubtext {
+            margin-top: 12px;
+            font-size: 16px;
+        }
+
+        & .youthRegistration__successStateText {
+            & + .youthRegistration__successStateSubtext {
+                margin-top: 20px;
+            }
+        }
+        & .youthRegistration__successStateHeader {
+            margin-bottom: 55px;
+        }
+
+        & .cta-secondary {
+            font-size: 16px;
+            display: block;
+            margin-top: 24px;
+            width: max-content;
+            cursor: pointer !important;
+            text-transform: inherit;
+        }
+
+        & .noMargin {
+            font-family: var(--font-h4);
+            margin-top: 0px;
+            color: var(--color-primary3);
+
+            &:before {
+                background-color: var(--color-primary3);
+            }
+        }
+    }
+
+    & .submitButton__container {
+        margin-top: 35px;
+    }
+}
+
+.qa__item.overView {
+    & .qa__body {
+        @mixin style-body1;
+        width: auto;
+        padding: 15px 0px;
+        margin: 0px 10px;
+        text-align: left;
+
+        & .mandatory_box {
+            display: flex;
+            vertical-align: middle;
+
+            & .qa__question {
+                width: 70%;
+                /* padding: 10px 0px; */
+            }
+            & .qa__answer {
+                width: 30%;
+                display: flex;
+                & button {
+                    font-size: 1rem;
+                    height: 50px;
+                    line-height: inherit;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.termsAndConditionContainer {
+    padding-left: 10px;
+    padding-right: 10px;
+    & h1 {
+        font-weight: Bold;
+        font-size: 24px;
+        margin-bottom: 11px;
+    }
+
+    & p {
+        @mixin style-body1;
+        font-size: 16px;
+        text-align: Left;
+    }
+}
+
+.disabled,
+.disable {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.error__show {
+    border: 1px solid var(--color-secondary3);
+}
+
+.aria-modal {
+    min-height: auto;
+    width: auto;
+    padding-top: 100px;
+
+    & .modal-content {
+        overflow-y: hidden;
+    }
+
+    &.close {
+        &:after {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.model_body {
+    @mixin style-body1;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+
+    & .icon__container {
+        margin-bottom: 25px;
+        & .icon-heading:after {
+            content: '\e91c';
+            font-size: 40px;
+            color: var(--color-primary4);
+        }
+    }
+
+    & .wrap {
+        list-style: none;
+        margin-bottom: 20px;
+        & div {
+            display: flex;
+            justify-content: center;
+
+            & label {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+
+    & h2 {
+        padding-bottom: 20px;
+        font-weight: 400;
+    }
+
+    & p {
+        padding-bottom: 20px;
+        color: #000000;
+    }
+}
+
+.modal-btns {
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+    & .cta-primary {
+        margin: 10px;
+        width: 80%;
+    }
+
+    & .cta-secondary {
+        margin-right: 20px;
+    }
+}
+
+.cta-secondary {
+    padding: 2px 0px;
+    text-transform: inherit;
+}
+
+input {
+    @mixin input-checkbox;
+    vertical-align: middle;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.modal-btn-container {
+    text-align: center;
+
+    & .cta-primary {
+        margin: 10px;
+        width: 80%;
+    }
+
+    & .cta-secondary {
+        margin-right: 20px;
+    }
+}

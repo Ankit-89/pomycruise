@@ -1,0 +1,81 @@
+.dining-key-info {
+    text-align: left;
+    & .infocard-back {
+        @mixin cta-secondary-up;
+        background: var(--color-primary1);
+        padding: 0 25px 0 35px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px;
+        display: inline-block;
+        position: absolute;
+        top: -194px;
+        left: 32px;
+        & span {
+            display: inline-block;
+            line-height: 40px;
+        }
+        &:before {
+            display: none;
+        }
+        &:after {
+            transform: rotate(90deg) translateY(-3px);
+            position: absolute;
+            left: 10px;
+            top: 0;
+            line-height: 40px;
+        }
+        &:hover:after {
+            transform: rotate(90deg) translateY(0);
+        }
+    }
+    & .header,
+    & .key-facts {
+        lost-utility: clearfix;
+    }
+    & .ht-background {
+        min-height: 175px;
+    }
+    & .infocard-wrapperAux {
+        z-index: 10;
+        margin-top: -130px;
+    }
+
+    & .infocard {
+        padding: 40px 60px 0;
+    }
+
+    & .infocard .title {
+        lost-column: 9/12 2 0;
+        float: none;
+    }
+    & .infocard .subtitles {
+        margin-bottom: 30px;
+        /* width: 100%; */
+        margin-top: 0;
+        float:left;
+    }
+    & .infocard & .title {
+        margin: 0 0 30px;
+        font-weight: normal;
+        /* width: 800px; */
+    }
+    & .text-content {
+        white-space: normal;
+        width: calc(100% - 45px);
+    }
+    & .infocard .dining-variant {
+        position: relative;
+        display: inline-block;
+        padding-top: 12px;
+        text-align: right;
+        position: absolute;
+        top: 40px;
+        right: 60px;
+    }
+    & .infocard .subtitles .subtitle {
+        display: inline-block;
+    }
+}
+
+

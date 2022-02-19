@@ -1,0 +1,10 @@
+.soldout-container {
+    & .soldout-icon {
+        &::before {
+            content: "";
+            background: url(~postbooking-theme/images/SVG/noun_seats.svg) no-repeat;
+            width: 80px;
+            height: 80px;
+        }   
+    }
+}

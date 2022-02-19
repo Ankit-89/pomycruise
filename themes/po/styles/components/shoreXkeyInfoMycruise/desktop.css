@@ -1,0 +1,10 @@
+.shorex-key-info {
+    & .key-fact {
+        &:after {
+            background-color: var(--color-secondary5);
+        }
+    }
+}
+.shoreXkeyInfoMycruise {
+    margin-top: -130px;
+}

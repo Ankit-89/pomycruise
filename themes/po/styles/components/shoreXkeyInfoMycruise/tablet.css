@@ -1,0 +1,17 @@
+.shorex-key-info {
+    & .infocard ul.subtitle li {
+        padding-right: 10px;
+        border-right: 1px solid var(--color-primary5);
+        margin-right: 10px;
+        margin-bottom: 0;
+        &:last-child {
+            padding-right: 0px;
+            border-right: none;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+    }
+}
+.shoreXkeyInfoMycruise {
+    margin-top: -100px;
+}

@@ -1,0 +1,8 @@
+.spa-card {
+    text-align: left;
+    & .title-container {
+        min-height: 56px;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+}

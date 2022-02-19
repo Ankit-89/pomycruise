@@ -1,0 +1,135 @@
+{
+    "type": "productsVerticalTiles",
+    "id": "1487160279853",
+    "attributes": {
+        "childComponents": [
+            {
+                "type": "titleH1Mycruise",
+                "id": "1520848724668",
+                "attributes": {
+                    "title": "About your ship",
+                    "type": "h1",
+                    "icon": false
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            },
+            {
+                "type": "notificationBanner",
+                "id": "1527164292796",
+                "attributes": {
+                    "title":
+                        "Products are not purchasable online for you due to age restriction",
+                    "description": "For more details please see",
+                    "cta": {
+                        "label": "Spa FAQs",
+                        "url": "#",
+                        "isExternal": true
+                    },
+                    "icon":
+                        "http://bitcarnival.s3.amazonaws.com/pno/img/mail/failed2.png",
+                    "type": "message"
+                },
+                "meta": {
+                    "render": "dynamic"
+                }
+            },
+            {
+                "type": "spaOverlay",
+                "attributes": {
+                    "labels": {
+                        "selectGuestsLabel": "Select guests:",
+                        "selectGuestsDisclaimer":
+                            "You can select only one passenger for each Spa treatment.",
+                        "limitedAvailabilityPluralLabel":
+                            "There are only {places} places left for this option",
+                        "limitedAvailabilitySingularLabel":
+                            "There is only {places} place left for this option",
+                        "addToCartLabel": "Add to cart",
+                        "closeLabel": "Close",
+                        "totalLabel": "Total cost:",
+                        "ageRestrictedLabel": "Age resctricted",
+                        "mealTimeTitle": "Meal period",
+                        "mealTimeLabel": "Select period",
+                        "entertainerTitle": "Entertainer",
+                        "entertainerLabel": "Select an entertainer",
+                        "classTitle": "Class",
+                        "classLabel": "Select a class",
+                        "durationsTitle": "Duration",
+                        "durationsLabel": "Select duration",
+                        "calendarPickerTitle": "Date",
+                        "calendarPickerLabel": "Select a date",
+                        "hoursTitle": "Time",
+                        "hoursLabel": "Select the time of event",
+                        "timeSlotTitle": "Date - Time",
+                        "timeSlotLabel": "Select a date and time",
+                        "resetLabel": "Reset",
+                        "pricePerPersonLabel": "Price per person",
+                        "searchFiltersLabel": "Search by date or time",
+                        "searchFiltersCookeryLabel":
+                            "Search by class or date-time",
+                        "searchFiltersLimelightLabel":
+                            "Search by entertainer or date-time",
+                        "disclaimerMessage":
+                            "To book for more than 6 people please call our contact center",
+                        "errorLimitedAvailability":
+                            "There is not enough availability for the number of guests you previously selected! Please, try again with another day / timeslot.",
+                        "errorOutOfStockInstance":
+                            "The option you previously selected is out of stock! Please, try again with another day / timeslot",
+                        "errorOutOfStockProduct":
+                            "This product is out of stock! Please, try with another one",
+                        "errorNoPurchasable":
+                            "Sorry you are no longer able to purchase this product on My Cruise but you may still be able to buy it onboard. Please try with another shorex for now"
+                    },
+                    "services": {
+                        "urls": {
+                            "updateCartApi": "https://dev.api.mycruise-temp.com:443/v1/mc-shopping-basket/PO-Site/users/current/carts/current/entries",
+                            "mycruiseSummaryApi":
+                                "https://dev.api.mycruise-temp.com/mc-cruise-summary/v1"
+                        },
+                        "headers": {
+                            "brand": "po",
+                            "locale": "en_GB",
+                            "country": "US"
+                        }
+                    },
+                    "meta": {
+                        "render": "dynamic"
+                    }
+                }
+            }
+        ],
+        "labels": {
+            "readMore": "Read more",
+            "readLess": "Read less",
+            "from": "From",
+            "addToCartLabel": "Add To Cart",
+            "notAvailableLabel": "Currently unavailable",
+            "perPersonLabel": "per person",
+            "spaAddToCartLabel": "Book Now",
+            "spaOnboardMessageLabel": "Please contact the spa reception on board for bookings",
+            "spaNotAvailableYetMessageLabel": "Not Yet Available",
+            "currencyLabel": "£",
+            "knowMoreLabel": "KNOW MORE"
+        }
+    },
+    "services": {
+        "urls": {
+            "treatmentsApi":
+                "https://dev.api.mycruise-temp.com/v1/mc-products/PO-Site/products/",
+            "spaAppointmentsApi":
+                "https://dev.api.mycruise-temp.com/v1/mc-spa-appointments/search",
+            "spaAppointmentsAvailableApi":
+                "https://dev.my-np.pocruises.com/api-mc/v2/spaservices/{brand}/vessels/{vesselCode}/categories/{categoryId}/services/availability/days/{embarkationDay}/{disembarkationDay}"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "US"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

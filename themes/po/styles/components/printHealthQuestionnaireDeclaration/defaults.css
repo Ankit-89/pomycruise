@@ -1,0 +1,77 @@
+.bookingSummaryMycruise { 
+    & .cruiseInfo__subtitle {
+        text-transform: uppercase
+    }
+    & .cruiseInfo__data {
+        @mixin style-body2; 
+        &:first-child {
+            border-right: 1px solid var(--color-secondary9);
+        }
+    }
+    & .nextSteps__item {
+        text-align: center;
+        & .iconSummary:before {
+            color: var(--color-primary1);
+            background-color: var(--color-primary3);
+            font-family: var(--font-icomoon);
+        }
+        & .iconSummary {
+            @mixin style-body3;
+            text-transform: uppercase;
+        }
+    }
+    & .cruiseInfo__ports {
+        @mixin style-body2; 
+    }
+    & .nextSteps{
+        @mixin style-body3;
+
+        & .iconSummary {
+            text-transform: uppercase;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        & a {
+            color: var(--color-primary3);
+            font-family: var(--font-cta);
+            text-decoration: none;
+            cursor: default;
+            display: block;
+            & p {
+                @mixin style-body2;
+                font-family: var(--font-body2);
+            }
+            & span {
+                text-decoration: underline;
+                display: inline-block;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.overlay-text {
+    & p {
+        @mixin style-body2;
+    }
+    /* & h1 {
+        &:before {
+            content: "\e91c";
+            font-size: 40px;
+            color: var(--color-primary4);
+        }
+    } */
+    & li {
+        @mixin style-body2;
+        padding-left: 20px;
+    }
+    & li::before {
+        content: "\e902";
+        color: var(--color-secondary1);
+    }
+    & p {
+        @mixin style-body1;
+    }
+    & ul {
+        margin-top: 30px;
+    }
+}

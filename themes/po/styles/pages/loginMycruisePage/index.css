@@ -1,0 +1,11 @@
+/* Global Components */
+/*@import 'carnival/themes/hal/styles/pages/commonComponents/index.css';*/
+@import '../../config/index.css';
+
+/*@import 'variables.css';*/
+@import 'defaults.css';
+
+@import '../../components/loginMycruise/index.css';
+@import '../../components/globalHeaderLogin/index.css';
+@import '../../components/cookieHeader/index.css';
+@import '../../components/titleH1Mycruise/index.css';

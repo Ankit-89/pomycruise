@@ -1,0 +1,62 @@
+.new-card-component {
+    margin: 0;
+    &.content-align-left {
+        text-align: left;
+    }
+}
+.slick-slide .card-component {
+    margin: 0 10px 0 10px;
+    width: calc(100% - 20px);
+}
+.new-card-container {
+    & .image-holder img {
+        display: block;
+    }
+    & .content-holder {
+        padding: 30px;
+        box-sizing: border-box;
+        width: 100%;
+        position: relative;
+    }
+    & .text-content {
+        margin-bottom: 20px;
+    }
+    & .title-container {
+        display: block;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    & .cta-content {
+        lost-utility: clearfix;
+    }
+    & .cta-block {
+        float: left;
+    }
+    & .cta-block + .cta-block {
+        float: right;
+    }
+    & .cta-block a {
+        @mixin cta-primary
+        display: block;
+    }
+    & .cta-block{
+        & .price-container{
+            @mixin style-body2;
+        }
+    }
+}
+
+/*card text align center*/
+.new-card-component.content-align-center {
+    text-align: center;
+    & .title {
+        width: 100%;
+    }
+    & .cta-block {
+        float: none;
+        margin: 0 auto;
+        & a {
+            display: inline-block;
+        }
+    }
+}

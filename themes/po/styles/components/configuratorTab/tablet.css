@@ -1,0 +1,7 @@
+.configuratorTab {   
+    & .tabs-labels {
+        & a.active:before {
+            bottom: -13px;
+        }
+    }
+}

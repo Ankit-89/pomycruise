@@ -1,0 +1,5 @@
+.dining-card {
+    & .dining-card-description {
+        font-size: 14px;
+    }
+}

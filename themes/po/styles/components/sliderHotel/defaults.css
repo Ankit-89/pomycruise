@@ -1,0 +1,31 @@
+.three-up-container {
+    & .terms-conditions {
+        text-align: center;
+        font-size: 14px;
+    }
+    & .terms-conditions a {
+        color: var(--color-primary5);
+    }
+    & .destination-tile-card .panel-text {
+        padding-bottom: 20px;
+    }
+
+    & .content-holder ,
+    & .text-content,
+    & .card-container {
+        flex-grow: 1;
+    }
+    & .destination-tile-card {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    & .destination-tile-wrapper {
+        display: flex;
+        flex-direction: row;
+        /* .unslicked & {
+            display: inline-block;
+            max-width: 320px;
+        } */
+    }
+}

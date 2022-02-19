@@ -1,0 +1,10 @@
+.WhatToWear_Table {
+    border: 1px solid #000;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.WhatToWear_TableHead {
+    border: 1px solid black;
+}

@@ -1,0 +1,13 @@
+/* Global Components */
+
+@import '../../config/index.css';
+/* @import 'defaults.css'; */
+/*brand style of the component*/
+
+@import '../../components/globalHeaderMycruise/index.css';
+@import '../../components/pageTabs/index.css';
+@import '../../components/healthQuestionnaire/index.css';
+@import '../../components/userDetails/index.css';
+@import '../../components/loyaltyTierSlot/index.css';
+@import '../../components/articleOverlay/index.css';
+@import '../../components/footerMycruise/index.css';

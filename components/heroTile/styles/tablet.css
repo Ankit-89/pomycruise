@@ -1,0 +1,48 @@
+
+
+.hero-tile-container {
+    & .infocard {
+        text-align: left;
+    }
+    & .ht-background {
+        max-height: 568px
+    }
+    & .infocard p,
+    & .infocard .desc {
+        margin: 0 auto;
+        max-width: none
+    }
+    & .infocard .title {
+        line-height: 50px;
+        margin: 0 0 40px 0;
+    }
+    & .cta-holder {
+        margin-top: 24px;
+    }
+    &.cta-holder a {
+        padding: 24px 79px;
+    }
+    &.variation .infocard-wrapper {
+        margin: -130px auto 0;
+    }
+    &.variation .infocard .desc {
+        margin-top: 0;
+    }
+
+}
+
+
+.hero-tile-container.variation .cta-holder {
+    & .cta-icon span {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+.hero-tile-container,
+.hero-tile-container.variation {
+    & .infocard .title {
+        margin-bottom: 30px;
+    }
+
+}

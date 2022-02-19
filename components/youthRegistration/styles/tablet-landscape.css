@@ -1,0 +1,389 @@
+.youthRegistration {
+    & .header {
+        width: auto;
+        padding: 0px 215px 17px;
+    }
+
+    & .description__container {
+        width: auto;
+        padding: 0px 215px;
+        display: flex;
+        flex-direction: row;
+
+        & .description__body__left {
+            width: 60%;
+
+            & .description__body {
+                padding: 0px;
+            }
+
+            & .passengerSelectFieldContainer {
+                padding: 0px;
+                width: 60%;
+
+                & .select-group {
+                    width: auto;
+                }
+            }
+
+            & .cruiseInfo_container {
+                padding: 0px;
+                flex-direction: row;
+                & .embarkDate_container {
+                    margin-bottom: 0px;
+                }
+                & .cruiseNumber_container {
+                    margin-bottom: 0px;
+                }
+            }
+
+            & .dateOfBirth_container {
+                padding: 0px;
+                flex-direction: row;
+                & .embarkDate_container {
+                    margin-bottom: 0px;
+                }
+                & .cruiseNumber_container {
+                    margin-bottom: 0px;
+                }
+            }
+
+            & .note__container {
+                padding: 0px;
+            }
+
+            & .astrick-mandatory-label {
+                padding: 0px;
+            }
+        }
+
+        & .description__body__right {
+            width: 40%;
+            max-height: auto;
+        }
+    }
+
+    & .assignCarerHeaderLabel {
+        width: auto;
+        padding: 0px 215px;
+
+        & .title {
+            width: 60%;
+        }
+
+        & .description {
+            width: 60%;
+        }
+    }
+
+    & .que_ans_label_container {
+        display: flex;
+        width: 60%;
+        padding: 0px 215px;
+
+        & .que_label_container {
+            width: 75%;
+        }
+
+        & .ans_label_container {
+            width: 25%;
+        }
+    }
+
+    & .submitButton__container {
+        width: auto;
+        padding: 0px 215px;
+
+        text-align: end;
+    }
+
+    & .qa__item.edit__mode {
+        margin: 20px 0px;
+        padding: 0px 215px;
+        width: auto;
+
+        & .qa__body {
+            border-radius: 15px;
+            padding: 20px;
+            background: var(--color-secondary2);
+
+            & .mandatory_box {
+                display: flex;
+                vertical-align: middle;
+
+                & .qa__question {
+                    width: 60%;
+                    margin-bottom: 0px;
+                }
+                & .qa__answer {
+                    width: 40%;
+
+                    & .buttonContainer {
+                        display: flex;
+                        float: right;
+                        & .cta-primary-light-blue {
+                            min-width: 130px;
+                            background: var(--color-primary1);
+                            color: var(--color-secondary1);
+                            border: 2px solid var(--color-secondary1);
+
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 17px;
+                            /* identical to box height */
+
+                            text-align: center;
+                            text-transform: uppercase;
+
+                            &:hover {
+                                background: #3e90cf;
+                                color: var(--color-primary1);
+                            }
+                            &:active,
+                            &:focus {
+                                background: var(--color-secondary1);
+                                color: var(--color-primary1);
+                                outline-color: var(--color-primary3);
+                            }
+                        }
+
+                        & .active {
+                            background: var(--color-secondary1);
+                            color: var(--color-primary1);
+                            outline-color: var(--color-primary3);
+                        }
+
+                        & .cta-primary {
+                            min-width: 130px;
+                            background: var(--color-primary1);
+                            color: var(--color-secondary1);
+                            border: 2px solid var(--color-secondary1);
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 17px;
+                            /* identical to box height */
+
+                            text-align: center;
+                            text-transform: uppercase;
+
+                            &:hover {
+                                background: #b0263a;
+                                color: var(--color-primary1);
+                                border: 2px solid var(--color-primary2);
+                            }
+
+                            &:active,
+                            &:focus {
+                                background: #b0263a;
+                                color: var(--color-primary1);
+                                border: 2px solid var(--color-primary2);
+                            }
+                        }
+                    }
+                }
+            }
+
+            & .additional_box {
+                margin-top: 40px;
+                width: 60%;
+                & .additional__answer {
+                    width: auto;
+                    min-width: 100%;
+                    height: 80px;
+                }
+            }
+        }
+    }
+
+    & .add-more-parental-cta-container {
+        width: -webkit-fill-available;
+        margin: 0px 215px;
+        border-radius: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: left;
+    }
+
+    & .parentalResponsibility-container {
+        width: -webkit-fill-available;
+        margin: 0px 215px;
+        border-radius: 15px;
+    }
+
+    & .error-text {
+        width: -webkit-fill-available;
+        margin: 0px 215px;
+        padding: 0px;
+    }
+
+    & .parentalResponsibility-container1 {
+        width: -webkit-fill-available;
+        margin: 0px 215px;
+        border-radius: 15px;
+    }
+
+    & .carter_container {
+        width: -webkit-fill-available;
+        margin: 16px 215px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        & .form_container {
+            width: 46%;
+            background: #f2f0e8;
+            border-radius: 15px;
+            text-align: left;
+            padding: 16px 16px 54px 16px;
+
+            & .form-field-row {
+                width: 60%;
+
+                & .common-input-group {
+                    margin-bottom: 24px;
+                }
+            }
+
+            & .birthDate-container {
+                width: 75%;
+                margin-bottom: 30px;
+
+                & .birthDate-select-group {
+                    display: flex;
+                    flex-direction: row;
+
+                    & .select-day {
+                        width: 100px;
+                    }
+
+                    & .select-month {
+                        width: 145px;
+                    }
+
+                    & .select-year {
+                        width: 105px;
+                    }
+
+                    & .index-margin {
+                        margin: 0px 10px;
+                    }
+                }
+            }
+
+            & .relationship-container {
+                width: 60%;
+            }
+
+            &:nth-child(2n) {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    & .youthRegistration__successState {
+        & .youthRegistration__successStateIcon {
+            &:before {
+                width: 20%;
+                font-size: 50px;
+            }
+        }
+    }
+
+    & .youthRegistration__failureState {
+        & .youthRegistration__failureStateIcon {
+            &:before {
+                width: 20%;
+                font-size: 45px;
+            }
+        }
+    }
+
+    & .youthRegistration__earlyState {
+        & .youthRegistration__earlyStateIcon {
+            &:before {
+                width: 20%;
+                font-size: 45px;
+            }
+        }
+    }
+
+    & .youthRegistration__underAgeState {
+        & .youthRegistration__underAgeStateIcon {
+            &:before {
+                width: 20%;
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+.youthRegistration__successStateHeader {
+    width: 60%;
+}
+
+.modal-body {
+    & .wrap {
+        & div {
+            justify-content: left;
+        }
+    }
+}
+
+.parentalGuideLine-modal {
+    & #react-aria-modal-dialog {
+        max-height: 600px;
+
+        & .modal-content-wrapper {
+            & .modal-content {
+                max-height: 500px;
+                overflow-y: scroll;
+
+                & .termsAndConditionContainer {
+                    padding-left: 280px;
+                    padding-right: 280px;
+                    & h1 {
+                        font-weight: Bold;
+                        font-size: 24px;
+                        margin-bottom: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal-btns {
+    margin-top: 40px;
+    padding-left: 280px;
+    padding-right: 280px;
+    text-align: right;
+
+    & .cta-primary {
+        width: auto;
+    }
+}
+
+.disable {
+    pointer-events: none;
+}
+
+.error__show {
+    border: 1px solid var(--color-secondary3);
+}
+
+.aria-modal {
+    padding-top: 70px;
+}
+
+.modal-btn-container {
+    text-align: right;
+
+    & .cta-primary {
+        width: auto;
+    }
+
+    & .cta-secondary {
+        margin-right: 20px;
+    }
+}

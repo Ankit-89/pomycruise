@@ -1,0 +1,17 @@
+/* .media-gallery-modal {
+    & .modal-content {
+        height: 100%;
+    }
+
+    & .modal-content .image-holder img,
+    & iframe.videoIframe {
+        height: 100vh;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    & iframe.videoIframe {
+        width: 100vw;
+    }
+} */

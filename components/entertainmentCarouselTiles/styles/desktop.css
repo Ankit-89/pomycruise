@@ -1,0 +1,65 @@
+/* .entertainmentCarousel {
+    display: inline-flex;
+    
+    & .entertainmentImage {
+        width: 20%;
+        height: 20%;
+        
+    }
+} */
+.carousal-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0 auto;
+    & .entertainmentImage {
+        & .image-lazy-loader {
+            max-width: 315px;   
+        }
+    }
+
+}
+/* .entertainmentCarousel .nav_next:before, .entertainmentCarousel .nav_prev:before {
+    content: "\E903";
+    color: #002776;
+    background-color: #fff;
+    font-family: Icomoon;
+    display: block;
+    height: 100%;
+    font-size: 1.25rem;
+    line-height: 8.4375rem; 
+}
+.entertainmentCarousel .nav_prev:before {
+    transform: rotate(180deg);
+}
+.entertainmentCarousel .nav_next, .entertainmentCarousel .nav_prev {
+    width: 25px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: -25px;
+    z-index: 2;
+}
+.slick-slider .slick-prev {
+    display: none;
+}
+.slick-slider .slick-next {
+    display: none;
+} */
+.entertainmentImage {
+    position: relative;
+    & .details {
+        & .title {
+            color: var(--color-primary1);
+            font-family: var(--font-h5);
+            font-size: 22px;
+            line-height: 26.4px;
+        }
+        & .description {
+            margin-top: 5px;
+            font-family: var(--font-body1);
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 400;
+        }
+    }
+}

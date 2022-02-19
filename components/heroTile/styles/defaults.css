@@ -1,0 +1,153 @@
+.hero-tile-container {
+    position: relative;
+    & .infocard-wrapper {
+        @mixin box-sizing;
+        width: 100%;
+        padding: 0;
+        margin: -45px auto 0;
+        box-shadow: none;
+    }
+    min-height: 250px;
+}
+.hero-tile-container.variation {
+    min-height: 250px;
+    & .infocard-wrapper {
+        /*max-width: 1160px;*/
+        width: 100%;
+        padding: 0;
+        margin: -50px auto 0;
+    }
+    & .infocard {
+        padding: 24px 24px 0;
+    }
+    & .infocard .title {
+        margin: 0 0 21px 0;
+        line-height: 32px ;
+    }
+    & .infocard p,
+    & .infocard .desc {
+        margin: 28px auto;
+        max-width: none
+    }
+    & .infocard .desc {
+        margin-top: 10px;
+    }
+    
+    & .infocard-logo {
+        display: none;
+    }
+    & .cta-holder .secondary {
+        text-decoration: none;
+    }
+    & .cta-noIcon span {
+        display: none;
+    }
+    & .cta-icon img {
+        max-width: 45px;
+    }
+}
+
+//Readmore
+.infocard {
+    & .readmore {
+        height: 95px;
+        overflow: hidden;
+        position: relative;
+    }
+    & .readmore:before {
+        content: '';
+        background: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0) 0,
+            #ffffff 50px
+        );
+        display: block;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    & .readmore.open {
+        height: auto;
+    }
+    & .readmore.open::before {
+        display: none;
+    }
+    & .readmoreLink {
+        margin-top: 18px;
+        text-align: center;
+    }
+}
+       
+
+.hero-tile-container.variation .ratings {
+    padding-top: 20px;
+    & span {
+        display: inline-block;
+        width: 18px;
+        height: 17px;
+        margin-right: 10px;
+    }
+}
+
+.hero-tile-container {
+    & .akamai-player,
+    & .akamai-layer,
+    & .akamai-media-element {
+        position: static;
+    }
+    & .desc-bullet-list:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    & .desc-container {
+        padding-top: 20px;
+    }
+    & .desc-bullet {
+        text-align: left;
+        float: left;
+        clear: left;
+        display: block;
+        line-height: 28px;
+    }
+    & .desc-bullet:before {
+        content: "";
+        display: list-item;
+        float: left;
+        font-size: 10px;
+        line-height: 28px;
+        vertical-align: middle;
+    }
+    & .infocard-wrapper {
+        width: 100%;
+    }
+    & .infocard .desc {
+        margin-top: 9px;
+    }
+    & .readmoreLink a {
+        height: 35px;
+    }    
+    &.hero-tile-container-border {
+        & .infocard-wrapper {
+            padding: 20px;
+        }
+    }
+    &.hero-tile-container-border .infocard {
+        padding: 20px;
+        & .infocard-logo img {
+            max-height: 56px;
+        }
+        & .title {
+            margin-bottom: 15px
+        }
+    }
+    & .infocard {
+        text-align: center
+    }
+    & .infocard p,
+    & .infocard .desc {
+        margin-bottom: 10px;
+    }
+}

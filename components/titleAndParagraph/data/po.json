@@ -1,0 +1,11 @@
+{
+  "type": "titleAndParagraph",
+  "id": "1520244087537",
+  "attributes": {
+    "title": "Title of the paragraph",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius sem odio, non pharetra lacus luctus quis.</p><ul><li>Lorem ipsum dolor sit amet</li><li>Lorem ipsum dolor sit amet</li><li>Lorem ipsum dolor sit amet</li></ul>"
+  },
+  "meta": {
+    "render": "serverside"
+  }
+} 

@@ -1,0 +1,321 @@
+{
+    "type": "entertainmentCarouselTiles",
+    "id": "1619075255617",
+    "attributes": {
+        "childComponents": [
+            {
+                "type": "entertainmentCarouselTiles",
+                "id": "1619075255621",
+                "attributes": {
+                    "image": {
+                        "alt": "",
+                        "0": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3321492007104796
+                        },
+                        "376": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        },
+                        "769": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        }
+                    },
+                    "title": "Films",
+                    "categoryId": "1111",
+                    "isbookable": true,
+                    "textAlignment": "left",
+                    "iconCta": {
+                        "label": "",
+                        "url": "",
+                        "isExternal": false,
+                        "absoluteUrl": ""
+                    },
+                    "description": "Watch movies"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            },
+            {
+                "type": "entertainmentCarouselTiles",
+                "id": "1619075255621",
+                "attributes": {
+                    "image": {
+                        "alt": "",
+                        "0": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3321492007104796
+                        },
+                        "376": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        },
+                        "769": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        }
+                    },
+                    "title": "Lounges",
+                    "categoryId": "1234",
+                    "isbookable": true,
+                    "textAlignment": "left",
+                    "iconCta": {
+                        "label": "",
+                        "url": "",
+                        "isExternal": false,
+                        "absoluteUrl": ""
+                    },
+                    "description": "Best Lounges from all over world"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            },
+            {
+                "type": "entertainmentCarouselTiles",
+                "id": "1619075255621",
+                "attributes": {
+                    "image": {
+                        "alt": "",
+                        "0": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3321492007104796
+                        },
+                        "376": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        },
+                        "769": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        }
+                    },
+                    "title": "Lounges",
+                    "categoryId": "1234",
+                    "isbookable": true,
+                    "textAlignment": "left",
+                    "iconCta": {
+                        "label": "",
+                        "url": "",
+                        "isExternal": false,
+                        "absoluteUrl": ""
+                    },
+                    "description": "Best Lounges from all over world"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            },
+            {
+                "type": "entertainmentCarouselTiles",
+                "id": "1619075255621",
+                "attributes": {
+                    "image": {
+                        "alt": "",
+                        "0": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3321492007104796
+                        },
+                        "376": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        },
+                        "769": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        }
+                    },
+                    "title": "Lounges",
+                    "categoryId": "1234",
+                    "isbookable": true,
+                    "textAlignment": "left",
+                    "iconCta": {
+                        "label": "",
+                        "url": "",
+                        "isExternal": false,
+                        "absoluteUrl": ""
+                    },
+                    "description": "Best Lounges from all over world"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            },
+            {
+                "type": "entertainmentCarouselTiles",
+                "id": "1619075255621",
+                "attributes": {
+                    "image": {
+                        "alt": "",
+                        "0": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3321492007104796
+                        },
+                        "376": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        },
+                        "769": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        }
+                    },
+                    "title": "Lounges",
+                    "categoryId": "1234",
+                    "isbookable": true,
+                    "textAlignment": "left",
+                    "iconCta": {
+                        "label": "",
+                        "url": "",
+                        "isExternal": false,
+                        "absoluteUrl": ""
+                    },
+                    "description": "Best Lounges from all over world"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            },
+            {
+                "type": "entertainmentCarouselTiles",
+                "id": "1619075255621",
+                "attributes": {
+                    "image": {
+                        "alt": "",
+                        "0": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3321492007104796
+                        },
+                        "376": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        },
+                        "769": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        }
+                    },
+                    "title": "Lounges",
+                    "categoryId": "1234",
+                    "isbookable": true,
+                    "textAlignment": "left",
+                    "iconCta": {
+                        "label": "",
+                        "url": "",
+                        "isExternal": false,
+                        "absoluteUrl": ""
+                    },
+                    "description": "Best Lounges from all over world"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            },
+            {
+                "type": "entertainmentCarouselTiles",
+                "id": "1619075255621",
+                "attributes": {
+                    "image": {
+                        "alt": "",
+                        "0": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3321492007104796
+                        },
+                        "376": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        },
+                        "769": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        }
+                    },
+                    "title": "Lounges",
+                    "categoryId": "1234",
+                    "isbookable": true,
+                    "textAlignment": "left",
+                    "iconCta": {
+                        "label": "",
+                        "url": "",
+                        "isExternal": false,
+                        "absoluteUrl": ""
+                    },
+                    "description": "Best Lounges from all over world"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            },
+            {
+                "type": "entertainmentCarouselTiles",
+                "id": "1619075255621",
+                "attributes": {
+                    "image": {
+                        "alt": "",
+                        "0": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3321492007104796
+                        },
+                        "376": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        },
+                        "769": {
+                            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                            "aspectRatio": 1.3333333333333333
+                        }
+                    },
+                    "title": "Lounges",
+                    "categoryId": "1234",
+                    "isbookable": true,
+                    "textAlignment": "left",
+                    "iconCta": {
+                        "label": "",
+                        "url": "",
+                        "isExternal": false,
+                        "absoluteUrl": ""
+                    },
+                    "description": "Best Lounges from all over world"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            }
+        ],
+        "labels": {
+            "ofLabel": "Of",
+            "nextLabel": "Next",
+            "previousLabel": "Previous",
+            "seeDetailsLabel": "Details"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

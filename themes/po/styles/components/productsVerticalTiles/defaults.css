@@ -1,0 +1,13 @@
+.spaComponent {
+    border-bottom: 1px solid var(--color-secondary6);
+    & .spaComponent__cta {
+        font-family: var(--font-bold); 
+        color: var(--color-primary3);
+    }
+    & .spaComponent__duration {
+        &:before {
+            content: "\e907";
+            color: var(--color-primary4);
+        }
+    }
+}

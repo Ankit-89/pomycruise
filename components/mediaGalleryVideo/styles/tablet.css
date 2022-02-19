@@ -1,0 +1,14 @@
+.gallery-container {
+    & [class |= "media-item"] {
+        margin: 10px 18px;
+    }
+    & .media-grid {
+        margin-bottom: 25px;
+    }
+    & .videoIframe {
+        height: 622px;
+    }
+    & .video-container img {
+        max-width: initial;
+    }
+}

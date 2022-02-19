@@ -1,0 +1,37 @@
+{
+	"type": "itemsList",
+	"id": "1537451050046",
+	"attributes": {
+		"title": "Treatments to choose from",
+		"list": [
+			{
+				"desc": "Heated stones melt tension away",
+				"title": "Elemis arome stone therapy"
+			}, 
+			{
+				"desc": "A warm, soothing massage that tantalizes the senses",
+				"title": "Bamboo massage"
+			}, 
+			{
+				"desc": "Both relaxing and invigorating, this classica technique manipulates muscles with aromatic oils",
+				"title": "Swedish massage"
+			},
+			{
+				"desc": "Combines muscle-melting warmed oils and deep pressure massage",
+				"title": "Elemis deep tissue muscle massage"
+			}, 
+			{
+				"desc": "After just one treatment, clinical trials show that the skin is up to 32%* smoother",
+				"title": "Elemis tri-enzyme resurfacing facial"
+			}, 
+			{
+				"desc": "A deep cleansing facial with dramatic anti-ageing results",
+				"title": "La therapie hydralift facial"
+			}
+		],
+		"labels": {}
+	},
+	"meta": {
+		"render": "serverside"
+	}
+}

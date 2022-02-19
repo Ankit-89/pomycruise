@@ -1,0 +1,162 @@
+.flightsInfo {
+
+    & .flight__header {
+        padding: 14px 30px;
+        & .flight__center {
+            padding: 10px 0;
+        }
+        & .flight__right {
+            & h5 {
+                display: inline-block;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    & .flightInfo__singleFlight {
+        margin-top: 20px;
+        padding-bottom: 30px;
+    }
+
+
+    & .flight__info {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        & h3 {
+            margin-bottom: 10px;
+        }
+        & .flight__firstBox {
+            order: 2;
+            padding: 10px 0 0;
+            position: relative;
+            &::after {
+                content: '';
+                content: '';
+                width: 2px;
+                height: 40px;
+                background-image: linear-gradient(to top, transparent 50%, var(--color-primary4) 50%);
+                background-size: 34px 26%;
+                display: inline-block;
+                margin-top: 10px;
+            }   
+        }
+        & .flight__betweenBox {
+            order: 1;
+            padding: 0 50px 10px;
+        }
+        & .flight__secondBox {
+            order: 3;
+        }
+    }
+
+    & .flight__accordion {
+        display: none;
+        &.open {
+            display: block
+        }
+    }
+
+    & .flight__paxCol {
+        display: block;
+        margin-bottom: 5px;
+        position: relative;
+    }
+
+    & .flight__text {
+        display: block;
+    }
+    & .flight__operator {
+        display: block;
+    }
+
+    & .flightClick__openAccordion {
+        text-align: center;
+        display: block;
+        padding: 20px;
+        & .flightClick__icon {
+            text-decoration: none;
+            &:after {
+                display: inline-block;
+                transform: rotate(90deg);
+                margin-left: 10px;
+            }
+        }
+    }
+
+    & .flight__accordion.open + .flightClick__openAccordion {
+        & .flightClick__icon::after {
+            transform: rotate(-90deg);
+        }
+    }
+
+    & .flight__body {
+        position: relative
+    }
+
+    & .flight__dates {
+        padding: 25px 20px;
+    }
+
+
+    & .infoBanner {
+        padding: 25px 20px;
+        &.txtBanner {
+            padding: 25px 20px;
+        }
+        & .infobanner__subtitle {
+            margin-bottom: 5px;
+            display: block;
+        }
+        & .infoBanner__icon {
+            display: none;
+        }
+
+        & .infoBanner__aux {
+            display: inline-block;
+            vertical-align: middle;
+            width: calc(100% - 5%);
+        }
+    }
+
+    & .flight__number {
+        margin: 8px 0 5px;
+        display: block;
+    }
+
+    & .flight__passenger {
+        list-style: none;
+    }    
+
+    & .primary__row {
+        margin-bottom: 10px;
+    }
+
+    & .flight__paxName {
+        margin-bottom: 10px;
+    }
+
+    & .tooltip__icon {
+        @mixin tooltip;
+        left: initial;
+        right: -23px;
+    }        
+
+    & .flight__txtColor {
+        position: relative
+    }
+
+}
+
+
+
+.flightsInfo {
+    & .bannerText__aux {
+        padding: 0;
+    }
+    & .empty-container {
+        margin-top: 0;
+    }
+}

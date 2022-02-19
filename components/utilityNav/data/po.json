@@ -1,0 +1,49 @@
+{
+  "type": "utilityNav",
+  "id": "1512452385311",
+  "attributes": {
+    "navItems": [
+
+      {
+        "navType": "logout",
+        "showIcon": true,
+        "title": "Hello",
+        "label": "Logout",
+        "linkUrl": "/pages/T301"
+      },
+      {
+        "navType": "countdown",
+        "title": "Days to Departure",
+        "label": false
+      },
+      {
+        "navType": "orders",
+        "showIcon": true,
+        "title": false,
+        "label": "My orders",
+        "linkUrl": "/template/myOrdersPage"
+      },
+      {
+        "navType": "cart",
+        "showIcon": true,
+        "title": false,
+        "label": "My Cart",
+        "linkUrl": "#"
+      }
+    ],
+    "loginPageURL": "#"
+  },
+  "services": {
+    "urls": {
+      "minicartApi": "https://dev.api.mycruise-temp.com/v1/mc-shopping-basket/PO-Site/users/current/carts/current"
+    },
+    "headers": {
+      "brand": "po",
+      "locale":"en_GB",
+      "country": "EN"
+    }
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

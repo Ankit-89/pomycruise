@@ -1,0 +1,41 @@
+{
+	"type": "healthQuestionnaire",
+	"id": "1511434494928",
+	"attributes": {
+		"childComponents": [
+			{
+				"type": "titleH1Mycruise",
+				"id": "1602649800077",
+				"attributes": {
+					"showIcon": true,
+					"title": "Your answers",
+					"description": "You cannot change these answers. Sunt molestiae ipsa.",
+					"type": "h1"
+				},
+				"meta": {
+					"render": "dynamic"
+				}
+			}
+		],
+		"labels": {
+			"labelConfirm":"Yes"
+		},
+		"services": {
+			"urls": {
+				"mycruiseItineraryApiV1": "https://sit.my-np.pocruises.com/api-mc/mc-getItinerary/v1",
+				"mycruiseSummaryApiV1": "https://sit.my-np.pocruises.com/api-mc/mc-getCruiseSummary/v1"
+			},
+			"headers": {
+				"brand": "po",
+				"locale": "en_GB",
+				"country": "GB"
+			}
+		},
+		"hideAccordion": "false",
+		"shipInfoServlet": "https://sit.my-np.pocruises.com/content/po/master_website/en_GB/mycruise",
+		"deckInfoServlet": "https://sit.my-np.pocruises.com/content/po/master_website/en_GB/mycruise"
+	},
+	"meta": {
+		"render": "dynamic"
+	}
+}

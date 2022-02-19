@@ -1,0 +1,80 @@
+.dining-card-container {
+    position: relative;
+    margin: 10px;
+    & .content-holder {
+        padding: 30px 30px 0 30px;
+    }
+    & .cta-content {
+        padding: 0 30px 40px 30px;
+    }
+    & .type {
+        position: relative;
+        vertical-align: top;
+        display: inline-block;
+        margin-bottom: 25px;
+        &:before {
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: top;
+            font-size: 22px;
+            margin-right: 10px;
+        }
+    }
+    & .title-container {
+        min-height: 45px;
+    }
+    & .card-container {
+        & .bottom-block {
+            min-height: 190px;
+        }
+    }
+    & .text-content {
+        margin-bottom: 0;
+    }
+    & .dining-card-description {
+        /* max-height: 66px;
+        overflow: hidden; */
+        font-size: 12px;
+        clear: left;
+        margin-bottom: 10px;
+    }
+    & .dining-card-outOfStock {
+        opacity: .3;
+        float: right;
+        &:before {
+            content: none;
+        }
+    }
+
+    & .top-banner {
+        position: absolute;
+        padding: 5px 15px;
+        left: 20px;
+        top: 20px;
+    }
+    & .cta-content {
+        lost-utility: clearfix;
+    }
+
+    & .cta-block {
+        float: left;
+    }
+
+    & .cta-block+.cta-block {
+        float: right;
+    }
+
+    & .cta-block a {
+        display: block;
+    }
+}
+
+
+.slick-slide {
+    & .dining-card-container  {
+        & .card-component {
+            margin: 0;
+            width: 100%
+        }
+    }
+}

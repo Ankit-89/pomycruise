@@ -1,0 +1,28 @@
+{
+  "type": "paymentSummaryMycruise",
+  "id": "1492058736236",
+  "attributes": {
+    "labels": {
+      "summaryPaymentHeaderLabel": "Your Payment Summary",
+      "totalLabel": "Total Price",
+      "subtotalLabel": "Subtotal",
+      "loyaltyDiscountLabel": "Loyalty Discount",
+      "loyaltyDiscountTotalLabel": "Loyalty Discount",
+      "childDiscountTotalLabel": "All Inclusive Package Child Discount",
+      "childDiscountDescription": "You received this discount because you bought the alcohol package."
+    }
+  },
+  "meta": {
+    "render": "dynamic"
+  },
+  "services": {
+    "urls": { 
+      "orderDetailsApi": "https://dev.api.mycruise-temp.com:443/v1/mc-orders/PO-Site/users/current/orders/"
+    },
+    "headers": {
+      "brand": "po",
+      "locale": "en_GB",
+      "country": "US"
+    }
+  }
+}

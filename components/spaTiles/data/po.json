@@ -1,0 +1,33 @@
+{
+	"type": "spaTiles",
+	"id": "",
+	"attributes": {
+		"productSearchServlet": "/services/spa-landing",		
+		"labels": {
+			"seeDetailsLabel": "See details"
+		},
+		"childComponents": [{
+				"type": "titleH1Mycruise",
+				"id": "1520848724668",
+				"attributes": {
+					"title": "Spa categories",
+					"description": "",
+					"type": "h1"
+				},
+				"meta": {
+					"render": "serverside"
+				}
+			}
+		]
+	},
+	"meta": {
+		"render": "dynamic"
+	},
+	"services": {
+		"headers": {
+			"brand": "po",
+			"locale": "en_US",
+			"country": "US"
+		}
+	}
+}

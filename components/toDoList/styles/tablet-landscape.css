@@ -1,0 +1,46 @@
+.toDoList {
+    margin: 30px auto;
+    & .toDoList__aux {
+        @mixin grid-wrap;
+        padding: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    & .toDoList__text {
+        padding-bottom: 0;
+    }
+    & .toDoList__listItem {
+        display: inline-block;
+        margin: 0 14px 20px;
+    }
+    & .show .toDoList__alert {
+        display: none;
+    }
+}
+
+.toDoList__text {
+    text-align: left;
+    padding-right: 30px;
+}
+.toDoList__icon {
+    padding-right: 30px;
+}
+.toDoList__cont {
+    padding: 30px 40px; 
+    & p {
+        display: block;
+    }
+}
+
+.toDoList__listItem {
+    display: inline-block;
+    width: 190px;
+    margin: 10px;
+}
+.toDoList__title {
+    &:after {
+        display: none;
+    }
+}

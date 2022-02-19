@@ -1,0 +1,280 @@
+/* @import 'defaults.css';
+@import 'tablet.css' ( --tablet );
+@import 'desktop.css' ( --desktop ); */
+
+.react-component{
+    margin-bottom: 0 !important;
+}
+
+.displayAlertContainer {
+    display: none;
+}
+
+.alert-messaging-inner-container {
+    padding: 11px 18px;
+    display: block;
+    -webkit-animation: none 0s ease 0s 1 normal none running;
+    animation: none 0s ease 0s 1 normal none running;
+    -webkit-animation: initial;
+    animation: initial;
+    min-height: 55px;
+    position: relative
+}
+
+.alert-messaging-inner-container p {
+    margin: 0
+}
+
+.alert-messaging-inner-container a {
+    text-decoration: underline
+}
+
+.alert-messaging-inner-container .alert-icon {
+    float: left;
+    width: 18px;
+    margin-right: 7px;
+    height: 18px
+}
+
+.alert-messaging-inner-container .alert-text {
+    width: 62%;
+    display: inline-block
+}
+
+.alert-messaging-inner-container .close {
+    width: 25%;
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    cursor: pointer;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.alert-messaging-inner-container .close-icon {
+    float: right;
+    width: 35px;
+    height: 35px;
+    margin-top: -4px
+}
+
+@-webkit-keyframes slideInFromTop {
+    0% {
+        margin-top: -100px
+    }
+
+    50% {
+        margin-top: -50px
+    }
+
+    to {
+        margin-top: 0
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        margin-top: -100px
+    }
+
+    50% {
+        margin-top: -50px
+    }
+
+    to {
+        margin-top: 0
+    }
+}
+
+@media (min-width: 768px) {
+    .alert-messaging-inner-container {
+        padding:18px 37px 18px 40px
+    }
+
+    .alert-messaging-inner-container .close {
+        width: auto
+    }
+
+    .alert-messaging-inner-container .alert-text {
+        width: 80%
+    }
+
+    .alert-messaging-inner-container .alert-icon {
+        margin-right: 15px
+    }
+
+    .alert-messaging-inner-container .close {
+        right: 25px
+    }
+}
+
+@media (min-width: 1025px) {
+    .alert-messaging-inner-container {
+        padding:18px 56px 18px 60px
+    }
+
+    .alert-messaging-inner-container .alert-icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        float: none;
+        vertical-align: top;
+        margin-top: 2px
+    }
+
+    .alert-messaging-inner-container .alert-text {
+        width: auto;
+        max-width: 80%
+    }
+
+    .alert-messaging-inner-container .close {
+        right: 33px
+    }
+}
+
+.alert-messaging-container {
+    background: #f2f0e8;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
+    position: relative
+}
+
+.alert-messaging-inner-container {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 17px;
+    padding-right: 17px
+}
+
+.alert-messaging-inner-container:before {
+    content: "";
+    display: table
+}
+
+.alert-messaging-inner-container:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+@media (min-width: 768px) {
+    .alert-messaging-inner-container {
+        padding-left:32px;
+        padding-right: 32px
+    }
+}
+
+@media (min-width: 1025px) {
+    .alert-messaging-inner-container {
+        padding-left:40px;
+        padding-right: 40px
+    }
+}
+
+.alert-messaging-inner-container {
+    border-bottom: none
+}
+
+.alert-messaging-inner-container .alert-text {
+    font-family: Praxis-regular;
+    -webkit-font-feature-settings: "case" 1;
+    font-feature-settings: "case" 1;
+    font-size: .625rem;
+    line-height: 1.125rem;
+    color: #666;
+    -webkit-font-feature-settings: "lnum" 1;
+    font-feature-settings: "lnum" 1
+}
+
+@media (min-width: 768px) {
+    .alert-messaging-inner-container .alert-text {
+        font-size:.875rem;
+        line-height: 1.5rem
+    }
+}
+
+.alert-messaging-inner-container .alert-text {
+    background-color: inherit;
+    width: calc(100% - 50px);
+    letter-spacing: .4px;
+    letter-spacing: .025rem
+}
+
+.alert-messaging-inner-container a {
+    font-size: inherit;
+    color: #002776;
+    text-decoration: none;
+    -webkit-font-feature-settings: "lnum" 1;
+    font-feature-settings: "lnum" 1;
+    letter-spacing: .0625rem;
+    font-family: Praxis-regular
+}
+
+.alert-messaging-inner-container .close {
+    background-color: transparent;
+    border: none;
+    width: 40px
+}
+
+.alert-messaging-inner-container .alert-icon:after {
+    margin-top: 3px;
+    content: "\E90C";
+    color: #002776
+}
+
+.alert-messaging-inner-container .alert-icon:after,.alert-messaging-inner-container .close-icon:after {
+    display: inline-block;
+    font-family: Icomoon;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 10px;
+    height: 10px;
+    font-size: 1.25rem
+}
+
+.alert-messaging-inner-container .close-icon:after {
+    content: "\E906";
+    margin-right: 10px;
+    color: #666
+}
+
+.alert-messaging-inner-container .close-label {
+    display: none
+}
+
+@media (min-width: 768px) {
+    .alert-messaging-inner-container .alert-icon {
+        margin-top:0
+    }
+
+    .alert-messaging-inner-container .close-icon {
+        margin-top: 8px
+    }
+
+    .alert-messaging-inner-container .alert-text {
+        width: calc(100% - 80px)
+    }
+
+    .alert-messaging-inner-container .close-icon:after {
+        margin-right: 4px
+    }
+}

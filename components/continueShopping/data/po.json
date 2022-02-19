@@ -1,0 +1,37 @@
+{
+	"type": "continueShopping",
+	"id": "524545",
+	"attributes": {
+		"icons": [
+			{
+				"iconName": "Shore Excursion",
+				"iconImage": "/content/PO/excursion.png",
+				"iconUrl": "pages/T011"
+			},
+			{
+				"iconName": "Dining",
+				"iconImage": "/content/PO/dining.png",
+				"iconUrl": "pages/T011"
+			},
+			{
+				"iconName": "Spa",
+				"iconImage": "/content/PO/spa.png",
+				"iconUrl": "pages/T011"
+			},
+			{
+				"iconName": "Drinks",
+				"iconImage": "/content/PO/drinks.png",
+				"iconUrl": "pages/T011"
+			},
+			{
+				"iconName": "Gift",
+				"iconImage": "/content/PO/gifts.png",
+				"iconUrl": "pages/T011"
+			}
+		],
+		"titleLabel": "Continue Shopping"
+	},
+	"meta": {
+		"render": "serverside"
+	}
+}

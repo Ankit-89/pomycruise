@@ -1,0 +1,5 @@
+.bookingSummaryMycruise {
+    & .bookingSummary__info {
+        padding: 0 0 0 100px;
+    }
+}    

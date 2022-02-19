@@ -1,0 +1,57 @@
+{
+    "type": "bookingSummaryMycruise",
+    "id": "1511434494728",
+    "attributes": {
+        "portDetailsServletUrl":
+            "/services/en_GB/mycruise/ports.itinerary.{port_code}.json",
+        "necessaryStepsUrl": "/services/necessaryStepsApi.html",
+        "childComponents": [
+            {
+                "type": "titleH1Mycruise",
+                "id": "1521450986453",
+                "attributes": {
+                    "title": "Booking Summary",
+                    "type": "h1"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            }
+        ],
+        "primaryImageUrl": "https://www.aem-stage.pocruises.com/map/itineraries",
+        "defaultImageUrl": "https://www.aem-stage.pocruises.com/map/itineraries/B832/images/en_GB_B832",
+        "labels": {
+            "bookingNumberLabel": "Booking number",
+            "loyaltyTierLabel": "Your loyalty tier",
+            "shipLabel": "Ship",
+            "nightsLabel": "Nights",
+            "guestsLabel": "Guests",
+            "departsLabel": "Departs",
+            "arrivesLabel": "Arrives",
+            "checkInLabel": "Check in",
+            "eTicketsLabel": "Print e-ticket(s)",
+            "printLuggageLabel": "Print luggage labels",
+            "notAvailableYetLabel": "Not available yet",
+            "pleaseCompleteLabel":
+                "Please complete all mandatory steps to print your E-tickets and luggage labels.",
+            "clickHereLabel": "More details"
+        }
+    },
+    "services": {
+        "urls": {
+            "toDoListApi":"https://dev.api.mycruise-temp.com/v1/mc-todo-list",
+            "loyaltyApi":
+                "https://dev.api.mycruise-temp.com/mc-loyalty-account/v1?urn=CURM16702L&brandCode=CUNARD",
+            "mycruiseSummaryApi":
+                "https://dev.api.mycruise-temp.com/mc-cruise-summary/v1"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "US"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

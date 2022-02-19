@@ -1,0 +1,13 @@
+.spa-tiles-container {
+    & .tile-detail {
+        width: 50%;
+    }
+    
+    & .cta-holder .btn {
+        float: right;
+    }
+    & .cta-holder .btn-secondary {
+        float: left;
+        display: inline-block;
+    }
+}

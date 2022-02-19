@@ -1,0 +1,15 @@
+.tabsMycruise.react-component,
+.tabsMycruiseServlet.react-component { 
+    & .tabs-labels {
+        padding: 0 0 14px;
+        & li {
+            margin-right: 80px;
+        }
+    }
+    & .tabs-content {
+        margin-top: 50px;
+    }
+    & .image-copy-block .content .spacing-container {
+        padding: 0 15%;
+    }
+}

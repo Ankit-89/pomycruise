@@ -1,0 +1,7 @@
+.textCta__aux {
+    border-top: 1px solid var(--color-secondary2);
+}
+
+.textCta__text {
+    @mixin style-body1;
+}

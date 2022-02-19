@@ -1,0 +1,17 @@
+.shipsGrid {
+    & .image-copy-block {
+        /* padding: 0 32px; */
+    }
+}
+
+.shipsGrid, .entertainmentGrid {
+    & .tiles-container {
+        /* padding: 0 22px; */
+    }
+}
+
+.spa-tiles-container {
+    & .tiles-container {
+        /* padding: 0 22px; */
+    }
+}

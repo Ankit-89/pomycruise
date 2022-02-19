@@ -1,0 +1,53 @@
+.allinclusive-overlay {
+    & .modal-content {
+        max-width: 650px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    & .guestsList {
+        & ul:after,
+        & .discountLabel:after {
+            left: -40px;
+            right: -40px;
+        }
+        & .total {
+            height: 40px;
+        }
+        & .total__label {
+            height: 40px;
+        }
+        & .total__price {
+            height: 40px;
+        }
+    }
+    & .discount-tooltip {
+        text-align: left;
+        position: absolute;
+        top: 55px;
+        left: -20px;
+        max-width: 350px;
+        min-width: 250px;
+        height: auto;
+        padding: 30px;
+        width: auto;
+        &:before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: 10px;
+            content: "";
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            top: -6px;
+            display: block;
+            transform: rotate(-45deg);
+        }
+        & p {
+            position: relative;
+        }
+    }
+    & .discount-close {
+        display: none;
+    }
+}

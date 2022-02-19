@@ -1,0 +1,5 @@
+.article--overlay {
+    & .aria-modal {
+        max-width: 100%;
+    }
+}

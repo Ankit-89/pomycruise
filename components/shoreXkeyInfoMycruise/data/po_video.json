@@ -1,0 +1,117 @@
+{
+    "type": "shoreXkeyInfoMycruise",
+    "id": "1522236644874",
+    "attributes": {
+      "showShorePrice": true,
+      "name": "L'ARAGOSTA È SERVITA... SUL CATAMARANO!  ",
+      "type": "video",
+      "description": "<b>Descrizione</b>\n<p>Sei ore di puro relax all'insegna del divertimento e dell'eccellenza a bordo di un modernissimo catamarano a motore dotato di tutti i comfort. Coroniamo l'esperienza con un pranzo a base di aragosta su un'isola incantata. Benvenuti ai Caraibi!</p>\n\n<br></br><b>Cosa vediamo</b>\n<ul>\n<li>Escursione in catamarano a motore</li>\n<li>Isola di Hog</li>\n<li>Snorkeling alla barriera corallina</li>\n<li>Pranzo a base di aragosta</li>\n</ul>\n\n<br></br><b>Cosa facciamo</b>\n<ul>\n<li>Al porto di St. George, ci imbarchiamo sul catamarano <strong>Shadowfax</strong>, un moderno 18 metri progettato e realizzato da uno dei migliori designer di catamarani del mondo. L'imbarcazione a motore è dotata di svariati comfort ( tra cui attrezzatura per lo snorkeling e docce con acqua dolce), e in condizioni di vento favorevoli può superare i 20 nodi.</li>\n<li>Iniziamo la navigazione lungo la costa caraibica sud-occidentale di Grenada verso Point Salines, all'estremità meridionale dell'isola, per poi raggiungere l'appartata <strong>isola di Hog</strong> veleggiando sopravento sul lato atlantico.</li>\n<li>Dopo una sosta per lo <strong>snorkeling</strong> presso una barriera corallina ricca di vita e di colori, approdiamo sull'isola, dove ci viene preparato e servito un delizioso <strong>pranzo a base di aragosta</strong>.</li>\n<li>Nel pomeriggio, abbiamo <strong>tutto il tempo per una nuotata</strong> prima di tornare a bordo dello Shadowfax e goderci il viaggio di ritorno a St. George.</li>\n</ul>\n",
+      "perAdultLabel": "per Adulto",
+      "perChildLabel": "per Bambino",
+      "soldOutLabel": "Esaurito",
+      "externalContent": false,
+      "shorexDescription": "L'ARAGOSTA È SERVITA... SUL CATAMARANO!  ",
+      "collectionImage": "",
+      "collectionImageAlt": "",
+      
+      "excursionInfoData": [
+        {
+          "caption": "Porto",
+          "statistic": "Grenada",
+          "key": "portLabel"
+        },
+        {
+          "caption": "Durata ore",
+          "statistic": "6.0",
+          "key": "durationLabel"
+        },
+        {
+          "caption": "Livello di difficoltà",
+          "statistic": "non disponibile",
+          "key": "activityLevelLabel"
+        },
+        {
+          "caption": "Pasti inclusi",
+          "statistic": "Pasto incluso",
+          "key": "mealsIncludedLabel"
+        }
+      ],
+      "shorexOverviewImage": "",
+      "ageRestrictedLabel": "Limiti di età",
+      "notOnSaleYetInfo": "<p>Non è ancora possibile acquistare l'escursione<br>\r\n\r\n</p>\r\n\r\n",
+      "fromPriceLabel": "A partire da",
+      "backLabel": "Back",      
+      "excursionInfoDataDetailed":[
+        {
+            "type": "glance",
+            "title": "At a glance",
+            "list": "<ul><li><b>Tour duration:</b> Full day guided</li><li>Activity level: High level of walking</li><li>Best for: Active guests</li><li>Why book? It's the most you can see</li></ul>"
+        },
+        {
+            "type": "itinerary",
+            "title": "Itinerary",
+            "list": "<ul><li>Colloseum</li><li>Roman Forum</li><li>Trevi Fountain</li><li>Italian-style Lunch</li><li>Vatican Museum</li><li>Sistine Chapel</li></ul>"
+        },
+        {
+            "type": "included",
+            "title": "Included",
+            "list": "<ul><li>Express Entry to vatican museum</li><li>Entry to sistine chapel</li><li>Italian style lunch</li><li>Transfer to and from Rome</li></ul>"
+        }
+    ],
+      "notOnSaleAnymoreInfo": "<p>Non è più possibile acquistare l'escursione</p>\r\n\r\n",
+      "notOnSaleAnymoreLabel": "Non più disponibile",
+      "notOnSaleYetLabel": "Non ancora disponibile",
+      "shorexLimitedAvailabilityLabel": "Disponibilità limitata ",
+      "ctaLink": "/content/pno/master_website/it_IT/cruises.html",
+      "readMore": "LEGGI DI PIÙ",
+      "readLess": "LEGGI MENO",
+      "infoNAKey": "non disponibile",
+      "currencyType": "EUR",
+      "shorexId": "3388",
+      "shorexPageUrl": "/services/pdp-price.json",
+      "image": {
+          "alt": "Alt attribute copy",
+          "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-pdp320.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-pdp320.jpg"
+          },
+          "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-pdp.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-pdp.jpg"
+          },
+          "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-pdp.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-pdp.jpg"
+          }
+      },
+      "addToCartCtaCopy": "add to cart",
+      "video": {
+        "video": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_60d3317bec84422d8688d906d11f9f52/original.mp4?Expires=1831376739&response-content-disposition=inline%3Bfilename%3D3388.mp4&AWSAccessKeyId=AKIAJAPYK3V2NOQXPVCQ&Signature=zencKYP%2BlzhN7AXmdNsM4CflVdo%3D",
+        "videoTrack": "",
+        "title": "",
+        "source": [
+          {
+            "src": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_60d3317bec84422d8688d906d11f9f52/original.mp4?Expires=1831376739&response-content-disposition=inline%3Bfilename%3D3388.mp4&AWSAccessKeyId=AKIAJAPYK3V2NOQXPVCQ&Signature=zencKYP%2BlzhN7AXmdNsM4CflVdo%3D",
+            "vdsrc": null,
+            "type": "video/mp4"
+          }
+        ],
+        "track": [],
+        "poster": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_60d3317bec84422d8688d906d11f9f52/f_im_jpg_autoxauto.jpg",
+        "posterRendition": {}
+      }
+    },
+    "meta": {
+        "render": "dynamic"
+    },
+    "services": {
+        "urls": {
+            "productDetailsApi": "/services/pdp-price.json"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "IT"
+        }
+    }
+  }

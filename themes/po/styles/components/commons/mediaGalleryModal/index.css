@@ -1,0 +1,6 @@
+/* @import '../../../../../../components/commons/styles/mediaGalleryModal/index.css'; */
+@import '../../../../../../components/commons/mediaGalleryModal/styles/index.css';
+
+@import 'defaults.css';
+@import 'tablet-portrait.css' (--tablet);
+/* @import 'desktop.css' (--desktop); */

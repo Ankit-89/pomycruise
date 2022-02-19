@@ -1,0 +1,804 @@
+.wrapper {
+    margin-top: 40px !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.print_declaration_container {
+    position: relative;
+    max-width: 1024px;
+    background: #ffffff;
+    margin: auto;
+
+    & .header_container {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px 20px 20px;
+        align-items: flex-end;
+
+        & .header_logo {
+            width: 133px;
+            height: 56px;
+        }
+
+        & .Status_badge {
+            background: #00a911;
+
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            min-height: 44px;
+            padding: 0px 20px;
+            width: 33%;
+
+            & .badge {
+                & .checkmark {
+                    display: inline-block;
+                    width: 22px;
+                    height: 22px;
+                    -ms-transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    transform: rotate(45deg);
+
+                    margin-right: 10px;
+                    margin-top: 3px;
+
+                    & .checkmark_circle {
+                        position: absolute;
+                        width: 22px;
+                        height: 22px;
+                        background-color: #fff;
+                        border-radius: 11px;
+                        left: 0;
+                        top: 0;
+                    }
+
+                    & .checkmark_stem {
+                        position: absolute;
+                        width: 3px;
+                        height: 9px;
+                        background-color: #00a911;
+                        left: 11px;
+                        top: 6px;
+                    }
+
+                    & .checkmark_kick {
+                        position: absolute;
+                        width: 3px;
+                        height: 3px;
+                        background-color: #00a911;
+                        left: 8px;
+                        top: 12px;
+                    }
+                }
+            }
+
+            & .badge_label {
+                font-family: 'GreycliffCF-medium';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                /* identical to box height */
+
+                text-align: center;
+                text-transform: uppercase;
+
+                color: #ffffff;
+            }
+        }
+
+        & .Status_badge_fail {
+            background: #e30513;
+
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            min-height: 44px;
+            padding: 0px 20px;
+            width: 33%;
+
+            & .badge {
+                & .badge_ellipse {
+                    font-size: 32px;
+                    color: #fff;
+                    font-weight: 600;
+                    margin-right: 10px;
+                }
+            }
+
+            & .badge_label {
+                font-family: 'GreycliffCF-medium';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 29px;
+                /* identical to box height */
+
+                text-align: center;
+                text-transform: uppercase;
+
+                color: #ffffff;
+            }
+        }
+    }
+
+    & .rectangle_25 {
+        height: 4px;
+
+        /* Primary/Gold */
+
+        background: #988642;
+        z-index: 99;
+    }
+
+    & .container_box {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+        & .rectangle_11 {
+            background: #edf1f7;
+
+            padding: 20px;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            width: 67.5%;
+
+            & .col-60 {
+                width: 55%;
+
+                & .passenger_label {
+                    font-family: 'GreycliffCF-medium';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    /* identical to box height */
+
+                    color: #000000;
+                }
+
+                & .passenger_name {
+                    font-family: 'PraxisCom-Regular';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 22px;
+                    /* identical to box height */
+
+                    text-transform: uppercase;
+
+                    /* Primary/Navy Blue */
+
+                    color: #002776;
+
+                    /* Inside Auto Layout */
+
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin: 5px 0px;
+                }
+            }
+
+            & .col-40 {
+                width: 45%;
+
+                & .label_name {
+                    font-family: 'GreycliffCF-medium';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px;
+                    /* identical to box height */
+
+                    color: #000000;
+                }
+
+                & .label_value {
+                    font-family: 'PraxisCom-Regular';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 22px;
+                    /* identical to box height */
+
+                    text-transform: uppercase;
+
+                    /* Primary/Navy Blue */
+
+                    color: #002776;
+
+                    margin: 5px 0px 10px 0px;
+                }
+            }
+        }
+
+        & .rectangle_12 {
+            width: 32.5%;
+            padding: 20px;
+
+            & .label_name {
+                font-family: 'GreycliffCF-medium';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+
+                color: #000000;
+            }
+
+            & .label_value {
+                font-family: 'PraxisCom-Regular';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 22px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+
+                /* Primary/Navy Blue */
+
+                color: #002776;
+
+                margin: 5px 0px 10px 0px;
+            }
+        }
+    }
+    & .rectangle_26 {
+        height: 4px;
+
+        /* Primary/Gold */
+
+        background: #988642;
+        z-index: 99;
+    }
+
+    & .show_at_port_label_container {
+        text-align: center;
+        padding: 15px 15px 0px 15px;
+        max-width: 75%;
+        margin: auto;
+
+        & .show_at_port_label {
+            font-family: 'GreycliffCF-medium';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+
+            /* Primary/Navy Blue */
+
+            color: #002776;
+        }
+    }
+
+    & .complete_title_container {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px 30px;
+
+        max-width: 70%;
+        margin: auto;
+
+        & .complete_title {
+            font-family: 'GreycliffCF-medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+            text-align: center;
+
+            /* Primary/Navy Blue */
+
+            color: #002776;
+
+            /* Inside Auto Layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 8px 10px 8px;
+        }
+
+        & .complete_sub_title {
+            font-family: 'PraxisCom-Regular';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+
+            color: #666666;
+        }
+    }
+
+    & .unable_to_travel_container {
+        background: #edf1f7;
+        margin-bottom: 30px;
+
+        & .content_container {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0px 30px;
+
+            max-width: 70%;
+            margin: auto;
+
+            & .content_title {
+                font-family: 'GreycliffCF-medium';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+
+                /* Primary/Navy Blue */
+
+                color: #002776;
+
+                /* Inside Auto Layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 0px 8px 10px 0px;
+            }
+
+            & .content_sub_title {
+                font-family: 'PraxisCom-Regular';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+
+                color: #666666;
+
+                /* Inside Auto Layout */
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                margin: 0px 8px;
+
+                & .cta-secondary {
+                    color: #002776;
+                    font-size: 14px;
+                    &:before {
+                        background: #002776;
+                    }
+                }
+            }
+        }
+    }
+
+    & .pre_cruise_section {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 30px;
+
+        max-width: 70%;
+        margin: auto;
+        & .pre_cruise_title {
+            font-family: 'GreycliffCF-medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+            text-align: center;
+
+            /* Primary/Navy Blue */
+
+            color: #002776;
+            margin-bottom: 10px;
+        }
+
+        & .pre_cruise_sub_title {
+            font-family: 'PraxisCom-Regular';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+
+            color: #666666;
+        }
+
+        & .pre_cruise_vector {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            justify-content: space-between;
+
+            max-width: 80%;
+            margin: auto;
+
+            & .etickets {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px;
+
+                /* Inside Auto Layout */
+
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                margin: 32px 0px;
+
+                & .icon {
+                    &:before {
+                        color: #988642;
+                        font-size: 30px;
+                    }
+                }
+
+                & label {
+                    font-family: 'GreycliffCF-medium';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+
+                    /* Primary/Navy Blue */
+
+                    color: #002776;
+
+                    /* Inside Auto Layout */
+
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    margin: 4px 8px 8px 8px;
+                }
+            }
+
+            & .online_check_in {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px;
+
+                /* Inside Auto Layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 32px 0px;
+
+                & .icon {
+                    &:before {
+                        color: #988642;
+                        font-size: 22px;
+                    }
+                }
+
+                & label {
+                    font-family: 'GreycliffCF-medium';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+
+                    /* Primary/Navy Blue */
+
+                    color: #002776;
+
+                    /* Inside Auto Layout */
+
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    margin: 10px 8px 8px 8px;
+                }
+            }
+
+            & .luggage {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0px;
+
+                /* Inside Auto Layout */
+
+                flex: none;
+                order: 2;
+                flex-grow: 0;
+                margin: 32px 0px;
+
+                & .icon {
+                    &:before {
+                        color: #988642;
+                        font-size: 24px;
+                    }
+                }
+
+                & label {
+                    font-family: 'GreycliffCF-medium';
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+
+                    /* Primary/Navy Blue */
+
+                    color: #002776;
+
+                    /* Inside Auto Layout */
+
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    margin: 10px 8px 8px 8px;
+                }
+            }
+        }
+    }
+
+    & .pre_cruise_cancel_section {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 30px;
+
+        max-width: 70%;
+        margin: auto;
+        & .pre_cruise_title {
+            font-family: 'GreycliffCF-medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+            text-align: center;
+
+            /* Primary/Navy Blue */
+
+            color: #002776;
+            margin-bottom: 10px;
+        }
+
+        & .pre_cruise_sub_title {
+            & p {
+                font-family: 'PraxisCom-Regular';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+
+                color: #666666;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .print_declaration_container {
+        width: 100%;
+        & .header_container {
+            flex-direction: column;
+            padding: 20px;
+            align-items: flex-start;
+
+            & .Status_badge {
+                width: 100%;
+                margin-top: 10px;
+            }
+
+            & .Status_badge_fail {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+
+        & .container_box {
+            flex-direction: column;
+
+            & .rectangle_11 {
+                flex-direction: column;
+                width: 100%;
+
+                & .col-60 {
+                    width: 100%;
+                }
+
+                & .col-40 {
+                    width: 100%;
+                }
+            }
+
+            & .rectangle_12 {
+                width: 100%;
+                padding: 20px;
+            }
+        }
+
+        & .show_at_port_label_container {
+            max-width: 100%;
+            & .show_at_port_label {
+                max-width: 100%;
+            }
+        }
+
+        & .complete_title_container {
+            max-width: 100%;
+            margin: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        & .unable_to_travel_container {
+            & .content_container {
+                max-width: 100%;
+                margin: auto;
+            }
+        }
+
+        & .pre_cruise_section {
+            padding: 0px 10px;
+            max-width: 100%;
+
+            & .pre_cruise_vector {
+                flex-direction: column;
+                max-width: fit-content;
+                margin: auto;
+                align-items: flex-start;
+
+                & .etickets {
+                    flex-direction: row;
+                    margin: 10px 0px;
+
+                    & label {
+                        margin: 10px 8px;
+                    }
+                }
+
+                & .online_check_in {
+                    flex-direction: row;
+                    margin: 10px 0px;
+
+                    & label {
+                        margin: 10px 8px;
+                    }
+                }
+
+                & .luggage {
+                    flex-direction: row;
+                    margin: 10px 0px;
+
+                    & label {
+                        margin: 10px 8px;
+                    }
+                }
+            }
+        }
+
+        & .pre_cruise_cancel_section {
+            max-width: 100%;
+            padding: 0px 10px;
+        }
+    }
+}
+
+@media print {
+    .print_declaration_container {
+        max-width: 600px;
+
+        & .header_container {
+            & .Status_badge_fail {
+                padding: 0px;
+                width: 33%;
+
+                & .badge {
+                    & .badge_ellipse {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+
+        & .container_box {
+            & .rectangle_11 {
+                & .col-60 {
+                    width: 55%;
+                }
+
+                & .col-40 {
+                    width: 45%;
+                }
+            }
+        }
+
+        & .show_at_port_label_container {
+            margin: auto;
+            & .show_at_port_label {
+                max-width: 75%;
+            }
+        }
+
+        & .complete_title_container {
+            max-width: 70%;
+            margin: auto;
+        }
+
+        & .unable_to_travel_container {
+            & .content_container {
+                max-width: 70%;
+                margin: auto;
+            }
+        }
+
+        & .pre_cruise_section {
+            max-width: 70%;
+            margin: auto;
+
+            & .pre_cruise_vector {
+                max-width: 95%;
+            }
+        }
+
+        & .pre_cruise_cancel_section {
+            max-width: 70%;
+            margin: auto;
+        }
+    }
+}

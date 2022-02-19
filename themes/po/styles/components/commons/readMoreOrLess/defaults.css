@@ -1,0 +1,38 @@
+.read-more-component {
+    margin: 50px 0 30px 0;
+    & a {
+        text-align: center;
+        @mixin cta-secondary;
+        color: var(--color-secondary1);
+        text-transform: uppercase;
+        height: 40px;
+        &:before {
+            display: none;
+        }
+    }
+    & a::after {
+        content: "\e903";
+        color: var(--color-secondary1);
+        font-family: var(--font-icomoon);
+        speak: none;
+        top: 25px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        display: inline-block;
+        transform: rotate(90deg);
+
+    }
+    & .read-less::after {
+        content: "\e903";
+        font-family: var(--font-icomoon);
+        speak: none;
+        display: inline-block;
+        transform: rotate(-90deg);
+    }
+}
+.show-focus-outlines .read-more-component {
+    & a:focus {
+        @mixin focus-outline;
+    }
+}

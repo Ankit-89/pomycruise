@@ -1,0 +1,17 @@
+{
+    "type": "copyBlock",
+    "id": "1509729892215",
+    "attributes": {
+        "copyBlockList": [{
+            "text": "<p>&nbsp;</p>\r\n<ul>\r\n<li>Lorem ipsum dolor sit</li>\r\n<li>Lorem ipsum dolor sit</li>\r\n<li>Lorem ipsum dolor sit</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit</li>\r\n</ul>\r\n"
+        }, {
+            "text": "<ul>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n</ul>\r\n"
+        }, {
+            "text": "<ul>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n<li>Lorem ipsum dolor sit<br>\r\n</li>\r\n</ul>\r\n"
+        }],
+        "backgroundToggle": false
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

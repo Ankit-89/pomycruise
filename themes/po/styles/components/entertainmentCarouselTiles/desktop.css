@@ -1,0 +1,52 @@
+
+.heroTile {
+    margin-top: -130px;
+}
+
+.hero-tile-container .ship-facts {
+    & .icon,
+    & .content {
+        font-size: 16px;
+        text-align: left;
+    }
+}
+
+.hero-tile-container.variation {
+    & .cta-holder {
+        position: absolute;
+        right: 60px;
+        top: 50px;
+        margin-top: 0;
+    }
+    & .infocard .cta-holder {
+        width: auto;
+    }
+}
+
+.hero-tile-container .cta-holder .secondary {
+    font-size: 20px;
+}
+
+.hero-tile-container {
+
+    & .infocard-wrapper {
+        max-width: 100%;
+    }
+}
+
+/* .hero-tile-container{
+    &.hero-tile-container-border .infocard-wrapper {
+        padding: 50px 45px;
+    }
+    &.hero-tile-container-border .infocard {
+        padding: 50px 45px;
+    }
+} */
+
+
+/*.hero-tile-container.variation .infocard-wrapper {
+    width: 82%;
+    margin: -80px auto 0;
+    z-index: 3;
+}*/
+

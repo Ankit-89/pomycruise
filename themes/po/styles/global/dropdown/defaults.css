@@ -1,0 +1,89 @@
+.custom-dropdown-wrapper {
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+    width: 280px;
+    z-index: 9;
+
+    border: 1px solid transparent;
+    & .dropdown-toggle {
+        display: inline-block;
+        box-sizing: border-box;
+        background: transparent;
+        border: none;
+        position: relative;
+        display: block;
+        width: auto;
+        display: inline-block;
+        text-align: left;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding-right: 40px;
+    }
+    & .dropdown-toggle:after {
+        content: '\e902';
+        font-family: var(--font-icomoon);
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 50%;
+        right: 0;
+        font-size: 10px;
+        transform: translateY(-50%);
+        color: var(--color-primary3);
+        text-align: center;
+    }
+    &.open {
+        border: 1px solid var(--color-secondary2);
+        background: var(--color-tertiary1);
+        z-index: 999;
+    }
+    &.open .dropdown-toggle:after {
+        transform: translateY(-50%) rotate(-180deg);
+    }
+
+    &.open .dropdown-menu {
+        background: var(--color-tertiary1);
+        padding: 10px 20px;
+    }
+    & .dropdown-item {
+        display: block;
+        padding: 10px 25px;
+        @mixin style-h6;
+        text-decoration: none;
+
+        &:hover {
+            color: var(--color-secondary1);
+        }
+    }
+
+}
+.show .sort-dropdown-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: var(--color-tertiary1);
+    overflow: auto;
+    & .action-bar {
+        background: #fff;
+    }
+    & .custom-dropdown-wrapper {
+        width: 100%;
+        & .dropdown-toggle {
+            display: none;
+        }
+    }
+}
+.show-focus-outlines .custom-dropdown-wrapper {
+    & button[aria-expanded="false"]:focus {
+        @mixin focus-outline;
+    }
+    & .dropdown-item:focus {
+        @mixin focus-outline;
+    }
+}

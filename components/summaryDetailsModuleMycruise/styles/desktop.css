@@ -1,0 +1,216 @@
+.productRow__removeNotification {
+    padding: 20px 40px;
+}
+  
+.productRow {
+    & .productRow__body {
+        padding-right: 40px;
+    }
+    & .productRow__header {
+        padding-right: 40px;
+    }
+    & .productRow__cta {
+        right: 40px;
+    }
+}
+
+.productRow__dateTime {
+    display: inline-block;
+    padding-right: 100px;
+}
+
+.payment-summary {
+    float: right;
+    min-width: 420px;
+    max-width: 420px;
+    margin-top: 40px;
+
+    & .checkout-button {
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+.checkoutForm-header {
+    & .title-component {
+        & .icon-heading{
+            width: 120px;
+            height: 58px;
+            margin: 0 auto 6px;
+            &:after{
+                font-size: 56px;
+            }
+        }
+    }
+}
+
+.checkoutForm-form {
+    & .form-header {
+        & .head {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        & .desc {
+            font-size: 14px;
+            line-height: 14px;
+        }
+
+        & .mandatory-label {
+            top: 20px;
+            font-size: 12px;
+        }
+
+    }
+    
+    & .input-group,
+    /* & .country, */
+    & .inputSelect-group {
+        width: calc(50% - 20px);
+        display: inline-block;
+        vertical-align: top;
+        margin: 0px 0px 35px 0px;
+        &:nth-child(2n) {
+            margin-left: 40px;
+        }
+    }
+
+    & .inputSelect-group {
+        lost-utility: clearfix;
+        margin: 0px;
+        & .input-group {
+            width: calc(66% - 20px);
+            margin-left: 20px;
+        }
+
+        & .select-group {
+            margin-bottom: 20px;
+        }
+
+        & .select-group.show-error {
+            margin-bottom: 40px;
+        }
+    }
+
+    & .country, 
+    & .selectAddress {
+        width: calc(50% - 20px);
+        display: inline-block;
+        vertical-align: top;
+        margin: 0px;
+        &:nth-child(2n) {
+            margin-left: 0px;
+        }
+        & .select-group {
+            margin-bottom: 35px;
+        }
+
+        & .select-group.show-error {
+            margin-bottom: 55px;
+        }
+    }
+
+    & .select-small {
+        width: 50%;
+        float: left;
+        margin-bottom: 15px;
+    }
+    & .small-input {
+        width: 50%;
+    } 
+    & .submit-wrap {
+        flex-direction: row;
+
+        & .cta-primary {
+            margin-right: 30px;
+            width: inherit;
+            margin-bottom: 0;
+        }
+    }
+    & .img-cards {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    & .img-card {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    & .input-formFields{
+        font-size: 0;
+        & .zipCode-container{
+            position: relative;
+            margin-bottom: 10px;
+            & .input-group.zipCode {
+                margin-bottom: 20px;
+            }
+            & .button{
+                position: absolute;
+                top: 35px;
+                left: calc(25% + 18px);
+
+                &:before{
+                    content: none;
+                }
+            }
+        }
+    }
+
+    & .zipCode {
+        width: calc(25% - 10px);
+    }
+
+}
+.zero-payment {
+    & .submit-wrap {
+        float: unset;
+        margin-bottom: 20px;
+    }
+}
+
+.checkoutForm-column {
+    & .input-group,
+    & .country,
+    & .selectAddress,
+    & .inputSelect-group {
+        display: block;
+        &:nth-child(2n) {
+            margin-left: 0;
+        }
+    }
+}
+
+.common-input-group input[name='zipCode'] {
+    width: 100%;
+}
+
+.checkoutForm-img {
+    width: 160px;
+    float: right;
+}
+
+.expired-modal {
+    & .aria-modal {
+        padding: 90px 140px;
+        min-height: auto;
+        max-width: 846px;
+        box-sizing: border-box;
+        height: auto;
+    }
+    & .modal-close-wrap {
+        padding-top: 30px;
+    }
+}
+.expired_inactive {
+    position: absolute !important;
+    top: 17% !important;
+}
+
+.productRow__ul {
+    
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 0;
+
+}

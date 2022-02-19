@@ -1,0 +1,105 @@
+.productRow__removeNotification {
+    background: var(--color-primary3);
+    @mixin style-body3;
+    color: var(--color-primary1);
+    & a {
+        text-decoration: underline;
+        font-family: var(--font-h5);
+        color: var(--color-primary1)
+    }
+    & .close {
+        &:after {
+            content: "\e906";
+            color: var(--color-primary1);
+        }
+    }
+
+} 
+
+.productRow {
+    & .productRow__body {
+        border: 1px solid var(--color-secondary2);
+        flex-wrap: wrap;
+    }
+}
+
+.bodyText {
+    color: var(--color-primary1);
+}
+
+.payment-summary {
+    & .label {
+        @mixin style-body1;
+        text-transform: uppercase;
+    }
+    & .value {
+        @mixin style-h4;
+    }
+    & .payment-summary-total .value {
+        color: var(--color-primary4);
+        font-family: var(--font-h1);
+        font-size: 24px;
+        line-height: 29px;
+    }
+    & .payment-summary-subtotal,
+    & .payment-summary-loyality-discount, {
+        border-bottom: 1px solid var(--color-secondary5);
+    }
+    & .checkout-button {
+        @mixin cta-primary;
+        &:focus {
+            outline: 2px auto #00b5cb;
+        }
+        
+        
+    }
+    & .payment-summary-loyality-discount .loyaltyName {
+        line-height: 1em;
+        text-transform: none;
+        @mixin style-body3;
+        color: var(--color-primary3);
+    }
+    
+}
+.checkoutForm-img {
+    background: url(../../../images/security.png) no-repeat;
+    background-size: contain;
+}
+
+.checkoutForm {
+    & .img-card {
+        &.visa {
+            background: url(../../../images/visa.png) no-repeat;
+            background-size: contain;
+        }
+        &.amex {
+            background: url(../../../images/amex.png) no-repeat;
+            background-size: contain;
+        }
+        &.discover {
+            background: url(../../../images/discover.png) no-repeat;
+            background-size: contain;
+        }
+        &.master {
+            background: url(../../../images/master.png) no-repeat;
+            background-size: contain;
+        }
+        &.diners {
+            background: url(../../../images/diners.png) no-repeat;
+            background-size: contain;
+        }
+        &.MSC {
+            background: url(../../../images/master.png) no-repeat;
+            background-size: contain;
+        }
+    }
+}
+.summaryDetailsModuleMycruise {
+    & .productRow {
+        & .productRow__body {
+            & h5 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

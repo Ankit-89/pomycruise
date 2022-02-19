@@ -1,0 +1,127 @@
+{
+    "type": "configuratorTab",
+    "id": "1547565865776",
+    "attributes": {
+        "labels": {
+            "A": "No preference",
+            "queenLabel": "Queen",
+            "bedConfigurationLabel": "Bed Configuration",
+            "twinsLabel": "Twins",
+            "renderDiningConfiguration": "Dining Preferences",
+            "tableSizeLabel": "Table size",
+            "saveLabel": "Save",
+            "saverText":
+                "Because you are an Early Saver customer, your dining preference is set as Freedom Dining by default and you can not change this option",
+            "availableLabel": "Available",
+            "freedomdiningLabel": "Freedom Dining",
+            "fullfareLabel": "Full Fare",
+            "firstseatingLabel": "First Seating",
+            "fullFareText":
+                "Because you are a Full Fare customer, you can change your dining type and table size. Please consider your option may not be granted.",
+            "kingLabel": "King",
+            "clickHereLabel": "click Here",
+            "noChangeText":
+                "It’s no more possibile to change the configuration",
+            "youHaveSelectedLabel": "(You have previously selected)",
+            "registerPreferenceLabel": "Register Preference",
+            "earlysaverLabel": "Early Saver",
+            "notAllocatedLabel":
+                "Your cabin is not allocated yet. You will be soon able to see and change your bed configuration.",
+            "secondseatingLabel": "Second Seating",
+            "imageLabel":
+                "“This image may not represent your actual cabin details”",
+            "mainDiningLabel": "Main Dining Room",
+            "moreInfoLabel": "For more information about your cabin ",
+            "bedLabel": "Bed configuration:",
+            "seeDetailsLabel": "See Details",
+            "diningLabel": "Dining Type:"
+        },
+        "ctaLink": "#",
+        "tabAlignment": "right",
+        "tableSize": {
+            "required": false,
+            "options": [
+                {
+                    "4": {
+                        "label": "4",
+                        "value": "4"
+                    }
+                },
+                {
+                    "6": {
+                        "label": "6",
+                        "value": "6"
+                    }
+                },
+                {
+                    "8": {
+                        "label": "8",
+                        "value": "8"
+                    }
+                },
+                {
+                    "noPreference": {
+                        "label": "No preference",
+                        "value": "No preference"
+                    }
+                },
+                {
+                    "2": {
+                        "label": "2",
+                        "value": "2"
+                    }
+                }
+            ]
+        },
+        "shipInfoServlet": "/services/dining",
+        "fareTypeServlet": "/services/{code}.json",
+        "productSearchServlet": "/services/dining",
+        "urlsList": {
+            "default": {
+                "mainDining": "/content/po/master_website/en_GB/mycruise/dining-listing/aregth VENEZIANA.html",
+                "fareTypes": {
+                  "saver": "gerh",
+                  "earlysaver": "bhjio",
+                  "select": "hui",
+                  "cunard": "hui"
+                }
+              },
+              "A3": {
+                "mainDining": "/content/po/master_website/en_GB/mycruise/dining-listing/gserh.html",
+                "fareTypes": {
+                  "saver": "saver",
+                  "earlysaver": "gserh",
+                  "select": "sgherth",
+                  "cunard": "sgherth"
+                }
+              },
+              "A": {
+                "mainDining": "/content/po/master_website/en_GB/mycruise/dining-listing/hrst.html",
+                "fareTypes": {
+                  "saver": "hui",
+                  "earlysaver": "hbi",
+                  "select": "hu8o",
+                  "cunard": "hu8o"
+                }
+              }
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    },
+    "services": {
+        "urls": {
+            "mycruiseSummaryApi":
+                "https://dev.api.mycruise-temp.com/mc-cruise-summary/v1",
+            "updateBedApi":
+                "https://dev.api.mycruise-temp.com/mc-cruise-bookingupdate-bed/v1",
+            "updateSittingApi":
+                "https://dev.api.mycruise-temp.com/mc-cruisebooking-update-dining/v1"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "GB"
+        }
+    }
+}

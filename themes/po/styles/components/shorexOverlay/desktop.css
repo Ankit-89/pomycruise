@@ -1,0 +1,22 @@
+.shorex-overlay {
+    & .guestsList {
+        & .total__price {
+            font-size: 40px;
+            color: var(--color-primary4);
+        }
+        & .total__label {
+            font-size: 18px;
+            line-height: 40px;
+        }
+    }
+    & .modal-error {
+        &:before {
+            font-size: 26px;
+            content: '\e908';
+            line-height: 30px;
+        }
+    }
+    & .registerInterest-msg {
+        @mixin style-body1;
+    }
+}

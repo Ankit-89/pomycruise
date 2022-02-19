@@ -1,0 +1,16 @@
+/* Global Components */
+@import '../../config/index.css';
+
+/*MyCruise Style*/
+/*brand style of the component*/
+
+@import '../../components/confirmationHeaderMycruise/index.css';
+@import '../../components/confirmationHeroMycruise/index.css';
+@import '../../components/loyaltyTierSlot/index.css';
+@import '../../components/paymentSummaryMycruise/index.css';
+@import '../../components/continueShopping/index.css';
+@import '../../components/textCta/index.css';
+@import '../../components/footerMycruise/index.css';
+
+
+@import '../../components/titleH1Mycruise/index.css';

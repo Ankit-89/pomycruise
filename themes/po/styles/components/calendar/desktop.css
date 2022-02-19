@@ -1,0 +1,68 @@
+.calendarViewDay {
+    & .filter-content {
+        border: 1px solid var(--color-secondary2);
+        background: var(--color-tertiary1);
+    }
+
+    & .dropdown-menu {
+        border: 1px solid var(--color-secondary2);
+    }
+    & .calendarToolbar__ddItem {
+        &:before {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 25px;
+        }
+    }
+    & .print__icon {
+        font-size: 30px;
+    }
+
+}
+.calendarToolbar {
+    & .calendarToolbar__ddItem {
+        &:before {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 25px;
+        }
+    }
+
+    
+    & .calendarToolbar__ddOpen {
+        border-right: 0;
+        padding: 18px 25px;
+    }
+    & .open .calendarToolbar__ddOpen {
+        background: var(--color-tertiary1);
+        border-top: 1px solid var(--color-secondary2);
+        border-right: 1px solid var(--color-secondary2);
+        height: auto;
+        padding: 17px 24px 18px 25px;
+        line-height: inherit;
+        text-align: center;
+        &:after {
+            float: none;            
+        }
+        & .legend__icon {
+            display: inline-block;
+        }
+    }
+    & .calendarToolbar__item {
+        &.open {
+            position: relative;
+            top: auto;
+            left: auto;
+            right: auto;
+            bottom: auto;
+            z-index: 999;
+            overflow: visible;
+            & .close {
+                display: none;
+            }
+        }
+    }
+} 
+

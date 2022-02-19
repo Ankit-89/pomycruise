@@ -1,0 +1,32 @@
+.aria-modal {
+    margin: auto;
+    min-height: 600px;
+    background: var(--color-primary1);
+    & .close-label {
+        @mixin text-hide;
+    }
+    & .modal-content {
+        overflow-y: auto;
+    }
+    & .modal-close-wrap {
+        border: none;
+        height: 80px;
+        line-height: 80px;
+    }
+    & .close {
+        &:after {
+            font-size: 28px;
+            line-height: 30px;
+        }
+    }
+    .modal-content-wrapper {
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.aria-modal-underlay {
+    padding: 40px;
+}

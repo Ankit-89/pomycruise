@@ -1,0 +1,127 @@
+{
+	"type": "entertainmentCategoryTiles",
+	"id": "1618414786390",
+	"attributes": {
+		"childComponents": [{
+			"type": "entertainmentCategoryTiles",
+			"id": "1618414786393",
+			"attributes": {
+				"image": {
+					"alt": "",
+					"0": {
+						"1x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.375.281.low.jpg",
+						"2x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.750.563.low.jpg",
+						"aspectRatio": 1.3321492007104796
+					},
+					"376": {
+						"1x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.1024.768.medium.jpg",
+						"2x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.2048.1536.medium.jpg",
+						"aspectRatio": 1.3333333333333333
+					},
+					"769": {
+						"1x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.740.555.high.jpg",
+						"2x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.1480.1110.high.jpg",
+						"aspectRatio": 1.3333333333333333
+					}
+				},
+				"title": "Guest Presenters",
+				"categoryId": "1",
+				"isbookable": true,
+				"textAlignment": "left",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q",
+				"primaryCta": {
+					"label": "See Details",
+					"url": "",
+					"isExternal": false,
+					"absoluteUrl": ""
+				}
+			},
+			"meta": {
+				"render": "serverside"
+			}
+		}, {
+			"type": "entertainmentCategoryTiles",
+			"id": "1618414786393",
+			"attributes": {
+				"image": {
+					"alt": "",
+					"0": {
+						"1x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.375.281.low.jpg",
+						"2x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.750.563.low.jpg",
+						"aspectRatio": 1.3321492007104796
+					},
+					"376": {
+						"1x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.1024.768.medium.jpg",
+						"2x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.2048.1536.medium.jpg",
+						"aspectRatio": 1.3333333333333333
+					},
+					"769": {
+						"1x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.740.555.high.jpg",
+						"2x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.1480.1110.high.jpg",
+						"aspectRatio": 1.3333333333333333
+					}
+				},
+				"title": "Learn Something New",
+				"categoryId": "2",
+				"isbookable": false,
+				"textAlignment": "left",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q",
+				"primaryCta": {
+					"label": "See Details",
+					"url": "",
+					"isExternal": false,
+					"absoluteUrl": ""
+				}
+			},
+			"meta": {
+				"render": "serverside"
+			}
+		}, {
+			"type": "entertainmentCategoryTiles",
+			"id": "1618414786393",
+			"attributes": {
+				"image": {
+					"alt": "",
+					"0": {
+						"1x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.375.281.low.jpg",
+						"2x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.750.563.low.jpg",
+						"aspectRatio": 1.3321492007104796
+					},
+					"376": {
+						"1x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.1024.768.medium.jpg",
+						"2x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.2048.1536.medium.jpg",
+						"aspectRatio": 1.3333333333333333
+					},
+					"769": {
+						"1x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.740.555.high.jpg",
+						"2x": "/content/dam/po/marketing-assets/life-on-board/family-man-holding-boy-dt-poc-14-072.jpg.image.1480.1110.high.jpg",
+						"aspectRatio": 1.3333333333333333
+					}
+				},
+				"title": "Activities",
+				"categoryId": "3",
+				"isbookable": false,
+				"textAlignment": "left",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, q",
+				"primaryCta": {
+					"label": "See Details",
+					"url": "",
+					"isExternal": false,
+					"absoluteUrl": ""
+				}
+			},
+			"meta": {
+				"render": "serverside"
+			}
+		}],
+		"labels": {
+			"ofLabel": "of",
+			"nextLabel": "Next",
+			"previousLabel": "Previous",
+			"seeDetailsLabel": "See Details"
+		}
+	},
+	"meta": {
+		"render": "dynamic"
+	}
+}

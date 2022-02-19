@@ -1,0 +1,47 @@
+.summaryAccordion {
+    padding: 40px 0;
+    & article img {
+        margin: 0 auto;
+    }
+    & article .section-row-wrapper {
+        margin-top: 0;
+    }
+    & .section-wrapper {
+        margin: 0;
+    }
+    & .dropdown .dropdown-toggle {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    & .back-button {
+        z-index: 1;
+        position: relative;
+    }
+    & .slick-slider .slick-list,
+    & .carousel-controls {
+        margin: 0 40px;
+    }
+    & .deckInfo__images {
+        display: flex;
+        align-items: center;
+    }
+    & .deckInfo__left {
+        padding: 0px;
+    }
+    & .deckInfo__right {
+        display: flex;
+    }
+    & .deckInfo__rightText {
+        /* margin-top: 0;
+        display: block;
+        width: auto;
+        height: auto;
+        background: transparent;        
+        border-radius: none; */
+    }
+}
+.floor-layout {
+    display: block;
+}

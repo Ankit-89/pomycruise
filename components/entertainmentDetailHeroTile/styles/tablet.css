@@ -1,0 +1,141 @@
+.entertainmentContainer {
+    /* height: 621px; */
+    & .eventBack {
+        top: 15%;
+        left: 0;
+    }
+    & .main-wrapper {
+        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 32px;
+        padding-right: 32px;
+        bottom: 0;
+        top: unset;
+        right: 0;
+        left: 0;
+        & .eventImage {
+            max-width: 50%;
+            margin-left: auto;
+            margin-right: 0;
+            align-self: flex-end;
+        }
+        & .eventImage_soldOut {
+            max-width: 50%;
+            margin-left: auto;
+            margin-right: 0;
+            align-self: flex-end;
+            background: rgba(30, 69, 138, 0.75);
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(30, 69, 138, 0.75);
+            }
+
+            & .soldOutText {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%);
+                color: var(--color-primary1);
+                z-index: 1;
+                font-size: 24px;
+            }
+        }
+        & .eventImage_Booked {
+            &::after {
+                top: 92%;
+                width: 45%;
+                height: 7%;
+            }
+            & .alreadyBookedText {
+                top: 93.56%;
+                left: 26%;
+                font-size: 14px;
+            }
+            & .alreadyBookedText::before {
+                left: -29%;
+                top: 50%;
+                height: 50%;
+                width: 2px;
+            }
+            
+            & .alreadyBookedText::after {
+                left: -28%;
+                bottom: 2%;
+                height: 2px;
+                width: 15%;
+            }
+        }
+        & .description-part {
+            width: 50%;
+            align-self: center;
+            padding-left: 0;
+            & .eventTitleHeader {
+                margin-bottom: 15px;
+                color: var(--color-primary1);
+                
+            }
+            & .eventTimeContainer {
+                display: flex;
+            }
+            & .eventAgeRestricted {
+                background: #1E458A;
+                padding: 7px;
+                margin-right: 10px;
+            }
+            /* & .ageRestrictionLable {
+                font-family: "Praxis LT Regular";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 0.875rem;
+                line-height: 1.0625rem;
+                color: rgba(255, 255, 255, .8);
+            } */
+        }
+        
+        
+        & .eventEstimatedTimeWithAge {
+            padding: 7px;
+            background: #000000;
+            border: 1px solid #363636;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        & .eventEstimatedTimeWithoutAge {
+            padding: 7px;
+            background: #000000;
+            border: 1px solid #363636;
+            box-sizing: border-box;
+        }
+        /* & .estimatedTimeLable {
+            color: rgba(255, 255, 255, .8);
+        } */
+        & .estimatedTimeLable::before {
+            content: "\E907";
+            color: #56B781;
+            font-family: Icomoon;
+            display: inline;
+            font-size: 0.8rem;
+            margin-right: 10px;
+            font-weight: 900;
+        }
+        & .horizontalLine {
+            border: 1px solid rgba(255, 255, 255, .25);
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    
+        /* & .eventDescriptionHeader {
+            font-family: "Praxis LT Regular";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            color: var(--color-primary1);
+        } */
+    }
+ 
+}

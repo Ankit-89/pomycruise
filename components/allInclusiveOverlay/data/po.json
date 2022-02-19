@@ -1,0 +1,34 @@
+{
+    "type": "allInclusiveOverlay",
+    "attributes": {
+        "labels": {
+            "guestsLabel": "Guests:",
+            "disclaimerMessage": "Select an Alcohol Package for all adults to get a 5% percent discount for all minors",
+            "disclaimerLabel": "Any promotional discount will be applied in cart",
+            "disclaimerInfo": "Lorem ipsum tooltip",
+            "disclaimerForMinorMessage": "As a minor, you are not allowed to purchase any Alcohol package.",
+            "disclaimerForMinorLabel": "Any promotional discount will be applied in cart",
+            "disclaimerForMinorInfo": "Lorem ipsum tooltip",
+            "disclaimerForMinorToBeAdultMessage": "As a minor at the moment, you are not allowed to purchase any Alcohol package. You will be able to purchase as soon as your major age birthday or directly on cruise.",
+            "disclaimerForMinorToBeAdultLabel": "Any promotional discount will be applied in cart",
+            "disclaimerForMinorToBeAdultInfo": "Lorem ipsum tooltip",
+            "addToCartLabel": "Add to cart",
+            "closeLabel": "Close",
+            "subtotalLabel": "Subtotal",
+            "subtotalSubtitle": "Total price per day",
+            "cruiseLengthLabel": "Cruise length:",
+            "cruiseLengthSubtitle": "Excluding disembarkation date",
+            "totalLabel": "Total cost:",
+            "daysLabel": "days",
+            "selectLabel": "Select an option",
+            "adultLabel": "Adult",
+            "childLabel": "Child",
+            "infantLabel": "Infant"
+        },
+        "services": {
+            "urls": {
+                "updateCartApi": "/services/cart-update.json"
+            }
+        }
+    }
+}

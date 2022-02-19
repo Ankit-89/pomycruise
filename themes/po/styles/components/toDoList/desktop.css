@@ -1,0 +1,10 @@
+.toDoList {
+    & .toDoList__listItem {
+        width: 190px;
+    }
+}
+.toDoList__title {
+    &:after {
+        display: none;
+    }
+}

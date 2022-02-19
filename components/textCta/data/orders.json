@@ -1,0 +1,13 @@
+{
+	"type": "textCta",
+	"id": "",
+	"attributes": {
+		"icon": "",
+		"ctaUrl": "pages/T012",
+		"ctaLabel": "Go to cruise personalizer",
+		"bodyText": "To modify a Spa, Dining, Drinks, Gifts product or a Shorex that has been purchased on Cruise Personalizer, please go to CP2 portal"
+	},
+	"meta": {
+		"render": "serverside"
+	}
+}

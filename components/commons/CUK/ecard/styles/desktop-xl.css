@@ -1,0 +1,5 @@
+.card-container {
+    & .content-holder {
+        padding: 35px 40px 0 40px;
+    }
+}

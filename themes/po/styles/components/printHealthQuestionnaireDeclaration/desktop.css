@@ -1,0 +1,12 @@
+.bookingSummaryMycruise {
+    & .nextSteps{
+        & span {
+            font-size: 14px;
+        }
+    }
+}
+.overlay-text {
+    & ul {
+        margin-top: 50px;
+    }
+}

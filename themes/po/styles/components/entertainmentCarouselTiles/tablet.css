@@ -1,0 +1,38 @@
+.heroTile {
+    margin-top: -100px;
+}
+
+.hero-tile-container .infocard {
+    & h1 {
+        /* line-height: 35px;
+        font-size: 34px; */
+    }
+}
+
+.hero-tile-container .ship-facts {
+    & .item {
+        border-right: 1px solid var(--color-tertiary4);
+    }
+}
+
+.hero-tile-container .cta-holder .secondary {
+    font-size: 25px;
+}
+
+.hero-tile-container-border {
+    & .infocard {
+        .title,
+        .desc-container {
+            lost-center: 670px;
+        }
+
+    }
+}
+.hero-tile-container {
+    & .desc-bullet-list {
+        font-family: var(--font-body1);
+    }
+    &.variation .infocard-wrapper {
+        padding: 0;
+    }
+}

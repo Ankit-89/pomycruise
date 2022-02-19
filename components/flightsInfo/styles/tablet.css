@@ -1,0 +1,11 @@
+.flight__paxCol {
+    display: inline-block;
+    &:nth-child(1) {
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+}
+.flightInfo__singleFlight {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}

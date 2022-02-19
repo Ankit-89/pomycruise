@@ -1,0 +1,5 @@
+.utility-nav-container {
+    & .nav .nav-item {
+        @mixin style-body2;
+    }
+}

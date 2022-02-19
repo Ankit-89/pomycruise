@@ -1,0 +1,9 @@
+.qa {
+    
+    & .qa__open {
+        & h5 {
+            font-size: 16px;
+        }
+        
+    }
+}

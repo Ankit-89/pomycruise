@@ -1,0 +1,14 @@
+.summaryAccordion {
+    & .roomInfo__first {
+        margin-bottom: 20px;
+    }
+    & .roomInfo__item {
+        margin-bottom: 0px;
+    }
+    & .tabs {
+        padding: 0 40px;
+    }
+    & .tabs-content {
+        padding: 0 40px;
+    }
+}

@@ -1,0 +1,10 @@
+/* Global Components */
+@import '../../config/index.css';
+
+@import 'defaults.css';
+
+@import '../../components/globalHeaderMycruise/index.css';
+@import '../../components/ordersDetails/index.css';
+@import '../../components/accordionMycruise/index.css';
+@import '../../components/textCta/index.css';
+@import '../../components/footerMycruise/index.css';

@@ -1,0 +1,137 @@
+.shoreXkeyInfoMycruise {
+    margin-top: -55px;
+}
+.shorex-key-info {
+    & .infocard-wrapperAux {
+        background: var(--color-primary1);
+    }
+    & .infocard-back {
+        background: var(--color-primary1);
+        &:before {
+            content: "\e903";
+            color: var(--color-primary3);
+        }
+    }
+    & .infocard .title {
+        font-weight: normal;
+        color: var(--color-primary5);
+        @mixin style-h1;
+    }
+    & .infocard .subtitle {
+        @mixin style-body2;
+    }
+    & .dates {
+        color: var(--color-primary3);
+    }
+    & .infocard .subtitle-availability {
+        color: var(--color-secondary3);
+        text-transform: uppercase;
+    }
+    & .infocard .subtitle-ageRestricted {
+        background: var(--color-secondary6);
+        text-transform: uppercase;
+
+    }
+    & .infocard h2 {
+        @mixin style-h1;
+    }
+
+    & .infocard .desc {
+        @mixin style-body2;
+    }
+    & .infocard .caption,
+    & .infocard .stats {
+        @mixin style-h6;
+    }
+    & .infocard .caption {
+        font-family: var(--font-h1)
+    }
+    & .readmoreLink {
+        @mixin style-cta;
+        text-align: center;
+        color: var(--color-primary4);
+        text-transform: uppercase;
+    }
+    & .cta-holder a {
+        @mixin cta-primary;
+    }
+    & .cta-holder a.register {
+        @mixin cta-primary-light-blue;
+    }
+    & .key-icon::before {
+        color: var(--color-primary4)
+    }
+    /* Icons styles*/
+    & .portlabel-icon::before {
+        content: "\e913";
+    }
+    & .activitylevellabel-icon::before {
+        content: "\e901";
+    }
+    & .durationlabel-icon::before {
+        content: "\e907";
+    }
+    & .mealsincludedlabel-icon::before {
+        content: "\e91b";
+    }
+
+    & .key-fact:nth-child(2n+1) .text-content {
+        position: relative;
+    }
+    & .shorex-variants-title {
+        @mixin style-h4;
+        color: var(--color-secondary3);
+        text-transform: uppercase;
+    }
+    & .shorex-variants-tooltip {
+        background: var(--color-primary1);
+        box-shadow: 0 0px 20px 10px rgba(0, 0, 0, .1);
+        &:before {
+            background: var(--color-primary1);
+        }
+    }
+
+    & .shorex-close {
+        &:after {
+            content: "\e906";
+            color: var(--color-primary4);
+            width: 30px;
+        }
+
+    }
+
+    & .shorex-variants-tooltip  p {
+        background: var(--color-primary1);
+        @mixin style-body3;
+        text-transform: none;
+        font-feature-settings: 'lnum' 1;
+        background: var(--color-primary1);
+    }
+
+}
+
+
+
+/*shorex-info-detail*/
+.shorex-info-detail {
+    & .shorex-info-list {
+        @mixin style-body3;
+        background: var(--color-secondary6);
+    }
+    & .shorex-detail-info-title {
+        @mixin style-h5;
+    }
+    & .shorex-detail-info-title span:before {
+        color: var(--color-primary4);
+    }
+
+    & .shorex-info-list li b {
+        font-family: var(--font-semibold);
+        display: inline-block;
+    }
+
+    & .shorex-detail-info-itinerary li:before {
+        content: "\e902";
+        color: var(--color-primary3);
+    }
+}

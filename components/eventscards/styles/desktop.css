@@ -1,0 +1,8 @@
+.entertainment-tiles-container {
+    & .tiles-container {
+        & .entertainment-detail-tile {
+            width: 33%;
+        }
+    }
+
+}

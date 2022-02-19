@@ -1,0 +1,17 @@
+.spa-card {
+    text-align: left;
+    & .title-container {
+        min-height: 56px;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+}
+
+.spa-card-container {
+    & .category-book {
+       
+        & .cta-button-outline {
+            width: max-content;
+        }
+    }
+}

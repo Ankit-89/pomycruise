@@ -1,0 +1,42 @@
+.slick-slide {
+    & .amp-poster {
+        display: none;
+    }
+
+    & .amp-ready .amp-poster {
+        display: block;
+    }
+}
+.akamai-background-video {
+    pointer-events: none;
+
+    & .amp-controls.amp-bar,
+    & .amp-progress,
+    & .amp-interactive {
+        display: none;
+    }
+
+    &.akamai-player,
+    & .akamai-layer,
+    & .akamai-media-element {
+        position: unset;
+    }
+
+    &.akamai-player {
+        min-height: 480px;
+        width: 100%;
+    }
+
+    & .overlay {
+        display: none;
+    }
+}
+
+.akamai-only-play-button {
+    &.akamai-ready {
+        & .amp-controls.amp-bar,
+        & .amp-control.amp-progress {
+            display: none;
+        }
+    }
+}

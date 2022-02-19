@@ -1,0 +1,51 @@
+.hero-tile-container {
+    & .infocard-wrapper {
+        max-width: 65%;
+        margin: -83px auto 0 auto;
+    }
+    & .infocard-wrapper.left {
+        margin-left: 64px;
+    }
+    & .infocard-wrapper.right {
+        margin-right: 64px;
+    }
+    & .infocard {
+        padding: 30px;
+    }
+    & .infocard h1 {
+        margin-top: 5px;
+    }
+    & .ht-background {
+        max-height: 575px;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    & .hte-message {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1170px;
+    }
+    & .hte_entertainment {
+        display: inline-flex;
+        margin: 10px;
+        align-self: center;
+        padding: 8px;
+    }
+    & .tooltip_icon {
+        position: absolute;
+        display: inline-flex;
+    }
+    & .tooltip__icon:before {
+        margin: 5px 10px 0px 10px;
+    }
+    & .entertainmentDay {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0px 11px 0px 5px;
+    }
+    &.cta-icon span {
+        width: 45px;
+        height: 45px;
+        margin-right: 20px;
+    }
+}

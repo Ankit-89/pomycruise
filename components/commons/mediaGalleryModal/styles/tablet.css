@@ -1,0 +1,30 @@
+/*    */
+.media-gallery-modal {
+    & .modal-content {
+        height: auto;
+    }
+
+    & .aria-modal .slide-controls .button {
+        height: 65px;
+        width: 65px;
+    }
+    & .aria-modal .slide-controls .prev-btn {
+        left: 15px;
+    }
+    & .aria-modal .slide-controls .next-btn {
+        right: 15px;
+    }
+    & .amp-video-container {
+        height: 434px;
+        min-width: 598px;
+    }
+    & iframe.videoIframe {
+        /* height: 434px;
+        width: 100vw; */
+        max-height: 500px;
+    }
+    & .slick-slide img {
+        max-height: 500px;
+    }  
+
+}

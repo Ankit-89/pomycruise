@@ -1,0 +1,63 @@
+.dining-card-container {
+    border-bottom: 2px solid var(--color-secondary2);
+    border-left: 2px solid var(--color-secondary2);
+    border-right: 2px solid var(--color-secondary2);
+    & .top-banner {
+        @mixin style-body2;
+        background: var(--color-primary3);
+        color: var(--color-primary1);
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    & .type {
+        @mixin style-body2;
+        &:before {
+            color: var(--color-primary4);
+        }
+    }
+    /* & .type.bookableOnBoard {
+        color: var(--color-primary1);
+    } */
+    & .type.additional {
+        &:before {
+            content: '\e930';
+        }
+    }
+    & .type.included {
+        &:before {
+            content: '\e92f';
+        }
+    }
+    & .dining-card-description {
+        @mixin style-body2;
+    }
+    & .bookOnBoard {
+        @mixin style-cta;
+        text-transform: uppercase;
+        color: var(--color-primary2);
+        padding: 5px 0;
+    }
+    & .comingSoon {
+        @mixin style-cta;
+        text-transform: uppercase;
+        color: rgb(0, 136, 245);
+        padding: 5px 0;
+    }
+    & .cta-block a {
+        @mixin cta-secondary;
+        @mixin card-cta-fontSize;
+        &.primary-cta {
+            @mixin cta-secondary-darkblue;
+            @mixin card-cta-fontSize;
+
+        }
+        &.primary-cta:before {
+            background: var(--color-primary3);
+        }
+    }
+    & .cta-block{
+        & .cta-addToCart {
+            @mixin card-cta-fontSize;
+        }
+    }
+}

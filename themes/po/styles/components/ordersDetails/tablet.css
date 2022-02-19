@@ -1,0 +1,12 @@
+.orderRow__openAccordion {
+    & span {
+        height: 40px;
+    }
+}
+.orderRow__body {
+    & .orderRow__column--pricing {
+        & .total-price {
+            font-size: 24px;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.tabsMycruise.react-component,
+.tabsMycruiseServlet.react-component {  
+    & .tabs-labels {
+        & li {
+            margin-right: 60px;
+        }
+    }
+}

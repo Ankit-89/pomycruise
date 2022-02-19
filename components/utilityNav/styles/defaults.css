@@ -1,0 +1,67 @@
+
+.utility-nav-container {
+    @mixin box-sizing;
+    lost-center: none;
+    lost-utility: clearfix;
+    &.svp-utility-nav {
+        display: block;
+    }
+    &.lvp-utility-nav {
+        display: none;
+    }
+    & .nav {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    & .nav .nav-item[data-name="cart"] {
+        position: relative;
+    }
+    & .nav .nav-item[data-name="logout"] {
+        order: 1;
+    }
+    & .nav .nav-item[data-name="orders"] {
+        order: 0;
+    }
+    & .nav-item .nav-link {
+        width: 100%;
+        display: block;
+        padding: 15px 20px;
+        min-height: 60px;
+        box-sizing: border-box;
+    }
+    & .nav-item .cart-label {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        border-radius: 50%;
+        top: -6px;
+        left: 35px;
+    }
+
+    & .nav-item .nav-link.logout {
+        width: auto;
+    }
+    & .nav-item .nav-link::before {
+        width: 25px;
+        height: 25px;
+        font-size: 25px;
+        position: relative;
+        vertical-align: middle;
+        margin-right: 10px;
+        padding: 0;
+    }
+    & .nav-item .nav-text.logout {
+        display: none;
+    }
+    & .nav-item[data-name="countdown"],
+    & .nav-item[data-name="cart"] {
+        display: none;
+    }
+    & .nav-item .cart {
+        display: none;
+    }
+
+}

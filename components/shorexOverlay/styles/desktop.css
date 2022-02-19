@@ -1,0 +1,31 @@
+.shorex-overlay {
+    & .aria-modal {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        overflow-y: auto;
+        height: 90%;
+        display: block;
+    }
+    & .title {
+        margin: 0 0 40px 0;
+    }
+    & .guestsList{
+        margin-bottom: 60px;
+    }
+    & .icons-check {
+        margin-top:0;
+    }
+    & .continue-shopping .icons-list-item {
+        width:150px;
+    }
+}
+
+.modal-error {
+    &:before {
+        font-family: var(--font-icomoon);
+        display: block;
+        vertical-align: middle;
+        margin: 0 auto 6px;
+        height: 30px;
+    }
+}

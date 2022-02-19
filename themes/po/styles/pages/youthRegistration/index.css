@@ -1,0 +1,9 @@
+/* Global Components */
+/* Global Components */
+@import '../../config/index.css';
+@import '../../components/footerMycruise/index.css';
+@import '../../components/globalHeaderMycruise/index.css';
+
+
+@import '../../components/titleH1Mycruise/index.css';
+@import '../../components/youthRegistration/index.css';

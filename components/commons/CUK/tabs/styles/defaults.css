@@ -1,0 +1,103 @@
+.tabs {
+    & .tab-content-hide {
+        display: none;
+    }
+    & .tab-content-show {
+        display: block;
+    }
+    & .tabpanel-content-hide {
+        display: none;
+    }
+    & .tabpanel-content-show {
+        display: block;
+    }
+    & .tab-image {
+        position: relative;
+        &:before {
+            font-family: var(--font-icomoon);
+            speak: none;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            position: absolute;
+            border-radius: 50%;
+            top: 6px;
+            right: 6px;
+            z-index: 9;
+            transform: scale(0);
+        }
+        & img {
+            border-radius: 50%;
+            display: block;
+            overflow: hidden;
+            box-sizing: border-box;
+            height: 130px;
+            width: 130px;
+            margin: 10px auto;
+            border: 4px solid transparent;
+        }
+    }
+    & .active .tab-image {
+        &:before {
+            transform: scale(1);
+            transition: transform .3s var(--animation-smooth) .2s;
+        }
+    }
+    & .slider-wrapper {
+        position: relative;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        border-bottom: 1px solid var(--color-secondary6);
+        
+        & .prev {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            &::before {
+                content: "\E903";
+                color: var(--color-secondary6);
+                background-color: #fff;
+                font-family: var(--font-icomoon);
+                display: block;
+                font-size: 1.25rem;
+                transform: rotate(180deg);
+            }
+            &.active {
+                &::before {
+                    color: var(--color-primary3);
+                }   
+            }
+        }
+        & .next {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            &::before {
+                content: "\E903";
+                color: var(--color-secondary6);
+                background-color: #fff;
+                font-family: var(--font-icomoon);
+                display: block;
+                font-size: 1.25rem;
+            }
+            &.active {
+                &::before {
+                    color: var(--color-primary3);
+                }   
+            }
+        }
+        & .tabs-labels {
+            border-bottom: none;
+            & li {
+                &:last-child {
+                    margin-right: 0 !important;
+                }
+            }
+        }
+        
+    }
+}

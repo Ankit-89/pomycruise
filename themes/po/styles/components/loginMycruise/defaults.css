@@ -1,0 +1,65 @@
+.log-in-container {
+    & .login-button {
+        @mixin cta-primary;
+    }
+    & .error-label.show-label {
+        border-color: var(--color-secondary3);
+        color: var(--color-secondary3);
+        font-family: var(--font-body1);
+        font-size: 0.875rem;
+        margin-top: 5px;
+        @media (--tablet) {
+            font-size: 12px;
+        }
+    }
+    & .faild-message {
+        @mixin style-body3;
+        &:before {
+            content: "\e908";
+            font-size: 20px;
+            color: var(--color-secondary3);
+        }
+    }
+    & .privacy-wrap a {
+        @mixin style-body3;
+        color: var(--color-primary3);
+        text-decoration: underline;
+        font-family: var(--font-semibold);
+    }
+    & .success-wrap p {
+        @mixin style-body3;
+    }
+    & .birthdate-title {
+        @mixin style-h5;
+    }
+}
+
+.log-in-container.log-in-container-cc {
+    & .title-component .icon-heading {
+        display: none;
+    }
+    & .title-component h2,
+    & .title-component h1 {
+        
+        font-family: 'Constantia';
+    }
+    & .title-component p {
+        font-family: 'Corbel';
+    }
+    & .login-button {
+        @mixin cta-carnival;
+        border-radius: 0;
+    }
+    & .common-input-group .input-label {
+        font-family: 'Corbel';
+    }
+    & .common-input-group .input-field {
+        font-family: 'Corbel';
+        height: 54px;
+    }
+    & .select-group .dropdown-list {
+        font-family: 'Corbel';
+        font-size: 12px;
+        text-transform: none;
+    }
+}

@@ -1,0 +1,505 @@
+.summaryAccordion {
+    margin: 0 auto;
+    @mixin grid-wrap;
+    padding: 40px 0;
+    & .roomInfo__divider {
+        padding-top: 20px;
+    }
+    & .drawer-in {
+        background: none;
+    }
+    & .roomInfo__first {
+        margin-bottom: 10px;
+    }
+    & .roomInfo__first h5{
+        margin-bottom: 3px;
+    }
+    & .roomInfo__divider h5{
+        margin-bottom: 3px;
+    }
+    & .roomInfo__item {
+        width: auto;
+        display: inline-block;
+        margin-right: 28px;
+        vertical-align: top;
+    }
+    & .roomInfo__item h5 {
+        text-transform: capitalize;
+    }
+    & .media {
+        display: flex;
+        flex-direction: column;
+    }
+    & .media .image-wrapper {
+        width: 100%;
+        /* display: flex; */
+        align-items: center;
+    }
+    & button.cta:active,
+    & button {
+        cursor: pointer;
+    }
+    & article .section-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 40px 20px 0;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+    }
+    & .section-wrapper h2 {
+        margin-bottom: 20px;
+    }
+    & .section-wrapper p {
+        margin-bottom: 10px;
+    }
+
+    & article .section-wrapper .cta {
+        max-width: 100%;
+        display: block;
+        /* margin: auto auto 0; */
+    }
+    & article li {
+        padding: 0 25px;
+    }
+    & article .cta {
+        text-align: center;
+        &:after {
+            /* display: block; */
+            font-size: 15px;
+            text-align: center;
+            transform: rotate(90deg);
+            /* content: "\e903"; */
+        }
+    }
+    & .more-items ul {
+        list-style: none;
+        padding: 18px 45px;
+    }
+    & .more-items li {
+        padding: 0;
+        width: 100%;
+        margin: 10px 0;
+        display: table;
+    }
+    & .more-items div {
+        width: 50%;
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+    }
+    & .dropdown {
+        position: relative;
+        z-index: 99;
+        margin: 0 0 20px 0;
+    }
+    & .dropdown-bar {
+        height: 90px;
+        line-height: 90px;
+    }
+    & .dropdown-menu {
+        position: absolute;
+        width: 100%;
+        display: none;
+    }
+    & .dropdown-menu.is-opened {
+        display: block;
+    }
+    & .dropdown-menu button {
+        width: 100%;
+        height: 90px;
+        line-height: 90px;
+    }
+    & .dropdown .dropdown-toggle {
+        padding: 16px 0 20px 0;
+        width: 85%;
+    }
+    & .dropdown .dropdown-toggle::after {
+        content: '';
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        vertical-align: bottom;
+        top: 12px;
+        left: 10px;
+        position: relative;
+    }
+    & .dropdown .back-button {
+        width: 15%;
+    }
+    & .dropdown .back-button::after {
+        content: '';
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        vertical-align: bottom;
+        top: 7px;
+        position: relative;
+        transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+    }
+    & .room-wrapper {
+        margin: 20px 40px;
+        padding: 20px 0 35px;
+    }
+    & .room-wrapper ul {
+        padding: 0 0 0 16px;
+    }
+    & .room-wrapper li {
+        padding: 5px 0;
+    }
+    & .room-wrapper h3 {
+        padding: 10px 0 8px 0;
+    }
+    & .room-wrapper h4 {
+        padding: 0 0 7px 0;
+        margin-top: -10px;
+    }
+    & .room-content div {
+        padding-bottom: 20px;
+    }
+    & .room-content h2 {
+        margin-top: 14px;
+    }
+    & .carousel-controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        word-spacing: 8px;
+    }
+
+    & .carousel-controls .button {
+        display: block;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+        margin: 0;
+    }
+    & .carousel-controls .button:before {
+        content: ' ';
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    & .tabs .tabs-labels {
+        text-align: left;
+        padding-bottom: 15px;
+    }
+    & .tabs .tabs-labels li {
+        flex: none;
+        width: auto;
+        margin-right: 60px;
+    }
+    & .tabs .tabs-labels li:first-child {
+        padding-left: 0;
+    }
+    & .tabs .tabs-content {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    & .tabs .tabs-content li {
+        list-style: none;
+        & span::before {
+            display: inline-block;
+            margin-right: 8px;
+            font-family: var(--font-icomoon);
+        }
+    }
+    & .servicesList {
+        padding-bottom: 35px;
+    }
+    & .services__title {
+        padding-bottom: 15px;
+    }
+    & .deckInfo__images {
+        position: relative;
+        padding: 20px 20px;
+        margin: 30px 0;
+    }
+    & .image__label {
+        font-size: 14px;
+        padding: 5px 20px 0;
+    }
+    /* & .deckInfo__section {
+        display: inline-block;
+        width: 33%;
+    } */
+    & .deckInfo__rightText {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        background: var(--color-primary1);        
+        border-radius: 50%;
+    }
+    & .deckInfo__sections {
+        display: flex;
+    }
+    & .deckInfo__title {
+        font-size: 30px;
+    }
+    & .deckInfo__subtitle {
+        font-size: 14px;
+    }
+    & .deckInfo__data {
+        margin-bottom: 20px;
+    }
+    & .deckInfo__left {
+        text-align: center;
+        /* padding: 40px; */
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: middle;
+        & .deckInfo__detail {
+            margin-top: 30px;
+        }
+    }
+    & .deckInfo__right {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 40px;
+        margin: 10px;
+        /* display: none; */
+    }
+}
+.show-focus-outlines .state-room-acc-container {
+    & button.cta:focus {
+        /* @mixin focus-outline; */
+    }
+}
+
+
+.floor-layout {
+    display: none;
+    & .width-controller {
+        display: inline-block;
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    & .layout-container {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        padding: 0 1.45% 1.45%;
+    }
+    & .layout-container .floor-image {
+        display: inline-block;
+        width: 100%;
+        /* padding: 0 1.45% 156%; */
+    }
+    & .layout-container .room-locations {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-top: 45px;
+    }
+    & .room-locations {
+        pointer-events: none;
+    }
+    & .room-locations .room-overlay {
+        position: absolute;
+    }
+    & .room-overlay button {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 0;
+    }
+    & .room-overlay .single-room-continer {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    & .room-overlay .active-drawer {
+        position: absolute;
+        display: none;
+        top: 50%;
+        z-index: 1;
+    }
+    & .room-overlay .active-drawer.position-left {
+        left: 0;
+    }
+    & .room-overlay .active-drawer.position-right {
+        right: 0;
+    }
+    & .active-drawer .room-drawer {
+        padding: 20px 10px;
+        position: relative;
+        min-width: 150px;
+    }
+    & .active-drawer .room-drawer:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 5px;
+    }
+    & .active-drawer .room-drawer:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+    }
+    & .active-drawer.position-left .room-drawer {
+        margin-right: 20px;
+    }
+    & .active-drawer.position-left .room-drawer:before {
+        right: 0;
+    }
+    & .active-drawer.position-left .room-drawer:after {
+        right: -5px;
+    }
+    & .active-drawer.position-right .room-drawer {
+        margin-left: 20px;
+    }
+    & .active-drawer.position-right .room-drawer:before {
+        left: 0;
+    }
+    & .active-drawer.position-right .room-drawer:after {
+        left: -5px;
+    }
+    & .room-drawer .selected-icon {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
+    & .room-drawer .accessibility-icon {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+    }
+}
+.room-number-description {
+    & .description {
+        margin: 0 0 10px;
+    }
+    & .price-value {
+        margin: 0;
+        & > span:last-child {
+            display: inline-block;
+            margin: 4px 0;
+        }
+    }
+}
+
+.room-number-selector {
+    padding: 0 33px 30px;
+    & .container-title {
+        margin: 30px 0 0 0;
+    }
+    & .selector-container {
+        position: relative;
+    }
+    & .selector-container .legends {
+        display: inline-block;
+        padding: 0 0 30px;
+        width: 100%;
+    }
+    & .legends .legend-item {
+        lost-column: 1/3 3 0;
+        padding-left: 17px;
+        position: relative;
+    }
+    & .legend-item .legend-color {
+        position: absolute;
+        margin-left: -16px;
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        top: 2px;
+    }
+    & .legend-item .legend-color:before {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    & .room-grid {
+        display: inline-block;
+        width: 100%;
+    }
+    & .room-grid .room-element {
+        lost-column: 1/3 3 18px;
+        margin-bottom: 18px;
+        height: 50px;
+    }
+    & .room-element .select-room {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    & .small-overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    & .room-layout-container {
+        margin-top: 18px;
+    }
+    & .room-layout-container .deck-layout-container {
+        position: relative;
+    }
+    & .deck-layout-container .close-container {
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        z-index: 99;
+    }
+    & .deck-layout-container .floor-layout {
+        width: 100%;
+        margin: 0 auto;
+    }
+    & .close-container .close {
+        padding: 0;
+    }
+    & .close .close-icon {
+        display: inline-block;
+        height: 14px;
+        width: 14px;
+        margin-left: 6px;
+    }
+    & .room-layout-container .deck-layout-container:before {
+        position: absolute;
+        left: 0;
+        top: -5px;
+        height: 5px;
+        width: 100%;
+    }
+    & .room-layout-container .deck-layout-container:after {
+        position: absolute;
+        top: -15px;
+        left: 15%;
+        display: inline-block;
+        height: 0;
+        width: 0;
+    }
+    & .room-layout-container.position-1 .deck-layout-container:after {
+        left: 50%
+    }
+    & .room-layout-container.position-2 .deck-layout-container:after {
+        left: 85%
+    }
+    & .action-container {
+        margin-top: 5px;
+    }
+    & .overlay-title {
+        padding: 15px;
+        width: 70%;
+    }
+}

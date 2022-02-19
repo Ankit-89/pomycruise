@@ -1,0 +1,12 @@
+{
+    "type": "notificationBanner",
+    "attributes": {
+        "title": "Title",
+        "description": "Description",
+        "icon": "src",
+        "type": "border"
+    },
+    "meta": {
+		"render": "dynamic"
+	}
+}

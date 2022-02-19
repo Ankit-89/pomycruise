@@ -1,0 +1,39 @@
+.three-up-container {
+    @mixin grid-wrap;
+    padding: 0;
+
+    & .destination-tile-cards {
+        lost-utility: clearfix;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+    & .terms-conditions {
+        text-align: center;
+        padding-top: 40px;
+    }
+    & .description-container {
+        margin-bottom: 20px;
+    }
+}
+
+.three-up-container.col-3 {
+    & .slick-track {
+        display: flex;
+    }
+    & .slick-slide {
+        display: flex;
+        justify-content: center;
+        //height: auto;
+    }
+}
+
+.three-up-container.col-2 {
+    & .destination-tile-card {
+        width: auto;
+    }
+}
+
+.slick-slide .shorex-card .card-container {
+    margin-bottom: 0;
+}

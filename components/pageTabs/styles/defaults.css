@@ -1,0 +1,81 @@
+.pageTabs {
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100px;
+        height: 30px;
+    }   
+    & .tabs {
+        padding: 0;
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+        }
+    }
+    & .tabs-labels {
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        text-align: center;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        padding-bottom: 8px;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        & li {
+            display: inline-block;
+            margin: 0;
+            margin-right: 40px;
+        }
+        & li:first-child {
+            padding-left: 20px
+        }
+        & a {
+            display: inline-block;
+            margin-top: 50px;
+        }
+        & span {
+            position: relative;
+        }
+        & span:after {
+            position: absolute;
+            display: block;
+            height: 40px;
+            width: 40px;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: var(--font-icomoon);
+            font-size: 36px;
+            line-height: 36px;
+        }
+    }
+    & .summaryAccordion {
+        & .tabs {
+            padding: 0 20px;
+        }
+    }
+    & .healthQuestionnaire {
+        & .tabs {
+            padding: 0 20px;
+        }
+    }
+}

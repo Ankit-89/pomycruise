@@ -1,0 +1,52 @@
+{
+    "type": "styleGuide",
+    "id": "",
+    "attributes": {
+        "inputBox": {
+            "label": "Input",
+            "error": {
+                "invalid": "Input is invalid",
+                "empty": "Input is required"
+            }
+        },
+        "selectBox": {
+            "options": [
+                {
+                    "01": {
+                        "label": "Option 1",
+                        "value": "A"
+                    }
+                },
+                {
+                    "02": {
+                        "label": "Option 2",
+                        "value": "B"
+                    }
+                },
+                {
+                    "03": {
+                        "label": "Option 3",
+                        "value": "C"
+                    }
+                },
+                {
+                    "04": {
+                        "label": "Option 4",
+                        "value": "D"
+                    }
+                }
+            ],
+            "label": "Select",
+            "placeholder": "Select",
+            "error": {
+                "empty": "Select at least one option"
+            }
+        },
+        "checkBox": {
+            "label": "Sample CheckBox"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

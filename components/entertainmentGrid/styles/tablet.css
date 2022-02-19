@@ -1,0 +1,34 @@
+.image-copy-block {
+    & .content .spacing-container {
+        padding: 60px 110px 0;
+        margin-bottom: 40px;
+    }
+    & .icon-holder .gridIcon {
+        height: 7px;
+        margin-bottom: 33px;
+    }
+    & .carousel-link {
+        margin-top: 60px;
+    }
+    & .carousel-link a {
+        margin-bottom: 50px;
+    }
+    & .carousel-modal {
+        max-height: 1025px;
+    }
+    & .carousel-modal .carousel-close {
+        right: 40px;
+        top: 40px;
+    }
+    & .carousel-modal .carousel-holder {
+        margin-top: 60px;
+        padding-top: 10px;
+    }
+    & .terms-link {
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+    & .category-book .cta-button-outline {
+        width: max-content;
+    }
+}

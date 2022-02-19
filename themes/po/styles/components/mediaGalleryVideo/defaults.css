@@ -1,0 +1,19 @@
+.gallery-container {
+    & .gallery-carousel-controls {
+        color: var(--color-primary4);
+        font-family: var(--font-body1);
+        font-size: 12px;
+        font-feature-settings: 'lnum' 1;
+    }
+    & .gallery-carousel-controls .button {
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    & .videoIframe {
+        border: 0;
+    }
+    & .gallery-carousel-controls {
+        text-align: center;
+    }
+}

@@ -1,0 +1,64 @@
+.media-gallery-modal {
+    & .modal-close-wrap {
+        border-bottom: none;
+    }
+    & .aria-modal .slide-controls .button {
+        border: none;
+        height: 66px;
+        width: 66px;
+        padding: 0;
+        background: none;
+    }
+    & .slide-controls .button:before {
+        content: "\e903";
+        color: var(--color-secondary1);
+        font-family: var(--font-icomoon);
+        font-size: 16px;
+        display: block;
+    }
+    & .slide-controls .button.prev-btn:before {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+        content: "\e903";
+        color: var(--color-secondary1);
+        font-family: var(--font-icomoon);
+        font-size: 16px;
+    }
+    & .slide-controls .button.prev-btn:before,
+    & .slide-controls .button.next-btn:before {
+        margin: 0;
+    }
+    & .slick-dots button {
+        font-size: 0;
+        border: 0;
+        outline: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+        padding: 0;
+    }
+    & .slick-dots li.slick-active button {
+        background-color: var(--color-primary3);
+    }
+    & iframe {
+        border: 0;
+    }
+    & .slick-dots {
+        text-align: center;
+    }
+    
+}
+
+.gallery-container .icons {
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    &.tourIcon {
+        background: url(~postbooking-theme/images/reset.png) no-repeat;
+    }
+    &.videoIcon {
+        background: url(~postbooking-theme/images/play.png) no-repeat;
+    }
+}
+

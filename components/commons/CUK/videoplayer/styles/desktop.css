@@ -1,0 +1,6 @@
+_:-ms-fullscreen,
+:root .akamai-background-video {
+    &.akamai-player {
+        height: 760px;
+    }
+}

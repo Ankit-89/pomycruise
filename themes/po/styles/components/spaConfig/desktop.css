@@ -1,0 +1,26 @@
+.heroTileSpa {
+    margin-top: -130px;
+}
+
+.hero-tile-container {
+    & .infocard-wrapper {
+        max-width: 100%;
+    }
+}
+
+.hero-tile-container .infocard {
+    text-align: left;
+    padding: 60px 60px 0;
+    & .title {
+        margin-bottom: 0;
+    }
+    & .cta-holder {
+        width: auto;
+    }
+    & .cta-icon {
+        padding-left: 10px;
+    }
+    & .cta-icon img {
+        max-width: 30px;
+    }
+}

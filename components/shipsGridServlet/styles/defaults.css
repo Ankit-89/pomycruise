@@ -1,0 +1,168 @@
+.image-copy-block {
+    & .title-decorator-image {
+        display: none;
+    }
+    & .content {
+        text-align: center;
+    }
+    & .tile-holder {
+        max-width: 1440px;
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    & .tile-holder:last-of-type {
+        padding-bottom: 0;
+    }
+    & .tileGrid {
+        display: block;
+    }
+    & .content .spacing-container {
+        padding: 25px 20px 0;
+        margin-bottom: 30px;
+        & .title {
+            text-align: center;
+            display: block;
+            margin-bottom: 15px;
+        }
+    }
+    & .tile-holder:last-of-type .terms-link {
+        margin-bottom: 0;
+    }
+    & .image-holder {
+        width: 100%;
+        line-height: 0;
+    }
+    & .image-holder img {
+        width: 100%;
+    }
+    & .inner-container .title {
+        color: var(--color-primary3);
+    }
+    & .title h3 {
+        margin: 0;
+    }
+    & .description-block,
+    & .quote-details {
+        margin-bottom: 15px;
+    }
+    & .quote-details {
+        width: 70%;
+        margin: 0 auto;
+    }
+    & .icon-holder .gridIcon {
+        height: 7px;
+        margin-bottom: 24px;
+        display: inline-block;
+        width: 155px;
+    }
+
+    & .subtitle:before,
+    & .subtitle:after,
+    & .gridIcon:before,
+    & .gridIcon:after {
+        content: ' ';
+        display: inline-block;
+        width: 45px;
+        height: 10px;
+        margin: 0 12px;
+    }
+
+    & a,
+    & button {
+        display: inline-block;
+    }
+    & button {
+        cursor: pointer;
+        padding: 0;
+    }
+    & .video-icon {
+        height: 45px;
+        width: 45px;
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+    & .cta-holder {
+        margin-top: 40px;
+    }
+    & .carousel-link {
+        margin-top: 24px;
+    }
+    & .cta-icon-group {
+        margin-top: 10px;
+        direction: ltr;
+    }
+    & .carousel-modal {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        z-index: 10;
+        direction: ltr;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+    }
+    & .carousel-modal .carousel-close {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+    & .carousel-close button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    & .carousel-close button:after {
+        content: '';
+        margin-left: 10px;
+        height: 20px;
+        width: 20px;
+        margin-bottom: 3px;
+        display: block;
+    }
+    & .carousel-modal .carousel-holder {
+        height: 100%;
+        padding-top: 27.5px;
+        box-sizing: border-box;
+    }
+    & .cta-icon-group button {
+        cursor: pointer;
+    }
+    & .terms-link {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    & .icons-list {
+        margin-bottom: 30px;
+    }
+    & .icons-list-item {
+        list-style: none;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 40px;
+        width: 50px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    & .icons-list-label {
+        display: block;
+        vertical-align: middle;
+        
+    }
+    & .icons-list-icon {
+        vertical-align: middle;
+        display: inline-block;
+        margin-bottom: 10px;
+        width: 30px;
+        height: 30px;
+        &:after {
+            font-family: var(--font-icomoon);
+            display: inline-block;
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="22px" viewBox="0 0 33 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ico/hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.16666667,9.5857999 L1.16666667,7 L33.8253195,7 L33.8253195,9.5857999 L1.16666667,9.5857999 Z M1.16666667,19.0662043 L1.16666667,16.4821282 L33.8253195,16.4821282 L33.8253195,19.0662043 L1.16666667,19.0662043 Z M1.16666667,28.5483325 L1.16666667,25.9625326 L33.8253195,25.9625326 L33.8253195,28.5483325 L1.16666667,28.5483325 Z" id="path-1"></path>
+    </defs>
+    <g id="structure/header/768/default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-701.000000, -35.000000)">
+        <g id="HEADER">
+            <g id="ico/hamburger" transform="translate(700.000000, 28.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#333333" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="colours/primary/navy-blue" mask="url(#mask-2)" fill="#002776" fill-rule="evenodd">
+                    <rect id="Rectangle" x="0" y="0" width="35" height="35"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

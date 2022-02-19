@@ -1,0 +1,603 @@
+{
+    "products": [
+        {
+            "primaryImageUrl":
+                "http://bitcarnival.s3.amazonaws.com/pno/img/cards/card-1.jpg",
+            "availableForAdults": true,
+            "availableForChildren": true,
+            "availableForInfants": true,
+            "baseProduct": "ALL_INCLUSIVE_BEVERAGE_KIDS",
+            "code": "ALL_INCLUSIVE_BEVERAGE_KIDS",
+            "description":
+                "Description of allInclusiveBeverage for testing facets <ul><li>Prodotto 1</li><li>Prodotto 2</li><li>Prodotto 3</li><li>Prodotto 4</li></ul>",
+            "fromPrice": {
+                "currencyIso": "GBP",
+                "value": 121
+            },
+            "name": "allInclusiveBeverage of kids testing departure facets",
+            "productType": "AIBEVERAGE",
+            "stock": {
+                "stockLevel": 2147483647,
+                "stockLevelStatus": "inStock"
+            },
+            "url": "/PO-Site/products/ALL_INCLUSIVE_BEVERAGE_KIDS"
+        },
+        {
+            "primaryImageUrl":
+                "http://bitcarnival.s3.amazonaws.com/pno/img/cards/card-1.jpg",
+            "availableForAdults": true,
+            "availableForChildren": false,
+            "availableForInfants": false,
+            "baseProduct": "ALL_INCLUSIVE_BEVERAGE_NON_ALCOHOL",
+            "code": "ALL_INCLUSIVE_BEVERAGE_NON_ALCOHOL",
+            "description":
+                "Description of allInclusiveBeverage for testing facets <ul><li>Prodotto 1</li><li>Prodotto 2</li><li>Prodotto 3</li><li>Prodotto 4</li></ul>",
+            "fromPrice": {
+                "currencyIso": "GBP",
+                "value": 121
+            },
+            "name": "allInclusiveBeverage for testing departure facets",
+            "productType": "AIBEVERAGE",
+            "stock": {
+                "stockLevel": 2147483647,
+                "stockLevelStatus": "inStock"
+            },
+            "url": "/PO-Site/products/ALL_INCLUSIVE_BEVERAGE_NON_ALCOHOL"
+        },
+        {
+            "primaryImageUrl":
+                "http://bitcarnival.s3.amazonaws.com/pno/img/cards/card-1.jpg",
+            "availableForAdults": true,
+            "availableForChildren": true,
+            "availableForInfants": true,
+            "baseProduct": "ALL_INCLUSIVE_BEVERAGE_KIDS_PROMO",
+            "code": "ALL_INCLUSIVE_BEVERAGE_KIDS_PROMO",
+            "description":
+                "Description of allInclusiveBeverage for testing aib promo <ul><li>Prodotto 1</li><li>Prodotto 2</li><li>Prodotto 3</li><li>Prodotto 4</li></ul>",
+            "fromPrice": {
+                "currencyIso": "GBP",
+                "value": 121
+            },
+            "name": "allInclusiveBeverage of kids testing aib promo",
+            "productType": "AIBEVERAGE",
+            "stock": {
+                "stockLevel": 2147483647,
+                "stockLevelStatus": "inStock"
+            },
+            "url": "/PO-Site/products/ALL_INCLUSIVE_BEVERAGE_KIDS_PROMO"
+        },
+        {
+            "primaryImageUrl":
+                "http://bitcarnival.s3.amazonaws.com/pno/img/cards/card-1.jpg",
+            "availableForAdults": true,
+            "availableForChildren": false,
+            "availableForInfants": false,
+            "baseProduct": "ALL_INCLUSIVE_BEVERAGE_ALCOHOL_TEST",
+            "code": "ALL_INCLUSIVE_BEVERAGE_ALCOHOL_TEST",
+            "description":
+                "Description of allInclusiveBeverage date <ul><li>Prodotto 1</li><li>Prodotto 2</li><li>Prodotto 3</li><li>Prodotto 4</li></ul>",
+            "fromPrice": {
+                "currencyIso": "GBP",
+                "value": 567
+            },
+            "name": "allInclusiveBeverage for testing departure dates",
+            "productType": "AIBEVERAGE",
+            "stock": {
+                "stockLevel": 2147483647,
+                "stockLevelStatus": "inStock"
+            },
+            "url": "/PO-Site/products/ALL_INCLUSIVE_BEVERAGE_ALCOHOL_TEST"
+        },
+        {
+            "primaryImageUrl":
+                "http://bitcarnival.s3.amazonaws.com/pno/img/cards/card-1.jpg",
+            "availableForAdults": true,
+            "availableForChildren": true,
+            "availableForInfants": true,
+            "baseProduct": "ALL_INCLUSIVE_BEVERAGE_SODA",
+            "code": "ALL_INCLUSIVE_BEVERAGE_SODA",
+            "description":
+                "Description of allInclusiveBeverage for testing facets <ul><li>Prodotto 1</li><li>Prodotto 2</li><li>Prodotto 3</li><li>Prodotto 4</li></ul>",
+            "fromPrice": {
+                "currencyIso": "GBP",
+                "value": 666
+            },
+            "name": "allInclusiveBeverage of soda testing departure facets",
+            "productType": "AIBEVERAGE",
+            "stock": {
+                "stockLevel": 2147483647,
+                "stockLevelStatus": "inStock"
+            },
+            "url": "/PO-Site/products/ALL_INCLUSIVE_BEVERAGE_SODA"
+        },
+        {
+            "primaryImageUrl":
+                "http://bitcarnival.s3.amazonaws.com/pno/img/cards/card-1.jpg",
+            "availableForAdults": true,
+            "availableForChildren": false,
+            "availableForInfants": false,
+            "baseProduct": "ALL_INCLUSIVE_BEVERAGE_NON_ALCOHOL_1",
+            "code": "ALL_INCLUSIVE_BEVERAGE_NON_ALCOHOL_1",
+            "description":
+                "Description of allInclusiveBeverage for testing facets <ul><li>Prodotto 1</li><li>Prodotto 2</li><li>Prodotto 3</li><li>Prodotto 4</li></ul>",
+            "fromPrice": {
+                "currencyIso": "GBP",
+                "value": 666
+            },
+            "name": "allInclusiveBeverage for testing departure facets",
+            "productType": "AIBEVERAGE",
+            "stock": {
+                "stockLevel": 2147483647,
+                "stockLevelStatus": "inStock"
+            },
+            "url": "/PO-Site/products/ALL_INCLUSIVE_BEVERAGE_NON_ALCOHOL_1"
+        },
+        {
+            "primaryImageUrl":
+                "http://bitcarnival.s3.amazonaws.com/pno/img/cards/card-1.jpg",
+            "availableForAdults": true,
+            "availableForChildren": false,
+            "availableForInfants": false,
+            "baseProduct": "ALL_INCLUSIVE_BEVERAGE_ALCOHOL_2",
+            "code": "ALL_INCLUSIVE_BEVERAGE_ALCOHOL_2",
+            "description":
+                "Description of allInclusiveBeverage for testing facets <ul><li>Prodotto 1</li><li>Prodotto 2</li><li>Prodotto 3</li><li>Prodotto 4</li></ul>",
+            "name": "allInclusiveBeverage for testing departure facets",
+            "productType": "AIBEVERAGE",
+            "stock": {
+                "stockLevel": 0,
+                "stockLevelStatus": "outOfStock"
+            },
+            "url": "/PO-Site/products/ALL_INCLUSIVE_BEVERAGE_ALCOHOL_2"
+        }
+    ],
+    "aibDefaultKidsPackageCode": "ALL_INCLUSIVE_BEVERAGE_KIDS",
+    "passengers": [
+        {
+            "seqNumber": {
+                "$": "1"
+            },
+            "statusCode": {
+                "$": "CF"
+            },
+            "statusText": "Confirmed",
+            "pastGuestNumber": {
+                "$": "POFK49781K"
+            },
+            "pastGuestInd": "",
+            "insuranceTypeCode": {
+                "$": "O"
+            },
+            "insuranceInd": "Y",
+            "rateCode": {
+                "$": "KDB"
+            },
+            "individual": {
+                "genderCode": {
+                    "$": "M"
+                },
+                "birthDate": "1958-09-05",
+                "nationalityCode": {
+                    "$": "GB"
+                },
+                "countryOfResidenceCode": {
+                    "$": ""
+                },
+                "ageCode": {
+                    "$": "Y"
+                },
+                "ageQuantity": {
+                    "$": "60"
+                },
+                "nationalityNameText": "UNITED KINGDOM",
+                "countryOfResidenceNameText": "",
+                "residencyUSInd": "N",
+                "homeCityCode": {
+                    "$": "LON"
+                },
+                "homeCityNameText": "LONDON  GB",
+                "contactPoints": [
+                    {
+                        "primaryContactInd": "H",
+                        "emailAddress": {
+                            "fullAddressText": "MARKALTRIA@HOTMAIL.COM"
+                        },
+                        "phoneNumber": {
+                            "descText": "HOME",
+                            "typeCode": {
+                                "$": "H"
+                            },
+                            "numberText": "01784423123"
+                        },
+                        "postalAddress": [
+                            {
+                                "typeCode": {
+                                    "$": "D"
+                                },
+                                "description": "Destination",
+                                "addressLine1": "23 JUNCTION ROAD",
+                                "addressLine2": "",
+                                "addressLine3": "",
+                                "buildingNameText": "",
+                                "postCode": {
+                                    "$": "TW15 1NL"
+                                },
+                                "cityNameText": "ASHFORD",
+                                "countyNameText": "UNITED KINGDOM",
+                                "countryCode": {
+                                    "$": "GB"
+                                }
+                            },
+                            {
+                                "typeCode": {
+                                    "$": "D"
+                                },
+                                "description": "Destination",
+                                "addressLine1": "23 JUNCTION ROAD",
+                                "addressLine2": "",
+                                "addressLine3": "",
+                                "buildingNameText": "",
+                                "postCode": {
+                                    "$": "TW15 1NL"
+                                },
+                                "cityNameText": "ASHFORD",
+                                "countyNameText": "UNITED KINGDOM",
+                                "countryCode": {
+                                    "$": "GB"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "identityDocuments": [
+                    {
+                        "typeCode": {
+                            "$": "P"
+                        },
+                        "issuePlaceCode": {
+                            "$": ""
+                        },
+                        "issuePlaceNameText": "",
+                        "birthPlaceCode": {
+                            "$": "GB"
+                        },
+                        "birthPlaceName": "UNITED KINGDOM",
+                        "issueCityName": "",
+                        "occupationCode": {
+                            "$": ""
+                        },
+                        "occupationDescText": ""
+                    }
+                ],
+                "individualName": {
+                    "titleCode": {
+                        "$": "MR"
+                    },
+                    "firstNameText": "MARK",
+                    "middleNameText": "LEE",
+                    "familyNameText": "ALTRIA",
+                    "suffixText": ""
+                }
+            },
+            "packages": [
+                {
+                    "code": {
+                        "$": "B21MLAEXC"
+                    },
+                    "nameText": "GRAND HOTEL EXCELSIOR MALTA - 2 NTS",
+                    "typeCode": {
+                        "$": "B"
+                    },
+                    "typeText": "Pre-Cruise",
+                    "statusCode": {
+                        "$": "CF"
+                    },
+                    "statusText": "Confirmed",
+                    "nbrOfNightsQuantity": {
+                        "$": "2"
+                    },
+                    "requiredInd": "N",
+                    "complimentaryInd": "N",
+                    "rateAmount": {
+                        "$": "200.00"
+                    },
+                    "rateGuestTypeCode": {
+                        "$": "2"
+                    },
+                    "rateGuestTypeText": "Double Occupancy",
+                    "minimumGuestsQuantity": {
+                        "$": "1"
+                    }
+                },
+                {
+                    "code": {
+                        "$": "A12MLAEXC"
+                    },
+                    "nameText": "GRAND HOTEL EXCELSIOR MALTA - 1 NT",
+                    "typeCode": {
+                        "$": "A"
+                    },
+                    "typeText": "Post-Cruise",
+                    "statusCode": {
+                        "$": "CF"
+                    },
+                    "statusText": "Confirmed",
+                    "nbrOfNightsQuantity": {
+                        "$": "1"
+                    },
+                    "requiredInd": "N",
+                    "complimentaryInd": "N",
+                    "rateAmount": {
+                        "$": "120.00"
+                    },
+                    "rateGuestTypeCode": {
+                        "$": "2"
+                    },
+                    "rateGuestTypeText": "Double Occupancy",
+                    "minimumGuestsQuantity": {
+                        "$": "1"
+                    }
+                }
+            ],
+            "specialServices": [
+                {
+                    "code": {
+                        "$": "N"
+                    },
+                    "descText": "Decline Complimentary Upgrade",
+                    "typeCode": {
+                        "$": "UPG"
+                    },
+                    "typeText": "Upgrade",
+                    "statusText": "On Request",
+                    "chargeTypeCode": {
+                        "$": "C"
+                    }
+                }
+            ],
+            "transportations": [
+                {
+                    "typeCode": {
+                        "$": "A"
+                    },
+                    "typeText": "Air",
+                    "statusCode": {
+                        "$": "CF"
+                    },
+                    "statusText": "CONFIRMED",
+                    "cityCode": {
+                        "$": "LON"
+                    },
+                    "cityText": "LONDON  GB"
+                }
+            ]
+        },
+        {
+            "seqNumber": {
+                "$": "2"
+            },
+            "statusCode": {
+                "$": "CF"
+            },
+            "statusText": "Confirmed",
+            "pastGuestNumber": {
+                "$": "POFK49782N"
+            },
+            "pastGuestInd": "",
+            "insuranceTypeCode": {
+                "$": "O"
+            },
+            "insuranceInd": "Y",
+            "rateCode": {
+                "$": "KDB"
+            },
+            "individual": {
+                "genderCode": {
+                    "$": "F"
+                },
+                "birthDate": "1960-02-07",
+                "nationalityCode": {
+                    "$": "GB"
+                },
+                "countryOfResidenceCode": {
+                    "$": ""
+                },
+                "ageCode": {
+                    "$": "Y"
+                },
+                "ageQuantity": {
+                    "$": "58"
+                },
+                "nationalityNameText": "UNITED KINGDOM",
+                "countryOfResidenceNameText": "",
+                "residencyUSInd": "N",
+                "homeCityCode": {
+                    "$": "LON"
+                },
+                "homeCityNameText": "LONDON  GB",
+                "contactPoints": [
+                    {
+                        "primaryContactInd": "H",
+                        "emailAddress": {
+                            "fullAddressText": ""
+                        },
+                        "phoneNumber": {
+                            "descText": "HOME",
+                            "typeCode": {
+                                "$": "H"
+                            },
+                            "numberText": "01784423303"
+                        },
+                        "postalAddress": [
+                            {
+                                "typeCode": {
+                                    "$": "D"
+                                },
+                                "description": "Destination",
+                                "addressLine1": "23 JUNCTION ROAD",
+                                "addressLine2": "",
+                                "addressLine3": "",
+                                "buildingNameText": "",
+                                "postCode": {
+                                    "$": "TW15 1NL"
+                                },
+                                "cityNameText": "ASHFORD",
+                                "countyNameText": "UNITED KINGDOM",
+                                "countryCode": {
+                                    "$": "GB"
+                                }
+                            },
+                            {
+                                "typeCode": {
+                                    "$": "D"
+                                },
+                                "description": "Destination",
+                                "addressLine1": "23 JUNCTION ROAD",
+                                "addressLine2": "",
+                                "addressLine3": "",
+                                "buildingNameText": "",
+                                "postCode": {
+                                    "$": "TW15 1NL"
+                                },
+                                "cityNameText": "ASHFORD",
+                                "countyNameText": "UNITED KINGDOM",
+                                "countryCode": {
+                                    "$": "GB"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "identityDocuments": [
+                    {
+                        "id": {
+                            "$": "301249244"
+                        },
+                        "typeCode": {
+                            "$": "P"
+                        },
+                        "issueDate": "01262012",
+                        "issuePlaceCode": {
+                            "$": ""
+                        },
+                        "issuePlaceNameText": "",
+                        "expiryDate": "06262022",
+                        "birthPlaceCode": {
+                            "$": "GB"
+                        },
+                        "birthPlaceName": "UNITED KINGDOM",
+                        "issueCityName": "",
+                        "occupationCode": {
+                            "$": ""
+                        },
+                        "occupationDescText": ""
+                    }
+                ],
+                "individualName": {
+                    "titleCode": {
+                        "$": "MRS"
+                    },
+                    "firstNameText": "JOANNE",
+                    "middleNameText": "NMN",
+                    "familyNameText": "ALTRIA",
+                    "suffixText": ""
+                }
+            },
+            "packages": [
+                {
+                    "code": {
+                        "$": "B21MLAEXC"
+                    },
+                    "nameText": "GRAND HOTEL EXCELSIOR MALTA - 2 NTS",
+                    "typeCode": {
+                        "$": "B"
+                    },
+                    "typeText": "Pre-Cruise",
+                    "statusCode": {
+                        "$": "CF"
+                    },
+                    "statusText": "Confirmed",
+                    "nbrOfNightsQuantity": {
+                        "$": "2"
+                    },
+                    "requiredInd": "N",
+                    "complimentaryInd": "N",
+                    "rateAmount": {
+                        "$": "200.00"
+                    },
+                    "rateGuestTypeCode": {
+                        "$": "2"
+                    },
+                    "rateGuestTypeText": "Double Occupancy",
+                    "minimumGuestsQuantity": {
+                        "$": "1"
+                    }
+                },
+                {
+                    "code": {
+                        "$": "A12MLAEXC"
+                    },
+                    "nameText": "GRAND HOTEL EXCELSIOR MALTA - 1 NT",
+                    "typeCode": {
+                        "$": "A"
+                    },
+                    "typeText": "Post-Cruise",
+                    "statusCode": {
+                        "$": "CF"
+                    },
+                    "statusText": "Confirmed",
+                    "nbrOfNightsQuantity": {
+                        "$": "1"
+                    },
+                    "requiredInd": "N",
+                    "complimentaryInd": "N",
+                    "rateAmount": {
+                        "$": "120.00"
+                    },
+                    "rateGuestTypeCode": {
+                        "$": "2"
+                    },
+                    "rateGuestTypeText": "Double Occupancy",
+                    "minimumGuestsQuantity": {
+                        "$": "1"
+                    }
+                }
+            ],
+            "specialServices": [
+                {
+                    "code": {
+                        "$": "N"
+                    },
+                    "descText": "Decline Complimentary Upgrade",
+                    "typeCode": {
+                        "$": "UPG"
+                    },
+                    "typeText": "Upgrade",
+                    "statusText": "On Request",
+                    "chargeTypeCode": {
+                        "$": "C"
+                    }
+                }
+            ],
+            "transportations": [
+                {
+                    "typeCode": {
+                        "$": "A"
+                    },
+                    "typeText": "Air",
+                    "statusCode": {
+                        "$": "CF"
+                    },
+                    "statusText": "CONFIRMED",
+                    "cityCode": {
+                        "$": "LON"
+                    },
+                    "cityText": "LONDON  GB"
+                }
+            ]
+        }
+    ],
+    "shortDescription": "Lorem ipsum dolor sit amet",
+    "embarkationDate": "2016-04-12",
+    "title": "title"
+}

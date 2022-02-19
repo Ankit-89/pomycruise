@@ -1,0 +1,48 @@
+{
+	"type": "confirmationHeaderMycruise",
+	"id": "1510906221656",
+	"attributes": {
+		"logo": {
+			"image":"/content/PO/C001/pno_logo.svg",
+			"alt":"Logo",
+			"url":"/content/pno/master_website/it_IT.html"
+		},
+		"loyaltyTiers": {
+			"pacific": {
+				"itemId": "pacific",
+				"itemLabel": "Pacific",
+				"itemDescription": "descripton"
+			},
+			"silver": {
+				"itemId": "silver",
+				"itemLabel": "Silver",
+				"itemDescription": "descripton"
+			},
+			"mediterranean": {
+				"itemId": "mediterranean",
+				"itemLabel": "Mediterranes",
+				"itemDescription": "secondo level"
+			}
+		},
+		"labels": {
+			"guestsLabel": "Guests",
+			"yesLoyaltyLabel": "Loyalty Tier",
+			"noLoyaltyLabel": "No Loyalty",
+			"backLabel": "Back"
+		}
+	},
+	"services": {
+		"urls": {
+			"loyaltyApi": 
+                "https://dev.api.mycruise-temp.com/mc-loyalty-account/v1?urn=CURM16702L&brandCode=CUNARD"
+		},
+		"headers": {
+			"brand": "po",
+			"locale": "en_GB",
+			"country": "US"
+		}
+	},
+	"meta": {
+		"render": "dynamic"
+	}
+}

@@ -1,0 +1,28 @@
+.hero-tile-container {
+    & .infocard-wrapper {
+        margin: -127px auto 0;
+    }
+    & .infocard-wrapper.left {
+        margin-left: 64px;
+    }
+    & .infocard-wrapper.right {
+        margin-right: 64px;
+    }
+    & .infocard {
+        padding: 30px;
+    }
+    & .infocard h1 {
+        margin-top: 5px;
+    }
+    & .ht-background {
+        max-height: 575px;
+        max-width: 1920px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &.cta-icon span {
+        width: 45px;
+        height: 45px;
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+.diningTabsMycruise {
+    & .tabs-labels {
+        border-bottom-color: var(--color-secondary6);
+    }  
+}
+
+.tabs-copy-block {
+    & .title {
+        color: var(--color-primary5);
+    }
+    & .title h3 {
+        @mixin style-h2;
+    }
+    & .text-holder .description-block {
+        @mixin style-body2;
+        color: var(--color-primary6);
+    }
+
+    & .text-holder .description-block.quote {
+        @mixin style-body1;
+        color: var(--color-secondary5);
+        font-style: italic;
+    }
+    & a,
+    & button {
+        @mixin cta-secondary-up;
+        text-decoration: none;
+    }
+    & button {
+        background: transparent;
+        border: none;
+    }
+}

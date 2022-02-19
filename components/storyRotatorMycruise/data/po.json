@@ -1,0 +1,68 @@
+{
+    "type": "storyRotatorMycruise",
+    "id": "C006",
+    "meta": {
+        "render": "dynamic"
+    },
+    "attributes": {
+        "childComponents": [
+            {
+                "type": "titleH1Mycruise",
+                "id": "1504258924602",
+                "attributes": {
+                    "title": "More dining",
+                    "description":
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ",
+                    "dividerType": "",
+                    "dividerText": "",
+                    "type": "h1"
+                },
+                "meta": {
+                    "render": "static"
+                }
+            }
+        ],
+        "additionalContent": false,
+        "additionalContentSelector": "barStories",
+        "additionalContentServlet": "/services/cruise-ships",
+        "dividertext": "of",
+        "infoCardAlignement": "bottom",
+        "showTexture": "false",
+        "texture": "https://unsplash.it/200",
+        "storyList": [
+            {
+                "image": {
+                    "0": {
+                        "1x":
+                            "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-listing-320.jpg",
+                        "2x":
+                            "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-listing-320.jpg"
+                    },
+                    "376": {
+                        "1x":
+                            "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg",
+                        "2x":
+                            "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg"
+                    },
+                    "769": {
+                        "1x":
+                            "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg",
+                        "2x":
+                            "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg"
+                    },
+                    "alt": "Alt attribute copy"
+                },
+                "title": "Gelato",
+                "desc":
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea ",
+                "infoCardCta": {
+                    "label": "",
+                    "url": "#",
+                    "isExternal": false
+                }
+            }
+        ],
+        "previousLabel": "Previous Story",
+        "nextLabel": "Next Story"
+    }
+}

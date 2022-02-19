@@ -1,0 +1,21 @@
+.payment-summary-content {
+   
+    & .summary-row {
+        border-bottom: 1px solid var(--color-secondary5);
+    }
+    & .total-price-loyality {
+        @mixin style-body3;        
+        color: var(--color-primary3);
+    }
+    & .total-price-text {
+        @mixin style-body1;
+        text-transform: uppercase;
+    }
+    & .total-price {
+        @mixin style-body1;
+        color: var(--color-primary3);
+    }
+    & .total h1 {
+        color: var(--color-primary4);
+    }
+}

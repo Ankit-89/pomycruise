@@ -1,0 +1,9 @@
+.loyaltyTierSlot {
+    font-family: var(--font-body1);
+    & .loyaltyTierSlot__txt {
+        color: var(--color-primary3);
+    }
+    & .loyaltyTierSlot__type {
+        color: var(--color-primary6); 
+    }
+}

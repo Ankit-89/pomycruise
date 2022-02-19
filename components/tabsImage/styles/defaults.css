@@ -1,0 +1,98 @@
+.tabsImage {
+    position: relative;
+    & .tabs {
+        max-width: 1100px;
+    }
+    & .tabs-labels {
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+	scrollbar-width: none;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        & li {
+            display: inline-block;
+            text-align: center;
+            vertical-align: top;
+            padding-bottom: 38px;
+        }
+        & li:last-of-type {
+            margin-right: 0px;
+        }
+        & .active:after {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: white;
+            transform: rotate(-45deg);
+            position: absolute;
+            bottom: -59px;
+            left: 50%;
+            margin-left: -10px;
+            z-index: 99;
+        }
+        & .tab-image:before {
+            font-family: var(--font-icomoon);
+            speak: none;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            position: absolute;
+            border-radius: 50%;
+            top: 6px;
+            right: 6px;
+            font-size: 16px;
+            z-index: 9;
+        }
+        & .active {
+            & .tab-image::before {
+                transform: scale(1);
+            }
+        }
+    }
+}
+
+.tabsImage {
+    & .image-copy-block {
+        & .title-decorator-image {
+            display: none;
+        }
+        & .content {
+            text-align: center;
+            margin-top: 30px;
+        }
+        & .tile-holder {
+            max-width: 1440px;
+            width: 100%;
+            display: block;
+            position: relative;
+        }
+        & .tile-holder:last-of-type {
+            padding-bottom: 0;
+        }
+        & .tileGrid {
+            display: block;
+        }
+        & .content .spacing-container {
+            margin-bottom: 30px;
+        }
+        & .tile-holder:last-of-type .terms-link {
+            margin-bottom: 0;
+        }
+        & .image-holder {
+            width: 100%;
+            line-height: 0;
+        }
+        & .image-holder img {
+            width: 100%;
+        }
+        & .title {
+            margin-bottom: 22px;
+        }
+        & .title h3 {
+            margin: 0;
+        }
+    }
+}

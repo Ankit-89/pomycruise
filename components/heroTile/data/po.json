@@ -1,0 +1,47 @@
+{
+	"type": "heroTile",
+	"id": "1519979054424",
+	"attributes": {
+		"heroTileVariation": "C037.301a",
+		"hasBorder" : true,
+		"type": "image",
+		"cardAlignment": "center",
+		"logo": {
+			"alt": ""
+		},
+		"title": "Entertainment",
+		"description": "Immerse yourself into the world of entertainment with a variety of shows and experiences for all to enjoy, from the dazzling production shows, learning to dance by day, relax as a family with a movie the options are endless from sunrise to sunset.",
+		"readMoreLabel": "LEGGI DI PIÙ",
+		"readLessLabel": "LEGGI MENO",
+		"titleIconToggle": true,
+		"showBackButton": false,
+		"backLabel": "Back",
+		"readMoreMaxHeight": "100",
+		"shipFactsToggle": true,
+		"campaignId": "heroTile_slide1_Campaign Id",
+		"image": {
+        "alt": "Alt attribute copy",
+        "0": {
+          "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-listing-320.jpg",
+          "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-listing-320.jpg"
+        },
+        "769": {
+          "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg",
+          "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg"
+        },
+        "376": {
+          "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg",
+          "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg"
+        }
+		},
+		"infoCardVideo": {
+
+		},
+		"video": {
+
+		}
+	},
+	"meta": {
+		"render": "dynamic"
+	}
+}

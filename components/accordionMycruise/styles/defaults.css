@@ -1,0 +1,50 @@
+.qa {
+    @mixin grid-wrap;
+    list-style: none;
+    & .qa__item {
+        position: relative;
+
+    }
+    & .qa__letter {
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    & .qa__open {
+        position: relative;
+        display: flex;
+        padding: 15px 35px 15px 0px;
+        &:after {
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: middle;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    & .qa__body {
+        display: none;
+
+    }
+    & .qa__answer {
+        display: inline-block;
+        width: calc(100% - 60px);
+    }
+}
+
+.qa__item.visible {
+    & .qa__body {
+        display: block;
+        padding: 15px 0;
+    }
+    & .qa__open {
+        &:after {
+            transform: rotate(-180deg)
+        }
+    }
+}
+.qa__open {
+    display: block;
+}

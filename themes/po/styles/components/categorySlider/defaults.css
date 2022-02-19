@@ -1,0 +1,207 @@
+.category-slider {
+    & .carousel-controls {
+        & .button::before {
+            color: var(--color-primary1);
+        }
+        & .slick-disabled {
+            opacity: 0.3;
+        }
+    }
+    & .port-info {
+        font-family: var(--font-body2);
+        color: var(--color-primary3);
+        font-size: 14px;
+    }
+    & .port-description p{
+        @mixin style-body2;
+    }
+}
+
+.category-sliderAux {
+    background: var(--color-primary3);
+}
+
+.allPorts {
+    & .allPorts-btn {
+        background: var(--color-primary3);
+        color: var(--color-primary1);
+        &.active {
+            background: var(--color-primary1);
+            color: var(--color-secondary1);
+        }
+        &.active::after {
+            content: '\e905';
+            font-family: var(--font-icomoon);
+        }
+    }
+    & .allPorts-text {
+        @mixin style-h5;
+        line-height: 1.2em;
+        color: var(--color-primary1);
+    }
+}
+
+.ports-carousel::before {
+    display: none;
+}
+
+.slick-track::before {
+    content: '';
+    display: none;
+    position: absolute;
+    top: 31%;
+    left: 45px;
+    right: 45px;
+    height: 1px;
+    background: url(~postbooking-theme/images/port__path.svg) 0 0 repeat;
+
+    @media (--tablet) {
+        top: 42%;
+    }
+
+    @media (--tablet-landscape) {
+        top: 38%;
+    }
+    @media (--desktop) {
+        top: 28%;
+    }
+    @media (--desktop-xl) {
+        top: 34%;
+    }
+}
+
+.port-item-wrapper {
+    & > a {
+        text-decoration: none;
+    }
+    &.active {
+        & .port-item picture {
+            border: 6px solid var(--color-secondary1);
+        }
+    }
+
+    & .port-item::before {
+        content: '\e905';
+        font-family: var(--font-icomoon);
+        background: var(--color-primary1);
+        color: var(--color-secondary1);
+        transform: scale(0);
+        transition: transform 0.3s var(--animation-smooth) 0.2s;
+    }
+
+    & .port-item picture {
+        border: 6px solid var(--color-primary3);
+        transition: border 0.3s var(--animation-smooth);
+    }
+
+    & .port-item-title {
+        @mixin style-h6;
+        color: var(--color-primary1);
+    }
+
+    & .port-item-date {
+        @mixin style-h6;
+        color: var(--color-secondary5);
+    }
+}
+.port-list-link {
+    position: relative;
+    &::after {
+        background: var(--color-primary3);
+        color: var(--color-primary1);
+    }
+}
+
+/*jump to port*/
+.jumpToPort {
+    & .jumpToPort-btn {
+        @mixin cta-primary-light-blue;
+    }
+    & .jumpToPort-btn::before {
+        content: '\e91d';
+        color: var(--color-primary1);
+    }
+    & .port-month {
+        @mixin style-h6;
+        color: var(--color-primary3);
+        text-transform: capitalize;
+    }
+    & .port-year {
+        @mixin style-body3;
+        color: var(--color-primary3);
+    }
+
+    & .port-list-item {
+        border-bottom: 1px solid var(--color-secondary2);
+
+        & .port-list-date {
+            border-right: 1px solid var(--color-primary4);
+        }
+    }
+    & .port-list-link {
+        @mixin style-body3;
+        &::after {
+            content: '\e905';
+        }
+    }
+}
+
+.jumpToPort-dd {
+    background: var(--color-primary1);
+    & .slick-slider {
+        background: var(--color-primary1);
+    }
+    & .port-list {
+        &:before {
+            background: var(--color-secondary6);
+        }
+    }
+    & .jumpToPort-close {
+        @mixin style-body3;
+        color: var(--color-primary3);
+        line-height: 60px;
+        font-size: 14px;
+        text-transform: capitalize;
+        &:after {
+            content: '\e906';
+        }
+    }
+
+    & .slick-prev {
+        &::before {
+            content: '\e903';
+            color: var(--color-secondary1);
+        }
+    }
+    & .slick-next {
+        &::before {
+            content: '\e903';
+            color: var(--color-secondary1);
+        }
+    }
+}
+
+.category-slider .port-block .port-description{
+    font-family: PraxisCom-Regular;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    letter-spacing: 0;
+    color: #666;
+    margin-top: 20px;
+}
+    
+.category-slider .port-block .port-info {
+    font-family: GreycliffCF-medium;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    letter-spacing: -.02em;
+    color: #002776;
+    font-feature-settings: "case" 1;
+    font-weight: 400;
+}
+    
+.category-slider .port-block .port-name {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: PraxisCom-Regular;
+}

@@ -1,0 +1,219 @@
+{
+    "type": "shoreXkeyInfoMycruise",
+    "id": "1522849749303",
+    "attributes": {
+        "showShorePrice": true,
+        "name": "Ketchikan Wildlife Tour",
+        "type": "image",
+        "description":
+            "<b>Description</b>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>\n\n<br></br><b>Cosa vediamo</b>\n<ul>\n<li>Civiltà nuragica, Nuraghi</li>\n<li>Nuraghe La Prisgiona</li>\n<li>Tombe dei Giganti di Coddu Vecchiu</li>\n<li>Cannigione</li>\n</ul>\n\n<br></br><b>Cosa facciamo</b>\n<ul>\n<li>L&#39;escursione ci porta a scoprire la celebre civiltà nuragica e ad ammirare uno dei più estesi insediamenti nuragici del Nord della Sardegna.</li>\n<li>La <strong>civiltà nuragica</strong> si sviluppa in Sardegna in un&#39;epoca che nel resto del bacino mediterraneo e dell&#39;Europa Occidentale corrisponde all&#39;età del ferro e all&#39;età del bronzo (1800 a.C.), fino all&#39;epoca romana (II secolo a.C.). La cività deve il suo nome alle imponenti costruzioni megalitiche dette <strong>Nuraghi</strong>, termine che si ipotizza derivi a sua volta dalla radice prelatina <em>Nur</em>, che dovrebbe significare &quot;mucchio di pietre, mucchio cavo&quot;.</li>\n<li>Si stima che di queste straordinarie costruzioni rimangano in piedi circa settemila esemplari sparsi su tutta l&#39;isola, mediamente uno ogni 3 km², che pertanto caratterizzano fortemente il paesaggio sardo. Considerata tra le più antiche d&#39; Europa, la Civiltà Nuragica nacque dall&#39;incontro tra genti mediterranee e fu il frutto della graduale evoluzione di preesistenti culture già diffuse sul suolo sardo sin dal Neolitico.</li>\n<li>I nuragici avevano un&#39;unità etnico culturale molto forte, pur essendo politicamente organizzati in tribù e le tribù in clan. Il loro assetto economico era basato prevalentemente sull&#39;agricoltura e sulla pastorizia. Si presume quindi che fossero frequenti gli scontri tra tribù rivali, in contesa per il possesso dei territori più ricchi e fertili.</li>\n<li>Da Olbia ci dirigiamo a nord-ovest, verso Arzachena, per raggiungere il vasto sito archeologico che ospita il <strong>Nuraghe La Prisgiona</strong>, unico nel contesto nuragico gallurese e gioiello pregiato del grande tesoro storico del territorio. La posizione in cui si trova, la dimensione e la complessità della struttura architettonica ne testimoniano il ruolo prominente rivestito in passato. </li>\n<li>Il <strong>Nuraghe La Prisgiona</strong>, che visitiamo, è un nuraghe di tipo complesso, detto a &quot;tholos&quot;, in cui domina una torre centrale (il mastio) attorno al quale si estende il villaggio che conta circa una novantina di capanne.</li>\n<li>Raggiungiamo, nelle immediate vicinanze, anche le <strong>Tombe dei Giganti</strong> (in sardo <em>tumbas de sos gigantes</em>) di <strong>Coddu Vecchiu</strong> o Capichera, esempio magistrale della tipica architettura dei monumenti funerari della preistoria sarda, inseriti nella campagna di Capichera, coltivata a vite e circondata da ulivi selvatici.</li>\n<li>Al termine della visita ci trasferiamo a <strong>Cannigione</strong>, rinomato centro di villeggiatura balneare che vanta una posizione centrale rispetto alle località turistiche e alle spiagge della Costa Smeralda, lambito dalle acque del Golfo di Arzachena del quale è, da sempre, il porto naturale.</li>\n<li>Prima di proseguire per Olbia, abbiamo a disposizione un po&#39; di tempo libero per concludere l&#39;escursione in tutto relax.</li>\n</ul>\n",
+        "image": {
+            "alt": "",
+            "0": {
+                "1x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_375x281.jpg",
+                "2x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "aspectRatio": 1.3321492007104796
+            },
+            "376": {
+                "1x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_768x575.jpg",
+                "2x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_1536x1150.jpg",
+                "aspectRatio": 1.3356521739130436
+            },
+            "769": {
+                "1x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_1480x482.jpg",
+                "2x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_2960x964.jpg",
+                "aspectRatio": 3.070539419087137
+            }
+        },
+        "shorexLimitedAvailabilityLabel": "Limited availability",
+        "ctaLink": "/content/costa/master_website/it_IT/cruises.html",
+        "notOnSaleYetInfo": "",
+        "notOnSaleAnymoreInfo":
+            "<p>Non è più possibile acquistare l'escursione</p>\r\n\r\n",
+        "notOnSaleAnymoreLabel": "Non più disponibile",
+        "notOnSaleYetLabel": "",
+        "fromPriceLabel": "From",
+        "backLabel": "Back",
+        "excursionInfoDataDetailed": [],
+        "readMore": "Read more",
+        "infoNAKey": "non disponibile",
+        "shorexId": "AUA_006",
+        "shorexPageUrl":
+            "/content/pno/master_website/it_IT/mycruise/test_shorex_pdp.html",
+        "readLess": "Read less",
+        "currencyType": "EUR",
+        "soldOutLabel": "Sold Out",
+        "registerInterestLabel": "Register interest",
+        "perChildLabel": "{price} for children",
+        "perAdultLabel": "{price} for adult",
+        "perInfantLabel":"{price} for infant",
+        "onHoldLabel": "On hold",
+        "childComponents": [
+            {
+                "type": "shorexOverlay",
+                "attributes": {
+                    "labels": {
+                        "guestsLabel": "Select guests:",
+                        "limitedAvailabilityPluralLabel":
+                            "There are only {places} places left for this option, to select more please register your interest",
+                        "limitedAvailabilitySingularLabel":
+                            "There is only {places} place left for this option, to select more please register your interest",
+                        "registerInterestLabel": "Register interest",
+                        "registerInterestMessage":
+                            "This product is sold out, please register your interest",
+                        "registerInterestDisclaimer":
+                            "You can register your interest to be notified by email when this product will become available again for the quantity you have selected.",
+                        "registerInterestConfirmTitle": "Thank you",
+                        "registerInterestConfirmText":
+                            "We registered your interest for this product",
+                        "addToCartLabel": "Add to cart",
+                        "closeLabel": "Close",
+                        "totalLabel": "Total cost:",
+                        "ageRestrictedLabel": "Age resctricted",
+                        "errorLimitedAvailability":
+                            "There is not enough availability for the number of guests you previously selected! Please, register you interest",
+                        "errorOutOfStockInstance":
+                            "The option you previously selected is out of stock! Please change choice",
+                        "errorOutOfStockProduct":
+                            "This product is out of stock! Please change choice",
+                        "errorNoPurchasable":
+                            "Sorry you are no longer able to purchase this product on My Cruise but you may still be able to buy it onboard. Please try with another shorex for now"
+                    },
+                    "guideLanguages": {
+                        "options": [
+                            {
+                                "en": {
+                                    "label": "English Guide",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "de": {
+                                    "label": "German Guide",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "it": {
+                                    "label": "Italian Guide",
+                                    "value": ""
+                                }
+                            }
+                        ]
+                    },
+                    "continueShopping": {
+                        "icons": [
+                            {
+                                "iconName": "Shore Excursion",
+                                "iconImage": "/content/PO/excursion.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Dining",
+                                "iconImage": "/content/PO/dining.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Spa",
+                                "iconImage": "/content/PO/spa.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Drinks",
+                                "iconImage": "/content/PO/drinks.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Gift",
+                                "iconImage": "/content/PO/gifts.png",
+                                "iconUrl": "pages/T011"
+                            }
+                        ],
+                        "titleLabel": "Continue Shopping"
+                    },
+                    "services": {
+                        "urls": {
+                            "updateCartApi": "/services/cart-update.json",
+                            "registerInterestApi":
+                                "/services/registerInterest.json",
+                            "instancesApi": "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products/{{productCode}}/instances"                        }
+                    }
+                }
+            }
+        ],
+        "sliderImage": {
+            "alt": "",
+            "0": {
+                "1x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "2x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "aspectRatio": 1.3333333333333333
+            },
+            "376": {
+                "1x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "2x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "aspectRatio": 1.3333333333333333
+            },
+            "769": {
+                "1x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "2x":
+                    "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "aspectRatio": 1.3333333333333333
+            }
+        },
+        "video": {},
+        "shorexDescription": "Lorem ipsum dolor sit amet",
+        "externalContent": false,
+        "shorexOverviewImage":
+            "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/original.jpg?Expires=1826620294&response-content-disposition=inline%3Bfilename%3D0106_SCOPERTA%20SARDEGNA_cannigione.jpg&AWSAccessKeyId=AKIAJAPYK3V2NOQXPVCQ&Signature=sN8NF%2B1N7Oq6JhOYVs9RhJix6KM%3D",
+        "collectionImageAlt": "",
+        "excursionInfoData": [
+            {
+                "caption": "Porto",
+                "statistic": "Olbia/Costa Smeralda",
+                "key": "portLabel"
+            },
+            {
+                "caption": "Durata ore",
+                "statistic": "4.0",
+                "key": "durationLabel"
+            },
+            {
+                "caption": "Livello di difficoltà",
+                "statistic": "non disponibile",
+                "key": "activityLevelLabel"
+            },
+            {
+                "caption": "Pasti inclusi",
+                "statistic": "",
+                "key": "mealsIncludedLabel"
+            }
+        ],
+        "collectionImage": "",
+        "addToCartLabel": "Add to cart",
+        "ageRestrictedLabel": "Age resctricted"
+    },
+    "meta": {
+        "render": "dynamic"
+    },
+    "services": {
+        "urls": {
+            "productDetailsApi": "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "IT"
+        }
+    }
+}

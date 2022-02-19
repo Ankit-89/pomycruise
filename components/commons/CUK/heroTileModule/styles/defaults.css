@@ -1,0 +1,106 @@
+.hero-tile-container {
+    width: 100%;
+    margin: 0 auto;
+    & .infocard-wrapper {
+        width: 92%;
+        padding: 15px;
+        margin: -53px auto 0;
+        position: relative;
+        /* @mixin card-two; */
+    }
+    & .infocard {
+        padding: 20px;
+    }
+    & .infocard .infocard-logo {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        width: 73px;
+        padding: 0px 10px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+    }
+    & .infocard-logo h2 {
+        margin: 10px 0 25px 0;
+    }
+    & .infocard-logo p {
+        max-width: 578px;
+        margin: 0 auto 25px auto;
+    }
+    & .cta-holder {
+        margin-top: 24px;
+    }
+    & .ht-background {
+        max-height: inherit;
+        overflow: hidden;
+        position: relative;
+    }
+    & .hte-message {
+        position: absolute;
+        height: auto;
+        left: 0;
+        right: 0;
+        top: 28px;
+        background: #F2F0E9;
+        display: inline-flex;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    & .hte_entertainment {
+        display: inline-flex;
+        padding: 12px 12px 9px 6px;
+    }
+    & .tooltip_icon {
+        position: absolute;
+        display: inline-flex;
+    }
+    & .tooltip__icon:before {
+        content: "\E90C";
+        font-family: Icomoon;
+        display: flex;
+        vertical-align: top;
+        font-size: 20px;
+        color: #988965;
+        margin: 0px 10px 0px 5px;
+    }
+    & .entertainmentDay {
+        font-family: var(--font-body1);
+        font-size: 13px;
+        line-height: 17.2px;
+        text-align: left;
+        padding: 0;
+        color: var(--color-primary5);
+    }
+    & .banner_icon {
+        text-decoration: none;
+        color: var(--color-secondary1);
+    }
+    & .ht-background img {
+        width: 100%;
+    }
+    & .ht-background video {
+        height: 100%;
+        width: 100%;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+    & .infocard-logo img {
+        width: 100%;
+    }
+    & .infocard .title {
+        margin-bottom: 0;
+    }
+    & .infocard h1 {
+        margin-top: 10px;
+    }
+}
+.herotile-info-card-wrapper {
+    @mixin grid-wrap;
+}
+.show-focus-outlines .hero-tile-container {
+    &.variation .cta-holder .cta-icon:focus {
+        @mixin focus-outline;
+    }
+}
+    

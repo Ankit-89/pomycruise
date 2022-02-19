@@ -1,0 +1,124 @@
+{
+    "type": "sliderViewed",
+    "id": "1520848724666",
+    "attributes": {
+        "childComponents": [
+            {
+                "type": "titleH1Mycruise",
+                "id": "1520848724668",
+                "attributes": {
+                    "title": "Recently Viewed",
+                    "description": false,
+                    "type": "h2"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            },
+            {
+                "type": "shorexOverlay",
+                "attributes": {
+                    "labels": {
+                        "guestsLabel": "Select guests:",
+                        "limitedAvailabilityPluralLabel":
+                            "There are only {places} places left for this option, to select more please register your interest",
+                        "limitedAvailabilitySingularLabel":
+                            "There is only {places} place left for this option, to select more please register your interest",
+                        "registerInterestLabel": "Register interest",
+                        "registerInterestMessage":
+                            "This product is sold out, please register your interest",
+                        "registerInterestDisclaimer":
+                            "You can register your interest to be notified by email when this product will become available again for the quantity you have selected.",
+                        "registerInterestConfirmTitle": "Thank you",
+                        "registerInterestConfirmText":
+                            "We registered your interest for this product",
+                        "addToCartLabel": "Add to cart",
+                        "closeLabel": "Close",
+                        "totalLabel": "Total cost:",
+                        "ageRestrictedLabel": "Age resctricted",
+                        "errorLimitedAvailability":
+                            "There is not enough availability for the number of guests you previously selected! Please, register you interest",
+                        "errorOutOfStockInstance":
+                            "The option you previously selected is out of stock! Please, register your interest",
+                        "errorOutOfStockProduct":
+                            "This product is out of stock! Please, register your interest",
+                        "errorNoPurchasable":
+                            "Sorry you are no longer able to purchase this product on My Cruise but you may still be able to buy it onboard. Please try with another shorex for now"
+                    },
+                    "guideLanguages": {
+                        "options": [
+                            {
+                                "en": {
+                                    "label": "English Guide",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "de": {
+                                    "label": "German Guide",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "it": {
+                                    "label": "Italian Guide",
+                                    "value": ""
+                                }
+                            }
+                        ]
+                    },
+                    "continueShopping": {
+                        "icons": [
+                            {
+                                "iconName": "Shore Excursion",
+                                "iconImage": "/content/PO/excursion.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Dining",
+                                "iconImage": "/content/PO/dining.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Spa",
+                                "iconImage": "/content/PO/spa.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Drinks",
+                                "iconImage": "/content/PO/drinks.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Gift",
+                                "iconImage": "/content/PO/gifts.png",
+                                "iconUrl": "pages/T011"
+                            }
+                        ],
+                        "titleLabel": "Continue Shopping"
+                    },
+                    "services": {
+                        "urls": {
+                            "updateCartApi": "/services/cart-update.json",
+                            "registerInterestApi":
+                                "/services/registerInterest.json",
+                            "instancesApi":
+                                "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products/{{productCode}}/instances"
+                        }
+                    }
+                }
+            }
+        ],
+        "labels": {
+            "ofLabel": "of",
+            "seeDetailsLabel": "See details",
+            "previousLabel": "Previous label",
+            "nextLabel": "Next label",
+            "additionalLabel": "additional",
+            "includedLabel": "included"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

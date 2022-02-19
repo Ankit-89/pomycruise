@@ -1,0 +1,20 @@
+.gallery-container {
+    & .image-captions p {
+        margin-bottom: 10px;
+    }
+    & .media-row {
+        margin-bottom: 20px;
+        display: flex;
+    }
+    & .media-row.elements-2 [class^="media-item-"]:first-child {
+        margin-right: 20px;
+    }
+    & [class |= "media-item"] {
+        margin: 10px 9px;
+        position: relative;
+    }
+}
+
+.media-grid {
+    margin-bottom: 10px
+}

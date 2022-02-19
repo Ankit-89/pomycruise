@@ -1,0 +1,607 @@
+{
+    "type": "tabRotatorCategories",
+    "id": "1538556340037",
+    "attributes": {
+        "childComponents": [
+            {
+                "type": "titleH1Mycruise",
+                "id": "1538556340050",
+                "attributes": {
+                    "title": "Find your activities",
+                    "description": "a",
+                    "type": "h1"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            }
+        ],
+        "dividertext": "of",
+        "previousLabel": "a",
+        "nextLabel": "a",
+        "infoCardAlignment": "bottom",
+        "showTexture": "true",
+        "texture": "",
+        "discoverAllLabel": "Discover All",
+        "activitiesList": [
+            {
+                "name": "Shorex excursions",
+                "type": "shorex",
+                "storyList": [
+                    {
+                        "title": "Active & Adventurous",
+                        "desc": "",
+                        "category": "ACTIVITY",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Beach",
+                        "desc": "",
+                        "category": "BEACH",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Cities and Culture",
+                        "desc": "",
+                        "category": "CULTURE",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Food and Drink",
+                        "desc": "",
+                        "category": "FOOD_DRINK",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Hobbies / Special Interests",
+                        "desc": "",
+                        "category": "HOBBIES",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Local Experience",
+                        "desc": "",
+                        "category": "LOCAL",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Panoramic",
+                        "desc": "",
+                        "category": "PANORAMIC",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Relaxation",
+                        "desc": "",
+                        "category": "RELAXATION",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Scenic",
+                        "desc": "",
+                        "category": "SCENIC",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Shopping Opportunity",
+                        "desc": "",
+                        "category": "SHOPPING",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Something Different",
+                        "desc": "",
+                        "category": "DIFFERENT",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "Water based",
+                        "desc": "",
+                        "category": "WATER",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url": "#",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Dining",
+                "type": "dining",
+                "storyList": [
+                    {
+                        "title": "NAME_1",
+                        "desc":
+                            "DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 DESCRIPTION_1 ",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url":
+                                "/content/po/master_website/en_GB/mycruise/cruise-ships/MD/dining-listing/0001.html",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "NAME_2",
+                        "desc":
+                            "DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 ",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url":
+                                "/content/po/master_website/en_GB/mycruise/cruise-ships/MD/dining-listing/0002.html",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "NAME_3",
+                        "desc":
+                            "DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 DESCRIPTION_3 ",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url":
+                                "/content/po/master_website/en_GB/mycruise/cruise-ships/MD/dining-listing/cccc.html",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    },
+                    {
+                        "title": "NAME XYZ",
+                        "desc":
+                            "DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 DESCRIPTION_2 ",
+                        "infoCardCta": {
+                            "label": "Discover All",
+                            "url":
+                                "/content/po/master_website/en_GB/mycruise/cruise-ships/MD/dining-listing/XYZ.html",
+                            "isExternal": false
+                        },
+                        "image": {
+                            "alt": "",
+                            "0": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "376": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 1.3333333333333333
+                            },
+                            "769": {
+                                "1x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "2x":
+                                    "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                                "aspectRatio": 2.7509293680297398
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Spa",
+                "type": "spa"
+            }
+        ]
+    },
+    "meta": {
+        "render": "dynamic"
+    },
+    "services": {
+        "urls": {
+            "productSearchApi":
+                "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products/search"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "GB"
+        }
+    }
+}

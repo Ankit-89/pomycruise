@@ -1,0 +1,238 @@
+{
+    "type": "filterSortBarMycruise",
+    "id": "1501736481151",
+    "attributes": {
+        "labels": {
+            "HOBBIES": "HOBBIES",
+            "HIGH": "high",
+            "perPersonLabel": "per person",
+			"filterByLabel": "Filter From",
+			"tourFeatures": "Tour Features",
+			"sortByLabel": "Sort By",
+			"addToCartLabel": "Add to cart",
+			"resultsLabel": "Results",
+			"LOCAL": "LOCAL",
+			"from": "From",
+			"transportTypes": "Transport Types",
+			"activityLevel": "Activity Level",
+			"WATER": "WATER",
+			"solr.facet.duration.2.multiDay": "Multi Day",
+			"SCENIC": "SCENIC",
+			"UNGUIDED": "UNGUIDED",
+			"merchandised": "Merchandised",
+			"duration-asc": "Duration-asc",
+			"en": "EN",
+			"AIR": "AIR",
+			"it": "IT",
+			"resetFilterLabel": "Reset",
+			"solr.facet.departure.afternoon": "AFTERNOON",
+			"CULTURE": "CULTURE",
+			"LIFETIME": "LIFE TIME",
+			"duration-desc": "Duration-desc",
+			"activity-asc": "Activity-asc",
+			"RECOMMENDED": "RECOMMENDED",
+			"port": "Port ",
+			"LOW": "LOW",
+			"REFRESHMENT": "REFRESHMENT",
+			"departure": "Departure",
+			"singleResult": "Single result",
+            "seeDetailsLabel": "See Details",
+            
+			"startDate": "Start Date",
+			"limitedAvailability": " limited availability",
+			"PANORAMIC": "PANORAMIC",
+			"notOnSaleAnymore": "Not On Sale",
+			"ageRestrictedLabel": "Age resctricted some propertes for this",
+			"MODERATE": "MODERATE",
+			"tourType": "Tour Type",
+			"LAND": "LAND",
+			"fr": "FR",
+			"FAMILY": "FAMILY",
+			"duration": "Duration",
+			"price-asc": "Price-asc",
+			"closeLabel": "Close",
+			"outOfStock": "Sold Out",
+			"applyFilterLabel": "Apply",
+			"ofLabel": "of",
+			"BESTSELLER": "BESTSELLER",
+			"guideLanguage": "Guide Language",
+			"MEAL": "MEAL",
+			"registerInterestLabel": "Register Interest",
+			"onHoldLabel": " ON HOLD",
+			"multipleDates": "Multiple dates",
+			"PRIVATE": "PRIVATE",
+			"merchandisingCategoryCodes": "Merchandising Category Codes",
+			"solr.facet.duration.0.halfDay": "Half Day",
+			"SHOPPING": "SHOPPING",
+			"tourCategory": "Tour Category",
+			"activity-desc": "Activity-desc",
+			"SMALL_GROUP": "SMALL GROUP",
+			"ACTIVITY": "ACTIVITY"
+        },
+        "childComponents": [
+            {
+                "type": "categorySlider",
+                "id": "1519980816351",
+                "attributes": {
+                    "labels": {
+                        "previousLabel": "prev",
+                        "nextLabel": "next",
+                        "allPortsCopy":
+                            "Lorem ipsum dolor sit amet consedctutor lorem ipsum dolor",
+                        "allPortsLabel": "All ports",
+                        "jumpToPort": "Jump to Port",
+                        "closeLabel": "Close"
+                    },
+                    "portDetailsServletUrl":
+                        "/services/en_GB/mycruise/ports.itinerary.{port_code}.json"
+                },
+                "meta": {
+                    "render": "dynamic"
+                }
+            },
+            {
+                "type": "notificationBanner",
+                "id": "1527164292796",
+                "attributes": {
+                    "type": "alert",
+                    "title": "Products are not on sale anymore",
+                    "description":
+                        "You have less than 3 day to your departure and these products are no more on sale online."
+                },
+                "meta": {
+                    "render": "dynamic"
+                }
+            },
+            {
+                "type": "emptyState",
+                "id": "1526299478744",
+                "attributes": {
+                    "title": "There are currently no Shore Excursions for this port",
+                    "description": "Please come back later, they will be soon available"
+                },
+                "meta": {
+                    "render": "dynamic"
+                }
+            },
+            {
+                "type": "shorexOverlay",
+                "attributes": {
+                    "labels": {
+                        "guestsLabel": "Select guests:",
+                        "limitedAvailabilityPluralLabel":
+                            "There are only {places} places left for this option, to select more please register your interest",
+                        "limitedAvailabilitySingularLabel":
+                            "There is only {places} place left for this option, to select more please register your interest",
+                        "registerInterestLabel": "Register interest",
+                        "registerInterestMessage":
+                            "This product is sold out, please register your interest",
+                        "registerInterestDisclaimer":
+                            "You can register your interest to be notified by email when this product will become available again for the quantity you have selected.",
+                        "registerInterestConfirmTitle": "Thank you",
+                        "registerInterestConfirmText":
+                            "We registered your interest for this product",
+                        "addToCartLabel": "Add to cart",
+                        "closeLabel": "Close",
+                        "totalLabel": "Total cost:",
+                        "ageRestrictedLabel": "Age resctricted",
+                        "errorLimitedAvailability":
+                            "There is not enough availability for the number of guests you previously selected! Please, register you interest",
+                        "errorOutOfStockInstance":
+                            "The option you previously selected is out of stock! Please change choice",
+                        "errorOutOfStockProduct":
+                            "This product is out of stock! Please change choice",
+                        "genericError":
+                            "This product is out of stock! Please change choice",
+                        "errorNoPurchasable":
+                            "Sorry you are no longer able to purchase this product on My Cruise but you may still be able to buy it onboard. Please try with another shorex for now"
+                    },
+                    "guideLanguages": {
+                        "options": [
+                            {
+                                "en": {
+                                    "label": "English Guide",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "de": {
+                                    "label": "German Guide",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "it": {
+                                    "label": "Italian Guide",
+                                    "value": ""
+                                }
+                            }
+                            ,
+                            {
+                                "fr": {
+                                    "label": "fr Guide",
+                                    "value": ""
+                                }
+                            }
+                        ]
+                    },
+                    "continueShopping": {
+                        "icons": [
+                            {
+                                "iconName": "Shore Excursion",
+                                "iconImage": "/content/PO/excursion.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Dining",
+                                "iconImage": "/content/PO/dining.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Spa",
+                                "iconImage": "/content/PO/spa.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Drinks",
+                                "iconImage": "/content/PO/drinks.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Gift",
+                                "iconImage": "/content/PO/gifts.png",
+                                "iconUrl": "pages/T011"
+                            }
+                        ],
+                        "titleLabel": "Continue Shopping"
+                    },
+                    "services": {
+                        "urls": {
+                            "updateCartApi":
+                                "https://dev.api.mycruise-temp.com:443/v1/mc-shopping-basket/PO-Site/users/current/carts/current/entries",
+                            "registerInterestApi":
+                                "/services/registerInterest.json",
+                            "instancesApi":
+                                "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products/{{productCode}}/instances"
+                        }
+                    }
+                }
+            }
+        ],
+        "portDetailsServletUrl":
+            "/services/en_GB/mycruise/ports.itinerary.{port_code}.json"
+    },
+    "meta": {
+        "render": "dynamic"
+    },
+    "services": {
+        "urls": {
+            "productSearchApi":
+                "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products/search"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "US"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.allinclusive-overlay {
+    & .guestsList {
+        & .cruiseLength__label {
+            line-height: 40px;
+        }
+        & .cruiseLength__length {
+            line-height: 40px;
+            font-size: 18px;
+        }
+        & .total__label {
+            line-height: 40px;
+        }
+        & .total__price {
+            @mixin style-h1;
+            line-height: 40px;
+        }
+    }
+}

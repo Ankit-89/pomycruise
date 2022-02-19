@@ -1,0 +1,44 @@
+.pageTabs {
+    & .tabs {
+        &:before,
+        &:after {
+            content: none;
+        }
+    }
+    & .tabs-labels {
+        display: flex;
+        justify-content: center;
+        & li {
+            display: inline-block;
+            width: 33.333%;
+            max-width: calc(1280px / 3);
+            margin:0;
+        }
+        & li:first-child {
+            padding-left: 0
+        }
+
+        & a {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+    & .roomInfo {
+        & .tabs {
+            margin-left: 20px;
+        }
+        & .tabs-labels {
+            justify-content: start;
+        }
+    }
+    & .summaryAccordion {
+        & .tabs {
+            padding: 0;
+        }
+        & .roomInfo {
+            & .tabs {
+                margin-left: 0;
+            }
+        }    
+    }
+}

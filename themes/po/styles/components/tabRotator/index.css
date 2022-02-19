@@ -1,0 +1,5 @@
+@import '../titleH1Mycruise/index.css';
+@import '../../../../../components/tabRotator/styles/index.css';
+@import 'defaults.css';
+@import 'tablet.css' ( --tablet );
+@import 'desktop.css' ( --desktop );

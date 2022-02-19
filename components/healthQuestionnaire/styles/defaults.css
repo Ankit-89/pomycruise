@@ -1,0 +1,647 @@
+.healthQuestionnaire {
+    text-align: -webkit-center;
+
+    & .passengerSelectFieldContaineroutSideFromContainer {
+        @mixin style-body1;
+        text-align: left;
+        margin-top: 25px;
+        padding: 0px 20px;
+        width: 80%;
+
+        & p {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        & .select-group {
+            width: 100%;
+        }
+    }
+
+    & .header {
+        text-align: left;
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+
+        & .title {
+            font-weight: 500;
+        }
+    }
+
+    & .description__container {
+        @mixin style-body1;
+        text-align: left;
+        width: 80%;
+        display: block;
+
+        & .description__body__left {
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            & .days_to_complete {
+                margin-top: 25px;
+            }
+        }
+
+        & .description__body__right {
+            @mixin style-body1;
+            padding: 10px;
+            background-color: var(--color-secondary6);
+            word-break: break-word;
+
+            & a {
+            }
+        }
+    }
+
+    & .passengerSelectFieldContainer {
+        @mixin style-body1;
+        text-align: left;
+        width: 80%;
+        margin-top: 25px;
+        & p {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        & .select-group {
+            width: 100%;
+        }
+    }
+
+    & hr {
+        max-width: 100%;
+    }
+
+    & .que_ans_label_container {
+        @mixin style-body1;
+        color: var(--color-primary4);
+        text-align: left;
+        display: flex;
+        padding: 0px 10px;
+
+        & .que_label_container {
+            width: 70%;
+        }
+
+        & .ans_label_container {
+            width: 30%;
+        }
+    }
+
+    & .healthQuestionnaire__earlyState {
+        & .healthQuestionnaire__earlyStateIcon {
+            color: var(--color-primary4);
+        }
+        & .healthQuestionnaire__earlyStateText {
+            @mixin style-h3;
+        }
+        & .healthQuestionnaire__earlyStateSubtext {
+            @mixin style-body1;
+            color: var(--color-primary3);
+        }
+    }
+
+    & .healthQuestionnaire__successState {
+        & .healthQuestionnaire__successStateIcon {
+            color: var(--color-primary4);
+        }
+        & .healthQuestionnaire__successStateText {
+            @mixin style-h3;
+        }
+        & .healthQuestionnaire__successStateSubtext {
+            @mixin style-body1;
+            color: var(--color-primary3);
+        }
+    }
+
+    & .healthQuestionnaire__failureState {
+        & .healthQuestionnaire__failureStateIcon {
+            color: var(--color-secondary3);
+        }
+        & .healthQuestionnaire__failureStateText {
+            @mixin style-h3;
+            color: var(--color-secondary3);
+        }
+        & .healthQuestionnaire__failureStateSubtext {
+            @mixin style-body1;
+            color: var(--color-primary6);
+        }
+    }
+
+    & .healthQuestionnaire__earlyState {
+        border: 1px solid var(--color-secondary5);
+        padding: 70px 10px;
+        max-width: 1103px;
+        margin: 40px 20px;
+        & .healthQuestionnaire__discoverWrapper {
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        & .healthQuestionnaire__earlyStateIcon {
+            font-size: 45px;
+            display: block;
+            position: relative;
+            width: 30%;
+            height: 50px;
+            background-color: var(--color-primary1);
+            margin: 0 auto 20px;
+            &:before {
+                content: '\e91d';
+                font-family: var(--font-icomoon);
+                height: 60px;
+                background: var(--color-primary1);
+                position: relative;
+                z-index: 1;
+                display: block;
+                margin: auto;
+                font-size: 2.875rem;
+                /* this has to be edited for the SIZE ICON */
+                line-height: 49px;
+            }
+            &:after {
+                content: '';
+                height: 1px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: #cccccc;
+            }
+        }
+        & .healthQuestionnaire__earlyStateHeader {
+            text-align: center;
+        }
+
+        & .healthQuestionnaire__earlyStateContent {
+            font-family: var(--font-body1);
+            color: var(--color-primary5);
+        }
+
+        & .healthQuestionnaire__earlyStateText {
+            & + .healthQuestionnaire__earlyStateSubtext {
+                margin-top: 20px;
+            }
+        }
+        & .healthQuestionnaire__earlyStateHeader {
+            margin-bottom: 55px;
+        }
+    }
+
+    & .healthQuestionnaire__underAgeState {
+        border: 1px solid var(--color-secondary5);
+        padding: 70px 10px;
+        max-width: 1103px;
+        margin: 40px 20px;
+        & .healthQuestionnaire__discoverWrapper {
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        & .healthQuestionnaire__underAgeStateIcon {
+            font-size: 45px;
+            display: block;
+            position: relative;
+            width: 30%;
+            height: 50px;
+            background-color: var(--color-primary1);
+            margin: 0 auto 20px;
+            color: var(--color-primary4);
+            &:before {
+                content: '\e900';
+                font-family: var(--font-icomoon);
+                height: 60px;
+                background: var(--color-primary1);
+                position: relative;
+                z-index: 1;
+                display: block;
+                margin: auto;
+                font-size: 2.875rem;
+                /* this has to be edited for the SIZE ICON */
+                line-height: 49px;
+            }
+            &:after {
+                content: '';
+                height: 1px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: #cccccc;
+            }
+        }
+        & .healthQuestionnaire__underAgeStateHeader {
+            text-align: center;
+        }
+
+        & .healthQuestionnaire__underAgeStateContent {
+            font-family: var(--font-body1);
+            color: var(--color-primary5);
+        }
+
+        & .healthQuestionnaire__underAgeStateText {
+            & + .healthQuestionnaire__underAgeStateSubtext {
+                margin-top: 20px;
+                color: var(--color-primary3);
+            }
+        }
+        & .healthQuestionnaire__underAgeStateHeader {
+            margin-bottom: 55px;
+        }
+    }
+
+    & .healthQuestionnaire__failureState {
+        border: 1px solid var(--color-secondary5);
+        padding: 70px 10px;
+        max-width: 1103px;
+        margin: 40px 20px;
+        & .healthQuestionnaire__discoverWrapper {
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        & .healthQuestionnaire__failureStateIcon {
+            font-size: 45px;
+            display: block;
+            position: relative;
+            width: 30%;
+            height: 50px;
+            background-color: var(--color-primary1);
+            margin: 0 auto 20px;
+            &:before {
+                content: '\E908';
+                font-family: var(--font-icomoon);
+                height: 60px;
+                background: var(--color-primary1);
+                position: relative;
+                z-index: 1;
+                display: block;
+                margin: auto;
+                font-size: 2.875rem;
+                /* this has to be edited for the SIZE ICON */
+                line-height: 49px;
+            }
+            &:after {
+                content: '';
+                height: 1px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: #cccccc;
+            }
+        }
+        & .healthQuestionnaire__failureStateHeader {
+            text-align: center;
+            max-width: 60%;
+
+            & .font_size {
+                font-size: 15px;
+            }
+        }
+
+        & .healthQuestionnaire__failureStateContent {
+            font-family: var(--font-body1);
+            color: var(--color-primary5);
+            max-width: 60%;
+        }
+
+        & .healthQuestionnaire__failureStateText {
+            & + .healthQuestionnaire__failureStateSubtext {
+                margin-top: 20px;
+            }
+        }
+        & .healthQuestionnaire__failureStateHeader {
+            margin-bottom: 55px;
+        }
+    }
+
+    & .healthQuestionnaire__successState {
+        border: 1px solid var(--color-secondary5);
+        padding: 70px 10px;
+        max-width: 1103px;
+        margin: 40px 20px;
+        & .healthQuestionnaire__discoverWrapper {
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+        & .healthQuestionnaire__successStateIcon {
+            font-size: 45px;
+            display: block;
+            position: relative;
+            width: 30%;
+            height: 50px;
+            background-color: var(--color-primary1);
+            margin: 0 auto 20px;
+            &:before {
+                content: '\E913';
+                font-family: var(--font-icomoon);
+                height: 60px;
+                background: var(--color-primary1);
+                position: relative;
+                z-index: 1;
+                display: block;
+                margin: auto;
+                font-size: 2.875rem;
+                /* this has to be edited for the SIZE ICON */
+                line-height: 49px;
+            }
+            &:after {
+                content: '';
+                height: 1px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: #cccccc;
+            }
+        }
+        & .healthQuestionnaire__successStateHeader {
+            text-align: center;
+        }
+
+        & .healthQuestionnaire__successStateContent {
+            font-family: var(--font-body1);
+            color: var(--color-primary5);
+        }
+
+        & .healthQuestionnaire__successStateText {
+            & + .healthQuestionnaire__successStateSubtext {
+                margin-top: 20px;
+            }
+        }
+        & .healthQuestionnaire__successStateHeader {
+            margin-bottom: 55px;
+        }
+    }
+
+    & .submitButton__container {
+        display: block;
+        align-items: center;
+        margin-top: 35px;
+
+        & .travel_insurance {
+            width: 80%;
+            text-align: left;
+            margin-left: 0px;
+
+            & .checkbox-label {
+                font-family: var(--font-body1);
+                vertical-align: text-top;
+                max-width: 85%;
+                & h5 {
+                    color: #000;
+                }
+                & .error_msg {
+                    font-size: 14px;
+                    margin-top: 5px;
+                    color: var(--color-secondary3);
+
+                    & a {
+                        color: var(--color-secondary3);
+                    }
+                }
+            }
+        }
+    }
+
+    & .qa__item.edit__mode {
+        margin: 20px 0px;
+        list-style: none;
+        width: 80%;
+        & .qa__body {
+            @mixin style-body1;
+            text-align: left;
+            vertical-align: middle;
+            padding: 20px;
+            border-radius: 20px;
+            background: var(--color-secondary2);
+
+            & .qa__question {
+                width: 100%;
+                margin-bottom: 25px;
+            }
+            & .qa__answer {
+                width: 100%;
+
+                & .buttonContainer {
+                    justify-content: space-between;
+                    display: flex;
+                    
+                    & .cta-primary-light-blue {
+                        width: 48%;
+                        background: var(--color-primary1);
+                        color: var(--color-secondary1);
+                        border: 2px solid var(--color-secondary1);
+
+                        &:hover {
+                            background: #3e90cf;
+                            color: var(--color-primary1);
+                        }
+                        &:active,
+                        &:focus {
+                            background: var(--color-secondary1);
+                            color: var(--color-primary1);
+                            outline-color: var(--color-primary3);
+                        }
+                    }
+
+                    & .active {
+                        background: var(--color-secondary1);
+                        color: var(--color-primary1);
+                        outline-color: var(--color-primary3);
+                    }
+
+                    & .cta-primary {
+                        width: 48%;
+                        background: var(--color-primary1);
+                        color: var(--color-secondary1);
+                        border: 2px solid var(--color-secondary1);
+
+                        &:hover {
+                            background: #b0263a;
+                            color: var(--color-primary1);
+                            border: 2px solid var(--color-primary2);
+                        }
+
+                        &:active,
+                        &:focus {
+                            background: #b0263a;
+                            color: var(--color-primary1);
+                            border: 2px solid var(--color-primary2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    & .edit__mode {
+        & .error__msg {
+            @mixin style-body1;
+            font-size: 14px;
+            width: 95%;
+            text-align: left;
+            color: var(--color-secondary3);
+        }
+    }
+}
+
+.qa__item.overView {
+    & .qa__body {
+        @mixin style-body1;
+        display: flex;
+        width: auto;
+        padding: 15px 0px;
+        margin: 0px 10px;
+        text-align: left;
+        vertical-align: middle;
+        & .qa__question {
+            width: 70%;
+            /* padding: 10px 0px; */
+        }
+        & .qa__answer {
+            width: 30%;
+            display: flex;
+            & button {
+                font-size: 1rem;
+                height: 50px;
+                line-height: inherit;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.disable {
+    pointer-events: none;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.error__show {
+    border: 1px solid var(--color-secondary3);
+}
+
+.aria-modal {
+    min-height: auto;
+    width: auto;
+    padding-top: 100px;
+
+    & .modal-content {
+        overflow-y: hidden;
+    }
+
+    &.close {
+        &:after {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.modal-btns {
+    text-align: center;
+}
+
+.modal-btns .cta-primary {
+    margin: 10px;
+    width: 80%;
+}
+
+.modal-btns .cta-button-outline {
+    /* @mixin cta-primary; */
+    margin: 10px;
+    width: 80%;
+    background: transparent;
+    color: var(--color-primary3);
+    text-decoration: underline;
+    text-decoration-color: var(--color-primary3);
+    border: none;
+    &:hover,
+    &:visited {
+        background: transparent;
+        color: var(--color-primary3);
+        border-color: var(--color-primary1);
+    }
+
+    &:active,
+    &:focus {
+        background: var(--color-primary1);
+        color: var(--color-primary3);
+        outline-color: var(--color-secondary1);
+    }
+    &.active {
+        &:hover,
+        &:visited {
+            background: var(--color-primary1);
+            color: var(--color-primary3);
+            border-color: var(--color-primary1);
+        }
+    }
+}
+
+.model_body {
+    @mixin style-body1;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+
+    & h2 {
+        padding-bottom: 20px;
+    }
+
+    & p {
+        padding-bottom: 20px;
+    }
+}
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+input {
+    @mixin input-checkbox;
+    vertical-align: middle;
+}
+.checkbox-label {
+    display: inline-block;
+    vertical-align: middle;
+}
+.checkbox-label h5 {
+    line-height: 25px;
+}
+.terms__condition {
+    display: flex;
+
+    & p {
+        @mixin style-body1;
+    }
+}
+
+.icon__container {
+    margin-bottom: 25px;
+    & .icon-heading:after {
+        content: '\e91c';
+        font-size: 40px;
+        color: var(--color-primary4);
+    }
+}
+
+.font_size {
+    font-size: 15px;
+}

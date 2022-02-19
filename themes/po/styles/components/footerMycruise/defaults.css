@@ -1,0 +1,141 @@
+.global-footer-container {
+    background: var(--color-primary3);
+    border-bottom: 8px solid var(--color-secondary4);
+    & .logo {
+        width: 150px;
+        margin: 40px auto 20px;
+    }
+    & .logo-wrapper {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    & .logo-link {
+        font-family: var(--font-bold);
+        color: white;
+    }
+    & .content {
+        background: var(--color-primary3);   
+        height: 0;
+        & li {
+            padding-bottom: 20px;
+        }
+    }
+    & .content-open {
+        height: auto;
+        padding-top: 20px;
+    }
+    & .grid-wrap {
+        @mixin grid-wrap;
+    }
+    & .title {
+        @mixin style-h4;
+        color: var(--color-primary1);
+        margin-bottom: 30px;
+        background: var(--color-primary3);
+        border: 1px solid var(--color-secondary1);
+        border-right: 0;
+        border-left: 0;
+        margin-bottom: 0;
+        margin-top: -1px;
+        text-align: left;
+        padding: 20px 0;
+    }
+    & .arrow-wrapper {
+        right: 15px;
+    }
+    & .ffa-angle-down {
+        position: relative;
+        right: 0;
+        display: block;
+        width: auto;
+        height: auto;
+        &::before {
+            content: "\e902";
+            display: block;
+            font-size: 10px;
+            font-family: var(--font-icomoon);
+        }
+    }
+    & .ffa-rotate-180 {
+        transform: rotate(180deg);
+        width: auto;
+        height: auto;
+    }
+    & .sub-link {
+        @mixin style-body2;
+        color: var(--color-primary1);
+        text-decoration: none;
+    }
+    /* TODO: verify why there is a display none important */
+    /* & .social-share-icons,
+    & .social-share-wrapper,
+    & .social-icon-container {
+        display: flex;
+    } */
+    & .social-share-icons {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    & .social-share-wrapper {
+        margin: 0 auto;
+    }    
+    & .social-share-icons .social-icon-container {
+        margin-right: 20px;
+        & a {
+            color: var(--color-primary1);
+            font-family: var(--font-icomoon);
+            font-size: 18px;
+            text-decoration: none;
+            width: auto;
+        }
+    }
+    & .facebook {
+        &::before {
+            content: "\e916";
+            display: block;
+        }
+    }
+    & .twitter {
+        &::before {
+            content: "\e919";
+            display: block;
+        }
+    }
+    & .youtube {
+        &::before {
+            content: "\e91a";
+            display: block;
+        }
+    }
+    & .instagram {
+        &::before {
+            content: "\e918";
+            display: block;
+        }
+    }
+    & .googlePlus {
+        &::before {
+            content: "\e917";
+            display: block;
+        }
+    }
+    & .pinterest {
+        &::before {
+            content: "\e93a";
+            display: block;
+        }
+    }
+    & .footer-links-container {
+        /* padding-top: 60px;
+        margin-top: 20px; */
+        /* & li {
+            padding-top: 20px;
+        } */
+    }
+    & .footer-links-div {
+        border-top: 1px solid var(--color-secondary1);
+        padding-top: 20px;  
+    }
+}

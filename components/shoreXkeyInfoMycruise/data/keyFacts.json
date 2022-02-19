@@ -1,0 +1,25 @@
+{
+    "type": "keyFacts",
+    "id": "1499926477925",
+    "meta": {
+        "render": "dynamic"
+    },
+    "attributes": {
+		"excursionInfoData": [{
+			"caption": "Test caption",
+			"statistic": "5",
+			"key": "caption",
+            "id": "costLabel",
+            "showShorePrice": true,
+            "currencyType":"USD"
+        }],
+        "excursionInfoNewData": [{
+			"caption": "Test caption",
+			"statistic": "5",
+			"key": "caption",
+            "id": "costLabel",
+            "showShorePrice": false,
+            "currencyType":"ZIM"
+		}]
+    }
+}

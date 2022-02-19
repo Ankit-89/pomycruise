@@ -1,0 +1,50 @@
+.story-rotator {
+    & .info-card-wrap {
+        padding-bottom: 0;
+        padding-left: 32px;
+        padding-right: 32px
+    }
+    & .info-card-holder {
+        top: -80px
+    }
+    & .info-card {
+        /* height: 290px; */
+        padding-top: 60px;
+    }
+    & .content-holder {
+
+        padding: 0 60px;
+	
+    }
+
+    & .content-holder .title {
+        margin: 0;
+    }
+    
+    & .content-holder .cta-holder a {
+        pointer-events: all;
+    }
+
+    & .custom-nav {
+        bottom: -5px;
+        left: 0;
+        right: auto;
+        width: auto;
+    }
+
+    & .slides-holder .slide {
+        pointer-events: none;
+    }
+
+    & .carousel-controls {
+        text-align: left;
+        padding: 0 60px;
+        
+    }
+
+     & .info-card:before {
+  
+    background: url(/content/dam/po/test/images/bg-png.png) !important;
+     background-size: cover !important;
+      }
+}

@@ -1,0 +1,93 @@
+.shorex-card-container {
+    position: relative;
+    margin: 10px;
+    & .content-holder {
+        padding: 30px 30px 0 30px;
+    }
+    & .card-container {
+        & .bottom-block {
+            min-height: 190px;
+        }
+    }
+    & .text-content {
+        margin-bottom: 0;
+    }
+    & .shorex-card-description {
+        //display: none;
+        //min-height: 66px;
+        font-size: 12px;
+        clear: left;
+    }
+    & .title-container {
+        min-height: 45px;
+    }
+    & .shorex-card-port,
+    & .shorex-card-price,
+    & .shorex-card-description,
+    & .shorex-card-noPrice {
+        margin-bottom: 10px;
+    }
+    /* & .shorex-card-noPrice {
+        height: 22px;
+    } */
+    & .shorex-card-port {
+        //height: 44px;
+    }
+    & .shorex-card-price {
+        margin-right: 10px;
+        //height: 22px;
+    }
+    & .shorex-card-alert {
+        margin-bottom: 10px;
+        //height: 22px;
+    }
+    & .shorex-card-outOfStock {
+        opacity: .3;
+        float: right;
+        &:before {
+            content: none;
+        }
+    }
+    & .shorex-card-notOnSale {
+        float: right;
+    }
+    & .cta-content {
+        padding: 0 30px 40px 30px;
+        clear: both;
+        lost-utility: clearfix;
+    }
+
+    & .cta-block {
+        float: left;
+    }
+
+    & .cta-block+.cta-block {
+        float: right;
+    }
+
+    & .cta-block a {
+        display: block;
+    }
+}
+.sliderViewedShorex .shorex-card-noPrice {
+    height: 0;
+}
+.shorex-card-dates {
+    margin-bottom: 10px;
+}
+
+.top-banner {
+    position: absolute;
+    padding: 5px 15px;
+    left: 20px;
+    top: 20px;
+}
+
+.slick-slide {
+    & .shorex-card-container {
+        & .card-component {
+            margin: 0;
+            width: 100%
+        }
+    }
+}

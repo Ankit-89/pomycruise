@@ -1,0 +1,24 @@
+.aria-modal {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    @mixin grid-wrap;
+    padding-bottom: 20px;
+    & .close {
+        margin-right: 30px;
+    }
+    & .modal-content-wrapper {
+        padding: 0;
+    }
+    & .modal-content {
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+
+
+.aria-modal-underlay {
+    display: flex;
+    align-items: center;
+}

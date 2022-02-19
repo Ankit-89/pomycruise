@@ -1,0 +1,10 @@
+.editorialInformation {
+    & .content-description {
+        padding: 40px 80px;
+    }
+    & .tiles-list {
+        & .tile {
+            padding: 55px 80px 40px;
+        }
+    }
+}

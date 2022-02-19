@@ -1,0 +1,218 @@
+@keyframes animateCurve {
+    0%   {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr1.svg); opacity: 1;}
+    5%   {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr2.svg);  }
+    10%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr3.svg);  filter: drop-shadow( 0 0 0 transparent )}
+    15%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr4.svg);  }
+    20%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr5.svg);  }
+    25%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr6.svg);  }
+    30%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr7.svg);  }
+    35%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr8.svg);  }
+    40%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr9.svg);  }
+    45%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr10.svg); }
+    50%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr11.svg); }
+    55%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr12.svg); }
+    60%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr13.svg); }
+    70%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr14.svg); }
+    80%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr15.svg); }
+    90%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr16.svg); opacity: 1;}
+    100% {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr17.svg); opacity: 1;filter: drop-shadow( 0 0 0 transparent )}
+}
+@keyframes animateCurveReverse {
+    0%   {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr17.svg); opacity: 1;}
+    5%   {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr16.svg); }
+    10%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr15.svg); }
+    15%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr14.svg); }
+    20%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr13.svg); }
+    25%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr12.svg); }
+    30%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr11.svg); }
+    35%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr10.svg); }
+    40%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr9.svg);  }
+    45%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr8.svg);  }
+    50%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr7.svg);  }
+    55%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr6.svg);  }
+    60%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr5.svg);  }
+    70%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr4.svg);  }
+    80%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr3.svg);  }
+    90%  {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr2.svg);  }
+    100% {  background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr1.svg);  }
+}
+
+@keyframes animateLogo {
+    0%   { top : 10px; }
+    100% { top : 0; }
+}
+@keyframes animateLogoReverse {
+    0%   { top : 0;}
+    100% { top : 10px;}
+}
+
+@keyframes animateLogoDesktop {
+    0%   { top:35px;}
+    100% { top:0px;}
+}
+@keyframes animateLogoReverseDesktop {
+    0%   { top:0px;}
+    100% { top:35px;}
+}
+
+@keyframes animateCurveIE {
+    0%   {  background-position: 0 -23px; opacity: 1;}
+    5%   {  background-position: 0 -268px }
+    10%  {  background-position: 0 -513px }
+    15%  {  background-position: 0 -758px }
+    20%  {  background-position: 0 -1003px}
+    25%  {  background-position: 0 -1248px}
+    30%  {  background-position: 0 -1493px}
+    35%  {  background-position: 0 -1738px}
+    40%  {  background-position: 0 -1983px}
+    45%  {  background-position: 0 -2228px}
+    50%  {  background-position: 0 -2473px  }
+    55%  {  background-position: 0 -2718px  }
+    60%  {  background-position: 0 -2963px  }
+    70%  {  background-position: 0 -3208px  }
+    80%  {  background-position: 0 -3453px  }
+    90%  {  background-position: 0 -3698px  }
+    100% {  background-position: 0 -3943px; opacity: 1;}
+}
+@keyframes animateCurveReverseIE {
+    0%   {  background-position: 0 -3943px; opacity: 0;}
+    5%   {  background-position: 0 -3698px; }
+    10%  {  background-position: 0 -3453px; }
+    15%  {  background-position: 0 -3208px; }
+    20%  {  background-position: 0 -2963px; }
+    25%  {  background-position: 0 -2718px; }
+    30%  {  background-position: 0 -2473px; opacity: 1;}
+    35%  {  background-position: 0 -2228px; }
+    40%  {  background-position: 0 -1983px; }
+    45%  {  background-position: 0 -1738px; }
+    50%  {  background-position: 0 -1493px; }
+    55%  {  background-position: 0 -1248px; }
+    60%  {  background-position: 0 -1003px; }
+    70%  {  background-position: 0 -758px;  }
+    80%  {  background-position: 0 -513px;  }
+    90%  {  background-position: 0 -268px;  }
+    100% {  background-position: 0 -23px;   }
+}
+
+
+.global-header-login {
+    background: var(--color-primary1);
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        height: 57px;
+        width: 100%;
+        border-top: 2px solid rgba(237, 241, 247, .85);
+    }
+    & .global-header-aux {
+        @mixin grid-wrap;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 55px;
+    }
+    
+    & .menu-bar,
+    & .menu-bar-small {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    & .menu-bar-small,
+    & .main-nav-container .menu-bar {
+        height: 55px;
+    }
+    & .nav-brand-logo {
+        width: 100px;
+        margin: 0;
+        text-align: left;
+        top: 10px;
+        left: 5px;
+        position: relative;
+    }
+    & .brand-logo img {
+        max-width: 107px;
+        height: 39px;
+        width: auto;
+        margin: 0;
+        z-index: 4;
+        position: relative;
+    }
+    & .menu-bar-small .nav-call-btn {
+        order: 2;
+        position: absolute;
+        right: 64px;
+    }
+    & .menu-bar-small .nav-brand-logo {
+        order: 1;
+    }
+    & .menu-bar-small .nav-toggle-btn {
+        order: 3;
+    }
+    &.scrolled .menu-bar-small:after {
+        width: 0;
+        left: 0;
+    }
+
+
+    & .nav-Curve {
+        background-image: url(~postbooking-theme/images/SVG/livery/logo_animation_fr1.svg);
+        height: 90px;
+        width: 120px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left:10px;
+        filter: drop-shadow( 0px 8px 4px var(--opaque-background11) );
+    }
+  
+    
+    & .nav-brand-logo a::before {
+        background: var(--global-header-gradient);
+        position: absolute;
+        content: '';
+        width: 135%;
+        height: 35px;
+        left: -22px;
+        top: -15px;
+        z-index: 2;
+        overflow: visible;
+    }
+    
+}
+
+.global-header-wrapper {
+    &.scrolled .nav-Curve {
+        animation: animateCurve .6s ease-in-out;
+        opacity: 0
+    }
+    &.rev-scrolled .nav-Curve {
+        animation: animateCurveReverse .6s cubic-bezier(0, 0.19, 0, 1.29);
+    }
+    &.scrolled .nav-brand-logo a::before {
+        visibility: hidden;
+    }
+    &.rev-scrolled .nav-brand-logo a::before {
+        visibility: visible;
+    }
+    &.scrolled .nav-brand-logo {
+        animation: animateLogo .8s cubic-bezier(0, 0.19, 0, 1.29);
+        top: 0;
+    }
+    &.rev-scrolled .nav-brand-logo {
+        animation: animateLogoReverse .8s cubic-bezier(0, 0.19, 0, 1.29);
+        top: 10px;
+    }
+
+    &.scrolled .mob-logo-po {
+        animation: animateLogo .8s cubic-bezier(0, 0.19, 0, 1.29);
+        top: 0;
+    }
+    &.rev-scrolled .mob-logo-po {
+        animation: animateLogoReverse .8s cubic-bezier(0, 0.19, 0, 1.29);
+        top: 10px;
+    }
+}

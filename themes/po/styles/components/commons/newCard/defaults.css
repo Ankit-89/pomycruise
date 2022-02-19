@@ -1,0 +1,24 @@
+.card-container {
+    & .content-holder {
+        /* border-bottom: 2px solid var(--color-secondary2);
+        border-left: 2px solid var(--color-secondary2);
+        border-right: 2px solid var(--color-secondary2); */
+
+    }
+    & .title {
+        @mixin style-h3;
+    }
+
+    & .description-container {
+        @mixin style-body2;
+    }
+    /* & .cta-block a {
+        @mixin cta-secondary;
+        &.primary-cta {
+            @mixin cta-secondary-darkblue;
+        }
+        &.primary-cta:before {
+            background: var(--color-primary3);
+        }
+    } */
+}

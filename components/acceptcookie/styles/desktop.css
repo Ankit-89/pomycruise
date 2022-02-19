@@ -1,0 +1,52 @@
+.copy-block {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 0;
+
+    &.col-2:after,
+    &.col-3:after,
+    &.col-4:after {
+        display: none;
+    }
+    &.col-2 .inner-copy-block {
+        lost-column: 1/2 1;
+        position: relative;
+    }
+    &.col-3 .inner-copy-block {
+        lost-column: 1/3 1;
+        position: relative;
+    }
+    &.col-4 .inner-copy-block {
+        lost-column: 1/4 1;
+        position: relative;
+    }
+    &.col-2 .inner-copy-block:after,
+    &.col-3 .inner-copy-block:after,
+    &.col-4 .inner-copy-block:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 11px;
+        right: 0;
+        height: auto;
+        bottom: 12px;
+    }
+    &.col-2 .inner-copy-block:last-child:after,
+    &.col-3 .inner-copy-block:last-child:after,
+    &.col-4 .inner-copy-block:last-child:after {
+        border: none;
+    }
+    &.col-2 .inner-copy-block:nth-child(even) ul,
+    &.col-3 .inner-copy-block:nth-child(even) ul,
+    &.col-4 .inner-copy-block:nth-child(even) ul {
+        padding-left: 40px;
+    }
+    &.copy-block .inner-copy-block:nth-child(3),
+    &.copy-block .inner-copy-block:nth-child(4) {
+        margin-top: 0;
+    }
+
+    & .table-container {
+        overflow-x: hidden; 
+    }
+}

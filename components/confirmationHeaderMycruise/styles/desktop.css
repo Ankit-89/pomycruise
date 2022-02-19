@@ -1,0 +1,96 @@
+.confirmationHeaderMycruise {
+    height: 130px;
+    line-height: 130px;
+    padding-right: 50px;
+    & .confirmationHeaderMycruise__center {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        white-space: nowrap;
+        justify-content: center;
+        padding: 0 50px;
+    }
+    & .confirmationHeaderMycruise__right {
+        padding: 0px;
+    }
+    & .confirmationHeaderMycruise__logoImg {
+        height: auto;
+    }
+    & .confirmationHeaderMycruise__back {
+        padding: 0 50px;
+        max-width: 100%;
+        width: auto;
+    }
+    & .confirmationHeaderMycruise__logo {
+        padding: 0 50px;
+        max-width: 100%;
+        width: auto;
+    }
+    & .tooltip__close {
+        display: none;
+    }
+    & .tooltip__dd {
+        text-align: left;
+        position: absolute;
+        top: 55px;
+        left: auto;
+        right: -20px;
+        max-width: 350px;
+        min-width: 250px;
+        height: auto;
+        padding: 30px;
+        width: auto;
+        &:before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            right: 10px;
+            content: "";
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            top: -6px;
+            display: block;
+            transform: rotate(-45deg);
+            z-index: -1;
+        }
+    }
+}
+
+.confirmationHeaderMycruise__back {
+    & a {
+        &:after {
+            top: -12px;
+        }
+    }
+}
+
+.session-modal-dialog {
+    margin: auto;
+    min-height: 300px;
+    width: 55%;
+}
+
+.session-modal-dialog .close:after {
+    font-size: 14px;
+    line-height: 1.875rem;
+    font-weight: bold;
+}
+
+.modal-btns_session .cta-button-outline {
+    /* @mixin cta-primary; */
+    margin: 20px;
+    width: 62%;
+    height: 40px;
+    padding-top: 18px;
+}
+
+.modal-btns_session{
+    & .cta-primary {
+	    margin: 10px;
+        width: 70%;
+        line-height: 3.75rem;
+        height: 60px;
+        border-radius: 15px;
+    }
+}

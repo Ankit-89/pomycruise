@@ -1,0 +1,32 @@
+.allPorts {
+    margin: 0;
+}
+.jumpToPort {
+    right: 110px;
+    margin: 0;
+}
+
+.category-slider {
+
+    & .carousel-controls {
+
+        display: block;
+
+        & .prev-btn {
+            top: 31%;
+
+        }
+
+        & .next-btn {
+            top: 31%;
+        }
+    }
+}
+.port-item-wrapper {
+    & .port-item::before {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        right: 6px;
+    }
+}    

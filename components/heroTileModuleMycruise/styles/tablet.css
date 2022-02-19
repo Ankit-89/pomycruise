@@ -1,0 +1,19 @@
+.hero-tile-container {
+    & .infocard .infocard-logo {
+        width: 146px;
+    }
+    & .infocard h1 {
+        margin-top: 15px;
+    }
+    & .ship-facts-container {
+        padding: 0 0 30px 10px;
+    }
+    & .cta-holder .secondary .arrow-icon:before {
+        width: 45px;
+        height: 45px;
+    }
+    & .cta-icon span {
+        width: 40px;
+        height: 40px;
+    }
+}

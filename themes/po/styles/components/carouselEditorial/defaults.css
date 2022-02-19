@@ -1,0 +1,78 @@
+/* Do not display the carousel on rendered pages */
+.carouselEditorial {
+    display: none;
+}
+/* Display the carousel in AEM authoring mode */
+.wcmEditModeEnabled {
+    & .carouselEditorial {
+        display: block;
+    }
+}
+/* Display the carousel in activated carousel modals */
+.carousel-modal {
+    & .carouselEditorial {
+        display: block;
+    }
+}
+
+.carousel-editorial {
+    background: var(--color-primary1);
+    & h2 {
+        text-align: center;
+        font-weight: 400;
+        color: var(--color-primary4);
+    }
+    & .carousel-controls {
+        text-align: center;
+        color: var(--color-primary4);
+        font-feature-settings: 'lnum' 1;
+    }
+    & .carousel-controls .button {
+        color: transparent;
+        border: none;
+        background: transparent;
+    }
+    & .carousel-controls .button:before {
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 15px 25px;
+    }
+    & .circle img {
+        border-radius: 50%;
+    }
+    & .carousel-pagination {
+        font-size: 12px;
+        text-align: center;
+    }
+    & .destination-tile-card {
+        box-shadow: none;
+    }
+    & .terms-conditions a {
+        color: var(--color-primary4);
+    }
+}
+.carousel-editorial .destination-tile-card {
+    & h3 {
+        font-family: var(--font-body1);
+        color: var(--color-primary5);
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    & p {
+        @mixin style-body2;
+        color: var(--color-primary4);
+    }
+    & .card-content {
+        text-align: center;
+    }
+}
+.carousel-editorial-footer {
+    text-align: center;
+    & a {
+        @mixin style-cta;
+        font-family: var(--font-body2);
+    }
+    & .slick-disabled {
+        opacity: 0.4;
+    }
+}

@@ -1,0 +1,14 @@
+.notificationBanner{
+    text-align: left
+}
+.notificationBanner__container{
+    padding: 0 5px;
+}
+.notificationBanner__content{
+    padding: 37px 30px;
+}
+.notificationBanner__title{
+    & + * {
+        margin-top: 5px;
+    }
+}

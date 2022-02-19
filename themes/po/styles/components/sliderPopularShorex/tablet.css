@@ -1,0 +1,8 @@
+.three-up-container {
+    & .destination-tile-card .price-block {
+        border: none;
+    }
+    & .destination-tile-wrapper {
+        flex-direction: column;
+    }
+}

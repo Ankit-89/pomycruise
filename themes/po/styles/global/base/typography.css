@@ -1,0 +1,81 @@
+/* PNO Fonts */
+
+
+/* Greycliff CF */
+
+@font-face { 
+    font-family: 'GreycliffCF-light';
+    src: url(../../fonts/GreycliffCF-Light.otf), url(../../fonts/GreycliffCF-Light.woff);
+}
+
+@font-face {
+    font-family: 'GreycliffCF-medium';
+    src: url(../../fonts/GreycliffCF-Medium.otf), url(../../fonts/GreycliffCF-Medium.woff);
+}
+
+@font-face {
+    font-family: 'GreycliffCF-bold';
+    src: url(../../fonts/GreycliffCF-Bold.otf), url(../../fonts/GreycliffCF-Bold.woff);
+}
+
+
+/*praxisCom*/
+
+@font-face {
+    font-family: 'PraxisCom-Light';
+    font-path: '../../fonts/PraxisCom-Light';
+}
+@font-face {
+    font-family: 'PraxisCom-Light-Oblique';
+    font-path: '../../fonts/PraxisCom-LightOblique';
+}
+
+@font-face {
+    font-family: 'PraxisCom-Oblique';
+    font-path: '../../fonts/PraxisCom-Oblique';
+}
+
+@font-face {
+    font-family: 'PraxisCom-Regular';
+    font-path: '../../fonts/PraxisCom-Regular';
+}
+
+@font-face {
+    font-family: 'PraxisCom-Semibold';
+    font-path: '../../fonts/PraxisCom-Semibold';
+}
+
+
+@font-face {
+    font-family: 'PraxisCom-Semibold-Oblique';
+    font-path: '../../fonts/PraxisCom-SemiboldOblique';
+}
+
+@font-face {
+    font-family: 'PraxisCom-Bold';
+    font-path: '../../fonts/PraxisCom-Bold';
+}
+
+@font-face {
+    font-family: 'PraxisCom-Bold-Oblique';
+    font-path: '../../fonts/PraxisCom-BoldOblique';
+}
+
+/*font cc login*/
+
+@font-face {
+    font-family: 'Constantia';
+    font-path: '../../fonts/Constantia';
+}
+@font-face {
+    font-family: 'Corbel';
+    font-path: '../../fonts/Corbel';
+}
+
+
+/*icofont*/
+
+@font-face {
+    font-family: 'Icomoon';
+    font-path: '../../fonts/icomoon';
+}

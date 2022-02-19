@@ -1,0 +1,23 @@
+{
+    "icon-facebook": "e900",
+    "icon-google-plus": "e901",
+    "icon-instagram": "e902",
+    "icon-pintrest": "e903",
+    "icon-twitter": "e904",
+    "icon-youtube": "e905",
+    "icon-cancel": "e906",
+    "icon-hamburger": "e908",
+    "icon-call": "e90a",
+    "icon-mail": "e90b",
+    "icon-radio": "e90e",
+    "icon-globe": "e910",
+    "icon-user": "e913",
+    "icon-search": "e916",
+    "icon-less": "e912",
+    "icon-down": "e91e",
+    "icon-favorite-active": "e920",
+    "icon-favorite-inactive": "e921",
+    "icon-alert": "e922",
+    "icon-radio-inactive": "e907",
+    "icon-title-h1": "e90c"
+}

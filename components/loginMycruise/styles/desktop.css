@@ -1,0 +1,134 @@
+.login-grid {
+    lost-utility: clearfix;
+    lost-center: 1220px;
+    & .login-row {
+        lost-utility: clearfix;
+    }
+    & .login-row-6 {
+        lost-column: 6/12 6 80px;
+    }
+    & .login-row-5 {
+        lost-column: 5/12 5 0px;
+    }
+}
+.log-in-container {
+    margin-bottom: 3rem;
+    & .input-text {
+        width: 25.9rem;
+        padding-left: 1.25rem;
+        padding: 15px 0px 15px 1.25rem;
+        margin-bottom: 2.5rem;
+        float: right;
+    }
+    & .input-email {
+        width: 25.9rem;
+        padding-left: 1.25rem;
+        padding: 15px 0px 15px 1.25rem;
+        margin-bottom: 2.5rem;
+        float: right;
+    }
+    & .input-select {
+        width: 27.375rem;
+        padding-left: 1.25rem;
+        padding: 15px 0px 15px 1.25rem;
+        margin-bottom: 2.5rem;
+        float: right;
+    }
+    & .input-label {
+        padding: 0;
+        visibility: hidden;
+    }
+    & .login-button {
+        min-width: 190px;
+        padding: 15px 6px;
+        margin-bottom: 2.5rem;
+        margin-top: 0;
+    }
+    & .error-wrap {
+        width: 27.5rem;
+        float: right;
+        padding-left: 0;
+    }
+
+    & .tnc-wrap {
+        margin-top: 30px;
+        clear: both;
+        position: relative;
+    }
+    & .tnc-wrap .input-check {
+        display: inline-block;
+        position: relative;
+    }
+    & .tnc-wrap .tnc p {
+        display: inline;
+    }
+    & .tnc-wrap .error-label.show {
+        float: none;
+        padding-left: 0;
+    }
+    & .login-image {
+        display: block;
+    }
+    & .login-button {
+        margin-bottom: 0px;
+    }
+    & .submit-wrap {
+        margin-top: 35px;
+        text-align: left;
+    }
+    & .privacy-wrap {
+        text-align: left;
+    }
+    & .input-formFields {
+        position: relative;
+        clear: both;
+    }
+    & .span-label {
+        position: absolute;
+        right: 8px;
+        top: 75px;
+    }
+    & .submit-wrap {
+        float: none;
+    }
+    & .success-wrap h1 {
+        margin-bottom: 10px;
+        width: 100%;
+        padding-left: 50px;
+    }
+    & .error-label.show {
+        padding-left: 44px;
+        margin-top: 5px;
+    }
+    & .input-text {
+        margin-bottom: 0px;
+    }
+    & .input-select {
+        margin-bottom: 10px;
+    }
+    & .input-email {
+        margin-bottom: 10px;
+    }
+    & .login-wrapper {
+        width: auto;
+    }
+    & .select-group.select-day {
+        width: calc(28% - 15px);
+    }
+    & .select-group.select-month {
+        width: calc(40% - 15px);
+    }
+    & .bithdate .select-group {
+        margin-right: 15px;
+    }
+
+}
+.cf {
+    clear: both;
+}
+
+.aria-modal {
+    & .modal-content {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,18 @@
+.loginTALanding {
+    & .passengerRow {
+        border-bottom: 1px solid var(--color-secondary2);
+        @mixin style-body2;
+        &:last-child {
+            border-bottom: none;
+        }
+        text-transform: uppercase;        
+        & label {
+            @mixin style-body2;
+            line-height: 1.5em;
+        }
+    } 
+
+    & .passengerRow__loyalityValue {
+        @mixin style-h5;
+    }
+}

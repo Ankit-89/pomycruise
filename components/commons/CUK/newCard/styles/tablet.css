@@ -1,0 +1,8 @@
+.card-container {
+    & .content-holder {
+        padding: 25px 30px 0 30px;
+    }
+    & .cta-addToCart a {
+        line-height: 18px;
+    }
+}

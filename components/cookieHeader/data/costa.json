@@ -1,0 +1,25 @@
+{
+  "type": "alertMessaging",
+  "id": "1504100068977",
+  "attributes": {
+    "templatePath": "/apps/carnival/platform/templates/searchResultsPageTemplate",
+    "pagePath": "/content/hal/master_website/en_US/dest1",
+    "entityDetails": {
+      "type": "country",
+      "path": "/content/costa/master_content/it_IT/countries/AFG"
+    }
+  },
+  "meta": {
+    "render": "dynamic"
+  },
+  "services": {
+    "urls": {
+      "alert": "/services/getAlertMessages.json"
+    },
+    "headers": {
+      "brand": "hal",
+      "locale": "en_US",
+      "country": "US"
+    }
+  }
+}

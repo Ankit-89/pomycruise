@@ -1,0 +1,67 @@
+.pageTabs {
+    &:after {
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    }   
+    & .tabs {
+        &:before {
+            background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        }
+        &:after {
+            background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        }
+    }     
+    & .tabs-labels {
+        border-bottom-color: var(--color-secondary6);
+        & a {
+            @mixin cta-secondary;
+            color: var(--color-primary3);
+        }
+        & li a:before {
+            display: none;
+            background: var(--color-primary4);
+        }
+        & li a:active,
+        & li a:focus {
+            color: var(--color-primary3);
+            &:before {
+                background: #988642;
+            }
+        }
+        
+        & a.active:before {
+            display: block;
+            bottom: -8px;
+            height: 2px;
+        }
+        & span:after {
+            color: var(--color-primary4);
+        }
+        & .personalDetails span:after {
+            content: "\e934";
+        }
+        & .healthQuestionnaire span:after {
+            content: "\E910";
+        }
+        & .holidayInformation span:after {
+            content: "\e932";
+        }
+        & .importantToKnow span:after {
+            content: "\e933";
+        }
+    }
+    & .roomInfo {
+        & li a:active,
+        & li a:focus {
+            color: var(--color-secondary1);
+            &:before {
+                background: #0076CE
+            }
+        }
+    }
+}

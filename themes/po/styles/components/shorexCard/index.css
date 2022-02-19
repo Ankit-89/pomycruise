@@ -1,0 +1,6 @@
+
+@import '../commons/card/index.css';
+@import '../../../../../components/shorexCard/styles/index.css';
+@import 'defaults.css';
+@import 'tablet.css' (--tablet);
+@import 'desktop.css' (--desktop);

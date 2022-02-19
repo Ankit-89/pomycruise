@@ -1,0 +1,24 @@
+.confirmationHeaderMycruise {
+    background: var(--color-primary1);
+    border-bottom: 2px solid rgba(237,241,247,.85);
+    & .confirmationHeaderMycruise__back {
+        border-right: 1px solid rgba(237,241,247,.85);
+    }
+    & .confirmationHeaderMycruise__text {
+        @mixin style-body2;
+    }
+
+    & .confirmationHeaderMycruise__logo {
+        border-right: 1px solid rgba(237,241,247,.85);
+    }
+    /* & .confirmationHeaderMycruise__loyality {
+         @mixin style-body1; 
+        color: var(--color-primary5);
+        font-family: var(--font-body1);
+        & .emp {
+            color: var(--color-primary3);
+            font-family: 'PraxisCom-Bold';
+            line-height: 12px;
+        }
+    } */
+}

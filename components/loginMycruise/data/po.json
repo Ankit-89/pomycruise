@@ -1,0 +1,237 @@
+{
+    "type": "loginMycruise",
+    "id": "1536150946351",
+    "attributes": {
+        "childComponents": [
+            {
+                "type": "titleH1Mycruise",
+                "id": "1536150946360",
+                "attributes": {
+                    "title": "My Cruise Login",
+                    "description":
+                        "Description Text: Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.",
+                    "type": "h1"
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            }
+        ],
+        "portDetailsServletUrl":
+            "/services/en_GB/mycruise/ports.itinerary.{port_code}.json",
+        "voyageServlet": "/services/mycruise.voyage.{code}.json",
+        "variation": "guestLogin",
+        "showTermsAndConditions": false,
+        "termsAndConditionsLink":
+            "/content/po/master_website/en_GB/mycruise/preposttravel.html",
+        "showPrivacyPolicy": true,
+        "privacyPolicyLink":
+            "/content/po/master_website/en_GB/mycruise/preposttravel.html",
+        "image": {
+            "alt": "",
+            "0": {
+                "1x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "2x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "aspectRatio": 1.4818652849740932
+            },
+            "376": {
+                "1x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "2x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "aspectRatio": 1.4935622317596566
+            },
+            "769": {
+                "1x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "2x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "aspectRatio": 1.0
+            }
+        },
+        "labels": {
+            "loginFailedMessage": "Login failed: check your data please\t",
+            "termsAcceptance": "Terms and Conditions\t",
+            "privacyPolicy": "Privacy Policy\t",
+            "validationMessage": "You must accept Terms and Conditions\t",
+            "loginLabel": "Login"
+        },
+        "accesibilityLabels": {
+            "clearFeild": "Clear Field"
+        },
+        "loyaltyTiers": {
+            "pacific": {
+                "itemId": "pacific",
+                "itemLabel": "Pacific",
+                "itemDescription": "descripton"
+            },
+            "silver": {
+                "itemId": "silver",
+                "itemLabel": "Silver",
+                "itemDescription": "descripton"
+            },
+            "mediterranean": {
+                "itemId": "mediterranean",
+                "itemLabel": "Mediterranes",
+                "itemDescription": "secondo level"
+            },
+            "caribbean": {
+                "itemId": "caribbean",
+                "itemLabel": "Caribbean",
+                "itemDescription": "secondo level"
+            }
+        },
+        "formFields": {
+            "bookingNumber": {
+                "error": {
+                    "invalid": "Booking Number Invalid Error",
+                    "empty": "Booking Number Empty"
+                },
+                "label": "Booking Number"
+            },
+            "firstName": {
+                "label": "First Name",
+                "error": {
+                    "invalid": "First Name Invalid Error",
+                    "empty": "First Name Empty Error"
+                }
+            },
+            "lastName": {
+                "label": "Last Name",
+                "error": {
+                    "invalid": "Last Name Invalid Error",
+                    "empty": "Last Name Empty Error"
+                }
+            },
+            "month": {
+                "label": "Month",
+                "options": [
+                    {
+                        "04": {
+                            "label": "April",
+                            "value": "04"
+                        }
+                    },
+                    {
+                        "08": {
+                            "label": "August",
+                            "value": "08"
+                        }
+                    },
+                    {
+                        "12": {
+                            "label": "December",
+                            "value": "12"
+                        }
+                    },
+                    {
+                        "02": {
+                            "label": "February",
+                            "value": "02"
+                        }
+                    },
+                    {
+                        "01": {
+                            "label": "January",
+                            "value": "01"
+                        }
+                    },
+                    {
+                        "07": {
+                            "label": "July",
+                            "value": "07"
+                        }
+                    },
+                    {
+                        "06": {
+                            "label": "June",
+                            "value": "06"
+                        }
+                    },
+                    {
+                        "03": {
+                            "label": "March",
+                            "value": "03"
+                        }
+                    },
+                    {
+                        "05": {
+                            "label": "May",
+                            "value": "05"
+                        }
+                    },
+                    {
+                        "default": {
+                            "label": "Month",
+                            "value": null
+                        }
+                    },
+                    {
+                        "11": {
+                            "label": "November",
+                            "value": "11"
+                        }
+                    },
+                    {
+                        "10": {
+                            "label": "October",
+                            "value": "10"
+                        }
+                    },
+                    {
+                        "09": {
+                            "label": "September",
+                            "value": "09"
+                        }
+                    }
+                ],
+                "error": {
+                    "invalid": "Month Invalid Error",
+                    "empty": "Month Empty Error"
+                }
+            },
+            "year": {
+                "label": "Year",
+                "error": {
+                    "invalid": "Year Invalid Error",
+                    "empty": "Year Empty Error"
+                }
+            },
+            "birthDate": {
+                "label": "Birth Date",
+                "error": {
+                    "invalid": "Birth Date Invalid Error",
+                    "empty": "Birth Date Empty Error"
+                }
+            },
+            "day": {
+                "label": "Day",
+                "error": {
+                    "invalid": "Day Invalid Error",
+                    "empty": "Day Empty Error"
+                }
+            }
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    },
+    "services": {
+        "urls": {
+            "mycruiseBookingApi":
+                "/services/cruise-booking.json",
+            "mycruiseSummaryApi":
+                "/services/cruise-summary-fake.json",
+            "flightsApi": "/services/flightsApi.json",
+            "loyaltyApi":
+                "https://dev.api.mycruise-temp.com/mc-loyalty-account/v1?urn={{paxUrn}}&brandCode=PO"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "US"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.destination-tile-cards.column3 {
+    & .card-content {
+        text-align: center;
+    }
+}
+.destination-tile-cards.column4 {
+    & .card-content {
+        text-align: left;
+    }
+}

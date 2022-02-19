@@ -1,0 +1,5 @@
+.image-copy-block {
+    & .carousel-close a:before {
+        font-size: 20px;
+    }
+}

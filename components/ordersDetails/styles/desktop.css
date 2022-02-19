@@ -1,0 +1,72 @@
+.confirmation-modal {
+    & .aria-modal {
+        width: 800px;
+        height: 400px;    
+        min-height: auto;
+    }
+    & h4 {
+        line-height: 27px;
+    }
+   
+}
+.confirmation-modal .modal-content {
+    margin-top: 0px;
+    padding: 0px;
+   
+} 
+.orderRow {
+    & .orderRow__header {
+        height: 60px;
+        padding: 0 40px;
+        /* display: flex; */
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        & .status {
+            position: absolute;
+            right: 30px;
+            width: auto;
+            top: 0;
+        }
+        & h4 {
+            width: 50%;
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 60px;
+        }
+    } 
+}
+
+
+  
+.orderRow__body {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.orderRow__column {
+    width: 50%;
+    &:first-child {
+        margin-bottom: 0px;
+        border-bottom: none;
+    }
+    & > div {
+        &:last-child {
+            margin-bottom: 0;
+        }
+        
+    }
+}
+
+
+.orderRow__accordion {
+    padding: 40px;
+}
+
+.orderRow__openAccordion {
+    margin-bottom: 30px;
+}
+
+

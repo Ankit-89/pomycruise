@@ -1,0 +1,11 @@
+.flightsInfo {
+    .tooltip__icon {
+        & .tooltip__dd {
+            top: 43px;
+        }
+    }
+    & .flight__info {
+        padding: 20px 45px;
+    }
+}
+      

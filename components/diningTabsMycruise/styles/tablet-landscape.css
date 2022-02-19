@@ -1,0 +1,71 @@
+.diningTabsMycruise {
+    & .tabs-labels {
+        padding: 0 0 12px;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        & li {
+            margin-right: 80px;
+        }
+    }
+    & .tabs-content {
+        margin-top: 50px;
+    }
+}
+.tabs-copy-block {
+    & .tile-holder {
+        display: table;
+        position: relative;
+        margin: 0 auto;
+    }
+    & .tileGrid {
+        display: table-cell;
+        position: relative;
+        vertical-align: top;
+        &.image-holder {
+            width: 35%;
+        }
+        &.content {
+            width: 65%;
+        }
+    }
+    & .content .spacing-container {
+        padding: 0 0 0 10%;
+        margin-bottom: 0;
+        @media (--desktop-xl) {
+            padding: 0 0 0 15%;
+        }
+    }
+    & .text-holder .description-block {
+        margin-bottom: 25px;
+
+    }
+    & .event-duration {
+        margin-bottom: 25px;
+    }
+    & .text-holder .quote-details {
+        margin-bottom: 25px;
+    }
+    & .tileGrid.image-holder {
+        vertical-align: top;
+    }
+    & .spacing-container .title {
+        margin: 0 0 30px;
+    }
+    & .text-holder {
+        padding-bottom: 0;
+    }
+    & li {
+        flex-direction: row;
+        flex-wrap: wrap;     
+        & .port-slot {
+            display: block;
+            text-align: left;
+            max-width: 385px;
+            margin-left: 30px;
+        }  
+    }
+    & .events_category-book .cta-button-outline {
+        display: inline-block;
+    }
+}

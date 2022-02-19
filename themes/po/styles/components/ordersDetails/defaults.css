@@ -1,0 +1,124 @@
+.orderRow__header {
+    background: var(--color-primary3);
+    & h4 {
+        @mixin style-h5;    
+        color: var(--color-primary1);
+        flex-grow: 1;
+        font-feature-settings: inherit;
+        /* text-transform: capitalize; */
+    }
+    & .status {
+        @mixin style-h5;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: var(--color-primary1);
+    }
+    & span {
+        @mixin style-body2;
+        color: var(--color-primary1);
+    }
+}
+
+.confirmation-modal .modal-content {
+    & p {
+        @mixin style-body3;
+    }
+}
+
+.orderRow {
+    & .AMX {
+        background: url(../../../images/amex.png) no-repeat;
+        background-size: contain;
+    }
+    & .VIS {
+        background: url(../../../images/visa.png) no-repeat;
+        background-size: contain;
+    }
+    & .DINERS {
+        background: url(../../../images/diners.png) no-repeat;
+        background-size: contain;
+    }
+}
+
+.orderRow__body {
+    border: 1px solid var(--color-secondary2);
+    @mixin style-body3;
+    & .orderRow__column--pricing {
+        & .total-price {
+            @mixin style-h4;
+            color: var(--color-primary4);
+            font-size: 18px;
+        }
+    }
+}
+
+.orderRow__column--pricing {
+    & p {
+        @mixin style-body1;
+    }
+}
+
+
+.orderRow__column {
+    &:first-child {
+        border-bottom: 1px solid  var(--color-secondary2);
+    }
+    span {
+        @mixin style-bodyAlt;
+    }
+}
+.orderRow__openAccordion {
+    border-bottom: 1px solid var(--color-secondary2);
+    border-left: 1px solid var(--color-secondary2);
+    border-right: 1px solid var(--color-secondary2);
+
+    & span {
+        @mixin cta-secondary;
+        color: var(--color-secondary1);
+        text-transform: uppercase;
+    }
+    & span::after {
+        content: "\e903";
+        color: var(--color-secondary1);
+    }
+}
+
+.orderRow__accordion {
+    background: var(--color-secondary6);
+    border-bottom: 1px solid var(--color-secondary2);
+}
+.bodyText {
+    color: var(--color-primary1);
+}
+.productRow__date {
+    display: inline-block;
+}
+.productRow__cta {
+    & span {
+        font-family: var(--font-bold);
+    }
+}
+
+.ordersDetails {
+    & .productRow {
+        & .productRow__body {
+            & h5 {
+                margin-bottom: 20px;
+            }
+            & .productRow__singlePrice {
+                @mixin style-h5;
+                color: var(--color-primary6);
+            }
+            & .value__col {
+                @mixin style-h5;
+                color: var(--color-primary6);
+            }
+            & .total-price .value__col{
+                color: var(--color-primary4);
+            }
+            & .productRow__ul li a{
+                @mixin style-h6;
+            }
+        }
+    }
+}

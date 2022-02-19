@@ -1,0 +1,13 @@
+/* Global Components */
+@import '../../config/index.css';
+/* @import 'defaults.css'; */
+
+/*brand style of the component*/
+@import '../../components/globalHeaderMycruise/index.css';
+@import '../../components/heroMycruise/index.css';
+@import '../../components/titleH1Mycruise/index.css';
+@import '../../components/shipsGrid/index.css';
+@import '../../components/tabsMycruise/index.css';
+@import '../../components/storyRotatorMycruise/index.css';
+@import '../../components/accordionMycruise/index.css';
+@import '../../components/footerMycruise/index.css';

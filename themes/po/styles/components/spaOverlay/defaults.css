@@ -1,0 +1,117 @@
+.spa-overlay {
+    & .paragraph {
+        font-family: var(--font-body1);
+    }
+    & .search_filters--divider {
+        @mixin style-h4;
+    }
+    & .disabled {
+        opacity: 0.3;
+        pointer-events: none;
+    }
+    & .search_filters--divider:before {
+        background: var(--color-secondary5);
+    }
+    & .search_filters--divider span {
+        background: white;
+    }
+    & .disclaimerMessage {
+        border-radius: 20px;
+        padding: 20px 40px;
+        background: var(--color-secondary6);
+        @mixin style-body3;
+        max-width: 415px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    & .DayPickerInput {
+        &:after {
+            content: '\e91d';
+            font-size: 20px;
+            color: var(--color-primary4)
+        }
+    }
+    & .DayPicker {
+        & .DayPicker-NavButton--prev:before,
+        & .DayPicker-NavButton--next:before {
+            content: '\e903';
+            color: var(--color-primary3);
+        }
+        & .DayPicker-NavButton--prev:before {
+            transform: rotate(-180deg);
+        }
+        & .DayPicker-Weekdays {
+            background: #d3def0;
+        }
+        & .DayPicker-Weekday {
+            color: var(--color-primary5);
+            font-family: var(--font-body2);
+            font-size: 14px;
+        }
+        & .DayPicker-Week {
+            border-bottom: 1px solid #d3def0;
+        }
+        & .DayPicker-Day {
+            background: var(--color-secondary6);
+        }
+        & .DayPicker-Day span {
+            color: var(--color-primary5);
+            font-family: var(--font-body1);
+            font-size: 14px;
+        }
+        & .DayPicker-Day--disabled,
+        & .DayPicker-Day--outside  {
+            background: white;
+        }
+        &
+        .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+            background: var(--color-secondary6);
+        }
+        &
+        .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside)
+        span {
+            color: white;
+            background: var(--color-primary4);
+        }
+    }
+    & .port-slot{
+        color: var(--color-primary3);
+        font-family: var(--font-body3);
+        font-size:14px;
+    }
+    & .port-slot:before{
+        font-size:24px;
+    }
+    & .guestsList {
+        
+        & h4 {
+            @mixin style-h4;
+        }
+        & ul:after {
+            background: var(--color-secondary5);
+        }
+        & .total__label {
+            @mixin style-body1;
+        }
+        & .total__price {
+            @mixin style-h1;
+            font-size: 24px;
+            color: var(--color-primary4);
+        }
+    }
+    & .formSummary {
+        padding-top: 30px;
+        &:before {
+            background: var(--color-secondary5);
+        }
+        & h6 {
+            @mixin style-body1;
+        }
+    }
+    & .total .priceLabel {
+        line-height: 24px;
+    }
+    & .total .priceAmount {
+        color: var(--color-primary4);
+    }
+}

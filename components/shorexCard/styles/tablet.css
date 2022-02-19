@@ -1,0 +1,20 @@
+.shorex-card-container {
+    & .shorex-card {
+        text-align: left;
+    }
+    & .cta-addToCart a {
+        line-height: 18px;
+    }
+    & .title-container {
+        margin-bottom: 20px;
+        width: 70%;
+        min-height: 56px;
+    }
+    & .shorex-card-dates {
+        position: absolute;
+        right: 39px;
+        top: 30px;
+        text-align: center;
+        width: 16%;
+    }
+}

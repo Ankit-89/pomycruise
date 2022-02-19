@@ -1,0 +1,11 @@
+.dining-key-info {
+    & .infocard li.subtitle {
+        padding-right: 10px;
+        margin-right: 40px;
+        margin-bottom: 0;
+    }
+}
+
+.diningKeyInfoMycruise {
+    margin-top: -100px;
+}

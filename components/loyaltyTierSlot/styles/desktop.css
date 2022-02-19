@@ -1,0 +1,32 @@
+.loyaltyTierSlot {
+    padding: 25px 0;
+    & .tooltip__close {
+        display: none;
+    }
+    & .tooltip__dd {
+        text-align: left;
+        position: absolute;
+        top: 55px;
+        left: auto;
+        right: -20px;
+        max-width: 350px;
+        min-width: 250px;
+        height: auto;
+        padding: 30px;
+        width: auto;
+        &:before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            right: 10px;
+            content: "";
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            top: -6px;
+            display: block;
+            transform: rotate(-45deg);
+            z-index: -1;
+        }
+    }
+}

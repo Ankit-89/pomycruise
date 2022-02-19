@@ -1,0 +1,42 @@
+{
+  "type": "shipsGrid",
+  "id": "1487160279853",
+  "attributes": {
+    "backtopLabel": "Back to Top",
+    "closeLabel": "Close",
+    "gridList": [
+    	{
+        "image": {
+          "alt": "1",
+          "0": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+          },
+          "376": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+          },
+          "769": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+          }
+        },
+        "title": "Cruise Travel Insurance",
+        "type": "paragraph",
+        "description": "Travel Insurance gives you a safeguard against unforeseen problems that can affect your cruise both before you travel and while you’re in holiday. </br></br>Cover for medical treatment abroad is a condition of travelling with us. We have chosen Holiday Extras as our preferred travel insurance provider as they meet all our requirements.",
+        "align": "center",
+        "contentLabel": "Close",
+        "iconType": "page",
+        "iconCta":{
+          "label":"Go to holiday extras",
+          "url":"/holydayextra.html",
+          "isExternal":true
+        }
+      }
+    ],
+    "childComponents": ""
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

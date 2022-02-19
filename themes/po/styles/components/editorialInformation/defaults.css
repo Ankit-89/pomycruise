@@ -1,0 +1,14 @@
+.editorialInformation {
+    & .content-description {
+        @mixin style-body1;
+        /* font-size: 12px; */
+    }
+    & .content-description+.tiles-container .tiles-list {
+        border-top-color: var(--color-secondary6);
+    }
+    & .tiles-list {
+        & .tile+.tile {
+            border-top-color: var(--color-secondary6);
+        }
+    }
+}

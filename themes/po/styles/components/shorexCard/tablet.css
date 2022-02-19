@@ -1,0 +1,9 @@
+.shorex-card-container {
+    & .shorex-card-description {
+        font-size: 14px;
+    }
+    & .shorex-card-alert {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

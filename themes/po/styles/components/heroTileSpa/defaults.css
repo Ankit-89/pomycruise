@@ -1,0 +1,101 @@
+
+.heroTileSpa {
+    margin-top: -55px;
+}
+
+.heroTileAllInclusive {
+    margin-bottom: 50px;
+}
+
+.hero-tile-container {
+    min-height: 250px;
+    & .infocard-back {
+        background: var(--color-primary1);
+        &:before {
+            content: "\e903";
+            color: var(--color-primary3);
+            background: none;
+        }
+    }
+    & .infocard-wrapper {
+        @mixin box-sizing;
+        background: var(--color-primary1);
+        width: 100%;
+        padding: 0;
+        box-shadow: none;
+    }
+    & .infocard-wrapper.left {
+        text-align: left;
+    }
+    & .infocard .subtitle-ageRestricted {
+        background: var(--color-secondary6);
+        text-transform: uppercase;
+        @mixin style-body3;
+        color: var(--color-primary5);
+    }
+}
+
+.hero-tile-container .infocard {
+    padding: 35px 15px 0;
+    & .title {
+        @mixin style-h1;
+        margin: 0 0 30px 0;
+    }
+    & .desc-container {
+        padding-top: 0;
+    }
+    & .desc {
+        @mixin style-body2;
+        color: var(--color-primary6);
+        margin-top: 34px;
+        margin-bottom: 10px;
+    }
+    & p {
+        @mixin style-body1;
+        color: var(--color-primary6);
+        margin-bottom: 10px;
+    }
+    & .readmoreLink {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    & .readmoreLink a {
+        height: 35px;
+    }
+    & .cta-holder .secondary.cta-icon {
+        @mixin cta-primary;
+        padding-left: 20px;
+        &:before {
+            display: none;
+        }
+    }
+    & .cta-holder a {
+        @mixin cta-primary;
+    }
+    & .hero-tile-variants-title {
+        @mixin style-h4;
+        color: var(--color-secondary3);
+        text-transform: uppercase;
+    }
+    & .hero-tile-variants-tooltip {
+        background: var(--color-primary1);
+        box-shadow: 0 0px 20px 10px rgba(0, 0, 0, .1);
+        &:before {
+            background: var(--color-primary1);
+        }
+    }
+    & .hero-tile-variants-tooltip p {
+        background: var(--color-primary1);
+        @mixin style-body3;
+        text-transform: none;
+        font-feature-settings: 'lnum' 1;
+        background: var(--color-primary1);
+    }
+    & .hero-tile-close {
+        &:after {
+            content: "\e906";
+            color: var(--color-primary4);
+            width: 30px;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "type": "herotileevents",
+    "id": "",
+    "attributes": {
+        "heroTileVariation": "C037.301a",
+        "type": "image",
+        "cardAlignment": "center",
+        "title": "Massage treatments",
+        "description":
+            "Offers convenient, all-inclusive beverage packages to keep you refreshed throughout your voyage. Pay just one flat price and enoy a wide selection of beers, wines and spirits, plus non-alcoholic beverages, for the duration of your cruise. It’s the ultimate in convenience and value. Cheers! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "shortDescription":
+            "Offers convenient, all-inclusive beverage packages to keep you refreshed throughout your voyage.",
+        "readMoreLabel": "READ MORE",
+        "readLessLabel": "READ LESS",
+        "ageRestrictedLabel": "",
+        "backLabel": "Back",
+        // "image": {
+        //     "alt": "Alt attribute copy",
+        //     "0": {
+        //         "1x":
+        //             "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_375x281.jpg",
+        //         "2x":
+        //             "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+        //         "aspectRatio": 1.3321492007104796
+        //     },
+        //     "376": {
+        //         "1x":
+        //             "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_768x575.jpg",
+        //         "2x":
+        //             "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_1536x1150.jpg",
+        //         "aspectRatio": 1.3356521739130436
+        //     },
+        //     "769": {
+        //         "1x":
+        //             "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_1480x482.jpg",
+        //         "2x":
+        //             "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_2960x964.jpg",
+        //         "aspectRatio": 3.070539419087137
+        //     }
+        // },
+        "video": {
+            "videoTrack": "",
+            "title": "",
+            "source": [
+                {
+                    "src":
+                        "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_60d3317bec84422d8688d906d11f9f52/original.mp4?Expires=1831376739&response-content-disposition=inline%3Bfilename%3D3388.mp4&AWSAccessKeyId=AKIAJAPYK3V2NOQXPVCQ&Signature=zencKYP%2BlzhN7AXmdNsM4CflVdo%3D",
+                    "vdsrc": null,
+                    "type": "video/mp4"
+                }
+            ],
+            "track": [],
+            "poster":
+                "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_60d3317bec84422d8688d906d11f9f52/f_im_jpg_autoxauto.jpg",
+            "posterRendition": {}
+        }
+    }
+}

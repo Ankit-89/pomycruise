@@ -1,0 +1,9 @@
+.spa-overlay {
+    & .guestsList {
+        & ul:after {
+            left: -40px;
+            right: -40px;
+        }
+      
+    }
+}

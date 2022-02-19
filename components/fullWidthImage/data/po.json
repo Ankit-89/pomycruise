@@ -1,0 +1,24 @@
+{
+    "type": "fullWidthImage",
+    "id": "7234a67",
+    "meta": {
+        "render": "static"
+    },
+    "attributes": {
+       	"image": {
+            "alt": "Alt attribute copy",
+            "0": {
+                "1x": "http://placehold.it/320x214",
+                "2x": "http://placehold.it/640x428"
+            },
+            "769": {
+                "1x": "http://placehold.it/1440x524",
+                "2x": "http://placehold.it/2880x1047"
+            },
+            "376": {
+                "1x": "http://placehold.it/585x390",
+                "2x": "http://placehold.it/1170x780"
+            }
+        }
+    }
+}

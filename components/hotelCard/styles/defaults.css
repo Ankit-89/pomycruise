@@ -1,0 +1,22 @@
+.slick-slide .card-component.hotel-card {
+    &.content-align-left {
+        text-align: center;
+    }
+    & .cta-block {
+        float: none;
+        margin: 0 auto;
+        display: inline-block;
+    }
+}
+.hotel-card {
+    & .card-container {
+        & .content-holder {
+            padding: 30px;
+        }
+    }
+}
+.card-component {
+    &.hotel-card {
+        margin: 0 10px;
+    }
+}

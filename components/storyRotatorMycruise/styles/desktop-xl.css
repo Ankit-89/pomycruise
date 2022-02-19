@@ -1,0 +1,6 @@
+.story-rotator {
+    & .image-holder img {
+        object-fit: cover;
+        max-height: 464px;
+    }
+}

@@ -1,0 +1,30 @@
+.article-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    & .tile-image--round {
+        position: relative;
+        display: flex;
+        height: 195px;
+        width: 195px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    & .tile-image img {
+        position: absolute;
+        z-index: 0;
+        left: -9999px;
+        right: -9999px;
+        top: -9999px;
+        bottom: -9999px;
+        margin: auto;
+        display:block;
+        min-height:195px;
+    }
+    & .title-component {
+        display: flex;
+        width: auto;
+        clear: none;
+    }
+}

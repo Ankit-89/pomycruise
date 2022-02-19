@@ -1,0 +1,99 @@
+.spa-card-container {
+    position: relative;
+    margin: 10px;
+    height: 95%;
+    
+    & .type {
+        display: block;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        &:before {
+            content: "\e90c";
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: top;
+            font-size: 22px;
+            margin-right: 10px;
+        }
+    }
+    & .content-holder {
+        padding: 20px 20px 0 20px;
+    }
+    & .card-container {
+        & .bottom-block {
+            min-height: 190px;
+        }
+    }
+    & .text-content {
+        margin-bottom: 0;
+        & .spa-card-description {
+    }
+        //min-height: 66px;
+        font-size: 12px;
+        clear: left;
+        margin-bottom: 10px;
+    }
+
+    & .top-banner {
+        position: absolute;
+        padding: 5px 15px;
+        left: 20px;
+        top: 20px;
+    }
+    & .cta-content {
+        clear: both;
+        lost-utility: clearfix;
+        padding: 0 30px 40px 30px;
+    }
+
+     /* & .category-book {
+        margin-bottom: 20px;
+    } */
+
+    /*& .cta-block+.cta-block {
+        float: right;
+    } */
+
+    & .category-book {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        & .cta-button-outline {
+
+            margin-left: 20px;
+            margin-right: 20px;
+            padding: 15px 30px;
+            position: unset;
+            background: var(--color-primary2);
+            border-radius: 16px;
+            color: var(--color-primary1);
+            font-family: "GreycliffCF-bold";
+            font-size: 14px;
+            display: block; 
+        }
+    }
+    
+
+    & .category-book a {
+        color: var(--color-primary1);
+        font-family: GreycliffCF-bold;
+        text-decoration-line: none;
+        text-transform: uppercase;
+    }
+}
+
+.sliderViewed .shorex-card-noPrice {
+    height: 0;
+}
+
+.shorex-card-dates {
+    margin-bottom: 10px;
+}
+.slick-slide {
+    & .spa-card-container  {
+        & .card-component {
+            margin: 0;
+            width: 100%
+        }
+    }
+}

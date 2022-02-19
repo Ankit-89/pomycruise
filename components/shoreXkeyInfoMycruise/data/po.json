@@ -1,0 +1,257 @@
+{
+    "type": "shoreXkeyInfoMycruise",
+    "id": "1540368971804",
+    "attributes": {
+        "childComponents": [{
+            "type": "shorexOverlay",
+            "id": "1540368971818",
+            "attributes": {
+                "continueShopping": {},
+                "services": {
+                    "urls": {
+                        "updateCartApi": "https://dev.api.mycruise-temp.com:443/v1/mc-shopping-basket/PO-Site/users/current/carts/current/entries",
+                        "instancesApi": "https://dev.api.mycruise-temp.com/v1/mc-products/PO-Site/products/{{productCode}}/instances"
+                    },
+                    "headers": {
+                        "brand": "po",
+                        "locale": "en_GB",
+                        "country": "GB"
+                    }
+                },
+                "labels": {
+                    "errorLimitedAvailability": "There is not enough availability for the number of guests you previously selected! Please, try again with another day / timeslot.",
+                    "registerInterestConfirmText": "Register Interest Confirm Text",
+                    "ageRestrictedLabel": "Age resctricted",
+                    "limitedAvailabilityPluralLabel": "There are only {places} places left for this option",
+                    "limitedAvailabilitySingularLabel": "There is only {places} place left for this option",
+                    "registerInterestConfirmTitle": "Register Interest Confirm",
+                    "registerInterestMessage": "Register Interest Message",
+                    "registerInterestLabel": "Register Interest",
+                    "errorOutOfStockProduct": "This product is out of stock! Please, try with another one",
+                    "registerInterestDisclaimer": "Register Interest Disclaimer",
+                    "totalLabel": "Total",
+                    "selectGuestsLabel": "Select Guests",
+                    "closeLabel": "Close",
+                    "addToCartLabel": "Add to cart",
+                    "genericError":
+                            "This product is out of stock! Please change choice",
+                    "errorNoPurchasable": "Sorry you are no longer able to purchase this product on My Cruise but you may still be able to buy it onboard. Please try with another shorex for now",
+                    "errorOutOfStockInstance": "The option you previously selected is out of stock! Please, try again with another day / timeslot"
+                },
+                "guideLanguages": {
+                    "options": [{
+                        "ar": {
+                            "label": "Arabic",
+                            "value": ""
+                        }
+                    }, {
+                        "zh": {
+                            "label": "Chinese",
+                            "value": ""
+                        }
+                    }, {
+                        "en": {
+                            "label": "English",
+                            "value": ""
+                        }
+                    }, {
+                        "en_GB": {
+                            "label": "English (UK)",
+                            "value": ""
+                        }
+                    }, {
+                        "en_US": {
+                            "label": "English (US)",
+                            "value": ""
+                        }
+                    }, {
+                        "fr": {
+                            "label": "French",
+                            "value": ""
+                        }
+                    }, {
+                        "de": {
+                            "label": "German",
+                            "value": ""
+                        }
+                    }, {
+                        "hi": {
+                            "label": "Hindi",
+                            "value": ""
+                        }
+                    }, {
+                        "id": {
+                            "label": "Indonesian",
+                            "value": ""
+                        }
+                    }, {
+                        "it": {
+                            "label": "Italian",
+                            "value": ""
+                        }
+                    }, {
+                        "ja": {
+                            "label": "Japanease",
+                            "value": ""
+                        }
+                    }, {
+                        "ko": {
+                            "label": "Korean",
+                            "value": ""
+                        }
+                    }, {
+                        "es_CO": {
+                            "label": "Latin-American Spanish",
+                            "value": ""
+                        }
+                    }, {
+                        "pt": {
+                            "label": "Portuguese",
+                            "value": ""
+                        }
+                    }, {
+                        "ru": {
+                            "label": "Russian",
+                            "value": ""
+                        }
+                    }, {
+                        "es": {
+                            "label": "Spanish",
+                            "value": ""
+                        }
+                    }, {
+                        "zh_TW": {
+                            "label": "Traditional Chinese",
+                            "value": ""
+                        }
+                    }]
+                },
+                "portDetailsServletUrl": "/content/po/master_website/en_GB/ports.itinerary.{port_code}.json"
+            },
+            "meta": {
+                "render": "dynamic"
+            }
+        }],
+        "labels": {
+            "0-portLabel": "Port",
+            "2-activityLevelLabel": "Activity Level",
+            "3-mealsIncludedLabel": "Meals Included",
+            "1-durationLabel": "Duration"
+        },
+        "productCodeLabel": "Product code:",
+        "showShorePrice": true,
+        "name": "Barossa Valley Wine And Scenery",
+        "type": "image",
+        "description": "Barossa Valley Wine And Scenery lorem",
+        "image": {
+            "alt": "",
+            "0": {
+                "1x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.375.281.low.jpg",
+                "2x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.750.563.low.jpg",
+                "aspectRatio": 1.3321492007104796
+            },
+            "376": {
+                "1x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.768.575.medium.jpg",
+                "2x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.1536.1150.medium.jpg",
+                "aspectRatio": 1.3356521739130436
+            },
+            "769": {
+                "1x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.1480.482.high.jpg",
+                "2x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.2960.964.high.jpg",
+                "aspectRatio": 3.070539419087137
+            }
+        },
+        "ctaLink": "/content/po/master_website/en_GB/find-a-cruise.html",
+        "video": {},
+        "readLess": "Read Less",
+        "shorexId": "BGI_058",
+        "infoNAKey": "N/A",
+        "currencyType": "GBP",
+        "shorexPageUrl": "/content/po/master_website/en_GB/mycruise/excursions/ADL/barossa-valley-wine-and-scenery.html",
+        "readMore": "Read more",
+        "excursionInfoData": [{
+            "caption": "Port",
+            "statistic": "",
+            "key": "portLabel"
+        }, {
+            "caption": "Duration",
+            "statistic": "Approximately 8.00 hours.",
+            "key": "durationLabel"
+        }, {
+            "caption": "Activity Level",
+            "statistic": "Info Not Available",
+            "key": "activityLevelLabel"
+        }, {
+            "caption": "Meals Included",
+            "statistic": " Meal Included",
+            "key": "mealsIncludedLabel"
+        }],
+        "collectionImage": "",
+        "shorexDescription": "Barossa Valley Wine And Scenery lorem content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery loremBarossa Valley Wine And Scenery loremm Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem Barossa Valley Wine And Scenery lorem",
+        "externalContent": false,
+        "shorexOverviewImage": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg",
+        "collectionImageAlt": "",
+        "shorexLimitedAvailabilityLabel": " limited availability",
+        "fromPriceLabel": "From",
+        "notOnSaleYetLabel": "not yet on sale",
+        "addToCartLabel": "Add to cart",
+        "notOnSaleAnymoreLabel": "not on sale anymore",
+        "notOnSaleAnymoreInfo": "<p>Non è più possibile acquistare l'escursione</p>\\r\\n\\r\\n",
+        "notOnSaleYetInfo": "<p>not yet on sale message ...<br>\\r\\n\\r\\n</p>\\r\\n\\r\\n",
+        "ageRestrictedLabel": "Age resctricted",
+        "perInfantLabel": "{price} for infant",
+        "excursionInfoDataDetailed": [{
+            "type": "glance",
+            "title": "At Glance",
+            "list": "at glance",
+            "icon": "/content/dam/po/po-asset/Icons/share_facebook.svg"
+        }, {
+            "type": "itinerary",
+            "title": "Itinerary",
+            "list": "itinerary",
+            "icon": "/content/dam/po/po-asset/Icons/share_facebook.svg"
+        }, {
+            "type": "included",
+            "title": "What's included",
+            "list": "included",
+            "icon": "/content/dam/po/po-asset/Icons/share_facebook.svg"
+        }],
+        "registerInterestLabel": "Register Interest",
+        "soldOutLabel": "Sold Out",
+        "backLabel": "Back",
+        "sliderImage": {
+            "alt": "",
+            "0": {
+                "1x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.440.330.low.jpg",
+                "2x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.880.660.low.jpg",
+                "aspectRatio": 1.3333333333333333
+            },
+            "376": {
+                "1x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.440.330.medium.jpg",
+                "2x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.880.660.medium.jpg",
+                "aspectRatio": 1.3333333333333333
+            },
+            "769": {
+                "1x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.440.330.high.jpg",
+                "2x": "/content/dam/po/po-asset/HomePage/aes-alesund-port-1.jpg.image.880.660.high.jpg",
+                "aspectRatio": 1.3333333333333333
+            }
+        },
+        "perChildLabel": "{price} for children",
+        "onHoldLabel": "On Hold",
+        "perAdultLabel": "{price} for adult"
+    },
+    "meta": {
+        "render": "dynamic"
+    },
+    "services": {
+        "urls": {
+            "productDetailsApi": "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "GB"
+        }
+    }
+}

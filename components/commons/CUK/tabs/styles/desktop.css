@@ -1,0 +1,63 @@
+.tabs {
+   & .slider {
+        /* padding-right: 40px !important;    
+        padding-left: 40px !important; */
+        
+        /* & .slick-slider {
+            & li {
+                margin-right: 0 !important;
+            }
+            & .slick-prev,
+            & .slick-next {
+                width: 25px;
+                text-align: center;
+                cursor: pointer;
+                position: absolute;
+                top: -25px;
+                z-index: 2;
+                &:before {
+                    content: "\E903";
+                    color: #002776;
+                    background-color: #fff;
+                    font-family: var(--font-icomoon);
+                    display: block;
+                    height: 100%;
+                    font-size: 1.25rem;
+                    line-height: 8.4375rem;
+                }
+                &.disabled {
+                    &:before {
+                        color: var(--color-secondary6);
+                    }
+                    cursor: default;
+                }
+            }
+            & .slick-prev {
+                left: 0;
+                text-align: center;
+                
+            }
+
+            & .slick-next {
+                right: 0;
+                text-align: center;
+            }
+        }
+
+        & li a {
+            word-wrap: break-word !important;
+        } */
+        /* &::after {
+            content: 'next';
+            
+        }
+        &::before {
+            content: 'prev';
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            left: 0;
+        } */
+    }
+    
+}

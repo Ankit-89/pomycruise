@@ -1,0 +1,350 @@
+.entertainmentConfigPage-tile-container {
+    margin-top: unset;
+    padding-left: 65px;
+    padding-right: 65px;
+
+    & .type {
+        margin-bottom: 0px;
+    }
+    & .eventLocation {
+        font-size: 24px;
+        margin-top:40px
+    }
+    & .guestsList {
+        & ul {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            max-width: 100%;
+
+            & li {
+                list-style: none;
+                margin: 24px 0px 30px 0px;
+
+                min-width: 150px;
+                padding-right: 35px;
+            }
+
+            & .pax-checkbox {
+                & input:checked + label:after {
+                    top: 6px;
+                    left: 7px;
+                }
+            }
+        }
+    }
+
+    & .spa-duration-container {
+        & h2 {
+            font-weight: 600;
+        }
+        & .cta-button-false {
+            padding: 14px 15px;
+        }
+
+        & .cta-button-true {
+            padding: 14px 15px;
+        }
+        & ul {
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+
+            & li {
+                list-style: none;
+                margin-right: 30px;
+
+                & input[type='radio'] {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    & .spa-date-container {
+        & h3 {
+        }
+
+        & .calendarViewDay {
+            margin-top: 35px;
+            & .calendar__day {
+                height: 100px;
+                width: 100px;
+            }
+
+            & .calendar__dayLabel {
+                margin-top: 5px;
+                font-size: 24px;
+            }
+
+            & .nav_prev,
+            & .nav_next {
+                width: 50px;
+            }
+        }
+    }
+
+    & .selectTime-wrapper {
+        /* background-color: var(--color-secondary6); */
+        /* margin: 35px 0px 0px;
+        padding: 45px; */
+        & .heading {
+            display: flex;
+            margin-bottom: 24px;
+            flex-direction: row;
+
+            & .dateSection {
+                display: flex;
+                color: var(--color-primary3);
+                align-items: baseline;
+
+                & .select_time_label {
+                    @mixin style-h4;
+                    margin-right: 5px;
+                    font-family: var(--font-h5);
+                    font-size: 24px;
+                }
+
+                & span:last-child {
+                    margin-left: 5px;
+                    font-size: 20px;
+                }
+            }
+            & .bestPrice {
+                margin-left: auto;
+                font-size: 16px;
+            }
+        }
+
+        & .details {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            & .left-section {
+                width: 15%;
+            }
+            & .right-section {
+                padding-top: 0px;
+                /* padding-bottom: 32px; */
+                width: 85%;
+                border-bottom: 1px solid #a6b4cf;
+
+                & a {
+                    margin: 15px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                    min-width: 110px;
+                    padding: 10px 15px;
+                    background-color: #ffffff;
+                    border: 1px solid #a6b4cf;
+                    box-sizing: border-box;
+                    border-radius: 10px;
+                    display: inline-flex;
+                    flex-direction: column;
+                    text-align: center;
+                    text-decoration: none;
+                    justify-content: space-between;
+                    & .time_container {
+                        color: var(--color-secondary4);
+                        line-height: 1.25;
+                    }
+
+                    & .price_container {
+                        color: var(--color-primary5);
+                        font-size: 14px;
+                        line-height: 1.25;
+                    }
+
+                    & .bestPrice {
+                        color: var(--color-primary2);
+                    }
+
+                    &:hover,
+                    :focus {
+                        background-color: var(--color-secondary1);
+                        color: #ffffff !important;
+                        & .time_container {
+                            color: var(--color-primary1);
+                            font-size: 15px;
+                            line-height: 1.25;
+                        }
+
+                        & .price_container {
+                            color: var(--color-primary1);
+                            font-size: 14px;
+                            line-height: 1.25;
+                        }
+
+                        & .bestPrice {
+                            color: var(--color-primary2);
+                        }
+                    }
+
+                    &:visited {
+                        color: var(--color-primary3);
+                    }
+                    &:first-child {
+                        /* margin-left: 0; */
+                    }
+                }
+
+                & .active {
+                    background-color: var(--color-secondary1);
+                    color: #ffffff !important;
+
+                    & .time_container {
+                        color: var(--color-primary1);
+                        font-size: 15px;
+                        line-height: 1.25;
+                    }
+
+                    & .price_container {
+                        color: var(--color-primary1);
+                        font-size: 14px;
+                        line-height: 1.25;
+                    }
+
+                    & .bestPrice {
+                        color: #ffffff;
+                    }
+                }
+                & .timeslot-with-date {
+                    & a {
+                        margin-bottom: 0;
+                    }
+                    & .calendarDay___details {
+                        padding-right: 15px;
+                        margin-bottom: 15px;
+                        & .calendarDay___status {
+                            flex-grow: 1;
+                            width: 0;
+                        }
+                    }
+                }
+            }
+
+            &:last-child {
+                & .right-section {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+/* .botton-container {
+    text-align: left;
+
+    & .cta-primary {
+        width: auto;
+        padding: 0px 60px;
+    }
+
+    & .formSummary {
+        padding: 10px;
+        margin-right: 30px;
+
+        & .total {
+            @mixin style-body1;
+            font-size: 18px;
+            line-height: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            & .priceLabel {
+                font-size: 16px;
+            }
+            & .priceAmount {
+                font-weight: 900;
+                font-size: 24px;
+                color: #002776;
+            }
+        }
+    }
+} */
+
+.botton-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    position: inherit;
+    z-index: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: auto;
+    background: #fff;
+
+    margin: 0px;
+    padding: 25px 0px;
+
+    & .cta-primary {
+        width: auto;
+        padding: 0px 60px;
+    }
+
+    & .formSummary {
+        padding: 10px;
+        margin-right: 30px;
+        padding-bottom: 0px;
+
+        & .total {
+            @mixin style-body1;
+            font-size: 18px;
+            line-height: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            & .priceLabel {
+                font-size: 16px;
+                margin: 5px 0;
+            }
+            & .priceAmount {
+                font-size: 24px;
+                color: #002776;
+                margin: unset;
+            }
+        }
+        & a {
+            width: auto;
+        }
+    }
+}
+
+.calendar__dayList {
+    & .calendar__day {
+        & .calendar__dayWrapper {
+            top: 47%;
+            & .calendar__monthLabel {
+                font-size: 16px;
+            }
+            & .calendar__dayLabel {
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+.aria-modal {
+    margin: auto;
+    min-height: 432px;
+    background: #FFFFFF;
+    width: 60%;
+}
+
+.soldout-container {
+    & .soldout-message {
+        margin-top: 5%;
+    }
+}
+

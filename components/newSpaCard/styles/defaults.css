@@ -1,0 +1,121 @@
+.new-spa-card-container {
+    position: relative;
+    margin: 10px;
+    & .type {
+        position: relative;
+        vertical-align: top;
+        display: inline-block;
+        margin-bottom: 25px;
+        &:before {
+            content: '\e90c';
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: top;
+            font-size: 22px;
+            margin-right: 10px;
+        }
+    }
+    & .content-holder {
+        padding: 30px 30px 0 30px;
+    }
+    & .card-container {
+        & .bottom-block {
+            min-height: 140px;
+        }
+    }
+    & .text-content {
+        margin-bottom: 0;
+    }
+    & .spa-card-description {
+        //min-height: 66px;
+        font-size: 12px;
+        clear: left;
+        margin-bottom: 10px;
+    }
+
+    & .top-banner {
+        position: absolute;
+        padding: 5px 15px;
+        left: 20px;
+        top: 20px;
+    }
+    & .cta-content {
+        clear: both;
+        lost-utility: clearfix;
+        padding: 0 30px 30px 30px;
+    }
+
+    & .cta-block {
+        float: left;
+        /* width: 40%; */
+    }
+
+    & .cta-block + .cta-block {
+        float: right;
+        /* width: 60%; */
+    }
+
+    & .cta-block a {
+        @mixin cta-primary display: block;
+        font-size: 0.8125rem;
+        height: 50px;
+        line-height: 3.125rem;
+    }
+
+    & .cta-block {
+        & .labelMsg {
+            color: var(--color-primary3);
+        }
+    }
+
+    & .spaComponent__duration {
+        margin-bottom: 10px;
+        color: #666;
+        align-items: center;
+        display: flex;
+        &:before {
+            content: '\E907';
+            color: #988642;
+            font-family: var(--font-icomoon);
+            display: inline;
+            font-size: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+            font-weight: 900;
+        }
+    }
+
+    & .know_more_btn_container {
+        @mixin style-body2;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: left;
+        padding: 0 30px 40px 30px;
+
+        & span {
+            text-transform: uppercase;
+            position: relative;
+            text-decoration: underline;
+            cursor: pointer;
+            color: var(--color-secondary1);
+            font-weight: 900;
+        }
+    }
+}
+
+.sliderViewed .shorex-card-noPrice {
+    height: 0;
+}
+
+.shorex-card-dates {
+    margin-bottom: 10px;
+}
+.slick-slide {
+    & .spa-card-container {
+        & .card-component {
+            margin: 0;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.filter-sort-bar-container {
+    & .tile-detail {
+        margin-left: 14px;
+        margin-right: 14px;
+        width: 45%;
+        vertical-align: text-top;
+    }
+}

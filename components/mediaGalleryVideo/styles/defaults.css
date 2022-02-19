@@ -1,0 +1,41 @@
+.gallery-container {
+    & .video-container img {
+        width: 100%;
+    }
+    & .videoIframe {
+        height: 405px;
+    }
+    & .hide {
+        display: none;
+    }
+    & [class |= "media-item"] {
+        margin: 10px 9px;
+        position: relative;
+    }
+
+
+    & [class |= "media-item"] .image-holder {
+        overflow: hidden;
+    }
+    & .image-holder {
+        position: relative;
+    }
+    & .amp-video-container {
+        height: 382px;
+    }
+    & .gallery-carousel-controls .button {
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    /* & .gallery-carousel-controls .button::before {
+        content: ' ';
+        width: 30px;
+        height: 25px;
+        display: inline-block;
+        vertical-align: middle;
+    } */
+    & .media-grid {
+        margin-bottom: 14px;
+    }
+}

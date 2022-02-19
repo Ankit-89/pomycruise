@@ -1,0 +1,11 @@
+.infocard  .desc,
+.infocard  .desc-container
+    {
+    &.readmore {
+        height: 154px;
+    }
+}
+
+.readmoreLink {
+    margin-top: 29px;
+}

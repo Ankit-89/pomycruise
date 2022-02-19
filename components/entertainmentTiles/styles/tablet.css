@@ -1,0 +1,21 @@
+.entertainment-tiles-container {
+    & .tile-detail {
+        width: 50%;
+    }
+    
+    & .cta-holder .btn {
+        float: right;
+    }
+    & .cta-holder .btn-secondary {
+        float: left;
+        display: inline-block;
+    }
+}
+.spa-card {
+    text-align: left;
+    & .title-container {
+        min-height: 56px;
+        margin-bottom: 20px;
+        width: 70%;
+    }
+}

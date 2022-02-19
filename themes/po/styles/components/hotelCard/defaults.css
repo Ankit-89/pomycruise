@@ -1,0 +1,12 @@
+.knt-tmp-empty-css{
+    display: block;
+}
+.hotel-card {
+    & .card-container {
+        & .content-holder {
+            border-bottom: 2px solid var(--color-secondary2);
+            border-left: 2px solid var(--color-secondary2);
+            border-right: 2px solid var(--color-secondary2);
+        }
+    }
+}

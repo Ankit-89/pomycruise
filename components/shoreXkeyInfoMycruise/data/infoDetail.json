@@ -1,0 +1,14 @@
+{
+    "type": "infoDetail",
+    "id": "1799926477925",
+    "meta": {
+        "render": "dynamic"
+    },
+    "attributes": {
+		"excursionInfoDataDetailed": [{
+			"title": "title",
+			"type": "type",
+			"list":[{"title":"title","description":"description"}]
+        }]
+    }
+}

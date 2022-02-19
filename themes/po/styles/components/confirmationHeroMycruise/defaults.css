@@ -1,0 +1,19 @@
+.confirmation-hero-cont {
+    & .full-image img {
+        display: block
+    }
+}
+
+.confirmation-hero-par {
+    @mixin style-body2;
+}
+  
+.booking-msg {
+    @mixin style-body2;
+    text-transform: uppercase;
+    color: var(--color-primary3);
+}
+
+.booking-title {
+    padding-bottom: 30px;
+}

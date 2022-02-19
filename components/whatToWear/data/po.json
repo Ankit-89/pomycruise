@@ -1,0 +1,33 @@
+{
+  "type": "loginTALanding",
+  "id": "1521450986488",
+  "attributes": {
+    "childComponents": [{
+        "type": "titleH1Mycruise",
+        "id": "1521450986453",
+        "attributes": {
+            "title": "Welcome in My Cruise",
+            "description": "Please select a passenger and continue to login to My Cruise",
+            "type": "h1"
+        },
+        "meta": {
+            "render": "serverside"
+        }
+    }],
+    "labels": {
+      "bookingNumberLabel": "Booking number:",
+      "loyalityLabel": "LOYALTY TIER:",
+      "noLoyalityLabel": "NO LOYALTY TIER",
+      "ctaLabel": "Select",
+      "ageLabel": "Age"
+    }
+  },
+  "services": {
+    "urls": {
+      "loyalityApi": "../../../services/loyalty-account.json" 
+    }
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

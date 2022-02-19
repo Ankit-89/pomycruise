@@ -1,0 +1,62 @@
+{
+	"type": "hotelCard",
+	"id": "1488441675235",
+	"attributes": {
+		"childComponents": [],
+		"title": "Heading",
+		"offerBanner": "Promo offer",
+		"textAlignment": "left",
+		"primaryCta": {
+		  "label": "See More",
+		  "url": "/content/carnival/platform/en/grid-test.html",
+		  "isExternal": false
+		},
+		"description": "Lorem ipsum consetcuri, provided",
+		"image": {
+		  "alt": "Hero alt text",
+		  "0": {
+			"1x": "http://placehold.it/375x282",
+			"2x": "http://placehold.it/750x564"
+		  },
+		  "376": {
+			"1x": "http://placehold.it/768x578",
+			"2x": "http://placehold.it/1536x1324"
+		  },
+		  "769": {
+			"1x": "http://placehold.it/1440x1083",
+			"2x": "http://placehold.it/2880x2166"
+		  }
+		},
+	  "tileType": "query",
+	  "showPackage": true,
+	  "inlineCurrency": "",
+	  "showOfferBanner": true,
+	  "showRoomCategory": true,
+	  "inlineRoomCategory": "",
+	  "navigateToSearchResult": true,
+	  "destinationDisplayType": "duration-destination-port",
+	  "departDateFrom": "201805",
+	  "departDateTo": "201805",
+	  "destination": "YVR",
+	  "departurePort": "YVR",
+	  "shipCode": "VO",
+	  "paxType": "Pax Type",
+	  "inlinePrice": "",
+	  "serachPageFilterURL": "/content/costa/master_website/it_IT/cruises.html#&fq={!tag=destinationTag}destinationIds:YVR&fq={!tag=departTag}departDate:[2018-05-01T00:00:00Z TO 2018-05-01T00:00:00Z+1MONTH]&fq={!tag=shipsTag}shipId:VO&fq={!tag=embarkTag}embarkPortCode:YVR&fq={!tag=durationTag}duration:7&fq={!tag=itineraryTag}itineraryId:A6G70S",
+	  "priceSolrUrl": "&fq=disembarkPortCode:YVR&fq=departDate:[2018-05-01T00:00:00Z TO *] &fq=arrivalDate:[ * TO 2018-05-01T00:00:00Z]&fq=shipId:VO&fq=embarkPortCode:YVR&fq=duration:7&fq=itineraryId:A6G70S&fq=entityId:{{cruiseId_itineraryId}}"
+	},
+	"services": {
+		"urls": {
+		  "recentlyViewed": "/services/costa-select.json",
+		  "cruiseList": "/services/special_offer_price_api.json"
+		},
+		"headers": {
+		  "brand": "po",
+		  "locale": "en_GB",
+		  "country": "IT"
+		}
+	},
+	"meta": {
+	  "render": "static"
+	}
+  }

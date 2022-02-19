@@ -1,0 +1,20 @@
+/* .new-spa-card-container {
+    &  .cta-content {
+        flex-direction: row;
+        align-items: center;
+
+        & .price-container {
+            margin-bottom: 0px;  
+        }
+    }
+} */
+.spa-card {
+    & .top-banner {
+        @mixin style-body2;
+        background: var(--color-primary3);
+        color: var(--color-primary1);
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}
+

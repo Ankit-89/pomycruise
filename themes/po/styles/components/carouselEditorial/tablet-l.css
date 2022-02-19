@@ -1,0 +1,5 @@
+.carousel-editorial {
+    & .destination-tile-card {
+        margin-right: 10px;
+    }
+}

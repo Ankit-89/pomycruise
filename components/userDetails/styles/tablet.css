@@ -1,0 +1,37 @@
+.passengers_details {  
+    padding: 40px 32px;
+    & .passenger_select {
+        margin-bottom: 45px;
+    }
+}
+
+
+.passenger_form--section {
+    & .form_wrapper {
+        padding-bottom: 58px;
+    }
+}
+
+.form_notification {
+    padding: 0 24px 0 9px;
+    top: 0;
+    & .notification-icon {
+        width: 35px;
+        height: 35px;
+        line-height: 50px;
+        margin-right: 11px;
+        &:before {
+            line-height: 35px;
+            font-size: 12px;
+        }
+    }
+
+    &.form-incomplete {
+        & .notification-icon:before {
+            font-size: 17px;
+        }
+    }
+    & .notification-text {
+        display: inline-block;
+    }
+}

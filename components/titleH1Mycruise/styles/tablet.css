@@ -1,0 +1,9 @@
+.title-component {
+    margin-bottom: 45px;
+    & .inner-container {
+        lost-utility: clearfix;
+        lost-center: 572px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

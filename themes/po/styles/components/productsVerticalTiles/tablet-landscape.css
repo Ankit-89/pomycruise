@@ -1,0 +1,5 @@
+.spa-tiles-container {
+    & .tile-detail {
+        width: 33.30%;
+    }
+}

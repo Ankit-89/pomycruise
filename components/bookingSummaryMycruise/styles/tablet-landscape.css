@@ -1,0 +1,24 @@
+.bookingSummaryMycruise {
+    padding: 0 60px 0;
+    & .image-lazy-loader {
+        width: 50%;
+        margin-bottom: 0;
+    }
+    & .bookingSummary__info {
+        padding: 0 0 0 60px;
+    }
+    & .bookingSummary {
+        display: flex;
+        & picture img {
+            width: 200%;
+        }
+    }
+    & .nextSteps__item {
+        padding-right: 50px;
+    }
+    & .nextSteps {   
+        & p {
+            max-width: 83%
+        }
+    }
+}

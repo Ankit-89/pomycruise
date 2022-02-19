@@ -1,0 +1,165 @@
+.ordersDetails {
+    & .title-component {
+        margin-bottom: 45px;
+    }
+}
+.confirmation-modal {
+    & .aria-modal {
+        height: 100%;
+    }
+}
+.confirmation-modal .modal-content {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+.confirmation-modal {
+    & h4 {
+        line-height: 21px;
+    }
+   
+}
+.orderRow {
+    @mixin grid-wrap;
+    list-style: none;
+    & .cardImage {
+        width: 35px;
+        height: 20px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    & .cardNumber {
+        display: inline-block;        
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+    & .orderRow__header {
+        & h4 {
+            line-height: 1.8rem;
+        }
+    }
+    & .productRow__date {
+        text-transform: capitalize;
+    }
+    & .productRow__cancelled {
+        position: relative;
+        & .tooltip__icon {
+            position: relative;
+            margin-left: 10px;
+            top: auto;
+            left: auto;
+            right: auto;
+        }
+    }
+}
+
+.orderRow__column--pricing {
+    @mixin pricing-row;
+}
+
+.modal-btns {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    & button {
+        min-width: 120px;
+        display: block;
+        margin: 10px auto;
+    }
+}
+.orderRow__header {
+    padding: 20px 20px 40px;
+    position: relative;
+    & .status {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+} 
+
+.orderRow__accordion {
+    display: none;
+    &.visible {
+        display: block;
+    }
+}
+
+.orderRow__body {
+    padding: 20px;
+    position: relative;
+    & h5 {
+        margin-bottom: 12px;
+    }
+    & span {
+        display: block;
+    }
+    & .orderRow__column--pricing {
+        & span {
+            display: inline-block;
+        }
+        & p {
+            padding-bottom: 7px;
+        }
+        & .total-price {
+            margin-top: 14px;
+        }
+    }
+}
+
+.orderRow__column {
+    &:first-child {
+        margin-bottom: 20px;
+    }
+    & > div {
+        margin-bottom: 20px;
+    }
+}
+
+
+.orderRow__openAccordion {
+    border-top: 0;
+    padding: 20px 30px;
+    margin-bottom: 0px;
+    display: block;
+    text-align: center;
+    & span {
+        text-align: center;
+        height: 40px;
+        display: inline-block;
+        padding: 0;
+        &:before {
+            display: none;
+        }
+    }
+    & span::after {
+        font-family: var(--font-icomoon);
+        speak: none;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        display: inline-block;
+        transform: rotate(90deg);
+    }
+}
+.orderRow__accordion.visible + .orderRow__openAccordion {
+    & span::after {
+        transform: rotate(-90deg);
+    }
+}
+
+.orderRow__accordion {
+    padding: 20px;
+}
+
+.productRow {
+    @mixin product-row;
+
+    & .pricing {
+        @mixin pricing-row;
+    }
+}
+
+.tooltip__icon.left {
+    right: auto;
+    left: 0;
+}

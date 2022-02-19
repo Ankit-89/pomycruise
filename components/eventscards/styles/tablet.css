@@ -1,0 +1,41 @@
+.spaComponent {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    text-align: left;
+    
+    & .spaComponent__image {
+        lost-column: 2/10 0 0;
+        text-align: center;
+        padding: 0;
+        display: block;
+        & img {
+            width: 125px;
+            height: 125px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 15px;
+            background: grey;
+        }
+    }
+
+    & .spaComponent__details {
+        lost-column: 6/10 0 0;
+        lost-offset: 1/10;
+    }
+}
+.entertainment-tiles-container {
+    & .tiles-container {
+        padding: 0px 22px;
+        & .entertainment-detail-tile {
+            width: 50%;
+        }
+    }
+
+}
+
+.productsVerticalTiles {
+    & .notificationBanner {
+        padding: 0 0 60px;
+    }
+    
+}

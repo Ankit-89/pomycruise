@@ -1,0 +1,120 @@
+
+.hero-tile-container.variation {
+    text-align: left;
+    & .ht-background {
+        @mixin ht-max-height;
+    }
+    & .infocard {
+        padding: 60px 60px 0;
+    }
+    & .cta-holder {
+        position: absolute;
+        right: 60px;
+        top: 30px;
+        margin-top: 0;
+    }
+    & .infocard .cta-holder {
+        width: auto;
+    }
+    & .cta-holder .secondary {
+        padding: 15px 12px;
+    }
+    & .infocard .title {
+        max-width: 70%;
+        text-align: left;
+        margin: 0 0 30px 0;
+    }
+}
+
+.hero-tile-container.variation .infocard-wrapper {
+    &.left {
+        /*margin-left: 64px;*/
+    }
+    &.right {
+        /*margin-right: 64px;*/
+    }
+}
+
+.hero-tile-container {
+    & .desc-bullet {
+        text-align: left;
+        float: left;
+        display: block;
+        lost-column: 1/2;
+    }
+    & .infocard-wrapper {
+        margin: -127px auto 0;
+    }
+    &.hero-tile-container-border .infocard {
+        padding: 50px;
+
+    }
+    & .infocard h2 {
+        margin: 25px 0 15px 0;
+    }
+    &.hero-tile-container-border {
+        & .infocard-wrapper {
+            padding: 50px;
+        }
+    }
+    & .infocard {
+        text-align: left
+    }
+    & .infocard-wrapper {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    & .cta-icon {
+        padding-left: 10px;
+    }
+    & .cta-icon img {
+        max-width: 30px;
+    }
+    & .infocard-back {
+        @mixin cta-secondary-up;
+        background: var(--color-primary1);
+        padding: 0 25px 0 35px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px;
+        display: inline-block;
+        position: absolute;
+        top: -180px;
+        left: 60px;
+
+        & span {
+            display: inline-block;
+            line-height: 40px
+        }
+
+        &:before {
+            display: none;
+        }
+
+        &:after {
+            transform: rotate(90deg) translateY(-3px);
+            position: absolute;
+            left: 10px;
+            line-height: 40px;
+            top: 0;
+        }
+
+        &:hover:after {
+            transform: rotate(90deg) translateY(0);
+        }
+    }
+}
+
+.hero-tile-container.port-variation {
+    & .infocard {
+        padding-top: 30px;
+    }
+}
+
+_:-ms-fullscreen,
+:root .hero-tile-container {
+    & .desc-bullet {
+        display: list-item;
+    }
+}

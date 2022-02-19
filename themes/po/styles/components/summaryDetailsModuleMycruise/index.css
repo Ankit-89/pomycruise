@@ -1,0 +1,6 @@
+@import '../titleH1Mycruise/index.css';
+@import '../commons/emptyState/index.css';
+@import '../../../../../components/summaryDetailsModuleMycruise/styles/index.css';
+@import 'defaults.css';
+/* @import 'tablet.css' (--tablet); */
+@import 'desktop.css' (--desktop);

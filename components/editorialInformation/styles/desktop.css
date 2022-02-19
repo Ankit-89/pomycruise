@@ -1,0 +1,7 @@
+.editorialInformation {
+    & .tiles-list {
+        & .tile {
+            padding: 55px 20px 40px;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.flightsInfo {
+    & .flight__info {
+        & .flight__betweenBox {
+            border-bottom: 0;
+        }
+    }
+    & .inbound {
+        & .flight__info {
+            & .flight__betweenBox {
+                border-bottom: 0;
+            }
+        }
+    }
+}

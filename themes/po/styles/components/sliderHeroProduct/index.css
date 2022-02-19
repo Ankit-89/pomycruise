@@ -1,0 +1,10 @@
+@import '../../../../../components/sliderHeroProduct/styles/index.css';
+@import '../../components/commons/card/index.css';
+@import '../shorexCard/index.css'; 
+@import '../shorexOverlay/index.css'; 
+@import '../diningCard/index.css';
+@import '../spaCard/index.css';
+
+@import 'defaults.css';
+@import 'tablet.css' (--tablet);
+@import 'desktop.css' ( --desktop );

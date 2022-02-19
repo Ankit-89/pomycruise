@@ -1,0 +1,24 @@
+{
+    "type": "entertainmentCardList",
+    "id": "1610435753926",
+    "attributes": {
+        "labels": {
+            "loadMore": "Load More",
+            "notAvaialbe": "Sold Out",
+            "alreadyBooked": "Already Booked",
+            "cardLoadVisible": 12
+        }
+    },
+    "services": {
+        "urls": {
+            "eventListApi": "https://dev.my-np.pocruises.com/api-mc/v2/shipEvents",
+            "solarApi": "https://sit.my-np.pocruises.com/api-mc/v1/",
+            "detailPageUrl": "https://sit.my-np.pocruises.com/api-mc/v1/"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "GB"
+        }
+    }
+}

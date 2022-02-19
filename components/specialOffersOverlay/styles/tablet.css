@@ -1,0 +1,10 @@
+.special-offers-overlay {
+    & .offers-overlay-container {
+        height: calc(100% - 110px);
+    }
+}
+.offers-content-block {
+    width: 90%;
+}
+
+

@@ -1,0 +1,347 @@
+.category-slider {
+    margin-bottom: 20px;
+    & .category-sliderContainer {
+        @mixin grid-wrap;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        font-size: 0;
+        text-align: center;
+    }
+    & .category-sliderAux {
+        margin-bottom: 30px;
+    }
+    & .port-block {
+        @mixin grid-wrap;
+    }
+    & .port-name {
+        text-align: center;
+    }
+    & .port-info {
+        text-align: center;
+        padding: 12px 20px 5px;
+        text-transform: none;
+        letter-spacing: 0em;
+        font-feature-settings: normal;
+    }
+    & .port-description p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    & .carousel-controls {
+        display: none;
+        & span {
+            display: none;
+        }
+        & .prev-btn {
+            position: absolute;
+            top: 40px;
+            font-size: 20px;
+            transform: translateY(-50%);
+            left: 0;
+
+        }
+        & .next-btn {
+            position: absolute;
+            top: 40px;
+            font-size: 20px;
+            transform: translateY(-50%);
+            right: 0;
+        }
+    }
+}
+
+.allPorts {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    float: left;
+    width: 46%;
+    padding-right: 1%;
+    padding-left: 3%;
+    & .allPorts-text {
+        min-height: 60px;
+        margin-bottom: 30px;
+        display: none;
+    }
+    & .allPorts-btn {
+        @mixin cta-button-outline;
+        position: relative;
+        width: 100%;
+        appearance: none;
+        padding: 0 15px;
+        &.active {
+            cursor: default;
+            text-align: left;
+        }
+        &.active:after {
+            display: inline-block;
+            vertical-align: middle;
+            position: absolute;
+            right: 15px;
+            top: -2px;
+        }
+    }
+}
+
+
+.ports-carousel {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.port-item-wrapper {
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    &.active {
+        & .port-item::before {
+            transform: scale(1);
+        }
+    }
+
+    & .port-item::before {
+        font-family: var(--font-icomoon);
+        speak: none;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        position: absolute;
+        border-radius: 50%;
+        top: 6px;
+        right: 12px;
+        font-size: 16px;
+        z-index: 9;
+    }
+
+    & .port-item picture {
+        border-radius: 50%;
+        display: block;
+        overflow: hidden;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    & .port-item-title {
+        margin-top: 15px;
+    }
+
+    & .port-item-date {
+        margin-top: 5px;
+    }
+}
+
+
+/*jump to port*/
+
+.jumpToPort {
+    float: right;
+    width: 46%;
+    padding-left: 1%;
+    padding-right: 3%;
+
+    & .jumpToPort-btn {
+        padding: 0 15px;
+        line-height: 50px;
+        width: 100%;
+    }
+
+    & .jumpToPort-btn::before {
+        font-family: var(--font-icomoon);
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 26px;
+        font-size: 22px;
+        display: none;
+        vertical-align: middle;
+    }
+    & .port-date {
+        position: absolute;
+        left: 50%;
+        z-index: 9;
+        top: 8px;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    & .port-month {
+        display: block;
+    }
+
+
+    & .port-list-item {
+        text-align: left;
+        & .port-list-date {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0 20px 0 0;
+            margin-right: 20px;
+            text-align: center;
+            min-width: 60px;
+            line-height: 1em;
+            box-sizing: border-box;
+        }
+        & .port-list-name {
+            display: inline-block;
+            vertical-align: middle;
+            width: calc(100% - 100px)
+        }
+    }
+    & .port-list-link {
+        padding: 20px;
+        display: block;
+        position: relative;
+        cursor: pointer;
+        &::after {
+            font-family: var(--font-icomoon);
+            speak: none;
+            display: block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 50%;
+            position: absolute;
+            font-size: 8px;
+            position: absolute;
+            right: 25px;
+            top: 50%;
+            margin-top: -10px;
+            text-align: center;
+            transform: scale(0);
+        }
+        &.active::after {
+            transform: scale(1);
+            transition: transform .3s var(--animation-smooth) .2s;
+        }
+    }
+}
+
+.jumpToPort-dd {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    bottom: 0;
+    overflow: auto;
+    & .slick-arrow {
+        overflow: hidden;
+    }
+    & .slick-slider {
+        border-radius: 5px;
+        max-height: 460px;
+        margin-top: 60px;
+    }
+    & .port-list {
+        padding-top: 45px;
+        position: relative;
+        &:before {
+            content: "";
+            display: block;
+            height: 45px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        };
+    }
+    & .jumpToPort-close {
+        text-align: right;
+        height: 60px;
+        line-height: 60px;
+        display: block;
+        text-decoration: none;
+        padding: 0 20px;
+        vertical-align: middle;
+        &:after {
+            content: "\e906";
+            display: inline-block;
+            vertical-align: middle;
+            font-family: var(--font-icomoon);
+            speak: none;
+            margin-left: 10px;
+        }
+    }
+
+
+    & .slick-slide {
+        height: 0;
+        border-radius: 5px;
+
+        &.slick-active {
+            height: auto;
+        }
+    }
+    & .slick-arrow {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        padding: 0;
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        background: transparent;
+        vertical-align: middle;
+        z-index: 9;
+    }
+
+    & .slick-prev {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        &::before {
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+            font-family: var(--font-icomoon);
+            font-size: 16px;
+            display: block;
+        };
+    }
+    & .slick-next {
+        position: absolute;
+        top: 0;
+        right: 0;
+        &::before {
+            font-family: var(--font-icomoon);
+            font-size: 16px;
+        };
+    }
+}
+
+.category-slider .port-block .port-description{
+    font-family: PraxisCom-Regular;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    letter-spacing: 0;
+    color: #666;
+    margin-top: 20px;
+}
+    
+.category-slider .port-block .port-info {
+    font-family: GreycliffCF-medium;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    letter-spacing: -.02em;
+    color: #002776;
+    font-feature-settings: "case" 1;
+    font-weight: 400;
+}
+    
+.category-slider .port-block .port-name {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: PraxisCom-Regular;
+}

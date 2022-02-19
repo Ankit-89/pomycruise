@@ -1,0 +1,321 @@
+{
+	"type": "calendar",
+	"id": "1521734271690",
+	"attributes": {
+		"title": "Title",
+		"childComponents":[  
+			{ "type":"calendarViewDay",
+				"id":"1524734271694",
+				"attributes":{  
+				   "labels":{ 
+					"nextLabel":"next",
+					"prevLabel":"previous" 
+				   }
+				},
+				"meta":{  
+				   "render":"dynamic"
+				}  
+			},
+			{ "type":"calendarViewWeek",
+				"id":"1524734271693",
+				"attributes":{  
+				   "labels":{  
+					   "nextLabel":"Next week",
+					   "prevLabel":"Previous week"
+				   }
+				},
+				"meta":{  
+				   "render":"dynamic"
+				}  
+			},
+			{ "type":"calendarViewMonth",
+				"id":"1524734271692",
+				"attributes":{  
+				   "labels":{  
+					   "moreLabel":"...{events} more"
+				   }
+				},
+				"meta":{  
+				   "render":"dynamic"
+				}  
+			},
+			{ "type":"calendarFilter",
+				"id":"1524734271692",
+				"attributes":{  
+				   "labels":{
+						 "applyFilterLabel": "apply",
+						 "filterByLabel": "Filter by"
+					 },
+					 "legend": {
+						 	"product": [ 
+								{
+									"shorex": "Shorex"
+								},
+								{
+									"gift": "Gift"
+								},
+								{
+									"transfer": "Transfer"
+								},
+								{
+									"dining": "Dining"
+								},
+								{
+									"flight": "Flight"
+								},
+								{
+									"spa": "Spa"
+								},
+								{
+									"hotel": "Hotel"
+								}
+							],
+							"information": [ 
+								{
+									"portDay": "Port Day"
+								},
+								{
+									"seaDay": "Sea Day"
+								},
+								{
+									"embark": "Embarkation Day"
+								},
+								{
+									"disembark": "Disembarkation"
+								},
+								{
+									"account": "Owner / Participant"
+								},
+								{
+									"IDL": "International date line"
+								}
+							]
+					 },
+					 "facets": [
+							{
+								"code": "bookingVisualization",
+								"multiSelect": true,
+								"name": "Booking visualization",
+								"values": [
+										{
+												"code": "myBooking",
+												"name": "My Bookings"
+										}
+								],
+								"visible": true
+							},
+							{
+								"code": "productType",
+								"multiSelect": true,
+								"name": "Product type",
+								"values": [
+										{
+											"code": "shorex",
+											"name": "Shorex"
+										},
+										{
+											"code": "spa",
+											"name": "SPA"
+										},
+										{
+											"code": "dining",
+											"name": "Dining"
+										},
+										{
+											"code": "gifts",
+											"name": "Gifts"
+										},
+										{
+											"code": "flights",
+											"name": "Flights"
+										},
+										{
+											"code": "hotels",
+											"name": "Hotels"
+										},
+										{
+											"code": "transfers",
+											"name": "Transfers"
+										}
+								],
+								"visible": true
+							},
+							{
+								"code": "Event status",
+								"multiSelect": false,
+								"name": "Event status",
+								"values": [
+										{
+											"code": "purchased",
+											"name": "Purchased"
+										},
+										{
+											"code": "waitlisted",
+											"name": "Waitlisted"
+										}
+								],
+								"visible": true
+							} 
+					 ]
+				},
+				"meta":{  
+				   "render":"dynamic"
+				}  
+			},
+			{ "type":"calendarEvent",
+				"id":"1524734271692",
+				"attributes":{  
+				   "labels":{  
+					   "guestsNumberLabel":"{guests} Guests",
+					   "durationLabel":"{days} Days",
+					   "purchasedByLabel": "Purchased by:"
+				   }
+				},
+				"meta":{  
+				   "render":"dynamic"
+				}  
+			},
+			{ "type":"calendarEmptyState",
+				"id":"1524734271644",
+				"attributes":{ 
+					"port":{
+						"image" : {
+							"alt": "C039Desktop",
+							"0": {
+								"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+								"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+							},
+							"376": {
+								"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+								"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+							},
+							"769": {
+								"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+								"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+							}
+						},
+						"labels":{ 
+							"titleLabel": "There currently are no items in this day",
+							"subtitleLabel":"Search or explore to start adding some.",
+							"imageTitleLbel":"Santa Margherita",
+							"imgeDescriptionLabel":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al" ,
+							"ctaLabel":"See all shore excursions"
+							
+						}
+					},
+					"sea": {
+						"slider":[
+							{
+								"titleLabel":"Dining",
+								"subtitleLabel":"Culpa excepteur sit pariatur amet laboris cupidatat incididunt ullamco voluptate. Non enim in adipisicing dolor.",
+								"ctaLabel":"Discover Dining",
+								"image" : {
+									"alt": "demo dining",
+									"0": {
+										"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg",
+										"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg"
+									},
+									"376": {
+										"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg",
+										"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg"
+									},
+									"769": {
+										"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg",
+										"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg"
+									}
+								}
+							},
+							{
+								"titleLabel":"Spa",
+								"subtitleLabel":"Culpa excepteur sit pariatur amet laboris cupidatat incididunt ullamco voluptate. Non enim in adipisicing dolor.",
+								"ctaLabel":"Discover Spa",
+								"image" : {
+									"alt": "demo spa",
+									"0": {
+										"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg",
+										"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg"
+									},
+									"376": {
+										"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg",
+										"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg"
+									},
+									"769": {
+										"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg",
+										"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg"
+									}
+								}
+							},
+							{
+								"titleLabel":"Gift",
+								"subtitleLabel":"Culpa excepteur sit pariatur amet laboris cupidatat incididunt ullamco voluptate. Non enim in adipisicing dolor.",
+								"ctaLabel":"Discover Gift",
+								"image" : {
+									"alt": "demo gift",
+									"0": {
+										"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg",
+										"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg"
+									},
+									"376": {
+										"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg",
+										"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg"
+									},
+									"769": {
+										"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg",
+										"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/demo_discover.jpg"
+									}
+								}
+							}
+						],
+						"labels":{ 
+							"titleLabel": "There currently are no items in this day",
+							"subtitleLabel":"Search or explore to start adding some.",
+							"imageTitleLbel":"Santa Margherita",
+							"imgeDescriptionLabel":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al" ,
+							"ctaLabel":"See all shore excursions"
+							
+						}
+
+					}
+				},
+				"meta":{  
+				   "render":"dynamic"
+				}  
+			},
+			{ "type":"bookedActivities",
+				"id":"1524734271644",
+				"attributes":{  
+					"ctaUrl": "/pages/T305",
+					"labels":{  
+								"title": "Your booked activities",
+								"ctaLabel": "See all products in my orders"
+					}
+				},
+				"meta":{  
+				   "render":"dynamic"
+				}  
+			}
+		],
+		"labels":{
+			"dayViewBtnLabel": "day",
+			"weekViewBtnLabel": "week",
+			"monthViewBtnLabel": "month",
+			"flightsBoxLabel": "You have flight which are not confirmed yet."
+		}
+	},
+	"meta": {
+		"render": "dynamic"
+	},
+	"services":{  
+		"urls":{ 
+				"itineraryApi":"/services/itinerary.json",
+				"cruiseSummaryApi":"https://dev.api.mycruise-temp.com/mc-cruise-summary/v1",
+				"transportApi":"",
+				"hotelApi":""
+			},
+		  "headers":{  
+			 "brand":"po",
+			 "locale":"en_US",
+			 "country":"US"
+		  }
+	   }
+}
