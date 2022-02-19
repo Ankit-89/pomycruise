@@ -1,0 +1,29 @@
+.global-header-login {
+    width: 100%;
+    @mixin box-sizing;
+    z-index: 150;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+
+    & .globalHeaderLogin {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    & .menu-bar span {
+        display: block;
+    }
+    & .nav-brand-logo {
+        text-align: center;
+    }
+    & .brand-logo {
+        display: block;
+        &:focus {
+            z-index: 999;
+            position: relative;
+        }
+    }
+
+}

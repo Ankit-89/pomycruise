@@ -1,0 +1,111 @@
+.shorex-key-info {
+
+    padding-bottom: 0;
+    & .infocard {
+        padding: 40px 40px 0;
+    }
+    & .infocard-back {
+        line-height: 50px;
+    }
+    & .ht-background {
+        min-height: 260px;
+    }
+    & .shorex-key-facts {
+        margin-bottom: 34px;
+    }
+    & .desc ~ .cta-holder {
+        margin-top: 56px;
+    }
+    & .cta-holder a {
+        display: inline-block;
+    }
+    & .shorex-key-list {
+        margin-top: 37px;
+    }
+    & .shorex-variants-tooltip {
+        text-align: left;
+        position: absolute;
+        top: 55px;
+        left: -20px;
+        max-width: 350px;
+        min-width: 250px;
+        height: auto;
+        padding: 30px;
+        width: auto;
+        &:before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: 10px;
+            content: "";
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            top: -6px;
+            display: block;
+            transform: rotate(-45deg);
+        }
+    }
+    & .shorex-variants-tooltip  p {
+        position: relative;
+    }
+    & .shorex-close {
+        display: none;
+    }
+    & .infocard .subtitle {
+        margin-bottom: 0;
+        display: inline-block;
+    }
+    & .infocard ul.subtitle li {
+        display: inline-block;
+    }
+    & .infocard .subtitle-availability {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    & .infocard .subtitle-ageRestricted {
+        display: inline-block;
+    }
+}
+
+
+.shorex-info-detail {
+    text-align: left;
+    & .shorex-info-list {
+        padding: 40px;
+        margin: 0 40px ;
+    }
+    & .shorex-detail-info-title {
+        lost-column: 2/10 0 0;
+        lost-offset: 1/10;
+    }
+    & .shorex-detail-info-details {
+        lost-column: 5/12 0 0;
+        lost-offset: 1/10;
+    }
+    & .shorex-detail-info-itinerary li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    & .shorex-detail-info-itinerary li:before {
+        font-family: var(--font-icomoon);
+        font-size: 8px;
+        display: inline-block;
+        transform: rotate(-90deg);
+        text-align: center;
+        float: left;
+    }
+    & .shorex-detail-info-title span {
+        display: inline-block;
+    }
+    & .shorex-detail-info-title {
+        text-align: center;
+    }
+    & .shorex-detail-info-icon {
+        display: block;
+        margin: auto;
+        padding-bottom: 10px;
+        width: 30px;
+        height: 30px;
+    }
+}

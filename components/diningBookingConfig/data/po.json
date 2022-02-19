@@ -1,0 +1,69 @@
+{
+    "type": "entertainmentConfig",
+    "id": "",
+    "attributes": {
+        "type": "image",
+        "readMoreLabel": "READ MORE",
+        "readLessLabel": "READ LESS",
+        "backLabel": "Back",
+        "labels": {
+            "txLabel1": "1",
+            "txLabel2": "2",
+            "bookTableLabel": "Book a table",
+            "selectGuestDiningLabel": "Select no of guests",
+            "moreThanSixPeopleLabel": "To book for more than 6 people, please call our contact centre on 00 44 23 8065 7064.",
+            "wheelchairSeatsLabel": "Wheelchair seats required ?",
+            "selectDateLabel": "Select Date",
+            "selectMealPeriodLabel": "Select Meal Period for",
+            "bestPriceLabel": "Best Price",
+            "selectTimeLabel": "Select Time for",
+            "totalAmountLabel": "Total Amount",
+            "backLabel": "Back",
+            "viewMenuLabel": "VIEW SAMPLE MENU",
+            "perPlateLabel": "pp",
+            "addToBasketLabel": "ADD TO BASKET",
+            "seaDayTitleLabel": "Sea day",
+            "portDayTitleLabel": "{port}",
+            "embarkationDayTitleLabel": "Embarkation Day",
+            "disembarkationDayTitleLabel": "Disembarkation Day",
+            "inculdedHolidayLabel": "Included with your holiday",
+            "forLabel": "For",
+            "peopleLabel": "people",
+            "amountLabel": "Total Amount",
+            "addedToShippingBasketLabel": "Added to Shopping Basket",
+            "guestsLabel": "Guests",
+            "totalLabel": "Total",
+            "reservedDescriptionLabel": "Please checkout basket in {hours} to avoid disappointments.",
+            "notAvailableLabel": "Not Available",
+            "noAvailabilityMessageLabel": "It looks like there is no availability for the selected options.<br/> Please try with different options.",
+            "goBackLabel": "Go Back",
+            "currencyLabel": "£",
+            "allSeatsSoldOutTitleLabel": "Booking unavailable",
+            "allSeatsSoldOutDescriptionLabel": "Booking is not available at this moment <br/> Please try other venues",
+            "viewOtherEventsLabel": "view other events",
+            "selectEntertainerDiningLabel": "Select an Entertainer",
+            "bookClassLabel": "Book a class",
+            "selectCookeryDiningLabel": "Select a class",
+            "selectSessionDiningLabel": "Select Session",
+            "comingSoonTitleDiningExperiencesLabel": "Coming Soon",
+            "comingSoonDescriptionDiningExperiencesLabel": "Booking is not available at this moment. Please try other venues"
+        },
+        "treatmentData": "{\"descriptionAEM\":\"Exclusively for the blushing bride. No two brides are alike. Become our muse and allow our talented make-up artists to use a palette of hues to highlight your unique beauty on your special day.\",\"overviewImage\":\"/content/dam/po/ADLtestjpg.jpg\",\"productNameAEM\":\"Special Occasion Make Up\"}"
+    },
+    "services": {
+        "urls": {
+            "treatmentsApi": "https://sit.my-np.pocruises.com/v1/mc-products/PO-Site/products/",
+            "updateCartApi": "https://sit.my-np.pocruises.com/api-mc/v1/mc-shopping-basket/PO-Site/users/current/carts/current/entries",
+            "bookedEventAPi": "https://sit.my-np.pocruises.com/api-mc/mc-getBookedEvents/v1/PO-Site/getBookedEvents",
+            "productPriceApi": "https://sit.my-np.pocruises.com/api-mc/mc-getBookedEvents/v1/PO-Site/getBookedEvents"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "US"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

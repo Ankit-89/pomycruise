@@ -1,0 +1,20 @@
+{
+  "type": "mediaGalleryVideoServlet",
+  "id": "1488874790325",
+  "attributes": {
+    "mediaGalleryServletUrl": "/services/cruise-ships.gallery"
+  },
+  "services": {
+    "urls": {
+			"productSearchApi": "https://mycruise.qa.cuk-api.carnivalukgroup.com:443:443/v1/mc-products/PO-Site/products/search"
+    },
+    "headers": {
+        "brand": "PO",
+        "locale": "it_IT",
+        "country": "IT"
+    }
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

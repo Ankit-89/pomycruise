@@ -1,0 +1,84 @@
+{
+  "type": "heroMycruise",
+  "id": "1524978018240",
+  "attributes": {
+    "previousLabel": "previous",
+    "nextLabel": "next",
+    "productType": "SPA",
+    "heroContentList": [
+      {
+        "showCtaAnyways": false,
+        "primaryCta": {
+          "label": "SEE THE DEAL 1",
+          "url": "ubk",
+          "isExternal": false
+        },
+        "desc": "14 night Caribbean fly-cruises",
+        "image": {
+          "0": {
+            "1x": "https://aem-dev.pocruises.com/content/dam/po/po-asset/HomePage/c004-home.jpg.image.375.281.low.jpg",
+            "2x": "https://aem-dev.pocruises.com/content/dam/po/po-asset/HomePage/c004-home.jpg.image.750.563.low.jpg",
+            "aspectRatio": 1.3321492007104796
+          },
+          "376": {
+            "1x": "https://aem-dev.pocruises.com/content/dam/po/po-asset/HomePage/c004-home.jpg.image.1024.768.medium.jpg",
+            "2x": "https://aem-dev.pocruises.com/content/dam/po/po-asset/HomePage/c004-home.jpg.image.2048.1536.medium.jpg",
+            "aspectRatio": 1.3333333333333333
+          },
+          "769": {
+            "1x": "https://www.aem-dev.pocruises.com/content/dam/po/po-asset/Excursions/TopIMagePOC_Brand_Shoot_2016_007_1600x648.jpg.image.1440.523.high.jpg",
+            "2x": "https://www.aem-dev.pocruises.com/content/dam/po/po-asset/Excursions/TopIMagePOC_Brand_Shoot_2016_007_1600x648.jpg.image.1440.523.high.jpg",
+            "aspectRatio": 2.7507163323782233
+          },
+          "alt": ""
+        },
+        "heroCardAlignment": "center",
+        "title": "Get away to the captivate"
+      },
+      {
+        "showCtaAnyways": false,
+        "primaryCta": {
+          "label": "SEE THE DEAL",
+          "url": "",
+          "isExternal": false
+        },
+        "desc": "14 night Caribbean fly-cruises",
+        "image": {
+          "0": {
+            "1x": "https://aem-dev.pocruises.com/content/dam/po/po-asset/HomePage/c004-home.jpg.image.375.281.low.jpg",
+            "2x": "https://aem-dev.pocruises.com/content/dam/po/po-asset/HomePage/c004-home.jpg.image.750.563.low.jpg",
+            "aspectRatio": 1.3321492007104796
+          },
+          "376": {
+            "1x": "https://aem-dev.pocruises.com/content/dam/po/po-asset/HomePage/c004-home.jpg.image.1024.768.medium.jpg",
+            "2x": "https://aem-dev.pocruises.com/content/dam/po/po-asset/HomePage/c004-home.jpg.image.2048.1536.medium.jpg",
+            "aspectRatio": 1.3333333333333333
+          },
+          "769": {
+            "1x": "https://www.aem-dev.pocruises.com/content/dam/po/po-asset/Excursions/TopIMagePOC_Brand_Shoot_2016_007_1600x648.jpg.image.1440.523.high.jpg",
+            "2x": "https://www.aem-dev.pocruises.com/content/dam/po/po-asset/Excursions/TopIMagePOC_Brand_Shoot_2016_007_1600x648.jpg.image.1440.523.high.jpg",
+            "aspectRatio": 2.7507163323782233
+          },
+          "alt": ""
+        },
+        "heroCardAlignment": "center",
+        "title": "Get away to the captivate"
+      }
+    ],
+    "enableHero": true
+  },
+  "meta": {
+    "render": "dynamic"
+  },
+  "services": {
+    "urls": {
+      "productSearchApi":
+                "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products/search"
+    },
+    "headers": {
+      "brand": "po",
+      "locale": "en_GB",
+      "country": "GB"
+    }
+  }
+}

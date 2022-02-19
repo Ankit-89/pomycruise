@@ -1,0 +1,11 @@
+.sliderHeroProduct {
+    & .carousel-close a:before {
+        font-size: 20px;
+    }
+}
+
+.hero-product-wrapper {
+    & .card-container {
+        border: 1px solid var(--color-secondary5);
+    }
+}

@@ -1,0 +1,5 @@
+@import '../commons/emptyState/index.css';
+@import '../../../../../components/ordersDetails/styles/index.css';
+@import 'defaults.css';
+@import 'tablet.css' (--tablet);
+@import 'desktop.css' (--desktop);

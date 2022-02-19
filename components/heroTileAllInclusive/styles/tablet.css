@@ -1,0 +1,67 @@
+.hero-tile-container {
+    & .ht-background {
+        max-height: 480px
+    }
+    & .infocard-back {
+        left: 32px;
+        padding: 0;
+        &:after { 
+            content: none;
+        }
+    }
+}
+
+.hero-tile-container .infocard {
+    padding: 40px;
+    & .title {
+        line-height: 50px;
+        margin: 0;
+    }
+    & p,
+    & .desc {
+        max-width: none
+    }
+    & .cta-holder a {
+        @mixin cta-primary;
+        display: inline-block;
+    }
+    & .hero-tile-variants-tooltip {
+        text-align: left;
+        position: absolute;
+        top: 55px;
+        left: -20px;
+        max-width: 350px;
+        min-width: 250px;
+        height: auto;
+        padding: 30px;
+        width: auto;
+        &:before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: 10px;
+            content: "";
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            top: -6px;
+            display: block;
+            transform: rotate(-45deg);
+        }
+    }
+    & .hero-tile-variants-tooltip p {
+        position: relative;
+    }
+    & .hero-tile-close {
+        display: none;
+    }
+}
+//readmore table
+.infocard {
+    & .readmore {
+        height: 154px;
+    }
+    & .readmoreLink {
+        margin-top: 29px;
+    }
+}

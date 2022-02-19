@@ -1,0 +1,294 @@
+.spa-overlay {
+    box-sizing: border-box;
+    & .modal-content-wrapper {
+        box-sizing: border-box;
+        text-align: center;
+        padding: 20px;
+
+    }
+    & .modal-header {
+        margin-bottom: 40px;
+    }
+    & .title {
+        margin-bottom: 15px;
+    }
+    & .subtitle {
+        margin-bottom: 15px;
+    }
+    & .paragraph {
+        margin-bottom: 15px;
+    }
+    & .disclaimerMessage {
+        padding: 30px 15px;
+    }
+    & .search_filters--divider {
+        padding: 30px 0;
+        position: relative;
+    }
+    & .search_filters--divider:before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 1px;
+        top: 50%;
+        left: 0;
+        right: 0;
+        z-index: 0;
+    }
+    & .search_filters--divider span {
+        position: relative;
+        z-index: 1;
+        padding: 10px 20px;
+    }
+    & .select-group {
+        max-width: 415px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    & .DayPickerInput {
+        &:after {
+            pointer-events: none;
+        }
+        & .DayPickerInput-Overlay {
+            z-index: 10;
+            right: 0;
+        }
+        & input {
+            @mixin input-text;
+            width: 100%;
+        }
+    }
+    & .DayPicker {
+        width: 100%;
+        & .DayPicker-wrapper {
+            padding-bottom: 0;
+        }
+        & .DayPicker-Month {
+            width: 100%;
+            margin: 0;
+        }
+        & .DayPicker-Day {
+            padding: 1.1rem;
+        }
+        & .DayPicker-NavButton {
+            left: auto;
+            right: auto;
+            margin: 0;
+            top: 22px;
+        }
+        & .DayPicker-NavButton--prev,
+        & .DayPicker-NavButton--next {
+            background-image: none;
+            &:before {
+                font-family: var(--font-icomoon);
+                display: inline-block;
+            }
+        }
+        & .DayPicker-NavButton--prev {
+            left: 24px;
+        }
+        & .DayPicker-NavButton--next {
+            right: 24px;
+        }
+        & .DayPicker-Caption {
+            text-align: center;
+            margin: 20px;
+        }
+        & .DayPicker-Caption h5 {
+            line-height: 20px;
+        }
+        & .DayPicker-Weekday {
+            padding: 14px;
+        }
+        & .DayPicker-Day {
+            padding: 14px;
+            border-radius: 0;
+        }
+        & .DayPicker-Day--disabled {
+            border-radius: 0;
+        }
+        &
+        .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+            padding: 0;
+        }
+        &
+        .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside)
+        span {
+            padding: 8px;
+            border-radius: 50%;
+        }
+    }
+    & .port-slot {
+        display: block;
+        text-align: left;
+        max-width: 385px;
+        margin: 0 auto 35px;
+        &:before {
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+            color: var(--color-primary4);
+        }
+        &.sea-day:before {
+            content: '\e913';
+        }
+        &.port-day:before {
+            content: '\e920';
+        }
+    }
+    & .input-group {
+        max-width: 415px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    & .selectHeading {
+        max-width: 415px;
+        margin: 10px auto;
+        text-align: left;
+    }
+    & .search_filters--reset {
+        margin: 30px auto;
+    }
+    & .search_filters--reset a {
+        display: inline-block;
+    }
+    & .formSummary {
+        margin: 50px 0 15px;
+        position: relative;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            height: 1px;
+            left: 0;
+            right: 0;
+        }
+        & .left {
+            float: left;
+        }
+        & .right {
+            float: right;
+        }
+        & h1 {
+            margin: 0;
+        }
+    }
+    & .pricePerPerson,
+    & .total {
+        lost-utility: clearfix;
+        max-width: 415px;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+    & .pricePerPerson {
+        padding: 20px 0;
+    }
+    & .guestsList {
+        text-align: left;
+        max-width: 415px;
+        margin: 40px auto 30px;
+        & .wrap-restricted {
+            padding-bottom: 20px;
+        }
+        & h4 {
+            margin-bottom: 15px;
+        }
+        & p {
+            @mixin style-body3;
+            margin-bottom:35px;
+        }
+        & ul {
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            position: relative;
+            margin-bottom: 15px;
+        }
+        & ul:after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+        }
+
+        & .pax-checkbox {
+            & input {
+                @mixin input-checkbox;
+            }
+        }
+        & .pax-radio {
+            @mixin radio-button;
+        }
+        & input {
+            vertical-align: middle;
+        }
+        & .disabledCheckbox .wrap {
+            opacity: 0.3;
+        }
+        & .wrap {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        & .label {
+            display: inline-block;
+            vertical-align: middle;
+            width: calc(100% - 35px);
+        }
+        & .label h5 {
+            line-height: 25px;
+        }
+        & .label.disabled {
+            opacity: 0.3;
+        }
+        & input[disabled] {
+            background: #f2f4f8;
+        }
+
+        & .price {
+            float: right;
+        }
+        & .passenger-restricted {
+            @mixin style-body3;
+            text-transform: uppercase;
+            position: absolute;
+        }
+        & .total {
+            clear: both;
+            line-height: 30px;
+            height: 30px;
+            lost-utility: clearfix;
+            /* margin-bottom: 25px; */
+        }
+        & .total__label {
+            clear: both;
+            text-transform: uppercase;
+            float: left;
+            line-height: 30px;
+            height: 30px;
+        }
+        & .total__price {
+            float: right;
+            line-height: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.disableForm {
+    & .modal-body {
+        opacity: 0.3;
+        pointer-events: none;
+    }
+}
+
+.modal-error {
+    font-family: var(--font-body3);
+    color: var(--color-secondary3);
+    max-width: 630px;
+    margin-bottom: 40px;
+}

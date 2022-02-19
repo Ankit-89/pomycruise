@@ -1,0 +1,17 @@
+/* Global Components */
+/*@import 'carnival/themes/hal/styles/pages/commonComponents/index.css';*/
+@import '../../config/index.css';
+/*@import 'variables.css';*/
+@import 'defaults.css';
+/*brand style of the component*/
+@import '../../components/footerMycruise/index.css';
+@import '../../components/globalHeaderMycruise/index.css';
+
+@import '../../components/heroTile/index.css';
+@import '../../components/tableInformation/index.css';
+@import '../../components/itemsList/index.css';
+@import '../../components/simpleText/index.css';
+@import '../../components/shipsGrid/index.css';
+@import '../../components/mediaGalleryVideo/index.css';
+@import '../../components/titleH1Mycruise/index.css';
+@import '../../components/notificationBanner/index.css';

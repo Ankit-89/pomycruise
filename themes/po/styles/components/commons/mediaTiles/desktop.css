@@ -1,0 +1,11 @@
+.gallery-container {
+    & [class |= "media-item"] {
+        margin: 0px;
+    }
+
+    & .media-grid {
+        @mixin grid-wrap;
+        margin-bottom: 0;
+
+    }
+}

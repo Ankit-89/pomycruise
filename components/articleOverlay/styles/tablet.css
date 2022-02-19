@@ -1,0 +1,18 @@
+.article--overlay {
+    & .aria-modal .modal-close-wrap {
+        top: 30px;
+        right: 30px;
+    }
+    & .aria-modal .close {
+        margin: 0;
+    }
+    & .article--title_paragraph {
+        padding: 30px 80px;
+    }
+	& .aria-modal-underlay #react-aria-modal-dialog{
+    overflow-y: SCROLL;
+    height: -webkit-fill-available;
+    display: block;
+	}
+}
+	 

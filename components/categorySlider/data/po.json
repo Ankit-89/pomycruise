@@ -1,0 +1,21 @@
+{
+  "type":"categorySlider",
+  "id":"1519980816351",
+  "attributes": {
+    "previousLabel": "prev",
+    "nextLabel": "next",
+    "allPorts": {
+      "text": "Lorem ipsum dolor sit amet consedctutor lorem ipsum dolor",
+      "label": "All ports"
+    },
+    "jumpToPort": "Jump to Port"
+  },
+  "services": {
+    "urls": {
+      "itineraryApi": "/services/ports-cuk.json"
+    }
+  },
+  "meta":{
+    "render":"dynamic"
+  }
+}

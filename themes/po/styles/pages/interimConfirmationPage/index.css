@@ -1,0 +1,7 @@
+/* Global Components */
+
+@import '../../config/index.css';
+/* @import 'defaults.css'; */
+/*brand style of the component*/
+
+@import '../../components/commons/carouselControls/index.css';

@@ -1,0 +1,8 @@
+/* Global Components */
+
+@import '../../config/index.css';
+/* @import 'defaults.css'; */
+/*brand style of the component*/
+
+@import '../../components/titleH1Mycruise/index.css';
+@import '../../components/printHealthQuestionnaireDeclaration/index.css';

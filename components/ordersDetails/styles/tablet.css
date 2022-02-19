@@ -1,0 +1,13 @@
+.confirmation-modal {
+    & .aria-modal {
+        height: auto;
+    }
+    & .modal-btns {
+        & .cta-primary {
+            margin-left: 20px;
+        }
+        & button {
+            display: inline-block;
+        }
+    }
+}

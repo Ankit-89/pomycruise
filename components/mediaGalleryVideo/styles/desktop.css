@@ -1,0 +1,34 @@
+.gallery-container {
+    & [class^="media-item-"] {
+        margin: 0 40px 0 0;
+    }
+    & [class^="media-item-"]:last-child {
+        margin-right: 0;
+    }
+    & .media-row:last-child {
+        margin-bottom: 0px;
+    }
+    & .media-row {
+        padding-bottom: 20px;
+        display: flex;
+    }
+    & .videoIframe {
+        height: 433px;
+    }
+    & .amp-video-container {
+        height: 433px;
+    }
+}
+
+.gallery-container [class |="media-item"] {
+    & img {
+        max-height: 433px;
+        margin: 0px;
+        height: 100%;
+    }
+    & .image-holder {
+        max-height: 433px;
+        margin: 0px;
+        height: 100%;
+    }
+}

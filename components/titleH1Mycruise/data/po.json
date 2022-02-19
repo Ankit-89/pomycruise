@@ -1,0 +1,15 @@
+{
+	"type": "titleH1Mycruise",
+	"id": "1520244087537",
+	"attributes": {
+		"title": "H1 Title",
+		"description": false,
+		"dividerType": "text",
+		"dividerText": false,
+		"type": "h1",
+		"showIcon": true
+	},
+	"meta": {
+		"render": "serverside"
+	}
+}

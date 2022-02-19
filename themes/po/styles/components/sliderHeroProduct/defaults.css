@@ -1,0 +1,107 @@
+.sliderHeroProduct {
+    & .top-banner {
+        @mixin style-body2;
+        background: var(--color-primary3);
+        color: var(--color-primary1);
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    & .type {
+        @mixin style-body2;
+        &:before {
+            color: var(--color-primary4);
+            content: "\e90c";
+            font-family: var(--font-icomoon);
+            font-size: 22px;
+        }
+        &.additional:before {
+            content: "\e930";
+        }
+        &.Additional:before {
+            content: "\e930";
+        }
+    }
+    /* & .type.bookableOnBoard {
+        color: var(--color-primary2);
+        &:before {
+            color: var(--color-primary2);
+        }
+    } */
+
+    
+    & .tile-holder {
+        border: 1px solid var(--color-secondary5);
+    }
+    & .slider__wrapper .title {
+        /* color: var(--color-primary5); */
+    }
+    & .slider__wrapper .title h3 {
+        @mixin style-h2;
+    }
+    & .description-block {
+        @mixin style-body2;
+        color: var(--color-primary6);
+    }
+    & .description-block.quote {
+        @mixin style-body1;
+        color: var(--color-secondary5);
+        font-style: italic;
+    }
+    & .description-block span {
+        @mixin style-body2;
+    }
+    & .text-holder {
+        @mixin style-body2;
+    }
+    & a,
+    & button {
+        @mixin cta-secondary;
+        text-decoration: none;
+    }
+    & button {
+        background: transparent;
+        border: none;
+    }
+    & .icons-list-label h3 {
+        color: var(--color-primary5);
+        font-size: 12px;
+        line-height: 1.1em;
+    }
+    & .primary-cta {
+        @mixin cta-secondary-darkblue;
+    }
+    & .primary-cta:before {
+        background: var(--color-primary3);
+    }
+    & .icons-list-icon {
+        &:after {
+            color: var(--color-primary4);
+            font-size: 26px;
+        }
+    }
+    & .icons-list-icon.i-parking {
+        &:after {
+            content: "\e911";
+        }
+    }
+    & .icons-list-icon.i-hotel {
+        &:after {
+            content: "\e90a";
+        }
+    }
+    & .icons-list-icon.i-info {
+        &:after {
+            content: "\e90e";
+        }
+    }
+    & .spaCard__duration {
+        @mixin style-body2;
+        &:before {
+            content: "\e907";
+            color: var(--color-primary4);
+        }
+    }
+    & .spa-card-description {
+        @mixin style-body2;
+    }
+}

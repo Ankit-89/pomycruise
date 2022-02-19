@@ -1,0 +1,5 @@
+.tabs-copy-block {
+    & .text-holder .description-block {
+        line-height: 26px;
+    }
+}

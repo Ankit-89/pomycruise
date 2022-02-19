@@ -1,0 +1,51 @@
+.gallery-carousel-controls {
+    @mixin carousel-controls;
+    text-align: center;
+}
+
+.gallery-container {
+    & .image-captions {
+        position: absolute;
+        bottom: 0;
+        padding: 20px 18px;
+    }
+    & .image-captions p {
+        pointer-events: auto;
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+    & .image-captions .cta {
+        pointer-events: auto;
+    }
+    & .image-captions.align-bottom-right {
+        bottom: 0;
+        right: 0;
+        text-align: right;
+    }
+    & .image-captions.align-bottom-left {
+        bottom: 0;
+        left: 0;
+        text-align: left;
+    }
+    & .image-captions.align-top-right {
+        top: 0;
+        right: 0;
+        text-align: right;
+    }
+    & .image-captions.align-top-left {
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+}
+
+.gallery-container .icon {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    align-items: center;
+}
+

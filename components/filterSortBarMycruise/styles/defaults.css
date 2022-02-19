@@ -1,0 +1,388 @@
+.filter-sort-bar-container {
+    & .content-wrapper {
+        padding-bottom: 30px;
+        lost-utility: clearfix;
+        & .top-pagination {
+            display: none;
+        }
+    }
+
+    & .results-count {
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        text-align: left;
+        float: left;
+        padding-left: 20px;
+    }
+
+    & .filters-container {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        height: 30px;
+        line-height: 30px;
+    }
+    & .sort-dropdown {
+        display: block;
+        clear: left;
+        text-align: left;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    & .filter-sort-bar-main,
+    & .tiles-container {
+        @mixin grid-wrap;
+        position: relative;
+        justify-content: space-evenly;
+    }
+    & .filter-sort-bar-main {
+        padding: 0;
+        & .sort-dropdown {
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+    }
+
+    & .tiles-container {
+        text-align: center;
+        display: block;
+        clear: both;
+    }
+    & .port-detail-tile {
+        text-align: left;
+        display: inline-block;
+    }
+
+    & input:focus {
+        outline: 0;
+    }
+
+    & .filter-container .head,
+    & .filter-container button,
+    & .cta-holder .btn-secondary,
+    & .filters .select {
+        cursor: pointer;
+    }
+
+    & .filter-container button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        border: none;
+        background: transparent;
+    }
+
+
+    & .sort-dropdown.large-view {
+        display: none;
+    }
+
+    & .sort-dropdown.small-view {
+        padding: 20px 0 20px 35px;
+        display: inline-block;
+        width: calc(100% - 35px);
+    }
+
+    & .reset-filter-svp {
+        padding: 20px 35px 20px 0;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+
+    & .filter-container .head:after {
+        background-size: 100%;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+    }
+    & .cta-holder .btn-secondary {
+        padding: 0;
+        border: none;
+    }
+
+    & .reset-filter-svp .btn-secondary:before,
+    & .cta-holder .btn-secondary:before {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+    /* Pagination styles */
+
+    & .pagination {
+        @mixin pagination-controls;
+        /*margin-top: 20px;*/
+    }
+    & .pagination.hide {
+        display: none;
+    }
+    & .pagination-svp,
+    & .top-pagination-svp {
+        text-align: center
+    }
+    & .top-pagination-svp {
+        display: none;
+    }
+    /*Pagination Styles*/
+
+    /*sort by dropdown styles */
+    & .list-dropdown {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+        transform: translateY(100%);
+        -webkit-transition: transofrm .5s;
+        transition: transform .5s;
+        background: #fff;
+    }
+    & .show .list-dropdown {
+        transform: translateY(0);
+    }
+
+    & .dropdown-btn {
+        text-transform: uppercase;
+        padding: 0;
+        float: left;
+        position: relative;
+        padding-right: 30px;
+    }
+
+    & .dropdown-btn::after {
+        font-family: var(--font-icomoon);
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 50%;
+        right: 0px;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+
+    & .sort-by-label {
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        vertical-align: middle;
+    }
+    & .dropdown-list {
+        padding: 0px 20px;
+    }
+
+    & .dropdown-item {
+        padding: 20px 0px;
+        list-style: none;
+        & a {
+            text-decoration: none;
+        }
+    }
+    & .action-bar {
+        height: 60px;
+        line-height: 60px;
+        padding: 0 20px;
+        & .close {
+            padding: 0;
+            border: 0;
+            background: none;
+            float: right;
+            line-height: 60px;
+        }
+        & .close:after {
+            display: inline-block;
+            font-family: var(--font-icomoon);
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+    }
+
+    /*sort by dropdown styles */
+
+}
+
+.filter-sort-bar-container {
+    text-align: center;
+    & .filters .select {
+        padding-right: 30px;
+        padding-left: 0px;
+        position: relative;
+        z-index: 4;
+        &.active:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            left: 0;
+            bottom: -1px;
+        }
+    }
+
+    & .filters .select:after {
+        font-family: var(--font-icomoon);
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        top: 50%;
+        right: 0px;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    & .filters .select.active:after {
+        transform: translateY(-50%) rotate(-180deg);
+    }
+}
+
+/* filter container mobile fixed */
+.filter-sort-bar-container .filter-container {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    z-index: 3;
+    -webkit-transition: top .3s;
+    transition: top .3s;
+    background: var(--color-tertiary1);
+    
+    &.open {
+        right: 0;
+        display: block;
+        height: 100%;
+        z-index: 999;
+    }
+    & .filter-head {
+        padding: 0 20px;
+        height: 60px;
+        line-height: 60px;
+        display: block;
+        text-align: left;
+    }
+    & .filter-head span {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        text-transform: none;
+    }
+    & .filter-close {
+        float: right;
+        line-height: 60px;
+        &:after {
+            display: inline-block;
+            font-family: var(--font-icomoon);
+            font-size: 20px;
+            line-height: 20px;
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+    }
+
+
+    & .filter-content {
+        max-height: calc(100% - 70px);
+        overflow: auto;
+        & button.head {
+            line-height: 25px;
+        }
+    }
+    & .item {
+        position: relative;
+    }
+    & .item .content {
+        display: none;
+        font-size: 0;
+        max-height: 150px;
+        overflow: auto;
+    }
+    & .item.open .content {
+        display: block;
+    }
+    & .content button {
+        display: block;
+        border: none;
+        height: 40px;
+        line-height: 40px;
+        min-width: 100%;
+        margin-right: 5px;
+        margin-bottom: 9px;
+        padding: 0;
+        position: relative;
+
+        &.selected:after {
+            width: 15px;
+            height: 15px;
+            line-height: 15px;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    & .counter {
+        border-radius: 50%;
+        width: 22px;
+        height: 22px;
+        text-align: center;
+        line-height: 22px;
+        line-height: 22px;
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    & .content {
+        padding: 20px 15px 11px 20px;
+        text-align: left;
+    }
+    & .head {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 15px 30px ;
+        position: relative;
+
+        &:after {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 25px;
+            line-height: 25px;
+            width: 25px;
+            text-align: center;
+        }
+
+    }
+
+    & .cta-holder {
+        overflow: hidden;
+        padding: 20px;
+        lost-utility: clearfix;
+    }
+
+    & .cta-holder .btn-secondary {
+        height: 60px;
+        line-height: 60px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.filter-sort-bar-container .shores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    & .shore-x-tile {
+        box-shadow: none;
+        width: 100%;
+    }
+}

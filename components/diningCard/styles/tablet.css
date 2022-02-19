@@ -1,0 +1,13 @@
+.dining-card-container {
+    text-align: left;
+    & .title-container {
+        margin-bottom: 20px;
+        width: 70%;
+        min-height: 56px;
+    }
+}
+
+.bookOnBoard {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}

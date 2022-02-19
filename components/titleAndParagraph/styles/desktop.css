@@ -1,0 +1,17 @@
+.article--title_paragraph {
+    padding: 70px 0;
+    margin: 0 auto;
+    max-width: 1024px;
+    & h2 {
+        margin-bottom: 15px;
+    }
+    & h6 {
+        margin-bottom: 15px;
+    }
+    & .body-container {
+        margin-bottom: 50px;
+    }
+    & ul li {
+        padding-left: 35px;
+    }
+}

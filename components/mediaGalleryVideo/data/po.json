@@ -1,0 +1,207 @@
+{
+  "type": "mediaGalleryVideo",
+  "id": "1498662695317",
+  "attributes": {
+    "dividerText":"of",
+    "numberOfTabs": "2",
+    "nextLabel": "Next",
+    "previousLabel": "Previous",
+    "mediaRow": [{
+      "order": "1",
+      "media": [
+        {
+          "desktopImage": "/content/dam/geometrixx-media/people/laura-richardson.jpg",
+          "virtualTour360Video": "",
+          "mediaType": "image",
+          "mediaSize": "8",
+          "image": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg"
+            },
+            "alt": "alt"
+          },
+          "carouselImage": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img1.jpg"
+            },
+            "alt": "alt"
+          }
+        },
+        {
+          "desktopImage": "/content/dam/geometrixx-media/people/laura-richardson.jpg",
+          "virtualTour360Video": "",
+          "mediaType": "image",
+          "mediaSize": "4",
+          "image": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg"
+            },
+            "alt": "alt"
+          },
+          "carouselImage": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img3.jpg"
+            },
+            "alt": "alt"
+          }
+        }
+      ]
+    },
+    {
+      "order": "2",
+      "media": [
+        {
+          "video": {
+            "source": [{
+              "src": "/dam/videos/haldemo2_1000k.mp4",
+              "type": "video/mp4"
+            }],
+            "posterRendition": {
+              "0": {
+                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg",
+                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg"
+              },
+              "376": {
+                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg",
+                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg"
+              },
+              "769": {
+                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg",
+                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg"
+              },
+              "alt": "posterRendition"
+            },
+            "title": "This is Video Title 2",
+            "track": [{
+              "src": "/dam/vtt/captioning-en.vtt",
+              "kind": "captions",
+              "srclang": "en",
+              "type": "text/vtt"
+            }]
+          },
+          "shorexDefaultImage": "#",
+          "virtualTour360Video": "",
+          "mediaType": "video",
+          "mediaSize": "12",
+          "image": {
+            "alt": "",
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img.jpg"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "order": "3",
+      "media": [
+        {
+          "desktopImage": "/content/dam/geometrixx-media/people/laura-richardson.jpg",
+          "virtualTour360Video": "",
+          "mediaType": "image",
+          "mediaSize": "4",
+          "image": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg"
+            },
+            "alt": "alt"
+          },
+          "carouselImage": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/IMG5.jpg"
+            },
+            "alt": "alt"
+          }
+        },
+        {
+          "virtualTour360Video": "https://my.matterport.com/show/?m=KeKLVvS9p9W",
+          "mediaType": "360Video",
+          "mediaSize": "8",
+          "image": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img4.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img4.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img4.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img4.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img4.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/pdp/img4.jpg"
+            },
+            "alt": "alt"
+          },
+          "video": {}
+        }
+      ]
+    }
+  ]
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

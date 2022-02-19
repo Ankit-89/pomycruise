@@ -1,0 +1,34 @@
+{
+  "type": "diningCard",
+  "id": "1488441675235",
+  "attributes": {
+    "childComponents": [],
+    "title": "Heading",
+    "offerBanner": "Promo offer",
+    "textAlignment": "left",
+    "primaryCta": {
+      "label": "abc",
+      "url": "/content/carnival/platform/en/grid-test.html",
+      "isExternal": false
+    },    
+    "description": "Lorem ipsum consetcuri, provided",
+    "image": {
+      "alt": "Hero alt text",
+      "0": {
+        "1x": "http://placehold.it/375x282",
+        "2x": "http://placehold.it/750x564"
+      },
+      "376": {
+        "1x": "http://placehold.it/768x578",
+        "2x": "http://placehold.it/1536x1324"
+      },
+      "769": {
+        "1x": "http://placehold.it/1440x1083",
+        "2x": "http://placehold.it/2880x2166"
+      }
+    }
+  },
+  "meta": {
+    "render": "static"
+  }
+}

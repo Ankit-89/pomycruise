@@ -1,0 +1,8 @@
+.article--overlay {
+    & .modal-header {
+        background-color: var(--color-secondary6);
+    }
+    & .close {
+        background-color: white;
+    }
+}

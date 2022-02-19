@@ -1,0 +1,149 @@
+.pageTabs #tab-content-1 {
+    & .form-field-row {
+        @mixin radio-button;
+        & label {
+            margin-left: 0;
+            color: var(--color-primary3);
+            font-family: var(--font-semibold);
+        }
+    
+    }
+}
+
+.passenger-option-section {
+    & .noMoreEditable {
+        color: var(--color-primary6);
+    }
+
+}
+
+
+.passenger_form--section {
+    & + .passenger_form--section {
+        border-top: 1px solid var(--color-secondary9);
+    }
+    & h6{
+        font-family: var(--font-body1);
+        color: var(--color-primary5);
+    }
+    
+    
+    & .form-edit {
+        & .form-label {
+            color: var(--color-primary6);
+            font-family: var(--font-body1);
+        }
+    }
+    & .form-label-empty {
+        font-family: var(--font-h5);
+    }
+    & .form-label {
+        color: var(--color-primary3);
+        font-family: var(--font-semibold);
+    }
+
+    & .form-field-value {
+        color: var(--color-primary5);
+        @mixin style-body2;
+    }
+    & .cta-secondary {
+        &:visited,
+        &:hover {
+            color: var(--color-secondary1);
+        }
+    }
+    & .cta-secondary_aff {
+        margin-top: 10px;
+        display: inline-block;
+    }
+    & .form-label-empty{
+        color: var(--color-secondary1);
+        &:before {
+            background-color: var(--color-secondary1);
+        }
+    }
+    & .checkbox-label {
+        color: var(--color-primary3);
+        font-family: var(--font-semibold);
+    }
+    & .input-group-date {
+        & .input-wrapper:after {
+            color: var(--color-secondary5);
+        }
+    }
+    & .form_wrapper {
+        & + .form_wrapper {
+            border-top: 1px solid var(--color-secondary9);
+        }
+    }
+    & .form-title {
+        font-family: var(--font-h5);
+    }    
+    & .input-check {
+        border: 1px solid var(--color-secondary5);
+    }
+}
+
+.passenger-option-section {
+    border-top: 1px solid var(--color-secondary9);
+    font-family:  var(--font-body1);
+    strong, 
+    b {
+        font-family: var(--font-semibold);
+    }
+    & .cta-link {
+        color: var(--color-primary3);
+        font-family: var(--font-semibold); 
+    }
+    & .form-title {
+        font-family: var(--font-h5);
+    }
+    strong, 
+    b {
+        font-family: var(--font-semibold);
+    }    
+}
+.passenger-option-content {
+    color: var(--color-primary5);
+}
+
+.option-field-col2 {
+    font-family: var(--font-semibold); 
+    & .option-text {
+        font-family: var(--font-body1); 
+    }
+}
+
+.radio-label {
+    color: var(--color-primary3);
+    font-family: var(--font-semibold); 
+}
+
+.option-label {
+    font-family: var(--font-semibold);
+    color: var(--color-primary3);
+}
+.form_notification {
+    font-family: var(--font-h6);
+    &.form-complete {
+        & .notification-text {
+            color: var(--color-primary3);
+        }
+        & .notification-icon {
+            background-color: var(--color-primary3);
+        }
+    }  
+    &.form-incomplete {
+        & .notification-text {
+            color: var(--color-primary4);
+        }
+        & .notification-icon {
+            background-color: var(--color-primary4);
+        }
+    }  
+}
+.option-field-col2 {
+    & .option-text {
+        font-family: var(--font-body1); 
+    }
+}

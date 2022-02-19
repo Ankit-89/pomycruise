@@ -1,0 +1,22 @@
+{
+    "type": "titleAndLinks",
+    "id": "1520244087537",
+    "attributes": {
+        "title": "Useful links",
+        "links": [
+            {
+                "label": "CTA 1",
+                "url": "http://localhost:3000/pages/T004",
+                "isExternal": true
+            },
+            {
+                "label": "CTA 2",
+                "url": "http://localhost:3000/pages/T004",
+                "isExternal": true
+            }
+        ]
+    },
+    "meta": {
+        "render": "serverside"
+    }
+}

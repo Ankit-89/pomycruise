@@ -1,0 +1,47 @@
+.continue-shopping {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    & .icons-list {
+        margin: 40px 0;
+        text-align: left;
+    }
+    & .icons-list-item {
+        list-style: none;
+        display: inline-block;
+        vertical-align: top;
+        width: 150px;
+        padding: 0 15px;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    & .icons-list-label {
+        display: block;
+        vertical-align: middle;
+        line-height: 1.2;
+        text-decoration: none;
+        
+    }
+    & .icons-list-icon {
+        vertical-align: middle;
+        display: inline-block;
+        margin-bottom: 10px;
+        width: 30px;
+        height: 30px;
+        & img {
+            width: auto;
+            height: 100%;
+        }
+    } 
+    & .icons-list-link {
+        display: block;
+        text-decoration: none;
+    }    
+}
+
+.continueShopping {
+    &.hide {
+        display: none;
+    }
+}

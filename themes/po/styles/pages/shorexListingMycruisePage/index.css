@@ -1,0 +1,21 @@
+/* Global Components */
+@import '../../config/index.css';
+@import 'defaults.css';
+
+
+/*general style of the component*/
+/* @import '../../../../../components/heroTile/styles/index.css';
+@import '../../../../../components/categorySlider/styles/index.css';
+@import '../../../../../components/shorexCard/styles/index.css';*/
+
+/*brand style of the component*/
+@import '../../components/globalHeaderMycruise/index.css';
+@import '../../components/heroTile/index.css';
+@import '../../components/commons/carouselControls/index.css';
+@import '../../components/commons/card/index.css';
+@import '../../components/filterSortBarMycruise/index.css';
+@import '../../components/categorySlider/index.css';
+@import '../../components/shorexCard/index.css';
+@import '../../components/shorexOverlay/index.css';
+@import '../../components/footerMycruise/index.css';
+@import '../../components/notificationBanner/index.css';

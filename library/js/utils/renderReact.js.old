@@ -1,0 +1,40 @@
+import React from 'react';
+import { render } from 'react-dom';
+
+const componentData = window.SR.components.data;
+const renderedComponents = {};
+
+const isRendered = (id) => renderedComponents[id];
+
+const renderReact = (Component, key) => {
+    Array.prototype.map.call(
+        document.querySelectorAll(`[data-type="${key}"]`),
+        (el) => {
+            const props = componentData.filter(
+                (cmp) => cmp.id === el.getAttribute('data-id')
+            )[0];
+
+            if (
+                props &&
+                props.attributes &&
+                !isRendered(`${props.type}-${props.id}`)
+            ) {
+                const services = props.services || [];
+                const type = props.type || '';
+
+                render(
+                    <Component
+                        {...props.attributes}
+                        services={services}
+                        component={type}
+                    />,
+                    el
+                );
+
+                renderedComponents[`${props.type}-${props.id}`] = true;
+            }
+        }
+    );
+};
+
+export default renderReact;

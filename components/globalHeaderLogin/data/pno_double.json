@@ -1,0 +1,22 @@
+{
+  "type": "globalHeaderLogin",
+  "id": "1519980816351",
+  "attributes": {
+    "primaryHeaderLoginLogo": {
+      "image": "/content/PO/C001/pno_logo.svg",
+      "alt": "Logo",
+      "url": "/content/pno/master_website/it_IT.html",
+      "isExternal":true
+    },
+    "secondaryHeaderLoginLogo": {
+      "image": "/content/PO/C001/pno_logo.svg",
+      "alt": "Logo",
+      "url": "/content/pno/master_website/it_IT.html",
+      "isExternal":true
+    },
+    "doubleLogo": true
+  },
+  "meta": {
+    "render": "serverside"
+  }
+}

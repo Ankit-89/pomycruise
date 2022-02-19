@@ -1,0 +1,8 @@
+.gallery-container {
+    & .videoIframe {
+        border: 0;
+    }
+    & .image-captions .cta {
+        line-height: 1.75;
+    }
+}

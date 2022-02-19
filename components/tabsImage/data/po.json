@@ -1,0 +1,99 @@
+{
+	"type": "tabsImage",
+	"id": "1510906221656",
+	"attributes": {
+		"title": "Why to book our Shore Excursions",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+		"tabs": [
+			{
+				"shortTitle": "Inspiring scenaries",
+				"longTitle": "Meet new inspiring scenaries",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+				"thumbImage": "http://bitcarnival.s3.amazonaws.com/pno/img/ports/florence.jpg",
+				"image": {
+					"alt": "alt",
+					"0": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg",
+						"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg"
+					},
+					"376": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg",
+					 "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg"
+					},
+					"769": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-l.jpg",
+						"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-l.jpg"
+					}
+				}
+			},
+			{
+				"shortTitle": "Compelling local culture",
+				"longTitle": "Culture culture culture",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+				"thumbImage": "http://bitcarnival.s3.amazonaws.com/pno/img/ports/florence.jpg",
+				"image": {
+					"alt": "alt",
+					"0": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg",
+						"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg"
+					},
+					"376": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg",
+					 "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg"
+					},
+					"769": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-l.jpg",
+						"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-l.jpg"
+					}
+				}
+			},
+			{
+				"shortTitle": "Exciting possibilities",
+				"longTitle": "Exciting possibilities lorem ipsum",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+				"thumbImage": "http://bitcarnival.s3.amazonaws.com/pno/img/ports/florence.jpg",
+				"image": {
+					"alt": "alt",
+					"0": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg",
+						"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg"
+					},
+					"376": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg",
+					 "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg"
+					},
+					"769": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-l.jpg",
+						"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-l.jpg"
+					}
+				}
+			},
+			{
+				"shortTitle": "Diverse selection",
+				"longTitle": "Diverse selection lorem ipsum",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
+				"thumbImage": "http://bitcarnival.s3.amazonaws.com/pno/img/ports/florence.jpg",
+				"image": {
+					"alt": "alt",
+					"0": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg",
+						"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg"
+					},
+					"376": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg",
+					 "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-p.jpg"
+					},
+					"769": {
+						"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-l.jpg",
+						"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/tile-l.jpg"
+					}
+				}
+			}
+		]
+	},
+	"services": {
+	},
+	"meta": {
+		"render": "dynamic"
+	}
+}

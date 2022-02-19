@@ -1,0 +1,5 @@
+.hero-container {
+    /* Spacings */
+    --inner-padding: 60px;
+    --inner-padding-mvp: 30px;
+}

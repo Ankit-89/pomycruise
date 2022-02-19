@@ -1,0 +1,232 @@
+.hero-container {
+    width: 100%;
+    position: relative;
+    & .info-card-wrap {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+    & .info-card-wrap.center {
+        text-align: center;
+    }
+    & .info-card-wrap.left {
+        text-align: left;
+    }
+    & .info-card-wrap.right {
+        text-align: right;
+    }
+    & .hero-slides {
+        position: relative;
+        overflow: hidden;
+    }
+    & .filter-item {
+        cursor: pointer;
+    }
+    & .slide {
+        min-height: 200px;
+        position: relative;
+    }
+
+    & .search-holder {
+        padding: 17px;
+        position: relative;
+    }
+    & .info-section img {
+        width: auto;
+        height: 28px;
+    }
+    & .header-rv {
+        display: table;
+        width: 100%;
+    }
+    & .header-rv h3 {
+        display: table-cell;
+        float: left;
+        padding-left: 20px;
+    }
+
+    & .header-rv button {
+        display: table-cell;
+        float: right;
+    }
+    & .cta-with-price {
+        display: none;
+    }
+    & .detail-section {
+        position: relative;
+        padding: 0 18px;
+        text-align: center;
+    }
+    & .detail-section .price-block-mob,
+    & .detail-section .arrow-icon {
+        display: inline-block;
+        /* width: 49%; */
+        text-align: center;
+        vertical-align: middle;
+        padding: 0;
+    }
+    & .info-card-positioning {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    & .info-card-logo {
+        position: absolute;
+        top: 20px;
+    }
+}
+
+/* .info-card-positioning {
+    width: 100%;
+    position: relative;
+    top: 0;
+} */
+.hero-container .center {
+    & .detail-section {
+        text-align: center;
+    }
+}
+/* .hero-container .left .info-card .info-section {
+    text-align: left;
+} */
+
+.hero-container .info-card {
+    float: right;
+
+    & h2 {
+        line-height: 35px;
+        margin: 0 0 15px 0;
+        min-width: 300px;
+    }
+    & p {
+        margin: 0 0 10px 0;
+        line-height: 16px;
+    }
+    & a {
+        padding-bottom: 5px;
+        text-decoration: none;
+        & p, & h2 {
+            text-transform: none;
+            font-feature-settings: initial;
+        }
+    }
+    &.left {
+        float: left;
+    }
+    &.center {
+        margin: 0 auto;
+    }
+    & .disclaimer-text p {
+        margin: 0;
+    }
+
+    &-logo img {
+        max-height: 70px;
+        width: auto;
+        max-width: 410px;
+    }
+}
+
+.hero-container .slide-controls {
+    display: none;
+    & .button {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        cursor: pointer;
+    }
+    & .button:before {
+        content: '';
+        display: inline-block;
+        left: 50%;
+        top: 50%;
+    }
+}
+
+.hero-container .slick-dots {
+    position: absolute;
+    bottom: auto;
+    /* top: 50%; */
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    /* cursor: pointer;
+    z-index: 1;
+    margin: 0;
+    padding: 0; */
+    & li {
+        list-style-type: none;
+        list-style-position: inside;
+        display: inline-block;
+        margin-right: 10px;
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+    }
+    & li:last-child {
+        margin-right: 0;
+    }
+    & button {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+}
+
+.hero-container .recently-viewed {
+    display: block;
+
+    & a {
+        line-height: 25px;
+    }
+}
+
+.info-card .price-section {
+    display: inline-block;
+    width: auto;
+    overflow: visible;
+    word-wrap: break-word;
+    padding-left: 15px;
+    & p {
+        margin: 0;
+    }
+    & .heading {
+        margin-left: -10px;
+    }
+    & .amount-section {
+        margin: -4px 0;
+    }
+    & .currency {
+        position: relative;
+        top: -15px;
+    }
+    & .amount {
+        position: relative;
+        top: 0;
+    }
+    & .per-text {
+        position: absolute;
+        top: 25px;
+        padding-left: 5px;
+    }
+    & .person-text {
+        position: absolute;
+        top: 35px;
+        padding-left: 5px;
+    }
+    & .tnc {
+        max-width: 165px;
+    }
+}
+.heroMycruise {
+    & .detail-section .arrow-icon {
+        backface-visibility: hidden;
+    }
+    & .info-card .info-section {
+        max-width: initial;
+    }
+}

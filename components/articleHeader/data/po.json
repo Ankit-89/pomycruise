@@ -1,0 +1,25 @@
+{
+    "type": "articleHeader",
+    "id": "1520244087537",
+    "attributes": {
+        "title": "Passport & Visas",
+        "image": {
+            "0": {
+                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "376": {
+                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "769": {
+                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "alt": "1"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

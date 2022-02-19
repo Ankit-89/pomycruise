@@ -1,0 +1,6 @@
+.bookingSummaryMycruise {
+    padding: 0;
+    & .nextSteps__item {
+        padding-right: 50px;
+    }
+}

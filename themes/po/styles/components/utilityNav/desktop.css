@@ -1,0 +1,54 @@
+.utility-nav-container {
+    & .nav .nav-item {
+        @mixin style-body2;
+        font-size: 12px;
+        display: inline-block;
+        vertical-align: top;
+        border: none;
+    }
+    & .nav .nav-item .nav-link {
+        border-bottom: none;
+        line-height: 24px;
+        font-size: 14px;
+    }
+    & .nav-item .nav__countdown {
+        font-family: var(--font-small-text);
+        text-decoration: none;
+        color: var(--color-primary3);
+        border-left: 1px solid var(--color-secondary5);
+        line-height: 25px;
+        text-decoration: none;
+    }
+    & .nav-item .nav-link {
+        font-family: var(--font-small-text);
+        text-decoration: none;
+        color: var(--color-primary3);
+        border-left: 1px solid var(--color-secondary5);
+    }
+    & .nav-item .nav-link.logout {
+        border: 0;
+    }
+    & .nav-item .nav-text.logout {
+        opacity: .5;
+    }
+    & .nav-item .nav-text.logout:before {
+        content: '\e900';
+        font-family: var(--font-icomoon);
+    }
+    & .nav-item .nav-text {
+        font-family: var(--font-small-text);
+        border: none;
+        color: var(--color-primary3);
+        font-size: 14px;
+    }
+    & .nav-item .nav-text .em {
+        font-family: var(--font-bold);
+    }
+    & .nav-link.login::before {
+        content: "\e913";
+        color: var(--color-primary3);
+    }
+    & .nav-item .nav-text.logout {
+        display: inline-block;
+    }
+}

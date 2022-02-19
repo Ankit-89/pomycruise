@@ -1,0 +1,182 @@
+
+.passengers_details {
+    width: 100%;
+    padding: 60px;
+    & .passenger_select {
+        margin-bottom: 45px;
+    }
+}
+
+
+.passenger_form--section {
+    & .form_wrapper {
+        padding-right: 220px;
+        padding-bottom: 58px;
+    }
+    & .form-title {
+        font-size: 24px;
+    }
+    & .form-textEditDesc {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    & .form-label,
+    & .form-field-value {
+        font-size: 18px;
+        width: auto;
+    }
+    & .input-field,
+    & .dropdown-list {
+        font-size: 16px;
+    }
+    & .form-label {
+        width: 330px;
+        padding-right: 10px;
+    }
+    & .form-label-empty {
+        text-decoration: none;
+        &:before {
+            content: "";
+        }
+    }
+    & .form-field-row {
+        & > .form-title {
+            margin-top: 55px;
+        }
+        & + .form-field-row{
+            margin-top: 25px;
+        }
+    }    
+    & .input-field {
+        &[name='title'] {
+            @mixin input-text;
+            max-width: 261px;
+            font-size: 16px;
+        }
+    }
+    & .cta_container {
+        margin-top: 35px;
+    }
+    & .cta_container--edit {
+        margin-top: 38px;
+    }
+    & .input-group-date {
+        & .input-field,
+        & .select-group,
+        & .input-wrapper {
+            width: 140px;
+        }
+    }
+    & .input-group-wrapper {
+        max-width: 450px;
+    }
+    & .checkbox-label {
+        font-size: 18px;
+    }
+    & .form-label-1 {
+        font-size: 14px;
+    }  
+    & .form-edit + .cta_container {
+        text-align: left;
+    }
+    & .cta-primary {
+        display: inline-block;
+        margin: 0;
+        & + .cta-secondary {
+            margin-left: 32px;
+        }
+    }
+    & .common-input-group {
+        & .input-label {
+            font-size: 14px;
+        }
+    }
+    & .common-input-group {
+        & .error-msg{
+            font-size: 14px;
+        }
+    }
+    & .tooltip-wrapper .tooltip__icon .tooltip__dd {
+        right: -218px;
+        width: 283px;
+        & p {
+            font-size: 14px;
+        }
+        &:before {
+            right: auto;
+            left: 30px;
+        }
+    }
+    & .consent-wrapper {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.option-field-col2 {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 40px);
+    padding-right: 40px;
+    font-size: 18px;
+    & + .option-field-col2 {
+        margin-top: 0;
+    }
+    & .option-text {
+        margin-bottom: 0;
+        margin-top: 25px;   
+    }
+}
+ 
+.passenger-option-section {
+    padding-top: 54px;
+    margin-bottom: 46px;
+    & .form-title {
+        font-size: 24px;
+        & + * {
+            margin-top: 25px;
+        }
+    }
+    & .option-row {
+        margin-top: 25px;
+    }
+    & .noMoreEditable {
+        font-size: 16px;
+    }
+}
+
+.passenger-option-content {
+    font-size: 18px;
+    margin-top: 36px;
+}
+.input-radio {
+    width: 18px; 
+    height: 22px;
+}
+
+
+
+
+
+.form_notification {
+    padding: 0 24px 0 9px;
+    top: 0;
+    & .notification-icon {
+        width: 35px;
+        height: 35px;
+        line-height: 50px;
+        margin-right: 11px;
+        &:before {
+            line-height: 35px;
+            font-size: 12px;
+        }
+    }
+
+    &.form-incomplete {
+        & .notification-icon:before {
+            font-size: 17px;
+        }
+    }
+    & .notification-text {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,11 @@
+.utility-nav-container {
+    & .nav-item .nav-link.logout {
+        padding: 0 20px;
+    }
+    & .nav-item .nav__countdown {
+        padding: 0 20px;
+    }
+    & .nav-item .nav-link {
+        padding: 0 20px;
+    }
+}

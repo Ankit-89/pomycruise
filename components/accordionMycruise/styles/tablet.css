@@ -1,0 +1,6 @@
+.qa {
+    & .qa__answer {
+        width: calc(100% - 100px);
+        padding-right: 40px;
+    }
+}

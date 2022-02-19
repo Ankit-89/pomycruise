@@ -1,0 +1,144 @@
+.media-gallery-modal .slide-controls {
+    display: none;
+    & .button {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    & .button.prev-btn {
+        left: 25px;
+    }
+    & .button.next-btn {
+        right: 25px;
+    }
+    & .button:before {
+        position: absolute;
+        content: '';
+        display: inline-block;
+        width: 15px;
+        height: 35px;
+        left: 50%;
+        top: 50%;
+        margin: -17px 0 0 -10px;
+    }
+    & .button.next-btn:before {
+        margin: -12px 0 0 -7px;
+    }
+}
+.media-gallery-modal {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    & .modal-content {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        position: relative;
+    }
+    & [class |= media-item] {
+        position: relative;
+    }
+    /* & iframe.videoIframe {
+        height: 433px;
+        width: 100%;
+        display: block;
+    } */
+    & .back-to-top {
+        display: none;
+    }
+    & .video-container {
+        width: 100%;
+    }
+    & .amp-video-container {
+        height: 433px;
+        width: 100%;
+        min-width: unset;
+        min-height: unset;
+    }
+    & .close-label {
+        display: none;
+    }
+    & .modal-content-wrapper {
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    & .aria-modal .slide-controls .prev-btn {
+        left: 30px;
+    }
+    & .aria-modal .slide-controls .next-btn {
+        right: 30px;
+    }
+    & .aria-modal {
+        margin: 0 auto;
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        padding: 10px;
+        position: static;
+    }
+    & .slick-slide img {
+        max-width: 100%;
+        max-height: 300px;
+        display: inline-block;
+        width: auto;
+    }  
+    & .slick-slider {
+        text-align: center;
+    }  
+    & iframe.videoIframe {
+        max-width: 100%;
+        max-height: 300px;
+        display: inline-block;
+        width: auto;
+    }
+    & .aria-modal .close {
+        height: 35px;
+        width: 35px;
+        margin-top: -40px;
+        padding: 0;
+        line-height: 35px;
+        text-align: center;
+        display: block;
+        margin-right: 0; 
+        top: 64px;
+        right: 20px;
+        position: absolute;
+
+    }
+    & .aria-modal .close::after {
+        background: url(~postbooking-theme/images/close-svp-white.png) center/100% no-repeat;
+        width: 25px;
+        height: 25px;
+        content: '';
+        margin-left: 0;
+    }
+        
+}
+.media-gallery-modal .slick-dots {
+    position: fixed;
+    padding: 0;
+    margin: -40px 0 0 0;
+    list-style: none;
+    left: 50%;
+    transform: translateX(-50%);
+    & li {
+        float: left;
+        list-style: none;
+        margin-right: 10px;
+    }
+    & li:last-child {
+        margin-right: 0;
+    }
+    & button {
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+}
+

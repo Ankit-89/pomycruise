@@ -1,0 +1,7 @@
+.three-up-container {
+    & .destination-tile-cards {
+        margin-top: 45px;
+    }
+}
+
+

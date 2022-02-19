@@ -1,0 +1,7 @@
+.title-component {
+    & .icon-heading {
+        &:after {
+            font-size: 40px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"type": "textCta",
+	"id": "",
+	"attributes": {
+		"icon": "",
+		"ctaUrl": "pages/T012",
+		"ctaLabel": "Go to my orders",
+		"bodyText": "You can find and manage your purchased products in My Orders page."
+	},
+	"meta": {
+		"render": "serverside"
+	}
+}

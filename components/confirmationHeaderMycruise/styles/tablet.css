@@ -1,0 +1,65 @@
+.confirmationHeaderMycruise {
+    & .tooltip__icon {
+        position: relative;
+        left: auto;
+        margin-left: 10px;
+        margin-bottom: 0;
+        &:before {
+            font-size: 22px;
+        }
+    }
+    & .confirmationHeaderMycruise__loyality {
+        font-size: 16px;
+        padding-top: 0;
+        display: inline-block;
+        & .loyaltyTierSlot__type {
+            display: inline-block;
+            margin-left: 5px;
+        }
+        & .loyaltyTierSlot__txt {
+            margin: 0;
+            display: inline-block;
+        }
+    }
+}    
+.confirmationHeaderMycruise__back {
+    & a {
+        &:after {
+            top: -12px;
+        }
+    }
+}
+
+.model_body_session {
+    & h1 {
+        font-size: 40px;
+		line-height: 47px;
+    }
+    & p {
+        font-size: 18px;
+		line-height: 26px;
+    }
+}
+
+.session-modal-dialog {
+    margin-top: 30%;
+    padding-top: 15px;
+    min-height: 270px;
+    width: 70%;
+}
+
+.modal-btns_session .cta-button-outline {
+    width: 65%;
+    margin-top: 10px;
+}
+
+.modal-btns_session{
+& .cta-primary{
+	margin: 10px;
+    width: 70%;
+    line-height: 3.125rem;
+    height: 50px;
+    border-radius: 15px;
+	padding: 0px 50px;
+}
+}

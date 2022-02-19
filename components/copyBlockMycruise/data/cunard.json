@@ -1,0 +1,16 @@
+{
+    "type": "copyBlock",
+    "id": "1498821971137",
+    "attributes": {
+        "backgroundToggle": true,
+        "copyBlockList": [
+            {
+                "text": "<ul>\r\n<li>Complimentary 24-hour</li>\r\n<li>Daily housekeeping</li>\r\n<li>Nightly turndown service</li>\r\n<li>housekeeping</li>\r\n</ul>\r\n"
+            }
+        ]
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}
+

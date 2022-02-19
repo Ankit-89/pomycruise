@@ -1,0 +1,48 @@
+
+.tableInformation {
+    @mixin grid-wrap;
+    & .onlyDesktop {
+        display: none;
+    }
+    & .toBeOpen {
+        display: none;
+        &.visible {
+            display: block;
+        }
+    }
+    & .visible {
+        & .toBeOpen {
+            display: block;
+        }
+        & th {
+            display: block;
+        }
+    }
+    & .table {
+        text-align: left;
+        width: 100%;
+        border-spacing: inherit;
+        & th {
+            padding: 15px;
+            padding-right: 50px;
+            position: relative;
+        }
+        & .table__opener {
+            &:after {
+                display: inline-block;
+                vertical-align: middle;
+                position: absolute;
+                right: 15px;       
+            }
+        }
+        & .table__price {
+            float: right;
+        }
+        & td {
+            padding: 10px 50px 10px 15px;
+        }
+    }
+    & .table__quantity {
+        float: right;
+    }
+}

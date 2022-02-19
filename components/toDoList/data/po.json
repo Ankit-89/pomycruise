@@ -1,0 +1,47 @@
+{
+    "type": "toDoList",
+    "id": "1524978018240",
+    "attributes": {
+        "title": "To Do List",
+        "desc":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "list": [
+            {
+                "name": "Complete your Personal Details",
+                "code": "personalDetails"
+            },
+            {
+                "name": "Check Vaccination information",
+                "code": "vaccinationCheck"
+            },
+            {
+                "name": "Check Visa information",
+                "code": "visaInfoCheck"
+            },
+            {
+                "name": "Print your E-tickets",
+                "code": "e-ticket"
+            },
+            {
+                "name": "Print your luggage labels",
+                "code": "luggageLabel"
+            }
+        ],
+        "labels": {
+            "toBeCompletedLabel": "To be completed"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    },
+    "services": {
+        "urls": {
+            "toDoListApi":"https://dev.api.mycruise-temp.com/v1/mc-todo-list"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "GB"
+        }
+    }
+}

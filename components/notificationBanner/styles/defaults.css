@@ -1,0 +1,23 @@
+.notificationBanner{
+    @mixin grid-wrap;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.notificationBanner__container{
+    position: relative;
+}
+.notificationBanner__content{
+    padding: 37px 18px
+}
+.notificationBanner__title{
+    @mixin style-h5;
+    line-height: 1.25em;
+    & + * {
+        margin-top: 10px;
+    }
+}
+.notificationBanner__text{
+    @mixin style-body3;
+}
+
+    

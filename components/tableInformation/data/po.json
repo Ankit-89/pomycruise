@@ -1,0 +1,39 @@
+{
+	"type": "tableInformation",
+	"id": "52454555",
+	"attributes": {
+		"labels": {
+		},
+		"accordionTitle": "Packages",
+		"headings": {
+			"rowTitle": "Packages",
+			"columns": [ "Luxurious treatments", "Retreat full day passes", "Thermal Suite full day passes", "Complementary Fitness Classes", "DIY Scrub Bar Experience"],
+			"price": "Price"
+		},
+		"rows": [
+			{
+				"rowTitle": "Spa Sampler",
+				"columns": [ "1", "2", "3","1", "2"],
+				"price":"$200"
+			},
+			{
+				"rowTitle": "Escape",
+				"columns": [ "1", "2", "3","1", "2"],
+				"price": "$200"
+			},
+			{
+				"rowTitle": "Refresh",
+				"columns": [ "1", "2", "3","1", "2"],
+				"price":"$200"
+			},
+			{
+				"rowTitle": "Total relaxation",
+				"columns": [ "1", "2", "3","1", "2"],
+				"price": "$200"
+			}
+		]
+	},
+	"meta": {
+		"render": "dynamic"
+	}
+}

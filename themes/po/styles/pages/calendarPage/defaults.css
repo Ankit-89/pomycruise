@@ -1,0 +1,14 @@
+.wrapper {
+    background: var(--color-primary1);
+}
+
+/* stiky header disabled for calendar page */
+.globalHeaderMycruise .global-header-wrapper {
+    position: absolute;
+}
+.globalHeaderMycruise .global-header-container {
+    position: absolute;
+}
+body .wrapper:before {
+    display: none;
+}

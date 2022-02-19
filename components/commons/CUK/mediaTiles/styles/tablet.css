@@ -1,0 +1,5 @@
+.gallery-container {
+    & .image-captions {
+        padding: 30px 28px 35px;
+    }
+}

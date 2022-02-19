@@ -1,0 +1,39 @@
+{
+  "type": "printHealthQuestionnaireDeclaration",
+  "id": "po",
+  "attributes": {
+    "primaryHeaderLoginLogo": {
+      "image": "https://my.pocruses.com/content/PO/C001/pno_logo.svg",
+      "alt": "Logo",
+      "url": "https://my.pocruses.com/content/pno/master_website/it_IT.html",
+      "isExternal": false
+    },
+    "labels": {
+      "printHQDeclNotClearedLabel": "Not Cleared",
+      "printHQDeclClearedLabel": "Cleared",
+      "printHQDeclPassengersLabel": "Passengers",
+      "printHQDeclCabinNumberLabel": "Cabin Number",
+      "printHQDeclBookingRefLabel": "Booking Reference",
+      "printHQDeclShipnameLabel": "Shipname",
+      "printHQDeclEmbarkationDateLabel": "Embarkation Date",
+      "printHQDeclCruiseNumberLabel": "Cruise Number",
+      "printHQDeclCompletedTitleLabel": "Thank you for completing the Health Questionnaire",
+      "printHQDeclCompletedDescriptionLabel": "Description for completing the Health Questionnaire",
+      "printHQDeclUnableToTravelTitleLabel": "Your household cannot travel",
+      "printHQDeclUnableToTravelDescriptionLabel": "Unable To Travel Description ",
+      "printHQDeclBookingCancelledTitleLabel": "Your cruise booking will be cancelled",
+      "printHQDeclBookingCancelledDescriptionLabel": "Booking cancelled description",
+      "printHQDeclBookingCancelledDescription2Label": "Booking cancelled MORE description ",
+      "printHQDeclTAndCLabel": "terms and conditions",
+      "printHQDeclShowAtPortLabel": "Please have this declaration ready to show at port",
+      "printHQDeclEveryAdultCompleteTitleLabel": "Every adult need to complete the Health Questionnaire",
+      "printHQDeclEveryAdultCompleteDescriptionLabel": "Every adult in the booking need to complete the Health Questionnaire Description",
+      "printHQDeclPrecruiseTitleLabel": "Pre Cruise Action Reminder",
+      "printHQDeclPrecruiseDescriptionLabel": "Pre Cruise Action Reminder Description",
+      "printHQDeclLoginCTALabel": "Login to MyCruise"
+    }
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

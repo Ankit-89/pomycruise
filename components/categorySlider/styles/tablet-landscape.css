@@ -1,0 +1,183 @@
+.allPorts {
+    width: 25%;
+    float: none;
+    padding: 0;
+    & .allPorts-btn {
+        padding: 0 30px;
+        width: auto;
+        &.active {
+            text-align: left;
+            padding: 0 60px 0 30px;
+        }
+    }
+    & .allPorts-btn.active:after {
+        position: absolute;
+        display: inline-block;
+        right: 15px;
+        margin-left: 0;
+    }
+}
+.ports-carousel {
+    width: 75%;
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+.category-slider {
+    & .category-sliderContainer {
+        text-align: left;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+    & .allPorts-text {
+        display: block
+    }
+    & .carousel-controls {
+        display: block;
+
+        & .prev-btn {
+            top: 34.5%;
+
+        }
+        & .next-btn {
+            top: 34.5%;
+        }
+    }
+    & .category-sliderAux {
+        margin-bottom: 70px;
+    }
+}
+
+.jumpToPort {
+    float: none;
+    position: absolute;
+    top: -30px;
+    right: 90px;
+    z-index: 9;
+    width: auto;
+    padding: 0;
+
+    & .jumpToPort-btn {
+        line-height: 50px;
+        padding: 0 30px;
+    }
+    & .jumpToPort-btn::before {
+        display: inline-block;
+    }
+    & .cta-menu-close {
+        display: none;
+    }
+    & .port-date {
+        top: 16px;
+    }
+
+}
+
+
+.jumpToPort-dd {
+    width: 320px;
+    position: relative;
+    top: 20px;
+    left: 50%;
+    margin-left: -160px;
+    border-radius: 5px;
+    box-shadow: 0 0px 20px 10px rgba(0, 0, 0, .1);
+    overflow: initial;
+    &:before {
+        content: "";
+        width: 45px;
+        height: 45px;
+        background: var(--color-secondary6);
+        position: absolute;
+        top: -6px;
+        display: block;
+        transform: rotate(-45deg);
+        left: 40%;
+        margin-left: 12px;
+    }
+    & .slick-slider {
+        background: var(--color-primary1);
+        border-radius: 5px;
+        max-height: 440px;
+        overflow: scroll;
+        margin-top: 0;
+
+    }
+    & .port-list {
+        padding-top: 60px;
+        position: relative;
+        &:before {
+            content: "";
+            display: block;
+            background: var(--color-secondary6);
+            height: 60px;
+            width: 100%;
+            position: absolute;
+            /*trasform: translate3d(0,0,0);*/
+            top: 0;
+            left: 0;
+            border-radius: 5px 5px 0 0;
+        }
+    }
+
+    & .slick-slide {
+        height: 0;
+        border-radius: 5px;
+
+        &.slick-active {
+            height: auto;
+        }
+    }
+    & .slick-arrow {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        padding: 0;
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        background: transparent;
+        vertical-align: middle;
+        z-index: 9;
+    }
+
+    & .slick-prev {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        &::before {
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+            content: "\e903";
+            color: var(--color-secondary1);
+            font-family: var(--font-icomoon);
+            font-size: 16px;
+            display: block;
+        };
+    }
+    & .slick-next {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        &::before {
+            content: "\e903";
+            color: var(--color-secondary1);
+            font-family: var(--font-icomoon);
+            font-size: 16px;
+        };
+    }
+}
+.port-item-wrapper {
+    & .port-item::before {
+        right: 6px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+}    

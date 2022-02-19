@@ -1,0 +1,10 @@
+.spa-card {
+    & .top-banner {
+        @mixin style-body2;
+        background: var(--color-primary3);
+        color: var(--color-primary1);
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}
+

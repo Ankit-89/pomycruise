@@ -1,0 +1,160 @@
+{
+    "data": [
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1003712
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1003714
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1003711
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1003709
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1003716
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1003715
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1003713
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1003710
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1002469
+        },
+        {
+            "standardPrice": 125.0,
+            "promotionalPrice": 125.0,
+            "serviceId": 1002456
+        },
+        {
+            "standardPrice": 175.0,
+            "promotionalPrice": 175.0,
+            "serviceId": 1002457
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1081089
+        },
+        {
+            "standardPrice": 125.0,
+            "promotionalPrice": 125.0,
+            "serviceId": 1081090
+        },
+        {
+            "standardPrice": 129.0,
+            "promotionalPrice": 129.0,
+            "serviceId": 1081074
+        },
+        {
+            "standardPrice": 129.0,
+            "promotionalPrice": 129.0,
+            "serviceId": 1081071
+        },
+        {
+            "standardPrice": 119.0,
+            "promotionalPrice": 119.0,
+            "serviceId": 1081076
+        },
+        {
+            "standardPrice": 125.0,
+            "promotionalPrice": 125.0,
+            "serviceId": 1081073
+        },
+        {
+            "standardPrice": 89.0,
+            "promotionalPrice": 89.0,
+            "serviceId": 1081063
+        },
+        {
+            "standardPrice": 119.0,
+            "promotionalPrice": 119.0,
+            "serviceId": 1081077
+        },
+        {
+            "standardPrice": 119.0,
+            "promotionalPrice": 119.0,
+            "serviceId": 1081078
+        },
+        {
+            "standardPrice": 89.0,
+            "promotionalPrice": 89.0,
+            "serviceId": 1081062
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1081060
+        },
+        {
+            "standardPrice": 165.0,
+            "promotionalPrice": 165.0,
+            "serviceId": 1002483
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1005324
+        },
+        {
+            "standardPrice": 105.0,
+            "promotionalPrice": 105.0,
+            "serviceId": 1006112
+        },
+        {
+            "standardPrice": 155.0,
+            "promotionalPrice": 155.0,
+            "serviceId": 1006134
+        },
+        {
+            "standardPrice": 79.0,
+            "promotionalPrice": 79.0,
+            "serviceId": 1006702
+        },
+        {
+            "standardPrice": 139.0,
+            "promotionalPrice": 139.0,
+            "serviceId": 1005323
+        },
+        {
+            "standardPrice": 155.0,
+            "promotionalPrice": 155.0,
+            "serviceId": 1018042
+        },
+        {
+            "standardPrice": 139.0,
+            "promotionalPrice": 139.0,
+            "serviceId": 1002453
+        }
+    ],
+    "context": {
+        "page": 1,
+        "size": 30,
+        "pages": 2,
+        "totalRows": 43
+    }
+}

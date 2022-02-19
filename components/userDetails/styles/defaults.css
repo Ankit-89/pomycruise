@@ -1,0 +1,447 @@
+.passengers_details {
+    margin: 0 auto;
+    @mixin grid-wrap;
+    padding: 40px 20px;
+    & .passenger_select {
+        max-width: 415px;
+        margin-bottom: 30px;
+    }
+
+    & .consent__failureState {
+        border: 1px solid var(--color-secondary5);
+        padding: 70px 10px;
+        max-width: 1103px;
+        margin: 40px 0px;
+        display: flex;
+        justify-content: center;
+        color: var(--color-secondary3);
+
+        & .consent__failureStateIcon {
+            font-size: 45px;
+            display: block;
+            position: relative;
+            width: 30%;
+            height: 50px;
+            background-color: var(--color-primary1);
+            margin: 0 auto 20px;
+            &:before {
+                content: '\E908';
+                font-family: var(--font-icomoon);
+                height: 60px;
+                background: var(--color-primary1);
+                position: relative;
+                z-index: 1;
+                display: block;
+                margin: auto;
+                font-size: 2.875rem;
+                /* this has to be edited for the SIZE ICON */
+                line-height: 49px;
+            }
+            &:after {
+                content: '';
+                height: 1px;
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-color: #cccccc;
+            }
+        }
+        & .consent__failureStateHeader {
+            text-align: center;
+            max-width: 60%;
+            margin-bottom: 55px;
+
+            & h3{
+                color: var(--color-secondary3);
+            }
+
+            & .font_size {
+                font-size: 15px;
+            }
+        }
+    }
+}
+.passenger_form--section {
+    & + .passenger_form--section {
+        padding-top: 30px;
+    }
+    & .common-input-group {
+        max-width: 522px;
+        margin-bottom: 25px;
+        &.read-only .input-field {
+            text-align: left;
+        }
+        & .input-label {
+            margin-bottom: 8px;
+        }
+        & .error-msg {
+            font-size: 12px;
+        }
+        & .input-error-wrapper {
+            position: static;
+        }
+        &.show-error .input-error-wrapper {
+            position: relative;
+        }
+    }
+    & .tooltip-wrapper {
+        & .input-field {
+            padding-right: 60px;
+        }
+    }
+    & .input-group-date {
+        & .select-group {
+            min-width: 85px;
+            width: calc(33% - 10px);
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        & .input-wrapper + .input-wrapper,
+        & .select-group + .select-group {
+            margin-left: 10px;
+        }
+        & .input-field {
+            width: 100%;
+        }
+        & .input-group-wrapper {
+            display: flex;
+        }
+        & .input-wrapper {
+            position: relative;
+            flex: 1;
+            display: inline-block;
+            min-width: 85px;
+            &:after {
+                content: "\E902";
+                font-family: var(--font-icomoon);
+                position: absolute;
+                font-size: 9px;
+                text-align: center;
+                right: 10px;
+                top: 50%;
+                margin-top: -5px;
+                height: 11px;
+                width: 21px;
+            }
+            & .input-field {
+                padding-right: 30px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+    & .input-field,
+    & .dropdown-list {
+        width: 100%;
+        height: 56px;
+        font-size: 12px;
+        text-align: left;
+        
+    }
+    & .input-field {
+        padding: 15px 20px;
+    }
+    & .dropdown-list {
+        padding: 15px 30px 15px 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    & .select-group {
+        max-width: 521px;
+    }
+    & .input-field {
+        &[name='title'] {
+            @mixin input-text;
+            max-width: 100%;
+            font-size: 12px;
+        }
+    }
+
+    & .form_wrapper {
+        padding-bottom: 38px;
+        position: relative;
+       
+    }
+    & .form-title {
+        display: block; 
+        font-size: 16px;
+        & + * {
+            margin-top: 22px;
+        }
+    }
+    & .form-textEditDesc {
+        font-size: 11px;
+        font-family: var(--font-body1);
+        color: var(--color-primary6);
+        line-height: 13px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    & .form-subtitle {
+        @mixin style-body2;
+        margin-bottom: 30px;
+    }
+    & .form-label,
+    & .form-field-value {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 12px;
+        line-height: 1.5em;
+        width: 100%
+    }
+    & .form-field-row {
+        & > .form-title {
+            margin-top: 38px;
+        }
+        & + .form-field-row{
+            margin-top: 10px;
+        }
+    }
+    
+    & .form-field-value {
+        display: inline-block;
+        vertical-align: top;
+        font-family: var(--font-body1);
+        text-align: left;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    & .cta_container {
+        margin-top: 40px;
+    }
+    & .cta_container--edit {
+        margin-top: 28px;
+    }
+    & .cta-primary {
+        height: 66px;
+        width: 177px;
+        display: block;
+        margin: 0 auto 40px;
+        line-height: 66px;
+        & + .cta-secondary {
+            margin: 0 auto 0;
+        }
+        &.disabled {
+            pointer-events: none;
+            opacity: 0.3;
+            outline: none;
+        }
+    }
+    
+    & .form-edit {
+        & .form-field-row + .form-field-row {
+            margin-top: 25px;
+        }    
+    }
+    & .form-label-1 {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    & .form-edit + .cta_container {
+        text-align: center;
+    }
+    & .form-label-empty {
+        text-transform: uppercase;
+        position: relative;
+        text-decoration: underline;
+        cursor: pointer;
+        &:before {
+            content: none;
+            display: block;
+            bottom: 1px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 1px;
+        }
+    }
+    & .cta-secondary {
+        padding: 5px 0;
+    }
+    & .input-check {
+        width: 25px;
+        height: 25px;
+        box-sizing: border-box;
+        appearance: none;
+        margin-right: 10px;
+        vertical-align: top;
+        cursor: pointer;
+    }
+    & .input-check:checked {
+        background: var(--color-primary3) url(~postbooking-theme/images/check.svg) no-repeat center center;
+        background-size: 18px;
+    }
+    & .checkbox-label {
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 10px;
+        font-size: 12px;
+        line-height: 1.5em;
+        width: calc(100% - 45px);
+    }
+
+    ::-webkit-input-placeholder,
+    ::-moz-placeholder,
+    :-ms-input-placeholder,
+    :-moz-placeholder { 
+        font-size: 8px;
+    }
+
+}
+
+.passenger-option-section {
+    padding-top: 32px;
+    margin-bottom: 40px;
+    & .option-row {
+        margin-top: 25px;
+    }
+    & .cta-link {
+        margin-left: 7px;
+    }
+    & .form-title {
+        display: block; 
+    }
+    & .noMoreEditable {
+        font-family: var(--font-body3);
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+}
+
+.option-field-row {
+    font-size: 0;
+}
+
+.option-field-col2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    & + .option-field-col2 {
+        margin-top: 15px;
+    }
+    & .form-field-row {
+        position: relative;
+        padding-left: 35px;
+    }
+    & .option-text {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+.passenger-option-content {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.5em;
+    &.disable {
+        opacity: .5;
+        pointer-events: none;
+    }
+}
+
+.input-radio {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    margin: auto;
+    width: 18px; 
+    height: 18px;
+} 
+
+.option-label {
+    & + .option-value {
+        margin-left: 7px;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.form_notification {
+    position: absolute;
+    right: 0;
+    top: -60px;
+    font-size: 0;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 30px;
+    & .notification-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        &:before {
+            font-family: var(--font-icomoon);
+            font-size: 10px;
+            text-align: center;
+            line-height: 30px;
+            color: var(--color-primary1);
+            display: inline-block;
+            vertical-align: top;
+        }
+       
+    }
+    &.form-complete {
+        & .notification-icon:before {
+            content: '\e905';
+        }
+    }
+    &.form-incomplete {
+        & .notification-icon:before {
+            content: '\e908';
+            font-size: 13px;
+        }
+    }
+    & .notification-text {
+        display: none;
+        vertical-align: middle;
+        line-height: 1.5em;
+        font-size: 14px;
+       
+    }
+
+}
+.tooltip-wrapper {
+    position: relative;
+    max-width: 522px;
+    & .tooltip__icon {
+        @mixin tooltip;
+        vertical-align: top;
+        display: inline-block;
+        position: absolute;
+        top: 45px;
+        bottom: 0;
+        right: 14px;
+        left: auto;
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 22px;
+        height: 22px;
+        &:before {
+            content: "\e90c";
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: top;
+            font-size: 22px;
+        }
+        & .common-input-group input[type='text'] {
+            padding-right: 45px;
+        }
+    }
+    & .selectField {
+        top: 17px;
+        right: 50px;
+        z-index: 9999;
+    }
+    & .show-error + .tooltip__icon {
+        display: none;
+    }
+}

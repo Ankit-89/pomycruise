@@ -1,0 +1,137 @@
+.shorex-key-info {
+    text-align: left;
+    & .shorex-detail-info-icon {
+        display: block;
+        margin: auto;
+        padding-bottom: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    & .infocard-back {
+        @mixin cta-secondary-up;
+        background: var(--color-primary1);
+        padding: 0 25px 0 35px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px;
+        display: inline-block;
+        position: absolute;
+        top: -194px;
+        left: 60px;
+        & span {
+            display: inline-block;
+            line-height: 40px;
+        }
+        &:before {
+            display: none;
+        }
+        &:after {
+            transform: rotate(90deg) translateY(-3px);
+            position: absolute;
+            left: 10px;
+            line-height: 40px;
+            top: 0;
+        }
+        &:hover:after {
+            transform: rotate(90deg) translateY(0);
+        }
+    }
+    & .header,
+    & .shorex-key-facts {
+        lost-utility: clearfix;
+    }
+    & .ht-background {
+        min-height: 175px;
+    }
+    & .infocard-wrapperAux {
+        z-index: 10;
+        margin-top: -130px;
+    }
+
+    & .infocard {
+        padding: 40px 60px 0;
+    }
+
+    & .infocard .title {
+        /* lost-column: 9/12 2 0; */
+    }
+    & .infocard .subtitles {
+        margin-bottom: 0;
+        float: left;
+        width: 100%;
+        margin-top: 0;
+    }
+    & .infocard .shorex-variant {
+        lost-column: 3/12 2 0;
+        padding-top: 12px;
+        text-align: right;
+        position: absolute;
+        top: 40px;
+        right: 60px;
+    }
+    & .collection-image {
+        lost-column : 1/10 2 0;
+        margin-top: 58px;
+        padding: 0 1.95% 0 0;
+        min-height: 130px;
+        @mixin box-sizing;
+    }
+    & .shorex-key-list {
+        width: 100%;
+        margin: 60px 0 20px;
+        padding: 0;
+        @mixin box-sizing;
+        clear: none;
+    }
+    & .shorex-key-facts {
+        margin-bottom: 24px;
+    }
+    & .key-fact {
+        width: 25%;
+        text-align: left;
+        margin-bottom: 0px;
+        padding: 0 40px 0 40px;
+        white-space: nowrap;
+        position: relative;
+        &:after {
+            content: "";
+            width: 1px;
+            height: 34px;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+    }
+    & .key-fact:last-child {
+        &:after {
+            display: none;
+        }
+    }
+    & .text-content {
+        white-space: normal;
+        width: calc(100% - 45px);
+    }
+    & .key-icon {
+        text-align: center;
+        vertical-align: top;
+        display: inline-block;
+        margin: 0 auto;
+        margin-right: 15px;
+    }
+    & .key-fact:first-child {
+        margin: 0;
+        padding: 0 40px 0 0px;
+    }
+}
+
+/*shorex-info-detail*/
+
+.shorex-info-detail {
+    & .shorex-info-list {
+        padding: 70px 0px;
+        margin: 0 60px ;
+    }
+}
+
+

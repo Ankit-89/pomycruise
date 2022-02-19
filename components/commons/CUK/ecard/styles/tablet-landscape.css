@@ -1,0 +1,9 @@
+.card-container {
+    
+    & .image-holder img {
+        display: block;
+        /* min-width: 292px;
+        height: 433px; */
+    }
+    
+}

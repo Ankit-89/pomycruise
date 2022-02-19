@@ -1,0 +1,46 @@
+.hero-product-wrapper {
+    & .card-container {
+        display: flex;
+        flex-direction: row;
+    }
+    & .content-holder .title-container {
+        width: 100%;
+        min-height: auto;
+    }
+    & .shorex-card-price {
+        float: none;
+    }
+    & .content-holder {
+        padding: 40px 50px;
+        border: none;
+    }
+    & .dining-card-container,
+    & .shorex-card-container {
+        border: none;
+        & .cta-content {
+            padding: 0;
+            width: 50%;
+            float: right;
+            position: absolute;
+            right: 10px;
+            bottom: 30px;
+        }
+        & .cta-block {
+            padding-bottom: 0;
+        }
+    }
+    
+}
+.sliderHeroProduct {
+    & .shorex-card-container,
+    & .dining-card-container{
+        & .cta-block {
+            padding: 0;
+        }
+        & .content-holder {
+            border: none;
+            padding: 20px
+        }
+    }
+    
+}

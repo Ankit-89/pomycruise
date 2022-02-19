@@ -1,0 +1,29 @@
+.story-rotator {
+    & .info-card:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 105%;
+        height: 30px;
+        top: 0px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+        z-index: 9;
+        background: white;
+        border-radius: 0 0 0 0;
+    }
+    & .info-card .position-adjust {
+        background: #fff;
+    }
+    & .title h3 {
+        @mixin style-h2;
+    }
+    & .description p {
+        @mixin style-body1;
+    }
+    & .cta-holder a {
+        @mixin cta-secondary-up;
+    }
+}

@@ -1,0 +1,267 @@
+{
+    "type": "tabRotator",
+    "id": "C006",
+    "meta": {
+        "render": "dynamic"
+    },
+    "attributes": {
+        "childComponents": [
+            {
+                "type": "titleH1Mycruise",
+                "id": "1504258924602",
+                "attributes": {
+                    "title": "Find your activities",
+                    "type": "h1",
+                    "description": ""
+                    
+                },
+                "meta": {
+                    "render": "static"
+                }
+            }
+        ],
+        "dividertext": "of",
+        "infoCardAlignment": "bottom",
+        "showTexture": "false",
+        "texture": "https://unsplash.it/200",
+        "activitiesList": [
+            {
+                "name": "Shore Excursions",
+                "type": "shorex",
+                "storyList": [
+                    {
+                        "image": {
+                            "0": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-listing-320.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-listing-320.jpg"
+                            },
+                            "376": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg"
+                            },
+                            "769": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg"
+                            },
+                            "alt": "Alt attribute copy"
+                        },
+                        "title": "Family Tours",
+                        "desc": "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea ",
+                        "infoCardCta": {
+                            "label": "cta label",
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    },
+                    {
+                        "image": {
+                            "0": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-listing-320.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-listing-320.jpg"
+                            },
+                            "376": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg"
+                            },
+                            "769": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg"
+                            },
+                            "alt": "Alt attribute copy"
+                        },
+                        "title": "Family Tours1",
+                        "desc": "Lorem ipsum dolor sit amet",
+                        "infoCardCta": {
+                            "label": "cta label",
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    },
+                    {
+                        "image": {
+                            "0": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-listing-320.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-listing-320.jpg"
+                            },
+                            "376": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg"
+                            },
+                            "769": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/canvas-travel-extras.jpg"
+                            },
+                            "alt": "Alt attribute copy"
+                        },
+                        "title": "Family Tours2",
+                        "desc": "Lorem ipsum dolor sit amet",
+                        "infoCardCta": {
+                            "label": "cta label",
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "SPA",
+                "type": "spa",
+                "storyList": [
+                    {
+                        "image": {
+                            "alt": "1",
+                            "0": {
+                              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+                            },
+                            "376": {
+                              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+                            },
+                            "769": {
+                              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+                            }
+                          },
+                        "title": "Massages",
+                        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea ",
+                        "infoCardCta": {
+                            "label": "cta label",
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    },
+                    {
+                        "image": {
+                            "alt": "1",
+                            "0": {
+                              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+                            },
+                            "376": {
+                              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+                            },
+                            "769": {
+                              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+                            }
+                          },
+                        "title": "Massages1",
+                        "desc": "Lorem ipsum dolor sit amet",
+                        "infoCardCta": {
+                            "label": "cta label",
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    },
+                    {
+                        "image": {
+                            "alt": "1",
+                            "0": {
+                              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+                            },
+                            "376": {
+                              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+                            },
+                            "769": {
+                              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg",
+                              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/half/half-1.jpg"
+                            }
+                          },
+                        "title": "Massages2",
+                        "desc": "Lorem ipsum dolor sit amet",
+                        "infoCardCta": {
+                            "label": "cta label",
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Dining",
+                "type": "dining",
+                "storyList": [
+                    {
+                        "image": {
+                            "alt": "C039Desktop",
+                            "0": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+                            },
+                            "376": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+                            },
+                            "769": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+                            }
+                        },
+                        "title": "Restaurants",
+                        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea ",
+                        "infoCardCta": {
+                            "label": "cta label",
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    },
+                    {
+                        "image": {
+                            "alt": "C039Desktop",
+                            "0": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+                            },
+                            "376": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+                            },
+                            "769": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+                            }
+                        },
+                        "title": "Restaurants1",
+                        "desc": "Lorem ipsum dolor sit amet",
+                        "infoCardCta": {
+                            "label": "cta label",
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    },
+                    {
+                        "image": {
+                            "alt": "C039Desktop",
+                            "0": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+                            },
+                            "376": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+                            },
+                            "769": {
+                                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+                                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+                            }
+                        },
+                        "title": "Restaurants2",
+                        "desc": "Lorem ipsum dolor sit amet",
+                        "infoCardCta": {
+                            "label": "cta label",
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    }
+                ]
+            }
+        ],
+        
+        "previousLabel": "Previous Story",
+        "nextLabel": "Next Story"
+    }
+}

@@ -1,0 +1,135 @@
+.summaryAccordion{
+    width: 100%;
+    padding: 60px;
+    & .arrow-down-line {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        height: 2px;
+        bottom: 0px;
+    }
+    & .arrow-down-line:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -5px;
+        left: 50%;
+        width: 16px;
+        height: 16px;
+        margin-left: -10px;
+        transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+    & .state-room-acc-container {
+        width: 100%;
+        clear: both;
+    }    
+    & article .section-wrapper {
+        width: 50%;
+    }
+    & article {
+        padding: 0;
+    }
+    & .media {
+        flex-direction: row;
+    }
+    & .media-left {
+        flex-direction: row;
+    }
+    & .media-right {
+        flex-direction: row-reverse;
+    }
+    & .dropdown {
+        display: none;
+    }
+    & .section-wrapper h2 {
+        margin-top: 0px;
+    }
+    & .media .image-wrapper {
+        width: 50%;
+        /* display: flex; */
+        align-items: center;
+    }
+    & .more-items ul {
+        padding: 60px 0 0 0;
+        margin: 0;
+    }
+    & .more-items li {
+        display: inline-block;
+        padding: 0 0 9px 0;
+        margin: 0 15px;
+        width: auto;
+        position: relative;
+    }
+    & li.is-active:after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 50%;
+        margin-left: -13px;
+        bottom: -12px;
+    }
+    & .more-items li:last-child {
+        margin: 0;
+    }
+    & .more-items li img {
+        display: none;
+    }
+    & .more-items li div {
+        width: auto;
+        display: inline-block;
+        height: auto;
+    }
+    & .room-wrapper {
+        margin: 20px 6%;
+    }
+    & .clearfix {
+        overflow: hidden;
+        clear: both;
+    }
+    & .clearfix:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    & .slider {
+        width: auto;
+        width: 50%;
+        float: left;
+    }
+    & .room-content {
+        width: 50%;
+        padding-left: 5%;
+        float: left;
+    }
+    & .carousel-controls {
+        margin-top: 30px;
+        max-width: 200px;
+    }
+    & .slick-slider .slick-list,
+    & .carousel-controls {
+        margin: 0;
+    }
+    & article .section-wrapper {
+        padding: 0% 5% 0% 0;
+    }
+    & .servicesList {
+        column-count: 3;
+        padding-bottom: 35px;
+        
+    }
+    & .tabs .tabs-content {
+        padding-top: 40px;
+        padding-left: 60px;
+    }
+    & .tabs .tabs-labels li {
+        margin-right: 80px;
+    }
+    & .image__label {
+        padding: 5px 0 0;
+    }
+
+}

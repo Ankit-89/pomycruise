@@ -1,0 +1,10 @@
+.dining-key-info {
+    & .key-fact {
+        &:after {
+            background-color: var(--color-secondary5);
+        }
+    }
+}
+.diningKeyInfoMycruise {
+    margin-top: -130px;
+}

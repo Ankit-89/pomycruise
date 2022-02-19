@@ -1,0 +1,98 @@
+{
+    "type": "loginMycruise",
+    "id": "1522753264479",
+    "attributes": {
+        "childComponents": [{
+            "type": "titleH1Mycruise",
+            "id": "1522753264486",
+            "attributes": {
+                "title": "My Cruise LOGIN",
+                "description": "Title Description Text Description TextDescription TextDescription TextDescription TextDescription TextDescription TextDescription TextDescription Text",
+                "type": "h1"
+            },
+            "meta": {
+                "render": "serverside"
+            }
+        }],
+        "variation": "contactCenter",
+        "ctaLink": {
+            "label": "CTA Link label cc",
+            "url": "/content/pno/master_website.html",
+            "isExternal": false
+        },
+        "showTermsAndConditions": true,
+        "termsAndConditionsLink": "/content/pno/master_website/it_IT.html",
+        "showPrivacyPolicy": true,
+        "privacyPolicyLink": "/content/pno/master_website/it_IT.html",
+        "image": {
+            "alt": "",
+            "0": {
+                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "aspectRatio": 1.4818652849740932
+            },
+            "376": {
+                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "aspectRatio": 1.4935622317596566
+            },
+            "769": {
+                "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/login/login.jpg",
+                "aspectRatio": 1.0
+            }
+        },
+        "labels": {
+            "loginFailedMessage": "Login Failed: Booking Number is not existing",
+            "termsAcceptance": "Terms and Conditions",
+            "privacyPolicy": "Privacy Policy",
+            "validationMessage": "You must accept Terms and Conditions"
+        },
+        "loginFieldDetails": [{
+            "fieldTitle": "Booking Number",
+            "errorField": "You must enter the Booking Number",
+            "fieldType": "text",
+            "fieldName": "bookingNumber"
+        },
+        {
+            "fieldTitle": "Brand",
+            "errorField": "Error selecting Brand",
+            "fieldType": "select",
+            "fieldName": "brand",
+            "fieldData": {
+                "brand": {
+                    "label": "Choose Brand",
+                    "errorMessage": "",
+                    "type": "brand",
+                    "brands": {
+                        "options": [{
+                            "cunard": {
+                                "code": "",
+                                "label": "Cunard"
+                            }
+                        },
+                        {
+                            "po": {
+                                "code": "",
+                                "label": "P&O"
+                            }
+                        }]
+                    }
+                }
+            }
+        }]
+    },
+    "meta": {
+        "render": "dynamic"
+    },
+    "services": {
+        "urls": {
+            "mycruiseBookingApi": "/api/v1/cruise-bookings"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "IT"
+        }
+    }
+}

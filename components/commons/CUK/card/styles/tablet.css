@@ -1,0 +1,12 @@
+.card-component {
+    //margin: 0 5px 0 5px;
+}
+
+.card-container {
+    & .content-holder {
+        padding: 25px 20px 0 30px;
+    }
+    & .cta-addToCart a {
+        line-height: 18px;
+    }
+}

@@ -1,0 +1,16 @@
+.three-up-container {
+    padding: 0 60px;
+
+    & .destination-tile-cards {
+        margin-top: 45px;
+    }
+}
+
+.three-up-container.col-2 {
+
+    & .unslicked {
+        display: flex;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,8 @@
+@import '../../components/commons/card/index.css';
+@import '../shorexCard/index.css';
+@import '../diningCard/index.css';
+@import '../spaCard/index.css';
+@import '../../../../../components/sliderRecommendedShorex/styles/index.css';
+@import 'defaults.css';
+@import 'tablet.css' (--tablet);
+@import 'desktop.css' (--desktop);

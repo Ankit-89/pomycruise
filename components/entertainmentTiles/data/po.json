@@ -1,0 +1,33 @@
+{
+    "attributes":
+    {
+        "labels": {
+            "seeDetailsLabel": "see details"
+        },
+      "activityLevel": "Low",
+      "code": "TEST_SHOREX_MASTER_17",
+      "description": "Description of recommended - children only OVERLAND land trip in LIS",
+      "duration": "Half-day",
+      "fromPrice": {
+          "currencyIso": "GBP",
+          "value": 256
+      },
+      "instanceStatus": "ON_HOLD",
+      "name": "recommended - children only OVERLAND land trip in LIS",
+      "port": {
+          "code": "LIS",
+          "longName": "Tours from some other magnificent place to Lisbon",
+          "shortName": "Lisbon"
+      },
+      "primaryImageUrl": "PO-testImageUrl",
+      "startDates": [
+          "2019-01-07T00:00:00Z",
+          "2019-09-10T00:00:00Z"
+      ],
+      "stock": {
+          "stockLevel": 80,
+          "stockLevelStatus": "inStock"
+      },
+      "url": "/PO-Site/products/TEST_SHOREX_MASTER_17"
+  }
+}

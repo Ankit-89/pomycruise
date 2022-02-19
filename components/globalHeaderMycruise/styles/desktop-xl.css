@@ -1,0 +1,18 @@
+.global-header-container {
+    & .main-nav-item {
+        padding: 15px 30px;
+    }
+    & .secondary-nav-item {
+        padding: 15px 30px;
+    }
+}
+
+.modal-btns_session{
+& .cta-primary{
+	margin: 10px;
+    width: 80%;
+    line-height: 3.75rem;
+    height: 60px;
+    border-radius: 15px;
+}
+}

@@ -1,0 +1,99 @@
+{
+    "type": "mediaGalleryApi",
+    "id": "1488874790325",
+    "attributes": {
+        "dividerText": "OF",
+        "viewMoreLabel": "View more",
+        "categories": {
+            "ACTIVITY": {
+                "label": "Activity",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "BEACH": {
+                "label": "Beach",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "CULTURE": {
+                "label": "Culture",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "FOOD_DRINK": {
+                "label": "Food & Drink",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "HOBBIES": {
+                "label": "Hobbies",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "LOCAL": {
+                "label": "Local",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "PANORAMIC": {
+                "label": "Activity",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "RELAXATION": {
+                "label": "Activity",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "SCENIC": {
+                "label": "Activity",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "SHOPPING": {
+                "label": "Activity",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "DIFFERENT": {
+                "label": "Activity",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            },
+            "WATER": {
+                "label": "Activity",
+                "image":
+                    "https://www.aem-qa.pocruises.com/content/dam/po/po-asset/Lighthouse.jpg"
+            }
+        },
+        "childComponents": [
+            {
+                "type": "titleH1Mycruise",
+                "id": "1520848724668",
+                "attributes": {
+                    "title": "Discover by interest",
+                    "description": null,
+                    "type": "h1",
+                    "icon": false
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            }
+        ]
+    },
+    "services": {
+        "urls": {
+            "productSearchApi":
+                "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products/search"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "IT"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

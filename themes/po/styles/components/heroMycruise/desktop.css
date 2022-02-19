@@ -1,0 +1,116 @@
+.heroMycruise {
+    margin-top: -130px;
+}
+.hero-container {
+    & .header-rv {
+        background: var(--color-primary1);
+    }
+    & .slide .info-card.left {
+        margin-left: 25px;
+    }
+
+    & .slide .info-card.right {
+        margin-right: 15px;
+    }
+
+    & .slide .info-card.left .price-section {
+        margin-left: -89px;
+        padding-right: 26px;
+    }
+    .slide .info-card.left a {
+        margin-left: -168px;
+    }
+    & .search-positioning .search-bar {
+        margin-top: 0;
+    }
+    & .slide-controls-wrapper {
+        padding: 0;
+    }
+    & .slide-controls .button:before {
+        left: 40%;
+    }
+    & .slide-controls .button.next-btn:before {
+        left: 50%;
+        padding-left: 5px;
+    }
+}
+
+.hero-container .info-card {
+    & a {
+        @mixin style-cta-medium;
+    }
+    & .price-section .tnc {
+        padding-left: 15px;
+        
+    }
+    &-logo,
+    & .detail-section .arrow-icon {
+        padding-left: 0;
+    }
+    & .detail-section .arrow-icon {
+        padding-left: 0;
+    }
+    & .detail-section .price-block-mob {
+        padding-right: 25px;
+    }
+    & .price-block {
+        padding: 0 25px 0 0;
+    }
+}
+.hero-container .slide {
+    & .info-card-wrap.right {
+        right: 100px;
+        transform: translateY(-50%);
+    }
+    & .info-card-wrap.left {
+        left: 140px;
+        transform: translateY(-50%);
+        display: flex;
+    }   
+}
+
+.hero-container .recently-viewed {
+    text-align: right;
+    position: static;
+    bottom: 26px;
+    & a {
+        text-decoration: none;
+        color: var(--color-primary1);
+        font-size: 18px;
+        font-size: 16px;
+        font-family: var(--font-body3);
+        letter-spacing: 0.09rem;
+        letter-spacing: 0.05rem;
+        border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+        text-shadow: -1px 0px 0px rgba(0, 0, 0, 0.92);
+    }
+}
+.hero-container .info-card.center {
+    & .price-block {
+        padding-right: 25px;
+        text-align: right;
+        width: auto;
+    }
+    & .price-section .tnc {
+        padding-left: 38px;
+    }
+    & .price-block-tab .price-block .disclaimer-text {
+        padding-left: 190px;
+        width: 170px;
+        text-align: right;
+    }
+}
+.hero-container.search-enabled {
+    & .search-holder {
+        height: 135px;
+    }
+}
+
+.hero-container.hero-disabled {
+    & .overlay-container {
+        /* border: solid 1px var(--color-primary7); */
+    }
+    & .search-bar {
+        box-shadow: 0 1px 25px rgba(0, 0, 0, .08);
+    }
+}

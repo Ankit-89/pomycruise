@@ -1,0 +1,46 @@
+.tableInformation {
+    & .onlyDesktop {
+        display: table-cell;
+    }
+    & .onlyMobile {
+        display: none;
+    }
+    & .table__header {
+        padding: 16px 0 14px;
+    }
+    & .toBeOpen {
+        display: table-cell;
+    }
+    & .visible {
+        & .toBeOpen {
+            display: table-cell;
+        }
+    }
+    & .table {
+        text-align: center;
+        & th {
+            text-align: left;
+            padding: 16px 30px 14px;
+            display: table-cell;
+            vertical-align: middle;
+            
+        }
+        & .table__opener {
+            &:after {
+                display: none;          
+            }
+        }
+        & td {
+            padding: 20px;
+            vertical-align: middle;
+        }
+    }
+    & .table__quantity {
+        float: none;
+    }
+    & .table__row {
+        & td {
+            border-bottom: 1px solid var(--color-secondary6);
+        }
+    }
+}

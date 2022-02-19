@@ -1,0 +1,69 @@
+.slider-hero-product {
+    @mixin grid-wrap;
+    & .slider__container {
+        padding: 0 60px;
+    }
+    & .slick-slide {
+        padding: 0;
+    }
+    & .slick-dots {
+        transform: translateX(-50%);
+    }
+    & .tile-holder {
+        display: table;
+        position: relative; //margin: 0 auto;
+    }
+    & .tileGrid {
+        display: table-cell;
+        width: 50%;
+        vertical-align: middle;
+        position: relative;
+    }
+    /* & .slick-slide:nth-child(even) {
+        direction: rtl;
+    }
+    & .slick-slide:nth-child(even) .tileGrid {
+        direction: ltr;
+    }
+    & .slick-slide:nth-child(even) .top-banner {
+        left: auto;
+        right: 20px;
+    } */
+    & .content .spacing-container {
+        padding: 0 10%;
+        margin-bottom: 0;
+        @media (--desktop-xl) {
+            padding: 0 15%;
+        }
+    }
+    & .cta-icon-group .cta-link {
+        margin-bottom: 30px;
+    }
+    & .tileGrid.image-holder {
+        vertical-align: top;
+    }
+    & .spacing-container .title {
+        margin: 25px 0 30px;
+    }
+    & .tileGrid.content {
+        padding-top: 5px;
+    }
+    & .text-holder {
+        padding-bottom: 0;
+    }
+    & .type {
+        margin-bottom: 0px;
+    } 
+}
+
+.hero-product-wrapper {
+    & .dining-card .type {
+        top: 50px;
+    }
+    & .dining-card-container,
+    & .shorex-card-container {
+        & .cta-content {
+            bottom: 70px;
+        }
+    }
+}

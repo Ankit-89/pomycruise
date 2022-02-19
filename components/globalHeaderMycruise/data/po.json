@@ -1,0 +1,151 @@
+{
+  "type": "globalHeaderMycruise",
+  "id": "1512452384963",
+  "attributes": {
+    "childComponents": [
+      {
+        "type": "utilityNav",
+        "id": "1512452385311",
+        "attributes": {
+          "navItems": [
+
+            {
+              "navType": "logout",
+              "showIcon": true,
+              "title": "Hello",
+              "label": "Logout",
+              "linkUrl": "/template/loginMycruisePage"
+            },
+            {
+              "navType": "countdown",
+              "title": "Days to Departure",
+              "label": false
+            },
+            {
+              "navType": "orders",
+              "showIcon": true,
+              "title": false,
+              "label": "My orders",
+              "linkUrl": "/template/myOrdersPage"
+            },
+            {
+              "navType": "cart",
+              "showIcon": true,
+              "title": false,
+              "label": "My Cart",
+              "linkUrl": "/template/shoppingCartMycruisePage"
+            }
+          ],
+          "loginPageURL": "#"
+        },
+        "meta": {
+          "render": "dynamic"
+        }
+      },
+      {
+        "type": "addedToCart",
+        "id": "1512452385311",
+        "attributes": {
+          "labels": {
+            "addedToCartLabel": "has been added to your cart",
+            "totalCost": "Total cost:",
+            "goToCartLabel": "Go to cart",
+            "continueShoppingCtaLabel": "Continue shopping",
+            "rebookServiceLabel": "Re-book this service for another guest or time ?"
+          }
+        },
+        "meta": {
+          "render": "dynamic"
+        }
+      }
+    ],
+    "headerLogo": {
+      "image": "/content/PO/C001/pno_logo.svg",
+      "alt": "P&O logo",
+      "url": "#",
+      "isExternal": false
+    },
+    "menuText": "Menu",
+    "closeButtonText": "Close",
+    "numberOfPrimaryItems": "4",
+    "numberOfSecondaryItems": "4",
+    "skipToContentLabel": "Skip To Content",
+    "navigationItems": [
+      {
+        "globalNavigationTitle": "Booking Summary",
+        "directLinkTarget": "/template/homePage",
+        "active": true,
+        "navType": "Booking Summary"
+      },
+      {
+        "globalNavigationTitle": "Itinerary Planner",
+        "directLinkTarget": "/template/calendarPage",
+        "active": false,
+        "navType": "Itinerary Planner"
+      },
+      {
+        "globalNavigationTitle": "Before You Sail",
+        "directLinkTarget":"/template/beforeYouSailPage",
+        "active": false,
+        "navType": "Before You Sail"
+      },
+      {
+        "globalNavigationTitle": "Flights",
+        "directLinkTarget": "/template/flightsLandingPage",
+        "active": false,
+        "navType": "Flights",
+        "isFlightPageLink": true
+      }
+    ],
+    "secondaryNavItems": [
+      {
+        "globalNavigationTitle": "Shore Excursions",
+        "directLinkTarget": "/template/shorexLandingMycruisePage",
+        "active": false
+      },
+      {
+        "globalNavigationTitle": "Dining",
+        "navigationType": "direct",
+        "directLinkTarget": "/template/diningListingMycruisePage",
+        "active": false
+      },
+      {
+        "globalNavigationTitle": "Drinks",
+        "navigationType": "direct",
+        "directLinkTarget": "/template/drinksLandingMycruisePage",
+        "active": false
+      },
+      {
+        "globalNavigationTitle": "Spa",
+        "navigationType": "direct",
+        "directLinkTarget": "/template/spaLandingPage",
+        "active": false
+      },
+      {
+        "globalNavigationTitle": "Gifts",
+        "navigationType": "direct",
+        "directLinkTarget": "#",
+        "active": false
+      },
+      {
+        "globalNavigationTitle": "Travel Extras",
+        "directLinkTarget": "/template/prePostTravelPage",
+        "active": false
+      }
+    ]
+    
+  },
+  "meta": {
+    "render": "dynamic"
+  },
+  "services": {
+    "urls": {
+      "minicartApi": "https://dev.api.mycruise-temp.com/v1/mc-shopping-basket/PO-Site/users/current/carts/current"
+    },
+    "headers": {
+      "brand": "po",
+      "locale":"en_GB",
+      "country": "EN"
+    }
+  }
+} 

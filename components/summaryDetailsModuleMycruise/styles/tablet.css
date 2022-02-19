@@ -1,0 +1,185 @@
+.summary-details-module {
+    padding: 0 40px 40px;
+    & .summary-header {
+        padding: 20px 0 40px;
+    }
+    & .room-details-header {
+        padding: 40px 50px;
+    }
+    & .room-image {
+        width: 40%;
+        margin: auto;
+        padding: 0 40px 0 0;
+        box-sizing: border-box;
+    }
+    & .room-details-data {
+        width: 60%;
+    }
+    & .accessiblity {
+        padding-top: 0;
+    }
+    & .show-guarented-link.guaranteed {
+        display: none;
+    }
+    & .lvp .accessibility-label {
+        font-size: 16px;
+    }
+    & .breakdown-show {
+        padding-left: 0;
+    }
+    & .guest-label {
+        font-size: 20px;
+    }
+    & .guest-count,
+    & .accessiblity {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    & .guest-count li:first-child {
+        padding-left: 0;
+    }
+    & .room-details-container {
+        border-bottom: 0;
+        display: flex;
+    }
+    & .price-subtotal {
+        float: right;
+        width: 50%;
+        text-align: right;
+        padding: 30px 40px 0 0;
+    }
+    & .avgpp {
+        display: inline;
+    }
+    & .room-type,
+    & .room-category {
+        margin: 0 20px 0 0;
+        display: inline-block;
+    }
+    & .disclaimer {
+        margin-top: -20px;
+        margin-right: -10px;
+    }
+    & .room-category {
+        margin: 0;
+    }
+    & .price-breakdown {
+        text-align: left;
+        padding: 30px 40px 40px;
+    }
+    & .breakdown {
+        top: 15px;
+    }
+    & .breakdown-table {
+        width: 100%;
+    }
+    & .room-view .room-recommended {
+        margin: 15px 0 0;
+    }
+    & .room-view .recommend-label {
+        margin: 15px 0 0;
+        text-align: left;
+    }
+    & .room-view .recommend-type {
+        margin: 0;
+        text-align: left;
+    }
+    & .room-view .room-edit {
+        text-align: left;
+        padding: 20px 0 0;
+    }
+    & .room-view .recommend-value {
+        width: auto;
+    }
+    & .room-view .recommend-value:first-child {
+        padding: 0 20px 0 0;
+        text-align: left;
+    }
+    & .room-view .recommend-value {
+        padding: 0 20px;
+    }
+    & .lvp {
+        display: block;
+    }
+    & .arrow-up {
+        margin: auto;
+        left: 25px;
+    }
+    & .room-recommended.svp.guaranteed,
+    & .room-recommended.lvp.guaranteed,
+    & .guaranteed-room.svp.guaranteed,
+    & .room-category.guaranteed,
+    & .guaranteed-room.lvp,
+    & .svp {
+        display: none;
+    }
+    & .guaranteed-room.lvp.guaranteed {
+        display: block;
+        padding: 15px 0 0;
+    }
+    & .guaranteed-label {
+        margin: 0;
+    }
+    & .room-guest-count {
+        padding: 0 40px;
+    }
+    & .guest-heading {
+        text-align: left;
+    }
+    & .guest-count li.lvp {
+        display: inline-block;
+    }
+    & .guest-edit {
+        display: block;
+        text-align: left;
+        border-bottom: 0;
+        margin-left: 0;
+        padding: 20px 0;
+    }
+    & .price-subtotal {
+        border-top: 0;
+    }
+    & .room-details-container {
+        margin: 0;
+        padding: 0;
+    }
+    & .room-edit-link::before {
+        top: 8px;
+    }
+}
+
+.summaryDetailsModuleMycruise {
+    margin-top: -45px;
+    & .empty-container {
+        width: 70%;
+    }
+}
+
+.common-input-group input[name='zipCode'] {
+    width: 100%;
+}
+
+.checkoutForm-form {
+    & .input-formFields{
+        & .zipCode {
+            width: calc(25% - 10px);
+        }
+        & .zipCode-container{
+            position: relative;
+
+            & .button{
+                position: absolute;
+                top: 35px;
+                left: calc(25% + 18px);
+
+                &:before{
+                    content: none;
+                }
+            }
+        }
+    }
+}
+.zero-payment-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+}

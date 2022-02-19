@@ -1,0 +1,37 @@
+{
+  "type": "loyaltyTierSlot",
+  "attributes": {
+      "label": "Loyalty Tier",
+      "noTierLabel": "noLoyaltyLabel",
+      "loyaltyApi": "https://dev.api.mycruise-temp.com/mc-loyalty-account/v1?urn={{paxUrn}}&brandCode=CUNARD",
+      "pastGuestNumber": "CURM16702L",
+      "brandCode": "POC",
+      "loyaltyTiers": {
+        "pacific": {
+          "itemId": "pacific",
+          "itemLabel": "Pacific",
+          "itemDescription": "descripton"
+        },
+        "silver": {
+          "itemId": "silver",
+          "itemLabel": "Silver",
+          "itemDescription": "descripton"
+        },
+        "mediterranean": {
+          "itemId": "mediterranean",
+          "itemLabel": "Mediterranes",
+          "itemDescription": "secondo level"
+        }
+      },
+    "labels": {
+      "guestsLabel": "Guests",
+      "yesLoyaltyLabel": "Loyalty Tier",
+      "noLoyaltyLabel": "No Loyalty",
+      "backLabel": "Back"
+    },
+    "hasTooltip": "false"
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

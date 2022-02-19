@@ -1,0 +1,176 @@
+.shorex-overlay {
+    & .disableForm .modal-body {
+        opacity: 0.3;
+        pointer-events: none;
+    }
+    & .modal-header {
+        margin-bottom: 40px;
+    }
+    & .modal-error {
+        max-width: 630px;
+        margin-bottom: 40px;
+    }
+    & .modal-content.full {
+        max-width: none;
+    }
+    & .modal-content-wrapper {
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    & .title {
+        margin: 0 0 15px 0;
+    }
+    & .subtitle {
+        margin: 0 0 15px 0;
+    }
+    & .paragraph {
+        margin: 0 0 15px 0;
+    }
+    & .select-group {
+        max-width: 415px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    & .input-group {
+        max-width: 415px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    & .guestsList {
+        text-align: left;
+        max-width: 415px;
+        margin: 40px auto 30px;
+        & .wrap-restricted {
+            padding-bottom: 20px;
+        }
+        & h4 {
+            margin-bottom: 15px;
+        }
+        & ul {
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            position: relative;
+            margin-bottom: 15px;
+        }
+        & ul:after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+        }
+        & .wrap {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        & .disabledCheckbox .wrap {
+            opacity: 0.3;
+        }
+        & input {
+            @mixin input-checkbox;
+            vertical-align: middle;
+        }
+        & input[disabled] {
+            background: #f2f4f8;
+        }
+        & .checkbox-label {
+            display: inline-block;
+            vertical-align: middle;
+            width: calc(100% - 35px);
+        }
+        & .checkbox-label h5 {
+            line-height: 25px;
+        }
+        & .checkbox-label.disabled {
+            opacity: 0.3;
+        }
+        & .price {
+            float: right;
+        }
+        & .passenger-restricted {
+            @mixin style-body3;
+            text-transform: uppercase;
+            position: absolute;
+        }
+        & .total {
+            clear: both;
+            line-height: 30px;
+            height: 30px;
+            lost-utility: clearfix;
+            /* margin-bottom: 25px; */
+        }
+        & .total__label {
+            clear: both;
+            text-transform: uppercase;
+            float: left;
+            line-height: 30px;
+            height: 30px;
+        }
+        & .total__price {
+            float: right;
+            line-height: 30px;
+            height: 30px;
+        }
+    }
+    & .limAvailability {
+        text-indent: -16px;
+        padding-left: 32px;
+        display: block;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 385px;
+        &:before {
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    }
+    & .icons-check {
+        display: inline-block;
+        margin-bottom: 25px;
+        margin-top: 50px;
+        &:before {
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: middle;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+        }
+    }
+    & .registerInterest-title {
+        margin-bottom: 10px;
+    }
+    & .registerInterest-msg {
+        @mixin style-body3;
+        display: inline-block;
+        margin-bottom: 75px;
+    }
+    & .registerInterest-divider {
+        display: block;
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    & .registerInterest-disclaimer {
+        @mixin style-body3;
+        max-width: 415px;
+        margin: 0 auto 25px;
+    }
+    & .continue-shopping {
+        margin-top: 80px;
+    }
+    & .continue-shopping .icons-list {
+        margin: 40px 0 0;
+    }
+    & .continue-shopping .icons-list-item {
+        width: 50%;
+    }
+}

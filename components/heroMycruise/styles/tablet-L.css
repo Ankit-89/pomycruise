@@ -1,0 +1,6 @@
+.hero-container {
+    & .slide > .image-lazy-loader img {
+        object-fit: cover;
+        max-height: 575px;
+    }
+}

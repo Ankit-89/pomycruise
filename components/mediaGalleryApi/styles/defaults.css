@@ -1,0 +1,21 @@
+.gallery-container {
+    & [class |= "media-item"] .image-holder {
+        margin: 10px 0;
+        overflow: hidden;
+    }
+    & .image-holder {
+        position: relative;
+    }
+    & .image-holder > a {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+    & .image-holder > a:before {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}

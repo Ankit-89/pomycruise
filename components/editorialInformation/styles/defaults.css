@@ -1,0 +1,34 @@
+.editorialInformation {
+    max-width: 1024px;
+    margin: 0 auto;
+    & .content-description {
+        padding: 40px 20px;
+        text-align: center;
+    }
+    & .content-description+.tiles-container .tiles-list {
+        border-top-width: 1px;
+        border-top-style: solid;
+    }
+    & .tiles-container {
+        text-align: left;
+    }
+    & .tiles-list {
+        lost-utility: clearfix;
+        margin: 0;
+        & .tile {
+            lost-utility: clearfix;
+            padding: 55px 20px 40px;
+            border-bottom: none;
+            text-align: center;
+        }
+        & .tile:nth-child(even) {
+            direction: rtl;
+        }
+        & .tile:last-child {
+            margin-bottom: 0;
+        }
+        & .tile+.tile {
+            border-top: 1px solid;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+
+.story-rotator .cta-holder a {
+    font-size: 1.125rem;
+    border-radius: 10px
+}
+
+.story-rotator .info-card:before {
+    height: 85px;
+    border-radius: 0;
+    top: 0;  
+}

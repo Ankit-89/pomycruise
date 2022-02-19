@@ -1,0 +1,11 @@
+/* Configuration */
+/* Import other common styles here. */
+
+/* Configuration */
+@import '../config/index.css';
+
+@import 'base/index.css';
+@import 'modal/index.css';
+@import 'carousel/index.css';
+@import 'dropdown/index.css';
+/*@import '../components/commons/carouselControls/index.css';*/

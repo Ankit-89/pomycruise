@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mediators</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style>
+    .carnival-page-links p {
+        display: inline-block;
+        margin: 20px;
+        padding: 10px;
+        background-color: white;
+        text-align: center;
+        border: 1px solid #009688;
+        min-width: 150px;
+        box-shadow: 1px 2px 10px 0px #94c5c1;
+    }
+    .carnival-page-links a {
+        color: #436575;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+    .carnival-page-links p:hover a {
+        color: #FFFFFF;
+        transition: color  2s ease;
+        
+    }
+    .carnival-page-links p:hover {
+        cursor: pointer;
+        border: 1px solid #125879;
+        background-color: #009688;
+        transition: border-color  2s ease;
+        transition: background-color  2s ease;
+        
+    }
+    </style>
+</head>
+<body>
+<div class='carnival-page-links'>
+    <% indexList.forEach(([filename, name]) => { %>
+    <p><a href='/template/<%= filename %>'><%= name %></a>
+    <% }); %>
+</div>
+</body>
+</html>

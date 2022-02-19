@@ -1,0 +1,122 @@
+.entertainment-tiles-container {
+    text-align: center;
+    & .tiles-container {
+        @mixin grid-wrap;
+        position: relative;
+        justify-content: space-evenly;
+        text-align: center;
+        display: block;
+        clear: both;
+    }
+    & input:focus {
+        outline: 0;
+    }
+    & .cta-holder .btn-secondary {
+        cursor: pointer;
+        padding: 0;
+        border: none;
+    }
+    & .cta-holder .btn-secondary:before {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+    & .tiles-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+}
+.entertainment-card-container {
+    position: relative;
+    margin: 10px;
+    & .type {
+        position: relative;
+        vertical-align: top;
+        display: inline-block;
+        margin-bottom: 25px;
+        &:before {
+            content: '\e90c';
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: top;
+            font-size: 22px;
+            margin-right: 10px;
+        }
+    }
+    & .content-holder {
+        padding: 24px 0px 24px 0px;
+    }
+    & .card-container {
+        & .bottom-block {
+            min-height: 190px;
+        }
+    }
+    & .text-content {
+        margin-bottom: 0;
+    }
+    & .spa-card-description {
+        //min-height: 66px;
+        font-size: 12px;
+        clear: left;
+        margin-bottom: 10px;
+    }
+
+    & .top-banner {
+        position: absolute;
+        padding: 5px 15px;
+        left: 20px;
+        top: 20px;
+    }
+    & .cta-content {
+        clear: both;
+        lost-utility: clearfix;
+        padding: 0 30px 40px 30px;
+    }
+
+    & .cta-block {
+        float: left;
+    }
+
+    & .cta-block + .cta-block {
+        float: right;
+    }
+
+    & .cta-block a {
+        display: block;
+    }
+
+    & .spaComponent__duration {
+        margin-bottom: 10px;
+        color: #666;
+        &:before {
+            content: '\E907';
+            color: #988642;
+            font-family: var(--font-icomoon);
+            display: inline;
+            font-size: 20px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    }
+}
+
+.sliderViewed .shorex-card-noPrice {
+    height: 0;
+}
+
+.shorex-card-dates {
+    margin-bottom: 10px;
+}
+.slick-slide {
+    & .entertainment-card-container {
+        & .card-component {
+            margin: 0;
+            width: 100%;
+        }
+    }
+}

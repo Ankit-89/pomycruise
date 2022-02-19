@@ -1,0 +1,46 @@
+{
+    "type": "spaConfig",
+    "id": "",
+    "attributes": {
+        "type": "image",
+        "readMoreLabel": "READ MORE",
+        "readLessLabel": "READ LESS",
+        "backLabel": "Back",
+        "labels": {
+            "txLabel1": "1",
+            "txLabel2": "2",
+            "ageRestrictedLabel": "Age restricted",
+            "selectGuestsLabel": "Select a guest for Treatment",
+            "selectTreatmentLabel": "Select Treatment Duration",
+            "selectDateLabel": "Select a date",
+            "selectDateDescriptionLabel": "Don't miss on discounts upto 20% or more, pick a date of your choice and proceed to time-slot section.",
+            "selectTimeLabel": "Select Time For",
+            "addToCartLabel": "Add to cart",
+            "amountLabel": "Amount",
+            "currencyLabel": "£",
+            "seaDayTitleLabel": "Sea day",
+            "portDayTitleLabel": "{port}",
+            "embarkationDayTitleLabel": "Embarkation Day",
+            "disembarkationDayTitleLabel": "Disembarkation Day",
+            "spaOnboardMessageLabel": "Contact SPA Reception onboard for bookings",
+            "notAvailableLabel": "Bookings will open from 21 Jan 2023",
+            "bookTitleLabel": "Book your treatment"
+        },
+        "treatmentData": "{\"descriptionAEM\":\"Exclusively for the blushing bride. No two brides are alike. Become our muse and allow our talented make-up artists to use a palette of hues to highlight your unique beauty on your special day.\",\"overviewImage\":\"/content/dam/po/ADLtestjpg.jpg\",\"productNameAEM\":\"Special Occasion Make Up\",\"categoryId\":\"200\"}"
+    },
+    "services": {
+        "urls": {
+            "treatmentsApi": "https://sit.my-np.pocruises.com/v1/mc-products/PO-Site/products/",
+            "updateCartApi": "https://sit.my-np.pocruises.com/api-mc/v1/mc-shopping-basket/PO-Site/users/current/carts/current/entries"
+            "
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "US"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

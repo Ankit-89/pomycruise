@@ -1,0 +1,32 @@
+.textCta__text {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 20px;
+  
+}
+.textCta__icon {
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    & img {
+        width: 100%;
+    }
+}
+.textCta {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+.textCta__cont {
+    padding: 30px 40px;
+    max-width: 1280px;
+    margin: 0 auto 50px;
+}
+.textCta {
+    & .textCta__aux {
+        text-align: center;
+        padding: 30px 20px;
+    }
+}
+

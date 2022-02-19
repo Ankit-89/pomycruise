@@ -1,0 +1,7 @@
+@import '../commons/readMoreOrLess/index.css';
+@import '../../../../../components/commons/CUK/videoplayer/styles/index.css';
+@import '../../../../../components/shoreXkeyInfoMycruise/styles/index.css';
+
+@import 'defaults.css';
+@import 'tablet.css' (--tablet);
+@import 'desktop.css' (--desktop);

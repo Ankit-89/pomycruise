@@ -1,0 +1,32 @@
+{
+	"type": "hotelCard",
+	"id": "4586883268354",
+	"meta": {
+		"render": "static"
+	},
+	"attributes": {
+			"image": {
+			"0": {
+				"1x": "http://placehold.it/504x377",
+				"2x": "http://placehold.it/1008x754"
+			},
+			"376": {
+				"1x": "http://placehold.it/348x260",
+				"2x": "http://placehold.it/696x520"
+			},
+			"769": {
+				"1x": "http://placehold.it/320x245",
+				"2x": "http://placehold.it/640x490"
+			},
+			"alt": "Hero alt text"
+		},
+		"title": "Try the Ultimate Culinary Experience",
+		"description": "Enjoy an enticing array of onboard cooking shows and join hands-on workshops.",
+		"textAlignment": "center",
+		"primaryCta":{
+			"label":"See More",
+			"url":"#",
+			"isExternal":false
+		}
+	}
+}

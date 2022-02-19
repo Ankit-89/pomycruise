@@ -1,0 +1,13 @@
+{
+    "type": "eTicketPdf",
+    "id": "1602132179750",
+    "attributes": {
+      "labels": {
+        "previousLabel": "Previous",
+        "eticketLoadingMessage": "ETicket Loading Message"
+      }
+    },
+    "meta": {
+      "render": "dynamic"
+    }
+  }

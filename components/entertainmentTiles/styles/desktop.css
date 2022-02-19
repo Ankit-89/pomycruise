@@ -1,0 +1,20 @@
+.entertainment-tiles-container {
+    & .tiles-container {
+        margin: auto;
+    }
+
+    & .tile-detail {
+        width: 25%;
+    }
+    & .bottom-pagination {
+        display: inline-block;
+    }
+
+    & .pagination {
+        margin-top: 25px;
+    }
+
+}
+.spa-card {
+    text-align: left;
+}

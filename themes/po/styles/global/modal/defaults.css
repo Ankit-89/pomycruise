@@ -1,0 +1,81 @@
+.aria-modal {
+    padding: 0;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    background-color: var(--color-primary1);
+    position: relative;
+    padding-top: 60px;
+    & .modal-content-wrapper {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    & .modal-content {
+        background-color: var(--color-primary1);
+        height: auto;
+        margin: 0 auto;
+    }
+    & .modal-close-wrap {
+        height: 60px;
+        line-height: 60px;
+        position: relative;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        text-align: right;
+        border-bottom: 1px solid var(--color-secondary2);
+    }
+    & .close {
+        @mixin cta-menu-close;
+        /* margin-right: 15px;
+        border: none;
+        color: var(--color-primary3);
+        background-color: transparent;
+        z-index: 99;
+        background: 0;
+        padding: 0;
+        height: 30px;
+        line-height: 30px;
+        cursor: pointer;
+        &:after {
+            content:"";
+            display: inline-block;
+            vertical-align: middle;
+            content: "\e906";
+            font-family: var(--font-icomoon);
+            speak: none;
+            margin-left: 10px;
+            font-size: 28px;
+            line-height: 30px;
+        } */
+    }
+    
+    & .close-label.fade-out {
+        opacity: 0;
+    }
+    & .back-to-top {
+        @mixin style-cta;
+        text-decoration: underline;
+        text-align: center;
+        color: var(--color-secondary2);
+        cursor: pointer;
+    }
+}
+.aria-modal-underlay {
+    background-color: var(--opaque-background2);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    &.content-modal {
+        background-color: var(--color-primary1);
+    }
+}

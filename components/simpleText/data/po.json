@@ -1,0 +1,15 @@
+{
+	"type": "simpleText",
+	"id": "",
+	"attributes": {
+		"title": "Title",
+		"bodyText1": "This excursion will operate by coach and on foot and involves approximately 1 hour of walking during the visit to Damme; however passengers can omit the guided part of the tour if they wish and opt for additional free time. All walking at Knokke is at the passengers’ discretion during free time.",
+		"ctaLink":{
+			"label":"More details",
+			"url":"#"
+		}
+	},
+	"meta": {
+		"render": "serverside"
+	}
+}

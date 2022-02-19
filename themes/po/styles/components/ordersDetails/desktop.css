@@ -1,0 +1,5 @@
+.orderRow__column {
+    &:first-child {
+        border-bottom: none;
+    }
+}

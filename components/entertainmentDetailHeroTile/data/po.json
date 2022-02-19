@@ -1,0 +1,403 @@
+{
+	"type": "youthRegistration",
+	"id": "po",
+	"attributes": {
+		"childComponents": [
+			{
+				"type": "titleH1Mycruise",
+				"id": "po",
+				"attributes": {
+					"showIcon": true,
+					"title": "Your answers",
+					"description": "You cannot change these answers. Sunt molestiae ipsa.",
+					"type": "h1"
+				},
+				"meta": {
+					"render": "dynamic"
+				}
+			}
+		],
+		"formFields": {
+            "firstName": {
+                "label": "First Name*",
+                "required": false,
+                "error": {
+                    "invalid": "First Name Invalid Error",
+                    "empty": "First Name Empty Error"
+                }
+            },
+            "lastName": {
+                "label": "Last Name*",
+                "required": false,
+                "error": {
+                    "invalid": "Last Name Invalid Error",
+                    "empty": "Last Name Empty Error"
+                }
+            },
+            "month": {
+                "label": "Month",
+                "required": false,
+                "options": [
+                    {
+                        "label": "Month",
+                        "value": null
+                    },
+                    {
+                        "label": "January",
+                        "value": "01"
+                    },
+                    {
+                        "label": "February",
+                        "value": "02"
+                    },
+                    {
+                        "label": "March",
+                        "value": "03"
+                    },
+                    {
+                        "label": "April",
+                        "value": "04"
+                    },
+                    {
+                        "label": "May",
+                        "value": "05"
+                    },
+                    {
+                        "label": "June",
+                        "value": "06"
+                    },
+                    {
+                        "label": "July",
+                        "value": "07"
+                    },
+                    {
+                        "label": "August",
+                        "value": "08"
+                    },
+                    {
+                        "label": "September",
+                        "value": "09"
+                    },
+                    {
+                        "label": "October",
+                        "value": "10"
+                    },
+                    {
+                        "label": "November",
+                        "value": "11"
+                    },
+                    {
+                        "label": "December",
+                        "value": "12"
+                    }
+                ],
+                "error": {
+                    "invalid": "Month Invalid Error",
+                    "empty": "Month Empty Error"
+                }
+            },
+            "year": {
+                "label": "Year",
+                "required": false,
+                "error": {
+                    "invalid": "Year entered is invalid",
+                    "empty": "Year required"
+                }
+            },
+            "birthDate": {
+                "label": "Date of Birth*",
+                "required": false,
+                "error": {
+                    "invalid": "Your date of birth is invalid for the booking, please check your details. ",
+                    "empty": "Date of birth required"
+                }
+            },
+            "day": {
+                "label": "Day",
+                "required": false,
+                "options": [
+                    {
+                        "label": "Day",
+                        "value": null
+                    },
+                    {
+                        "label": "01",
+                        "value": "01"
+                    },
+                    {
+                        "label": "02",
+                        "value": "02"
+                    },
+                    {
+                        "label": "03",
+                        "value": "03"
+                    },
+                    {
+                        "label": "04",
+                        "value": "04"
+                    },
+                    {
+                        "label": "05",
+                        "value": "05"
+                    },
+                    {
+                        "label": "06",
+                        "value": "06"
+                    },
+                    {
+                        "label": "07",
+                        "value": "07"
+                    },
+                    {
+                        "label": "08",
+                        "value": "08"
+                    },
+                    {
+                        "label": "09",
+                        "value": "09"
+                    },
+                    {
+                        "label": "10",
+                        "value": "10"
+                    },
+                    {
+                        "label": "11",
+                        "value": "11"
+                    },
+                    {
+                        "label": "12",
+                        "value": "12"
+                    },
+					{
+                        "label": "13",
+                        "value": "13"
+                    },
+					{
+                        "label": "14",
+                        "value": "14"
+                    },
+					{
+                        "label": "15",
+                        "value": "15"
+                    },
+					{
+                        "label": "16",
+                        "value": "16"
+                    },
+					{
+                        "label": "17",
+                        "value": "17"
+                    },
+					{
+                        "label": "18",
+                        "value": "18"
+                    },
+					{
+                        "label": "19",
+                        "value": "19"
+                    },
+					{
+                        "label": "20",
+                        "value": "20"
+                    },
+					{
+                        "label": "21",
+                        "value": "21"
+                    },
+					{
+                        "label": "22",
+                        "value": "22"
+                    },
+					{
+                        "label": "23",
+                        "value": "23"
+                    },
+					{
+                        "label": "24",
+                        "value": "24"
+                    },
+					{
+                        "label": "25",
+                        "value": "25"
+                    },
+					{
+                        "label": "26",
+                        "value": "26"
+                    },
+					{
+                        "label": "27",
+                        "value": "27"
+                    },
+					{
+                        "label": "28",
+                        "value": "28"
+                    },
+					{
+                        "label": "29",
+                        "value": "29"
+                    },
+					{
+                        "label": "30",
+                        "value": "30"
+                    },
+					{
+                        "label": "31",
+                        "value": "31"
+                    }
+                ],
+                "error": {
+                    "invalid": "Day invalid",
+                    "empty": "Day required"
+                }
+            },
+            "bookingNumber": {
+                "label": "Booking Reference*",
+                "required": false,
+                "error": {
+                    "invalid": "Your Booking Reference contains invalid characters. Please check your details and try again.",
+                    "empty": "Please enter your Booking Reference"
+                }
+            },
+            "childRelation": {
+                "label": "Relationship to child*",
+                "required": false,
+                "options": [
+                    {
+                        "label": "Please Select",
+                        "value": null
+                    },
+                    {
+                        "label": "Parent",
+                        "value": "01"
+                    },
+                    {
+                        "label": "Guardian",
+                        "value": "02"
+                    }
+                ],
+                "error": {
+                    "invalid": "Child Relationship Invalid Error",
+                    "empty": "Child Relationship Empty Error"
+                }
+            }            
+        },
+		"labels": {
+			"labelConfirm":"Yes",
+			"title":"Youth Registration",
+			"description":"72 hours before your holiday, you must complete a Health Declaration. Once submitted, we’ll send you the outcome and you will need to present this at the terminal (via mobile, no need to print). You must complete this for all under 18s.",
+			"beforeDayLabel": "You can complete this questionnaire <b>before</b> days you board",
+			"emarkationDateLabel": "Embarkation date",
+			"cruiseNumberLabel": "Cruise number",
+			"selectTitleLabel": "Child", 
+			"dobLabel": "Date of birth",
+			"ageLabel":"Age when embarking",
+			"callUsLabel": "If the child’s date of birth is incorrect, please call us at {callNumber}",
+			"faqLinkLabel": "Integer tellus vel vitae ipsum sagittis <a href={faqLink}>link to FAQ section</a>",
+			"passengersLabel":"Child",
+			"beforeDateHeadingLabel": "This section will be available {youthRegistrationDayX} days before you sail",
+			"beforeDateDescLabel": "You will have {youthRegistrationDayX} days to complete this <b>before</b> you board. ",
+			"ubavailableBlockHeadingLabel": "This section not available for your booking.",
+			"ubavailableBlockDescLabel": "Turpis elit, odio tellus venenatis tellus interdum luctus quis mus.",
+			"errorPreventHealthDeclStatusDisplayMsgLabel":"An error has occurred ",
+			"errorPreventHealthDeclStatusDisplayMsgSubtitleLabel":"Please check back again later",
+			"errorPreventHealthDeclSubmissionMsgLabel":"An error has occurred ",
+			"errorPreventHealthDeclSubmissionMsgSubtitleLabel":"Please try again ",
+			"errorPreventQuestionsDisplayMsgLabel":"Unfortunately we cannot display the questions at this time ",
+			"errorPreventQuestionsDisplayMsgSubtitleLabel":"Please try again later ",
+			"modelWariningMsg":"Please tick the box below to confirm that all information provided is accurate. You will not be able to change your answers once you have submitted the form. ",
+			"emailConfirmationLabel":"Email confirmation will be sent to <b>{emailAddress}</b>",
+			"changeEmailAddressLabel":"Please ensure you have access to this ",
+			"changeEmailAddressCtaLabel":"Change this address",
+			"questionTitleForLead":"Within the past 14 days have you and any person under 18 in your party;",
+			"questionTitleForNonLead":"Within the past 14 days have you;",
+			"submitQuestionnaireCtaLabel":"Submit Questionnaire",
+			"successfulQuesCompletedTitleLabel":"Your answers indicate you are safe to travel. You are able to sail provided everyone in your household is deemed safe to travel and you must show your Health Declaration at the terminal (via your mobile is fine, there’s no need to print). ",
+			"questionLabel":"Question",
+			"answerLabel":"Your answers",
+			"yesButtonLabel":"Yes",
+			"noButtonLabel":"No",
+			"notapplicableButtonLabel":"Not Applicable",
+			"successfulQuesEmailConfirmLabel":"Confirmation of this has been sent to <b>{emailAddress} </b>. ",
+			"printDeclarationCtaLabel":"View declaration",
+			"yourAnswersLabel":"Your answers",
+			"cantChangeAnswerDescLabel":"Please note, these cannot be amended online. ",
+			"quesFailedTitleLabel":"Thank you for completing your Health Declaration. We’re very sorry, unfortunately your answers indicate you are not safe to travel. ",
+			"quesFailedDescLabel":"We will cancel your booking but rest assured, you will receive the full value of your cruise as a Future Cruise Credit and any pre-cruise purchases made via My P&O Cruises will be refunded. The same applies to anyone in your household who were due to travel with you. If you were travelling with friends and family and had linked your bookings, your travelling party are also eligible to opt for a FCC and refund for any My P&O Cruises purchases if they would prefer not to travel. If you booked your cruise as part of a wider holiday package please contact your travel provider for information relating to their policies should you be denied boarding.",
+			"quesFailedGovtWebsiteText":" Click here for more details on the goverment website.",
+			"quesFailedGovtWebsiteUrl":"www.google.co.uk",
+			"quesFailedFAQDescLabel":"Unfortunately this decision is final. Please do not go to the terminal as you will not be permitted to board. We apologise for the disappointment this will cause but these measures are essential to protect the health and well-being of everyone on board. Please take care of yourself and we look forward to welcoming you on board again one day in the future. . If you have any queries, please take a look at our",
+			"quesFailedFAQLinkText":"FAQs.",
+			"quesFailedFAQLinkUrl":"https://www.pocruises.com/frequently-asked-questions",
+			"notAvailableYetTitleLabel":"The questionnaire will be available to complete 3 days before sailing ",
+			"notAvailableYetDescLabel":"You will have 2 days to complete this, the questionnaire will close the day before you board. ",
+			"leadPassengerDescLabel":"Please contact the lead passenger on your holiday.",
+			"questionNotAnsweredLabel":"Please answer this question",
+			"ccaTaTitleLabel":"You do not have access to view this information ",
+			"ccaTaDescLabel":"The questionnaire is only available for the guest to view/complete",
+			"daysToCompleteLabel":"You will have 2 days to complete this, the questionnaire will close the day before you board. ",
+			"emailConfirmationLabelIfEmailAddressNotPresent":"Email address not present.",
+			"changeEmailAddressLabelIfEmailAddressNotPresent":"Please select below to enter an email address",
+			"leadPassengerTitleLabel":"The questionnaire needs to be completed by the lead passenger",
+			"warningModalConfirmLabel":"Confirm & Submit",
+			"warningModalCancelLabel":"Go Back",
+			"warningModalTitleLabel":"Are you sure you want to submit?",
+			"warningModalCheckboxLabel":"Youth pre registration confirmation statement",
+			"paxConsentLabel":"You do not have consent to view the details of this passenger.",
+			"printHQDeclNotClearedLabel":"Not cleared",
+			"printHQDeclClearedLabel":"Cleared",
+			"printHQDeclPassengersLabel":"Passengers",
+			"printHQDeclCabinNumberLabel":"Cabin number",
+			"printHQDeclBookingRefLabel":"Booking reference",
+			"printHQDeclShipnameLabel":"Ship",
+			"printHQDeclEmbarkationDateLabel":"Embarkation date",
+			"printHQDeclCruiseNumberLabel":"Cruise number",
+			"printHQDeclCompletedTitleLabel":"Thank you for completing your Health Declaration",
+			"printHQDeclCompletedDescriptionLabel":"Your answers indicate you are safe to travel. The Health Declaration has to be completed by all guests so please make sure everyone you’re travelling with has completed the questionnaire. If you’re travelling with guests under 18, you must submit a Health Declaration on their behalf. You have been cleared to sail provided everyone in your household is deemed safe to travel. You must show your Health Declaration with cleared status at the terminal (via your mobile device is fine, there’s no need to print). If between now and your holiday you or anyone in your household develops symptoms or is told they need to self isolate following close contact with a confirmed COVID-19 case, please call our Customer Contact Centre and do not travel to the terminal. If you’re unable to travel, we’re pleased to say you will receive a Future Cruise Credit (FCC) for the value of your cruise and a refund for any pre-cruise purchases.",
+			"printHQDeclUnableToTravelTitleLabel":"Do not travel to the terminal",
+			"printHQDeclUnableToTravelDescriptionLabel":"Please do not go to the terminal as you will not be permitted to board. We apologise for the disappointment this will cause but we have to protect the health and well-being of everyone on board. Please take care of yourself and we look forward to welcoming you on board again one day in the future.",
+			"printHQDeclFaqLinkText":"If you have any queries, please take a look at our FAQs.",
+			"printHQDeclFaqLinkUrl":"https://www.pocruises.com/frequently-asked-questions",
+			"printHQDeclBookingCancelledTitleLabel":"Your cruise booking and all products purchased will be cancelled ",
+			"printHQDeclBookingCancelledDescriptionLabel":"We will cancel your booking but rest assured, you will receive the full value of your cruise as a Future Cruise Credit (FCC) and any pre-cruise purchases made via My P&O Cruises will be refunded. The same applies to anyone in your household. If you booked your cruise as part of a wider holiday package please contact your travel provider for information relating to their policies should you be denied boarding",
+			"printHQDeclBookingCancelledDescription2Label":"If you were travelling with friends and family and had linked your bookings, your travelling party are also eligible to opt for an FCC and refund for any My P&O Cruises purchases if they would prefer not to travel. ",
+			"printHQDeclShowAtPortLabel":"Please have this declaration ready to show at the port",
+			"printHQDeclEveryAdultCompleteTitleLabel":"It’s still your incredible P&O Cruises holiday, just with a few new reassuring changes",
+			"printHQDeclEveryAdultCompleteDescriptionLabel":"We appreciate there’s a lot to take in. These changes are designed to protect the health of everyone on board as well as the destinations we visit so you can have peace of mind, knowing we’ve every aspect of your holiday covered. We look forward to welcoming you on board soon.",
+			"printHQDeclPrecruiseTitleLabel":"Reminder",
+			"printHQDeclPrecruiseDescriptionLabel":"Before you travel, you need to check-in online and print your etickets and luggage labels. To manage social distancing in the terminal, please arrive at your allotted time only. You will not be allowed access before your allotted time.",
+			"trustedCarerHeaderLabel":"Assign your child's registered carer(s)",
+			"trustedCarerTextLabel":"Please note that for children under the age of 13, only registered carers will be able to check your child in/out of the youth club. Registered carers must be 18 years of age or older",
+            "addParentsLable":"Add another Parent/Guardian"
+		},
+		"services": {
+			"urls": {
+				"mycruiseItineraryApiV1": "https://sit.my-np.pocruises.com/api-mc/mc-getItinerary/v1",
+				"mycruiseSummaryApiV1": "https://sit.my-np.pocruises.com/api-mc/mc-getCruiseSummary/v1"
+			},
+			"headers": {
+				"brand": "po",
+				"locale": "en_GB",
+				"country": "GB"
+			}
+		},
+		"hideAccordion": "false",
+		"shipInfoServlet": "https://sit.my-np.pocruises.com/content/po/master_website/en_GB/mycruise",
+		"deckInfoServlet": "https://sit.my-np.pocruises.com/content/po/master_website/en_GB/mycruise"
+	},
+	"meta": {
+		"render": "dynamic"
+	},
+	"services": {
+		"urls": {
+			"mycruiseItineraryApiV1": "https://sit.my-np.pocruises.com/api-mc/mc-getItinerary/v1",
+			"mycruiseSummaryApiV1": "https://sit.my-np.pocruises.com/api-mc/mc-getCruiseSummary/v1",
+			"jwtTokenUrl": "https://sit.my-np.pocruises.com/api-mc/v1/userAuthenticate",
+			"trustedCarerValidation": "https://sit.my-np.pocruises.com//api-mc/v1/youth/guest/trustedCarerValidation"
+		},
+		"headers": {
+			"brand": "po",
+			"locale": "en_GB",
+			"country": "GB"
+		}
+	}
+}

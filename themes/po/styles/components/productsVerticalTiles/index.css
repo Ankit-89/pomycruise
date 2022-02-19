@@ -1,0 +1,4 @@
+@import '../../../../../components/productsVerticalTiles/styles/index.css';
+@import 'defaults.css';
+@import 'tablet-landscape.css' ( --tablet-landscape );
+@import 'tablet.css' ( --tablet );

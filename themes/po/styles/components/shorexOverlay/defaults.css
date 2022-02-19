@@ -1,0 +1,51 @@
+.shorex-overlay {
+    & .modal-error {
+        @mixin style-body3;
+        color: var(--color-secondary3);
+    }
+    & .paragraph {
+        @mixin style-body1;
+    }
+    & .guestsList {
+        
+        & h4 {
+            @mixin style-h4;
+        }
+        & ul:after {
+            background: var(--color-secondary5);
+        }
+        & .total__label {
+            @mixin style-body1;
+        }
+        & .total__price {
+            @mixin style-h1;
+            font-size: 24px;
+            color: var(--color-primary4);
+        }
+    }
+
+    & .limAvailability {
+        @mixin style-body3;
+        &:before {
+            content: '\e907';
+            font-size: 20px;
+            color: var(--color-primary2);
+        }
+        &.registerInterest:before {
+            content: '\e908';
+            color: var(--color-primary4);
+        }
+    }
+    & .icons-check {
+        &:before {
+            content: '\e905';
+            font-size: 20px;
+            line-height: 60px;
+            background-color: var(--color-primary3);
+            color: white;
+        }
+    }
+    & .registerInterest-divider {
+        background: var(--color-secondary2);
+    }
+}

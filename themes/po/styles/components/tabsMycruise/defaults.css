@@ -1,0 +1,29 @@
+.tabsMycruise.react-component,
+.tabsMycruiseServlet.react-components {
+    & .tabs-labels {
+        & a {
+            @mixin cta-secondary;
+            &:before {
+                display: none;
+            }
+        }
+        & a.active:before {
+            display: block;
+            bottom: -10px;
+            height: 2px;
+        }
+    }
+    & .tabs-labels {
+        border-bottom: 1px solid var(--color-secondary6);
+    }
+
+    & .image-copy-block .tile-holder:nth-child(odd) {
+        direction: ltr;
+    }
+    & .text-left {
+        text-align: left;
+    }
+    & .description-block {
+        @mixin style-body1; 
+    }
+}

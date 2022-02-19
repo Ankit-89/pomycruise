@@ -1,0 +1,8 @@
+.three-up-container {
+    & .destination-tile-card .panel-text {
+        padding-bottom: 0;
+    }
+    & .price-block {
+        width: 50%;
+    }
+}

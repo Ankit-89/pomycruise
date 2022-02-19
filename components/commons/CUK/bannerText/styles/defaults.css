@@ -1,0 +1,36 @@
+.bannerText__text {
+    @mixin style-body2;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 20px;
+  
+}
+.bannerText__icon {
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    & img {
+        width: 100%;
+    }
+}
+.bannerText {
+    max-width: 1280px;
+    margin: 30px auto;
+    text-align: center;
+    &.background {
+        background-color: var(--color-secondary2);
+    }
+}
+.bannerText__cont {
+    padding: 30px 40px;
+    max-width: 1280px;
+    margin: 0 auto 50px;
+}
+.bannerText {
+    & .bannerText__aux {
+        text-align: center;
+        padding: 30px 20px;
+    }
+}
+

@@ -1,0 +1,107 @@
+.allinclusive-overlay {
+    & .paragraph {
+        @mixin style-body1;
+    }
+    & .modal-header {
+        margin-bottom: 30px;
+    }
+    & .wrap {
+        margin-bottom: 30px;
+    }
+    & .guestsList {
+        & h5 {
+            margin-bottom: 24px;
+        }
+        & .subtotal,
+        & .cruiseLength {
+            line-height: 30px;
+        }
+        & .cruiseLength__label {
+            line-height: 30px;
+        }
+        & .cruiseLength__length {
+            @mixin style-body2;
+            line-height: 30px;
+            font-feature-settings: normal;
+        }
+        & .subtotal__label small {
+            @mixin style-body3;
+            font-feature-settings: normal;
+        }
+        & .total {
+            line-height: 30px;
+        }
+        & .total__label {
+            @mixin style-body1;
+            line-height: 30px;
+        }
+        & .total__price {
+            @mixin style-h1;
+            color: var(--color-primary4);
+            line-height: 30px;
+        }
+        & ul {
+            margin-bottom: 40px;
+            padding-bottom: 50px;
+        }
+        & ul:after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0px;
+            right: 0px;
+            background: var(--color-secondary5);
+            height: 1px;
+        }
+        & .discountLabel:after {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0px;
+            right: 0px;
+            background: var(--color-secondary5);
+            height: 1px;
+        }
+    }
+    & .discountMessage {
+        @mixin style-body1;
+        background: var(--color-secondary6);
+        padding: 15px 30px;
+        border-radius: 20px;
+    }
+    & .discountLabel {
+        @mixin style-body2;
+        margin-bottom: 18px;
+        padding-bottom: 30px;
+    }
+    & .allinclusive-tooltip {
+        background: var(--color-primary1);
+        box-shadow: 0 0px 20px 10px rgba(0, 0, 0, .1);
+        &:before {
+            background: var(--color-primary1);
+        }
+    }
+    & .allinclusive-close {
+        &:after {
+            content: "\e906";
+            color: var(--color-primary4);
+            width: 30px;
+        }
+    }
+    & .allinclusive-tooltip p {
+        background: var(--color-primary1);
+        @mixin style-body3;
+        text-transform: none;
+        font-feature-settings: 'lnum' 1;
+        background: var(--color-primary1);
+    }
+    & .limAvailability {
+        @mixin style-body3;
+        &:before {
+            content: "\e907";
+            font-size: 20px;
+        }
+    }
+}

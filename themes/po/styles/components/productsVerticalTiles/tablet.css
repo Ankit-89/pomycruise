@@ -1,0 +1,13 @@
+.spa-tiles-container {
+    & .tile-detail {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .spa-tiles-container {
+        & .tile-detail {
+            width: 33.30%;
+        }
+    }
+}

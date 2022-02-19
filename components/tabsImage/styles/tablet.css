@@ -1,0 +1,13 @@
+.tabsImage {
+    & .tabs-labels {
+        & li {
+            padding-right: 100px;
+        }
+    }
+    & .image-copy-block {
+        & .content .spacing-container {
+            margin-bottom: 40px;
+        }
+    }
+    
+}

@@ -1,0 +1,11 @@
+.carousel-controls {
+    & .prev-btn {
+        margin-right: 15px;
+    }
+    & .button {
+        width: 15px;
+    }
+    & .next-btn {
+        margin-left: 12px;
+    }
+}

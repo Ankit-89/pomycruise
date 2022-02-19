@@ -1,0 +1,46 @@
+
+
+.article--title_paragraph {
+    padding: 30px 0;
+    margin: 0 20px;
+    & h2 {
+        margin-bottom: 10px;
+    }
+    & h6 {
+        margin-bottom: 10px;
+    }
+    & .body-container {
+        margin-bottom: 35px;
+    }
+    & .body-container:last-child {
+        margin-bottom: 0;
+    }
+    & p {
+        margin-bottom: 35px;
+    }
+    & p:last-child {
+        margin-bottom: 0;
+    }
+    & ul {
+        margin-bottom: 35px;
+    }
+    & ul:last-child {
+        margin-bottom: 0;
+    }
+    & ul li {
+        position: relative;
+        padding-left: 25px;
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    & ul li:last-of-type {
+        margin-bottom: 0;
+    }
+    & ul li:before {
+        display: block;
+        position: absolute;
+        font-family: var(--font-icomoon);
+        top: 0;
+        left: 0;
+    }
+}

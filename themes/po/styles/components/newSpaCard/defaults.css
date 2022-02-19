@@ -1,0 +1,77 @@
+.new-spa-card-container {
+    border-bottom: 2px solid var(--color-secondary2);
+    border-left: 2px solid var(--color-secondary2);
+    border-right: 2px solid var(--color-secondary2);
+    & .top-banner {
+        @mixin style-body2;
+        background: var(--color-primary3);
+        color: var(--color-primary1);
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    & .type {
+        @mixin style-body2;
+        &:before {
+            color: var(--color-primary4);
+        }
+    }
+    /* & .type.bookableOnBoard {
+        color: var(--color-primary2);
+        &:before {
+            color: var(--color-primary2);
+        }
+    } */
+    & .type.additional {
+        &:before {
+            content: '\e930';
+        }
+    }
+    & .type.Additional {
+        &:before {
+            content: '\e930';
+        }
+    }
+    & .spa-card-description {
+        @mixin style-body2;
+    }
+    & .cta-content {
+        @mixin style-body2;
+        text-align: left;
+
+        & .price-container {
+            padding-top: 10px;
+            & h5 {
+                color: var(--color-primary5);
+            }
+            & p {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.new-spa-card-container.selected {
+    border-top: 2px solid var(--color-secondary2);
+}
+
+@media screen and (max-width: 426px) {
+    .new-spa-card-container {
+        & .image-holder{
+            display: none;
+        }
+        & .cta-content {
+            flex-direction: column;
+            align-items: inherit;
+
+            & .price-container {
+                margin-bottom: 15px;
+            }
+
+            & .cta-block {
+                & a {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

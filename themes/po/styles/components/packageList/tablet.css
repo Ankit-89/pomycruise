@@ -1,0 +1,5 @@
+.packages-detail__package--details {
+    & .package__open-accordion.open+.package__accordion {
+        background-color: #EDF1F7;
+    }
+}

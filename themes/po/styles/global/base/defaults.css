@@ -1,0 +1,392 @@
+/********************** Scaling layout : Start  ********************/
+/* html {
+    font-size: 1px;
+    font-size: calc( 100vw * (1/320) * 10);
+
+    @media ( --mvp ) {
+        font-size: calc( 100vw * (1/768) * 10);
+    }
+
+    @media ( --lgvp ) {
+        font-size: calc( 100vw * (1/1480) * 10);
+        font-size: 10px;
+    }
+    @media ( --nav-xlgvp ) {
+        font-size: 10px;
+    }
+
+} */
+
+/********************** Scaling layout : End  ********************/
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+#oSPe_callback_container {
+    display: none;
+}
+img,
+video {
+    width: 100%;
+}
+.code {
+    color: white;
+    font-size: 14px;
+    display: block;
+    background-color: black;
+    border: solid gray 2px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+h1 {
+    @mixin style-h1;
+}
+h2 {
+    @mixin style-h2;
+}
+h3 {
+    @mixin style-h3;
+}
+h4 {
+    @mixin style-h4;
+}
+h5 {
+    @mixin style-h5;
+}
+h6 {
+    @mixin style-h6;
+}
+.h1 {
+    @mixin style-h1;
+}
+.h2 {
+    @mixin style-h2;
+}
+.h3 {
+    @mixin style-h3;
+}
+.h4 {
+    @mixin style-h4;
+}
+.h5 {
+    @mixin style-h5;
+}
+.h6 {
+    @mixin style-h6;
+}
+.h6-light {
+    @mixin style-h6-light;
+}
+.body1 {
+    @mixin style-body1;
+}
+.body2 {
+    @mixin style-body2;
+}
+/*.body2-demi {
+    @mixin font-body2-demi;
+}*/
+.body3 {
+    @mixin style-body3;
+}
+.body-text-small {
+    @mixin style-small-text;
+}
+
+.cta-primary {
+    @mixin cta-primary;
+}
+
+.cta-primary-light-blue {
+    @mixin cta-primary-light-blue;
+}
+
+
+.cta-button-dark {
+    @mixin cta-button-dark;
+}
+
+.cta-disabled {
+    @mixin cta-disabled;
+}
+
+.cta-secondary {
+    @mixin cta-secondary;
+}
+
+.cta-secondary-up {
+    @mixin cta-secondary-up;
+}
+
+.cta-secondary-up-ondark {
+    @mixin cta-secondary-up--ondark;
+}
+
+.cta-secondary-down {
+    @mixin cta-secondary-down;
+}
+
+.cta-menu-close {
+    @mixin cta-menu-close;
+}
+
+.cta-light {
+    @mixin style-cta-light;
+}
+.cta-font {
+    @mixin style-cta;
+}
+
+.btn-cta {
+    @mixin style-cta;
+}
+
+.btn-primary {
+    @mixin cta-primary;
+}
+.semibold-font {
+    @mixin style-semibold;
+}
+
+/* TODO : Remove these classes, ADD one .test class to add all so PostCSS wont remove. */
+
+.cta-bold {
+    font-family: var(--font-bold);
+}
+
+.wrapper {
+    margin-top: 110px;
+    @media (--tablet) {
+        margin-top: 185px;
+    }
+    @media (--desktop) {
+        margin-top: 251px;
+    }
+}
+
+/* Text meant only for screen readers. */
+
+.sr-only {
+    @mixin screen-reader-only;
+    left: 3px;
+    top: 3px;
+    z-index: 99;
+}
+.sr-only.skip-to-content:focus {
+    width: auto;
+    height: auto;
+    clip: auto;
+    @mixin style-body3;
+    color: var(--color-primary3);
+    z-index: 999;
+    position: relative
+}
+.global-footer-container {
+    & .sr-only.skip-to-content:focus {
+        color: var(--color-primary1);
+    }
+}
+
+/* Currency symbol style. */
+.currency {
+    & i {
+        font-style: normal;
+        font-size: 100%;
+        vertical-align: top;
+        font-feature-settings: 'lnum' 1;
+    }
+}
+.disclaimer-text {
+    font-size: 10px;
+    font-family: var(--font-small-text);
+    @media (--tablet) {
+        font-size: 12px;
+    }
+}
+.legal-container {
+    color: var(--color-primary6);
+    text-decoration: none;
+}
+
+/* Standard margin-bottom between all the components */
+.react-component {
+    @mixin component-margin;
+}
+
+/* no margin for Specific components */
+.react-component.alertMessaging,
+.react-component.globalHeaderMycruise,
+.react-component.cruiseDetailHeader,
+.react-component.secondaryNavigation,
+.react-component.footer,
+.react-component.footerQuote,
+.react-component.checkoutHeader,
+.react-component.accordionList,
+.react-component.searchResults,
+.react-component.titleH1Mycruise,
+.react-component.legalGateway,
+.react-component.bookNowModule,
+.react-component.itinerarySummary,
+.react-component.summaryDetailsModule,
+.react-component.vacationProtectionBanner,
+.react-component.inclusions,
+.react-component.pricingInfoModule,
+.react-component.securityFooter,
+.react-component.favoritesShoreX {
+    margin: 0;
+}
+
+
+
+/* DO NOT REMOVE THESE STYLES
+/* This class is added to make both alertMessaging Component and GlobalHeader Component stay inside a fixed wrapper
+/* Removing these styles can break the page which may be diffciult to debug
+---------------------------*/
+.alert-header-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* adding these styles only for author editable mode */
+/* adding important as margin-top is getting applied from js inline */
+.wcmEditModeEnabled {
+    /* stylelint-disable */
+    /* declaration-no-important */
+    margin-top: 0;
+    padding-top: 0;
+    /* stylelint-enable */
+}
+
+.wcmEditModeEnabled .alert-header-wrapper {
+    position: static;
+}
+
+body.openOverlay {
+    overflow: hidden;
+}
+
+/*
+    This is ADA Compliant variation for hiding text that need to be accessible by screen readers:
+    For More See: https://webaim.org/techniques/css/invisiblecontent/
+ */
+.hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* No Focus for Mouse clicked items */
+body:not(.show-focus-outlines) *:focus {
+    outline: none;
+}
+
+/* Stronger Focused Outline for ADA Compliance */
+.show-focus-outlines *:focus {
+    border: none;
+    box-shadow: inset 0 0 5px #00b5cb;
+    -moz-box-shadow: inset 0 0 5px #00b5cb;
+    -webkit-box-shadow: inset 0 0 5px #00b5cb;
+    outline: 2px solid #00b5cb;
+    outline-offset: -2px;
+}
+
+/* Image path fix, only for styleguide */
+.styelguide .cta-secondary-up:after,
+.styelguide .cta-secondary-down:after {
+    background: url(~postbooking-theme/images/caret-down-blue.png) 50% / 45% no-repeat;
+}
+
+.marginBody {
+    /*padding-top: 55px;
+    @media (--desktop) {
+        padding-top: 212px;
+    }*/
+}
+/****** Common Components ******/
+
+/*
+    component/commons/inputField
+*/
+.common-input-group {
+    @mixin input-group;
+}
+
+
+.checkbox--hidden {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    
+}
+
+.select-group {
+    @mixin select-group;
+}
+
+.image-lazy-loader {
+    display: inline;
+
+    &.spinner {
+        display: block;
+
+        background: url(../../images/loading-icon.gif) 50% no-repeat;
+        min-height: 70px;
+        background-size: 70px;
+    }
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: var(--font-icomoon);
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-ico-checkin:before {
+    content: "\e935";
+}
+.icon-ico-luggage:before {
+    content: "\e936";
+}
+.icon-ico-tickets:before {
+    content: "\e937";
+}
+  
+.throbberOverlay {
+    & .loading {
+        @mixin loading;
+        left: 0;
+    }
+    & .loading-icon {
+        margin-top: -80px;
+    }
+    & .throbberOverlay__text {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        /* margin-top: 70px; */
+        @mixin style-body1;
+        z-index: 999999999;
+        text-align: center;
+        width: 100%;
+        left: 0;
+        color: var(--color-primary3);
+        margin-top: 20px;
+    }
+}

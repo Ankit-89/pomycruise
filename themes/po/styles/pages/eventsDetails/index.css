@@ -1,0 +1,17 @@
+/* Global Components */
+@import '../../config/index.css';
+@import '../../components/footerMycruise/index.css';
+@import '../../components/globalHeaderMycruise/index.css';
+
+@import '../../components/commons/card/index.css';
+@import '../../components/commons/carouselControls/index.css';
+@import '../../components/calendar/index.css';
+@import '../../components/entertainmentDetailHeroTile/index.css';
+
+@import '../../components/entertainmentConfig/index.css';
+@import '../../components/entertainmentConfigLabels/index.css';
+@import '../../components/tabsMycruise/index.css';
+/* @import '../../components/commons/carouselControls/index.css'; */
+/* @import '../../../../../components/commons/CUK/tabs/styles/index.css'; */
+
+

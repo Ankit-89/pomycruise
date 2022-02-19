@@ -1,0 +1,15 @@
+/* Global Components */
+
+@import '../../config/index.css';
+/* @import 'defaults.css'; */
+/*brand style of the component*/
+
+@import '../../components/globalHeaderMycruise/index.css';
+@import '../../components/footerMycruise/index.css';
+@import '../../components/bookingSummaryMycruise/index.css';
+@import '../../components/configuratorTab/index.css';
+@import '../../components/toDoList/index.css';
+@import '../../components/commons/carouselControls/index.css';
+@import '../../components/tabRotatorCategories/index.css';
+@import '../../components/shipsGrid/index.css';
+@import '../../components/loyaltyTierSlot/index.css';

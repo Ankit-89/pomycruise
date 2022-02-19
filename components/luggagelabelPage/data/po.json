@@ -1,0 +1,13 @@
+{
+    "type": "luggageLabelPdf",
+    "id": "1602132179750",
+    "attributes": {
+      "labels": {
+        "previousLabel": "Previous",
+        "luggageLabelLoadingMessage": "LuggageLabel Loading Message"
+      }
+    },
+    "meta": {
+      "render": "dynamic"
+    }
+  }

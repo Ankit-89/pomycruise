@@ -1,0 +1,9 @@
+.carousel-controls {
+    @mixin carousel-controls '~postbooking-theme/images/SVG/Carousel_Arrow_Right.svg';
+    text-align: center;
+    margin-top: 20px;
+}
+
+.special-offers-container .carousel-controls {
+    padding-top: 20px;
+}

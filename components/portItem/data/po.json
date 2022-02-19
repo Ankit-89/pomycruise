@@ -1,0 +1,81 @@
+{
+    "type": "portItem",
+    "id": "1488441675235",
+    "attributes": {
+        "date": "10092018",
+        "desc": "Arrive early morning - Depart early evening",
+        "startCityCode": {
+            "$": "FR"
+        },
+        "port": {
+					"portCall": {
+            "endDate": "2019-01-18",
+            "startDate": "2019-01-18",
+            "startDayText": "FRI",
+            "endDayText": "FRI",
+            "portFromCode": { "$": "0000" },
+            "portSchedule": {
+                "descText": "NO TRANSFERS ARE PROVIDED"
+            }
+        }
+        },
+        "image": {
+            "alt": "Hero alt text",
+            "0": {
+                "1x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/ports/amsterdam.jpg",
+                "2x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/ports/amsterdam.jpg"
+            },
+            "376": {
+                "1x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/ports/amsterdam.jpg",
+                "2x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/ports/amsterdam.jpg"
+            },
+            "769": {
+                "1x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/ports/amsterdam.jpg",
+                "2x":
+                    "http://bitcarnival.s3.amazonaws.com/pno/img/ports/amsterdam.jpg"
+            }
+        },
+        "portSchedule": [
+            {
+                "code": {
+                    "$": "AR"
+                },
+                "desc": "ARRIVE",
+                "time": "0700"
+            },
+            {
+                "code": {
+                    "$": "DP"
+                },
+                "desc": "DEPART",
+                "time": "1900"
+            },
+            {
+                "code": {
+                    "$": "BO"
+                },
+                "desc": "BOARD SHIP",
+                "time": "1830"
+            }
+        ]
+    },
+    "services": {
+        "urls": {
+            "recentlyViewed": "/services/costa-select.json",
+            "cruiseList": "/services/special_offer_price_api.json"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "IT"
+        }
+    },
+    "meta": {
+        "render": "static"
+    }
+}

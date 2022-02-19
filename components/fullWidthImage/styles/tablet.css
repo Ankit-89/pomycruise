@@ -1,0 +1,9 @@
+.full-width-image {
+    lost-utility: clearfix;
+}
+
+.modal-content .full-width-image {
+    lost-center: 652px;
+    padding-left: 32px;
+    padding-right: 32px;
+}

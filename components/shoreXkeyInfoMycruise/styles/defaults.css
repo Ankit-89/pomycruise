@@ -1,0 +1,251 @@
+.shorex-key-info {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 250px;
+    position: relative;
+    text-align: center;
+    & .infocard-back {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        top: -110px;
+        & span {
+            display: none;
+        }
+        &:before {
+            display: inline-block;
+            font-family: var(--font-icomoon);
+            transform: rotate(-180deg);
+            font-size: 16px;
+            line-height: 45px;
+        }
+    }
+
+    & .infocard-wrapper {
+        @mixin grid-wrap;
+        position: relative;
+    }
+
+    & .infocard-wrapperAux {
+        position: relative;
+        margin: -50px auto 0;
+        @mixin box-sizing;
+    }
+    & .dates {
+        @mixin style-body2;
+        margin-bottom: 10px;
+        font-family: var(--font-bold);
+    }
+    & .infocard {
+        padding: 24px 24px 0;
+    }
+    & .infocard .caption {
+        margin-bottom: 3px;
+    }
+    & .ht-background {
+        min-height: 100px;
+        max-height: 480px;
+        overflow: hidden;
+    }
+    & .ht-background img {
+        width: 100%;
+    }
+    & .infocard .title {
+        margin: 0 0 30px;
+        font-weight: normal;
+        width: 800px;
+    }
+    & .infocard .subtitle {
+        display: inline-block;
+        &:first-child:not(.subtitle-ageRestricted) {
+            display: block;
+            margin-bottom: 5px
+        }
+    }
+    & .infocard ul.subtitle li {
+        display: block;
+        margin-bottom: 5px;
+        &:last-child {
+            margin-bottom: 10px;
+        }
+    }
+    & .infocard .subtitle .afar-label {
+        display: none;
+    }
+    & .infocard .subtitles {
+        margin-bottom: 30px;
+    }
+    & .infocard .subtitle {
+        display: block;
+        margin-bottom: 10px;
+    }
+    & .infocard .subtitle-ageRestricted {
+        padding: 6px 10px;
+        display: inline-block;
+    }
+
+    & .infocard h2 {
+        margin: 10px 0 25px 0;
+    }
+    & .infocard .desc {
+        margin: 0 10px;
+    }
+    & .cta-holder {
+        max-width: 320px;
+        text-align: right;
+    }
+    & .cta-holder a {
+        display: block;
+        white-space: pre-wrap;
+    }
+    & .cta-holder span {
+        display: none;
+    }
+    & .shorex-key-facts {
+        margin-bottom: 10px;
+    }
+    & .shorex-key-list {
+        list-style-type: none;
+        padding: 0 0 21px;
+        margin-top: 40px;
+        lost-utility: clearfix;
+        font-family: 0;
+    }
+    & .key-fact {
+        font-size: 16px;
+        display: inline-block;
+        @mixin box-sizing;
+        padding: 0 10px 0;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 30px;
+        &:nth-child(3),
+        &:nth-child(4) {
+            margin-bottom: 0px;
+        }
+    }
+    & .key-fact .text-content {
+        min-height: 34px;
+    }
+    & .key-icon {
+        line-height: 30px;
+        height: 30px;
+        width: 30px;
+        display: block;
+        margin: 0 auto 10px;
+    }
+    & .text-content {
+        display: inline-block;
+        vertical-align: top;
+    }
+    /* Icons styles*/
+    & .key-icon::before {
+        content: '';
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        vertical-align: middle;
+        font-family: var(--font-icomoon);
+        font-size: 26px;
+    }
+    & .shorex-variant {
+        position: relative;
+        display: inline-block;
+    }
+    & .shorex-variants-title-info {
+        position: relative;
+        vertical-align: top;
+        display: inline-block;
+        margin-right: 10px;
+        &:before {
+            content: "\e90c";
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: top;
+            font-size: 22px;
+        }
+    }
+    & .shorex-variants-tooltip {
+        text-align: left;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 60px 30px;
+        z-index: 9999;
+        box-sizing: border-box;
+    }
+
+    & .shorex-close {
+        &:after {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-family: var(--font-icomoon);
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+    & .shorex-variants-tooltip  p {
+        position: relative;
+    }
+}
+
+/*shorex-info-detail*/
+.shorex-info-detail {
+    @mixin grid-wrap;
+    text-align: left;
+    & .shorex-info-list {
+        padding: 30px;
+        lost-utility: clearfix;
+        margin: 0;
+    }
+    & .shorex-info-list > div {
+        margin-bottom: 40px;
+        lost-utility: clearfix;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    & .shorex-info-list li {
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    & .shorex-info-list li b {
+        margin-right: 3px;
+    }
+    & .shorex-detail-info-itinerary li:before {
+        display: none;
+    }
+
+    & .shorex-detail-info-title {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    & .shorex-detail-info-title span {
+        display: inline-block;
+    }
+    & .shorex-detail-info-icon {
+        display: none;
+    }
+    & .shorex-detail-info-glance .shorex-detail-info-title span:before {
+        font-size: 30px;
+    }
+}
+/*shorex-product-code*/
+.shorex-product-code {
+    & .shorex-product-code-content {
+        @mixin style-body2;
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,164 @@
+{
+  "type": "sliderHotel",
+  "id": "1520848724666",
+  "attributes": {
+    "ports": [
+      "STM",
+      "CAE",
+      "SOU",
+      "BRN"
+    ],
+    "childComponents": [
+      {
+        "type": "titleH1Mycruise",
+        "id": "1520848724668",
+        "attributes": {
+          "title": "Title",
+          "description": "Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text ",
+          "type": "h1"
+        },
+        "meta": {
+          "render": "serverside"
+        }
+      },
+      {
+        "type": "hotelCard",
+        "id": "1520848724668",
+        "attributes": {
+          "image": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "alt": "Hero alt text"
+          },
+          "title": "Jurys Inn, Southampton",
+          "textAlignment": "center",
+          "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae",
+          "primaryCta": {
+            "label": "Discover More",
+            "url": "/content/pno/master_website/it_IT.html",
+            "isExternal": false
+          }
+        },
+        "meta": {
+          "render": "serverside"
+        }
+      },
+      {
+        "type": "hotelCard",
+        "id": "1520848724668",
+        "attributes": {
+          "image": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "alt": "Hero alt text"
+          },
+          "title": "Jurys Inn, Southampton",
+          "textAlignment": "center",
+          "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae",
+          "primaryCta": {
+            "label": "Discover More",
+            "url": "/content/pno/master_website/it_IT.html",
+            "isExternal": false
+          }
+        },
+        "meta": {
+          "render": "serverside"
+        }
+      },
+      {
+        "type": "hotelCard",
+        "id": "1520848724668",
+        "attributes": {
+          "image": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "alt": "Hero alt text"
+          },
+          "title": "Jurys Inn, Southampton",
+          "textAlignment": "center",
+          "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae",
+          "primaryCta": {
+            "label": "Discover More",
+            "url": "/content/pno/master_website/it_IT.html",
+            "isExternal": false
+          }
+        },
+        "meta": {
+          "render": "serverside"
+        }
+      },
+      {
+        "type": "hotelCard",
+        "id": "1520848724668",
+        "attributes": {
+          "image": {
+            "0": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "376": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "769": {
+              "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg",
+              "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/cards/santorini.jpg"
+            },
+            "alt": "Hero alt text"
+          },
+          "title": "Holiday Inn, Winchester Park and Cruise Package",
+          "textAlignment": "left",
+          "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae",
+          "primaryCta": {
+            "label": "Discover More",
+            "url": "/content/pno/master_website/it_IT.html",
+            "isExternal": false
+          }
+        },
+        "meta": {
+          "render": "serverside"
+        }
+      }
+    ],
+    "backgroundColor": false,
+    "labels": {
+      "ofLabel": "di",
+      "seeDetailsLabel": "Vedi dettagli",
+      "previousLabel": "Previous label!",
+      "nextLabel": "Next label"
+    }
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

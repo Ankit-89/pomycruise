@@ -1,0 +1,24 @@
+.simpleText {
+    background: var(--color-secondary2);
+    & .simple-text-title {
+        @mixin style-h1;
+        margin-bottom: 35px;
+        &:before {
+            content: "\e91c";
+            color: var(--color-primary4);
+        }
+    }
+    & .simple-text-body-text {
+        @mixin style-body1;
+    }
+    & .simple-text-body-text-small {
+        @mixin style-body3;
+        &:before {
+            content: "\e908";
+            color: var(--color-primary4);
+        }
+    }
+    & .simple-text-cta{
+        @mixin cta-secondary-up;
+    }
+}

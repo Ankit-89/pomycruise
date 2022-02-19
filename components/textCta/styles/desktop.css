@@ -1,0 +1,17 @@
+.textCta {
+    & .textCta__aux {
+        @mixin grid-wrap;
+        padding: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    & .textCta__text {
+        padding-bottom: 0;
+        
+    }
+    & .cta-primary {
+        margin-left: auto;
+    }
+}
+

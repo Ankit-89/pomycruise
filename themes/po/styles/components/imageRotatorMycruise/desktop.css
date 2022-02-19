@@ -1,0 +1,9 @@
+.two-image-rotator-container {
+    & .left-inner-content h2 {
+        font-size: 30px;
+    }
+    & .rotator-pagination-wrapper {
+        font-size: 14px;
+        background: var(--color-primary1);
+    }
+}

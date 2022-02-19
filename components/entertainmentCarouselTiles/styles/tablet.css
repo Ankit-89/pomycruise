@@ -1,0 +1,50 @@
+/* .entertainmentContainer {
+    position: relative;
+        
+    & .backGround {
+        width: 100%;
+    }
+
+    & .entertainmentConst {
+        position: absolute;
+        width: 80%;
+        height: 50%;
+        margin: -125px;;
+        margin-left: 10%;
+        background: #FFFFFF;
+
+        & .entertainmentText{
+            margin: 40px;
+            font-family: Greycliff CF;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            color: #002776;
+        }
+
+        & .entertainmentTextConst{
+            margin-top: 40px;
+            margin-left: 15%;
+            margin-right: 15%;
+            font-family: Praxis LT Regular;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            color: #666666;
+        }
+    }
+} */
+
+.carousal-container {
+    /* padding-right: 60px; */
+    margin: 0 auto;
+    & .entertainmentImage {
+        & .image-lazy-loader {
+            max-width: 315px;   
+        }
+    }
+}

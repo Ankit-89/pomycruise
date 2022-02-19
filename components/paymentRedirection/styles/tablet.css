@@ -1,0 +1,27 @@
+.confirmation-hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    background: var(--color-primary1);
+    padding: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.confirmation-hero-cont {
+    padding: 0;
+    & .full-image {
+        display: block;
+        min-height: 320px;
+    }
+}
+
+.confirmation-hero-par {
+    padding: 30px 0;
+}
+
+.confirmationHeroMycruise {
+    margin-top: -127px;
+}

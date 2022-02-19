@@ -1,0 +1,38 @@
+.image-copy-block {
+    & .video-icon {
+        background-image: url(../../../images/SVG/Play_Icon.svg);
+    }
+}
+
+
+
+.tabs-labels{
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+}
+.shipsGrid, .entertainmentGrid {
+    & .image-copy-block {
+        max-width: 1160px;
+        /* padding: 0 20px; */
+        margin: 0 auto;
+    }
+}
+
+.hero-tile-container.hero-tile-container-border .infocard {
+    border: 1px solid rgba(255,255,255,1);
+    text-align: center;
+}
+
+.react-component {
+    margin-bottom: 50px;
+}
+
+.hero-tile-container.hero-tile-container-border .infocard-wrapper {
+    padding: 0px;
+}
+
+.spa-tiles-container {
+    & .tiles-container {
+        /* padding: 0 10px; */
+    }
+}

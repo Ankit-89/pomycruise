@@ -1,0 +1,13 @@
+.bannerText {
+    & .bannerText__aux {
+        @mixin grid-wrap;
+        padding: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    & .bannerText__text {
+        padding-bottom: 0;
+    }
+}
+

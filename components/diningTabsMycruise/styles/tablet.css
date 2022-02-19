@@ -1,0 +1,16 @@
+.diningTabsMycruise {
+    & .tabs-labels {
+        & li {
+            margin-right: 60px;
+        }
+    }
+}
+.tabs-copy-block {
+    & .content .spacing-container {
+        margin-bottom: 40px;
+    }
+    & .icon-holder .gridIcon {
+        height: 7px;
+        margin-bottom: 33px;
+    }
+}

@@ -1,0 +1,105 @@
+{
+  "type": "diningTabsMycruise",
+  "id": "1520244087537",
+  "attributes": {
+    "labels": {
+      "durationLabel": "Duration",
+      "datesLabel": "Dates",
+      "priceLabel": "Price"
+    },
+    "tabs": [{
+        "title": "Buffet",
+        "name": "Buffet Dining",
+        "image": {
+          "alt": "1",
+          "0": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          },
+          "376": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          },
+          "769": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          }
+        },
+        "description": "At P&O Cruises, we believe great holidays should be all about choice and freedom. No matter what time of day it is, if you fancy a good meal you’ll always get one. Our Main self-service restaurants on each ship offer high quality dining throughout the day in a relaxed informal environment."
+      },
+      {
+        "title": "Lido grill",
+        "name": "Lido grill",
+        "image": {
+          "alt": "1",
+          "0": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          },
+          "376": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          },
+          "769": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          }
+        },
+        "description": "At P&O Cruises, we believe great holidays should be all about choice and freedom. No matter what time of day it is, if you fancy a good meal you’ll always get one. Our Main self-service restaurants on each ship offer high quality dining throughout the day in a relaxed informal environment."
+      },
+      {
+        "title": "Grab & go",
+        "name": "Grab & go",
+        "image": {
+          "alt": "1",
+          "0": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          },
+          "376": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          },
+          "769": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          }
+        },
+        "description": "''Text block left quote\r\nText block left quote\r\nText block left quote\r\nText block left quote''"
+      },
+      {
+        "title": "Afternoon in",
+        "name": "Afternoon in",
+        "image": {
+          "alt": "1",
+          "0": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          },
+          "376": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          },
+          "769": {
+            "1x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg",
+            "2x": "http://bitcarnival.s3.amazonaws.com/pno/img/tiles/buffet.jpg"
+          }
+        },
+        "description": "At P&O Cruises, we believe great holidays should be all about choice and freedom. No matter what time of day it is, if you fancy a good meal you’ll always get one. Our Main self-service restaurants on each ship offer high quality dining throughout the day in a relaxed informal environment."
+      }
+    ]
+  },
+  "services": {
+    "urls": {
+      "diningEventsListing": "/services/pdp-dining.json" 
+    },
+    "headers": {
+      "brand": "po",
+      "locale": "en_GB",
+      "country": "IT"
+    }
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

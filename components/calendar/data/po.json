@@ -1,0 +1,361 @@
+{
+	"type": "calendar",
+	"id": "1528911136885",
+	"attributes": {
+	  "childComponents": [
+		{
+		  "type": "calendarViewDay",
+		  "id": "1528911144676",
+		  "attributes": {
+			"labels": {
+			  "prevLabel": "Previous Day",
+				"nextLabel": "Next Day",
+				"seaDayTitleLabel":"Sea day",
+				"portDayTitleLabel":"Port day: {port}",
+				"embarkationDayTitleLabel":"Emabarkation Day",
+				"disembarkationDayTitleLabel":"Disemabarkation Day",
+				"onBoardDescriptionLabel":"Time to relax and enjoy our onboard activities",
+				"dockingTitle": "Docking:",
+				"dockingTooltipLabel":"Lorem ipsum dolor sit amet,consectetur adipiscing elit",
+				"dressCodeLabel":"Dress Code:",
+				"dressCodeTooltipLabel":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+				"ariaprevLabel": "Selected Click for previous slide",
+				"arianextLabel": "Selected Click for next slide"
+			}
+		  },
+		  "meta": {
+			"render": "dynamic"
+		  }
+		},
+		{
+		  "type": "calendarViewWeek",
+		  "id": "1528911144676",
+		  "attributes": {
+			"labels": {
+			  "prevLabel": "Previous Week",
+			  "nextLabel": "Next Week"
+			}
+		  },
+		  "meta": {
+			"render": "dynamic"
+		  }
+		},
+		{
+		  "type": "calendarViewMonth",
+		  "id": "1528911144676",
+		  "attributes": {
+			"labels": {
+			  "moreLabel": "...{events} more"
+			}
+		  },
+		  "meta": {
+			"render": "dynamic"
+		  }
+		},
+		{
+		  "type": "calendarFilter",
+		  "id": "1528911144677",
+		  "attributes": {
+			"labels": {
+			  "filterByLabel": "Filter by",
+			  "applyFilterLabel": "Apply",
+			  "legendLabel": "Legend",
+			  "closeLabel": "Close",
+				"printLabel":"Print",
+				"myBookingLabel":"My Bookings",
+				"allBookingLabel":"All Bookings"
+			},
+			"legend": {
+			  "product": [
+				{
+				  "code": "shorex",
+				  "label": "Shorex"
+				},
+				{
+				  "code": "gift",
+				  "label": "Gift"
+				},
+				{
+				  "code": "transfer",
+				  "label": "Transfer"
+				},
+				{
+				  "code": "dining",
+				  "label": "Dining"
+				},
+				{
+				  "code": "flight",
+				  "label": "Flight"
+				},
+				{
+				  "code": "spa",
+				  "label": "Spa"
+				},
+				{
+				  "code": "hotel",
+				  "label": "Hotel"
+				}
+			  ],
+			  "information": [
+				{
+				  "code": "portDay",
+				  "label": "Port Day"
+				},
+				{
+				  "code": "seaDay",
+				  "label": "Sea Day"
+				},
+				{
+				  "code": "embark",
+				  "label": "Embarkation Day"
+				},
+				{
+				  "code": "disembark",
+				  "label": "Disembarkation"
+				},
+				{
+				  "code": "account",
+				  "label": "Owner / Participant"
+				},
+				{
+				  "code": "IDL",
+				  "label": "International Date Line"
+				}
+			  ]
+			},
+			"facets": [
+			  {
+				"code": "bookingVisualization",
+				"name": "Booking Visualization",
+				"multiSelect": true,
+				"visible": true,
+				"values": [
+				  {
+					"code": "myBooking",
+					"name": "My Booking"
+				  }
+				]
+			  },
+			  {
+				"code": "productType",
+				"name": "Product type",
+				"multiSelect": true,
+				"visible": true,
+				"values": [
+				  {
+					"code": "dining",
+					"name": "Dining"
+				  },
+				  {
+					"code": "flight",
+					"name": "Flights"
+				  },
+				  {
+					"code": "gift",
+					"name": "Gifts"
+				  },
+				  {
+					"code": "hotel",
+					"name": "Hotels"
+				  },
+				  {
+					"code": "shorex",
+					"name": "Shorex"
+				  },
+				  {
+					"code": "spa",
+					"name": "Spa"
+				  },
+				  {
+					"code": "transfer",
+					"name": "Transfers"
+				  }
+				]
+			  },
+			  {
+				"code": "eventStatus",
+				"name": "Event Status",
+				"multiSelect": false,
+				"visible": true,
+				"values": [
+				  {
+					"code": "purchased",
+					"name": "Purchased"
+				  },
+				  {
+					"code": "waitlisted",
+					"name": "Waitlisted"
+				  }
+				]
+			  }
+			]
+		  },
+		  "meta": {
+			"render": "dynamic"
+		  }
+		},
+		{
+		  "type": "calendarEvent",
+		  "id": "1528911144677",
+		  "attributes": {
+			"labels": {
+			  "guestsNumberLabel": "{guests} Guests",
+			  "purchasedByLabel": "Purchased by:",
+				"durationDaysLabel": "{duration} Days",
+				"durationHoursLabel":"{duration} Hours",
+				"hotelNightsLabel":"{duration} Nights",
+				"noTimeInfoLabel": "No time info",
+				"giftLabel":"GIFT",
+				"flightsTBC":"FlightsTBC",
+				"hotelLabel":"HOTEL",
+				"transferLabel":"TRANSFER",
+				"landtourLabel":"LAND TOUR",
+				"landtourDurationLabel":"Day {day}"
+			}
+		  },
+		  "meta": {
+			"render": "dynamic"
+		  }
+		},
+		{
+		  "type": "calendarEmptyState",
+		  "id": "1528911144677",
+		  "attributes": {
+			
+
+			"labels": {
+			  "ofLabel": "OF",
+			  "titleLabel": "There currently are no items in this day",
+			  "subtitleLabel": "Search or explore to start adding some.",
+			  "ctaLabel": "See all shore excursions"
+			},
+			"sea": {
+			  "slider": [
+				{
+				  "titleLabel": "dining",
+				  "subtitleLabel": "vnrebnjt dining",
+				  "slideCta": {
+					"label": "dining cta",
+					"url": "/content/communities/sitesettingsnav.html",
+					"isExternal": false
+				  },
+				  "image": {
+					"alt": "C039Desktop",
+					"0": {
+					  "1x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.375.281.low.jpg",
+					  "2x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.750.563.low.jpg",
+					  "aspectRatio": 1.3321492007104796
+					},
+					"376": {
+					  "1x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.1024.768.medium.jpg",
+					  "2x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.2048.1536.medium.jpg",
+					  "aspectRatio": 1.3333333333333333
+					},
+					"769": {
+					  "1x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.1440.523.high.jpg",
+					  "2x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.2880.1047.high.jpg",
+					  "aspectRatio": 2.7507163323782233
+					}
+				  }
+				},
+				{
+				  "titleLabel": "spa",
+				  "subtitleLabel": "spa subtitle",
+				  "slideCta": {
+					"label": "spa cta",
+					"url": "/content/campaigns.html",
+					"isExternal": false
+				  },
+				  "image": {
+					"alt": "C039Desktop",
+					"0": {
+					  "1x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.375.281.low.jpg",
+					  "2x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.750.563.low.jpg",
+					  "aspectRatio": 1.3321492007104796
+					},
+					"376": {
+					  "1x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.1024.768.medium.jpg",
+					  "2x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.2048.1536.medium.jpg",
+					  "aspectRatio": 1.3333333333333333
+					},
+					"769": {
+					  "1x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.1440.523.high.jpg",
+					  "2x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.2880.1047.high.jpg",
+					  "aspectRatio": 2.7507163323782233
+					}
+				  }
+				},
+				{
+				  "titleLabel": "gifts",
+				  "subtitleLabel": "gifts subtitle",
+				  "slideCta": {
+					"label": "gifts cta",
+					"url": "/content/projects.html",
+					"isExternal": false
+				  },
+				  "image": {
+					"alt": "C039Desktop",
+					"0": {
+					  "1x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.375.281.low.jpg",
+					  "2x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.750.563.low.jpg",
+					  "aspectRatio": 1.3321492007104796
+					},
+					"376": {
+					  "1x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.1024.768.medium.jpg",
+					  "2x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.2048.1536.medium.jpg",
+					  "aspectRatio": 1.3333333333333333
+					},
+					"769": {
+					  "1x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.1440.523.high.jpg",
+					  "2x": "/content/geometrixx-outdoors/en/men/coats/edmonton-winter.image.2880.1047.high.jpg",
+					  "aspectRatio": 2.7507163323782233
+					}
+				  }
+				}
+			  ]
+			}
+		  },
+		  "meta": {
+			"render": "dynamic"
+		  }
+		},
+		{
+		  "type": "bookedActivities",
+		  "id": "1528911144677",
+		  "attributes": {
+			"labels": {
+			  "titleLabel": "Your booked activities"
+			}
+		  },
+		  "meta": {
+			"render": "dynamic"
+		  }
+		}
+	  ],
+	  "title": "Calendar",
+	  "labels": {
+		"monthViewBtnLabel": "month",
+		"weekViewBtnLabel": "week",
+		"flightsBoxLabel": "You have flight which are not confirmed yet.",
+		"dayViewBtnLabel": "day",
+		"cruiseNameLabel":"{duration} Day {destination}",
+		"cruiseSummaryLabel":"{EMBdayOfWeek} {EMBmonth} {EMBdayOfMonth} {EMByear} - {DEBdayOfWeek} {DEBmonth} {DEBdayOfMonth} {DEByear} - {guestsNumber} Guests",
+		"ctaLabel": "See all products in my orders"
+	},
+		"airportServletUrl":"/services/airports",
+		"landtourServletUrl":"/services/{LAND_TOURS_CODE}.info.json"
+	},
+	"meta": {
+	  "render": "dynamic"
+	},
+	"services": {
+	  "urls": {
+		"calendarApi":"/services/calendar.json"
+		},
+	  "headers": {
+		"brand": "po",
+		"locale": "en_GB",
+		"country": "GB"
+	  }
+	}
+  }

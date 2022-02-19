@@ -1,0 +1,289 @@
+.wrapper {
+    margin-top: 181px;
+}
+.entertainmentConfigPage-tile-container {
+    margin-top: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+    & .eventLocation {
+        h2 {
+            font-size: 24px;
+        }
+    }
+    & .guestsList {
+        & ul {
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+
+            & li {
+
+                margin-right: 80px;
+
+                & input[type='radio'] {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    & .spa-duration-container {
+        /* & h2 {
+            font-weight: 600;
+        }
+
+        & .tooltip__icon {
+            @mixin tooltip;
+            position: unset;
+            margin-left: 10px;
+            & .tooltip__dd {
+                top: 44px;
+                left: 10px;
+            }
+        } */
+
+        & .cta-button-yes {
+            text-decoration: auto;
+            font-size: 16px;
+            padding: 12px 40px;
+            text-decoration: none;
+        }
+
+        & .cta-button-no {
+            text-decoration: auto;
+            font-size: 16px;
+            padding: 12px 40px;
+            text-decoration: none;
+        }
+
+        & .cta-button-yes-active {      
+            font-size: 16px;
+            padding: 12px 40px;
+        }
+        & .cta-button-no-active {
+            font-size: 16px;
+            padding: 12px 40px;
+        }
+        & ul {
+            display: flex;
+            flex-direction: row;
+            max-width: 100%;
+
+            & li {
+                & input[type='radio'] {
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    & .wheelChair-container {
+        
+        & .tooltip__icon {
+            @mixin tooltip;
+            position: unset;
+            margin-left: 10px;
+            & .tooltip__dd {
+                top: 44px;
+                left: 10px;
+            }
+
+        }
+    }
+
+    & .spa-date-container {
+        & h3 {
+        }
+
+        & .calendarViewDay {
+            margin-top: 35px;
+            & .calendar__day {
+                height: 100px;
+                width: 100px;
+            }
+
+            & .calendar__dayLabel {
+                margin-top: 5px;
+                font-size: 24px;
+            }
+
+            & .nav_prev,
+            & .nav_next {
+                width: 20px;
+            }
+        }
+    }
+
+    & .selectTime-wrapper {
+        /* background-color: var(--color-secondary6); */
+        /* margin-top: 35px;
+        padding: 45px; */
+        & .heading {
+            display: flex;
+            margin-bottom: 24px;
+            flex-direction: row;
+
+            & .dateSection {
+                display: flex;
+                color: var(--color-primary3);
+                align-items: baseline;
+
+                & .select_time_label {
+                    @mixin style-h4;
+                    margin-right: 5px;
+                    font-family: var(--font-h5);
+                    font-size: 24px;
+                }
+
+                & span:last-child {
+                    margin-left: 5px;
+                    font-size: 20px;
+                }
+            }
+            & .bestPrice {
+                margin-left: auto;
+                font-size: 16px;
+            }
+        }
+
+        & .details {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            & .left-section {
+                width: 15%;
+            }
+            & .right-section {
+                padding-top: 0px;
+                /* padding-bottom: 32px; */
+                width: 85%;
+                border-bottom: 1px solid #a6b4cf;
+
+                & a {
+                    margin: 24px;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                    min-width: 110px;
+                    padding: 10px 15px;
+                    background-color: #ffffff;
+                    border: 1px solid #a6b4cf;
+                    box-sizing: border-box;
+                    border-radius: 10px;
+                    display: inline-flex;
+                    flex-direction: column;
+                    text-align: center;
+                    text-decoration: none;
+                    justify-content: space-between;
+                    & .time_container {
+                        color: var(--color-secondary4);
+                        line-height: 1.25;
+                        
+                    }
+
+                    & .price_container {
+                        color: var(--color-primary5);
+                        font-size: 14px;
+                        line-height: 1.25;
+                    }
+
+                    & .bestPrice {
+                        color: var(--color-primary2);
+                    }
+
+                    &:hover,
+                    :focus {
+                        background-color: var(--color-secondary1);
+                        color: #ffffff !important;
+                        & .time_container {
+                            color: var(--color-primary1);
+                            font-size: 15px;
+                            line-height: 1.25;
+                        }
+
+                        & .price_container {
+                            color: var(--color-primary1);
+                            font-size: 14px;
+                            line-height: 1.25;
+                        }
+
+                        & .bestPrice {
+                            color: var(--color-primary2);
+                        }
+                    }
+
+                    &:visited {
+                        color: var(--color-primary3);
+                    }
+                    &:first-child {
+                        /* margin-left: 0; */
+                    }
+                }
+                & .timeslot-with-date {
+                    & a {
+                        margin-bottom: 0;
+                    }
+                    & .calendarDay___details {
+                        padding-right: 24px;
+                        margin-top: 5px;
+                        margin-bottom: 24px;
+                        & .calendarDay___status {
+                            flex-grow: 1;
+                            width: 0;
+                        }
+                    }
+                }
+
+                & .active {
+                    background-color: var(--color-secondary1);
+                    color: #ffffff !important;
+
+                    & .time_container {
+                        color: var(--color-primary1);
+                        font-size: 15px;
+                        line-height: 1.25;
+                    }
+
+                    & .price_container {
+                        color: var(--color-primary1);
+                        font-size: 14px;
+                        line-height: 1.25;
+                    }
+
+                    & .bestPrice {
+                        color: #ffffff;
+                    }
+                }
+            }
+
+            &:last-child {
+                & .right-section {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.calendar__dayList {
+    & .calendar__day {
+        & .calendar__dayWrapper {
+            & .calendar__monthLabel {
+                font-size: 16px;
+            }
+            & .calendar__dayLabel {
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+.soldout-container {
+    & .soldout-message {
+        margin-top: 2%;
+    }
+}
+

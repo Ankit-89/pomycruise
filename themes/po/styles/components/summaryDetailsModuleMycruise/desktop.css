@@ -1,0 +1,6 @@
+.payment-summary {
+    & .payment-summary-total .value {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}

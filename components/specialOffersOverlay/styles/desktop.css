@@ -1,0 +1,28 @@
+.offers-content-block {
+    width: 70%;
+    & img {
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+    & .cta-link {
+        padding: 18px 42px;
+    }
+    & p {
+        margin-bottom: 50px;
+    }
+    & .offers-overlay-container {
+        margin-bottom: 0;
+        padding-bottom: 25px;
+    }
+    & h4 {
+        margin: 5px 0 10px 0;
+    }
+}
+.special-offers-overlay {
+    height: 100%;
+    top: 0;
+    & footer {
+        height: 12px;
+        padding: 26px 13px 0 13px;
+    }
+}

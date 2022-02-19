@@ -1,0 +1,37 @@
+{
+	"type": "summaryAccordion",
+	"id": "1511434494728",
+	"attributes": {
+			"shipInfoServlet": "/services/dining",
+			"deckInfoServlet": "https://www.aem-qa.pocruises.com/content/po/master_website/en_GB/mycruise/cruise-ships",
+			"labels": {
+					"viewLessLabel": "View Less",
+					"viewMoreLabel": "View More",
+					"guestsLabel": "Guests:",
+					"deckLabel": "deck:",
+					"cabinLabel": "cabin:",
+					"dimensionsLabel": "dimensions:",
+					"bedLabel": "Bed configuration:",
+					"servicesLabel": "Complimentary services:",
+					"includedServicesLabel": "Included services",
+					"deckPlanLabel": "Deck Plan",
+					"sectionLabel": "Section",
+					"deckInternalLabel": "deck:",
+					"yourCabinLabel": "Your cabin number is",
+					"deckTitleLabel": "Your current cabin location"
+			}
+	},
+"services": {
+	"urls": {
+		"mycruiseSummaryApi": "https://dev.api.mycruise-temp.com/mc-cruise-summary/v1"
+	},
+	"headers": {
+		"brand": "po",
+		"locale": "en_GB",
+		"country": "US"
+	}
+},
+	"meta": {
+			"render": "dynamic"
+	}
+}

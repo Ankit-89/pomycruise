@@ -1,0 +1,66 @@
+{
+    "type": "flightsInfo",
+    "id": "",
+    "attributes": {
+        "labels": {
+            "detailsLabel":"Details",
+            "from": "From",
+            "toLabel": "to",
+            "flightLabel": "Flight",
+            "seatLabel": "Seat: ",
+            "outbound": "outbound",
+            "inbound": "inbound",
+            "requestedMealLabel": "Requested meal: ",
+            "airlineRefLabel": "Airline ref: ",
+            "ticketNumberLabel": "Ticket n°: ",
+            "inboundFlight": "Inbound Flight",
+            "outboundFlight": "Outbound Flight",
+            "charterScheduledCS": "Charter Scheduled",
+            "standardScheduledSS": "Standard Scheduled",
+            "guaranteedScheduledCG": "Guaranteed Scheduled",
+            "charterUnscheduledCU": "Charter Unscheduled",
+            "flightYCukDetailsNotAvailableTitle": "title",
+            "flightYCukDetailsNotAvailable": "Text to inform the customer that flights will be provided as part of his holiday but details are not yet available.",
+            "flightYShNotCukNotInformedCUKTitle": "title",
+            "flightYShNotCukNotInformedCUK": "Text to inform the customer that flights have been arranged by another provider and to contact that provider for details or queries",
+            "flightYNotCukNotInformedCUKTitle": "title",
+            "flightYNotCukNotInformedCUK": "Text to inform the customer that the he needs to book flights for his holiday.",
+            "flightNNotCUKNotInformedCUKTitle": "title",
+            "flightNNotCUKNotInformedCUK": "Text to advise the customers to check that any flights he has arranged enable him to meet/leave the ship in good time.",
+            "flightYNotCUKInformedCUKTitle": "title",
+            "flightYNotCUKInformedCUK": "Text to inform the customer that flights have been arranged by another provider and to contact that provider for details or queries.",
+            "flightNNotCUKInformedCUKTitle": "title",
+            "flightNNotCUKInformedCUK": " Text to inform the customer that flights have been arranged by another provider and to contact that provider for details or queries.",
+            "operatorType": "Operated by: "
+
+        },
+        "childComponents": [
+            {
+                "type": "emptyState",
+                "id": "1526299478744",
+                "attributes": {
+                    "title": "Flights information is currently not available",
+                    "description":
+                        "Flights information is currently not available, please try later."
+                },
+                "meta": {
+                    "render": "dynamic"
+                }
+            }
+        ],
+        "airportServletUrl": "/services/ports.airports"
+    },
+    "services": {
+        "urls": {
+            "flightsApi": "https://dev.api.mycruise-temp.com:443/mc-flight-details/v1/flights"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_US",
+            "country": "US"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

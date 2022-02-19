@@ -1,0 +1,38 @@
+.simpleText {
+    & .simple-textAux {
+        @mixin grid-wrap;
+        padding: 30px;
+        text-align: center;
+    }
+    & .simple-textAux {
+        @mixin grid-wrap;
+    }
+    & .simple-text-title {
+        margin-bottom: 15px;
+        &:before {
+            font-family: var(--font-icomoon);
+            display: block;
+            font-size: 40px;
+            vertical-align: middle;
+            margin: 0 auto 6px;
+            height: 40px;
+            line-height: 40px;
+        }
+    }
+    & .simple-text-body-text-small {
+        &:before {
+            font-family: var(--font-icomoon);
+            display: block;
+            font-size: 26px;
+            vertical-align: middle;
+            margin: 0 auto 6px;
+            height: 30px;
+            line-height: 30px;
+        }
+    }
+    & .simple-text-body-text {
+        margin: 0 auto 30px;
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,5 @@
+.editorialInformation {
+    & .content-description {
+        padding: 60px 80px;
+    }
+}

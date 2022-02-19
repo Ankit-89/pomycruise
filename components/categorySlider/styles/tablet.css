@@ -1,0 +1,50 @@
+.allPorts {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    width: auto;
+    padding: 0;
+    margin-right: 0;
+    & .allPorts-btn.active:after {
+        position: relative;
+        display: inline-block;
+        right: 0;
+        margin-left: 10px;
+    }
+
+}
+
+.category-slider {
+    & .category-sliderContainer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+    }
+    
+}
+.jumpToPort {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    width: auto;
+    padding: 0;
+    margin-left: 10px;
+    /* & .jumpToPort-btn {
+        padding: 0 30px;
+    } */
+}
+.ports-carousel {
+    width: 100%;
+}
+
+.port-list-link {
+    padding: 25px;
+}
+.port-item-wrapper {
+    & .port-item::before {
+        right: 35px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+}    

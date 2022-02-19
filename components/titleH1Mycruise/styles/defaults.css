@@ -1,0 +1,61 @@
+.react-component.titleH1Mycruise {
+    margin-bottom: 0px;
+}
+
+.title-component {
+    width: 100%;
+    clear: both;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+    & .description {
+        margin-top: 0;
+    }
+    & .title + .description {
+        margin-top: 15px;
+    }    
+    & .inner-container {
+        lost-utility: clearfix;
+        padding: 0 20px;
+    }
+    & .title {
+        text-align: center;
+        font-weight: normal;
+    }
+    & p {
+        text-align: center;
+    }
+    & .icon-heading {
+        display: inline-block;
+        width: 58px;
+        height: 42px;
+        margin: 0 auto 6px;
+        &:after {
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+    & .title-decorator {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        clear: both;
+        display: none;
+    }
+    & .title-decorator-image {
+        display: block;
+        width: 88px;
+        height: 8px;
+        margin: 0 auto;
+        text-align: center;
+        clear: both;
+        margin-bottom: 10px;
+    }
+}
+
+.titleH1 {
+    & .react-component {
+        margin: 0;
+    }
+}

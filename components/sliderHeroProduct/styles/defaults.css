@@ -1,0 +1,300 @@
+.slider-hero-product {
+    margin-bottom: 100px;
+    padding-bottom: 60px;
+    & .tileH1-section {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    & .slick-slide {
+        /* padding: 0 10px; */
+        box-sizing: border-box;
+        position: relative;
+    }
+    & .top-banner {
+        position: absolute;
+        padding: 5px 15px;
+        left: 20px;
+        top: 20px;
+        z-index: 1;
+    }
+    & .slick-dots {
+        position: absolute;
+        bottom: -45px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        left: 50%;
+        transform: translateX(calc(-50%));
+        & li {
+            float: left;
+            list-style: none;
+            margin-right: 10px;
+            cursor: pointer;
+            height: 15px;
+        }
+        & li.slick-active button {
+            background: var(--color-secondary5);
+        }
+        & li:last-child {
+            margin-right: 0;
+        }
+        & button {
+            font-size: 0;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            background: white;
+            border: 1px solid var(--color-secondary5);
+        }
+        & button:before {
+            content: none;
+        }
+    }
+    & .tile-holder {
+        box-sizing: border-box;
+    }
+    & .content {
+        text-align: center;
+    }
+    & .theTile {
+        max-width: 1440px;
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    & .tile-holder {
+        max-width: 1440px;
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    & .tile-holder:last-of-type {
+        padding-bottom: 0;
+    }
+    & .tileGrid {
+        display: block;
+    }
+    & .content .spacing-container {
+        padding: 25px 20px 0;
+        margin-bottom: 30px;
+    }
+    & .tile-holder:last-of-type .terms-link {
+        margin-bottom: 0;
+    }
+    & .image-holder {
+        width: 100%;
+        line-height: 0;
+    }
+    & .image-holder img {
+        width: 100%;
+    }
+    & .type {
+        position: relative;
+        vertical-align: top;
+        margin-bottom: 15px;
+        display: inline-block;
+        &:before {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 10px;
+        }
+    }
+
+    & .title h3 {
+        margin: 0;
+    }
+    & .text-holder {
+        margin-bottom: 35px;
+    }
+    & .description-block,
+    & .quote-details {
+        margin-bottom: 15px;
+    }
+    & .quote-details {
+        width: 70%;
+        margin: 0 auto;
+    }
+    & .icon-holder .gridIcon {
+        height: 7px;
+        margin-bottom: 24px;
+        display: inline-block;
+        width: 155px;
+    }
+    & .subtitle:before,
+    & .subtitle:after,
+    & .gridIcon:before,
+    & .gridIcon:after {
+        content: ' ';
+        display: inline-block;
+        width: 45px;
+        height: 10px;
+        margin: 0 12px;
+    }
+    & a,
+    & button {
+        display: inline-block;
+    }
+    & button {
+        cursor: pointer;
+        padding: 0;
+    }
+    & .video-icon {
+        height: 45px;
+        width: 45px;
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+    & .cta-holder {
+        margin-top: 40px;
+    }
+    & .cta-content {
+        display: flex;
+        justify-content: space-around;
+    }
+    & .carousel-link {
+        margin-top: 24px;
+    }
+    & .cta-icon-group {
+        margin-top: 10px;
+        direction: ltr;
+    }
+    & .carousel-modal {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        z-index: 10;
+        direction: ltr;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+    }
+    & .carousel-modal .carousel-close {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+    & .carousel-close button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    & .carousel-close button:after {
+        content: '';
+        margin-left: 10px;
+        height: 20px;
+        width: 20px;
+        margin-bottom: 3px;
+        display: block;
+    }
+    & .carousel-modal .carousel-holder {
+        height: 100%;
+        padding-top: 27.5px;
+        box-sizing: border-box;
+    }
+    & .cta-icon-group button {
+        cursor: pointer;
+    }
+    & .terms-link {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    & .icons-list {
+        margin-bottom: 30px;
+    }
+    & .icons-list-item {
+        list-style: none;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 40px;
+        width: 50px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    & .icons-list-label {
+        display: block;
+        vertical-align: middle;
+    }
+    & .icons-list-icon {
+        vertical-align: middle;
+        display: inline-block;
+        margin-bottom: 10px;
+        width: 30px;
+        height: 30px;
+        &:after {
+            font-family: var(--font-icomoon);
+            display: inline-block;
+        }
+    }
+    & .title-component {
+        margin-bottom: 0;
+    }
+}
+
+.hero-product-wrapper {
+    & .content-holder {
+        border: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 2px solid #F2F0E8;
+        border-top: none;
+        padding: 20px;
+        padding-top: 70px;
+    }
+    & .dining-card .type {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* & .title-container {
+        min-height: auto;
+    } */
+    & .shorex-card-price {
+        float: none;
+    }
+    & .shorex-card-date {
+        display: none;
+    }
+}
+.sliderHeroProduct {
+    & .spaComponent {
+        display: block;
+    }
+    & .spaCard__duration {
+        padding-bottom: 20px;
+        display: block;
+        &:before {
+            font-family: var(--font-icomoon);
+            display: inline;
+            font-size: 20px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    }
+    & .shorex-card-port {
+        @mixin style-h5;
+    }
+    & .dining-card-container,
+    & .shorex-card-container {
+        & .content-holder {
+            border: none;
+            padding: 50px 30px;
+        }
+        & .bottom-block {
+            min-height: auto;
+        }
+       
+    }
+    & .dining-card-container{
+        & .title-container {
+            margin-top: 20px;
+        }
+    }
+    
+}

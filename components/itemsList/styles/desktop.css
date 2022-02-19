@@ -1,0 +1,22 @@
+.itemsList {
+    & .itemsList__list {
+        column-count: 3;
+        -webkit-column-break-inside: avoid; /* Chrome, Safari */
+        page-break-inside: avoid;           /* Theoretically FF 20+ */
+        break-inside: avoid-column;         /* IE 11 */
+        column-gap: 45px;
+    }
+    & .itemsList__item {
+        display: inline-block;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        position: relative;
+        &:before {
+            display: block;
+            position: absolute;
+            font-family: var(--font-icomoon);
+            top: 4px;
+            left: 0;
+        }
+    }
+}

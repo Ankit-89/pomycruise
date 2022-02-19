@@ -1,0 +1,6 @@
+.entertainmentContainer {
+    /* height: 621px; */
+    & .eventBack {
+        top: 35%;
+    }
+}

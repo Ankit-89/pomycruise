@@ -1,0 +1,18 @@
+.article--title_paragraph {
+    @mixin style-body1;
+    border-bottom: 1px solid var(--color-secondary6);
+    & ul li:before {
+        content: "\e902";
+        font-size: 8px;
+        transform: rotate(-90deg);
+        color: var(--color-secondary1);
+    }
+    & a {
+        color: var(--color-primary3);
+        text-transform: none;
+        font-family: var(--font-semibold);
+    }
+    h2 {
+        margin-bottom: 12px;
+    }
+}

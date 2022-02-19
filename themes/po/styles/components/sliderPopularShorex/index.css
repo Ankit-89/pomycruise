@@ -1,0 +1,6 @@
+@import '../commons/emptyState/index.css';
+@import '../shorexCard/index.css';
+@import '../../../../../components/sliderPopularShorex/styles/index.css';
+@import 'defaults.css';
+@import 'tablet.css' ( --tablet );
+@import 'desktop.css' ( --desktop );

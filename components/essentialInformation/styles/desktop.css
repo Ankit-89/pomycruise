@@ -1,0 +1,8 @@
+.simple-text {
+    & .simple-textAux {
+        padding: 60px;
+    }
+    & .simple-text-body-text {
+        width: 70%;
+    }
+}

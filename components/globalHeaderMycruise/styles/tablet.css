@@ -1,0 +1,79 @@
+
+.global-header-container {
+    height: 85px;
+    & .nav-toggle-btn {
+        height: 40px;
+        width: 100px;
+    }
+    & .nav-toggle-btn .toggle-btn {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    & .nav-toggle-btn .cart {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 20px;
+    }
+    & .popup__cta {
+        display: block;
+    }
+    & .popup__cta__spa {
+        display: block;
+
+        & .cta-primary {
+            margin-bottom: 0px;
+            margin-right: 10px;
+        }
+    }
+    & .popup {
+        right: 35px;
+        width: 530px;
+        top: 60px;
+        padding: 55px;
+    }
+    & .popup__price {
+        margin: 30px 50px 0;
+    }
+    & .popup__close {
+        display: none;
+    }
+    & .main-nav-container {
+        padding-top: 90px;
+    }
+}
+
+.model_body_session {
+    & h1 {
+        font-size: 40px;
+		line-height: 47px;
+    }
+    & p {
+        font-size: 18px;
+		line-height: 26px;
+    }
+}
+
+.session-modal-dialog {
+    margin-top: 30%;
+    padding-top: 15px;
+    min-height: 270px;
+    width: 70%;
+}
+
+.modal-btns_session .cta-button-outline {
+    width: 65%;
+    margin-top: 10px;
+}
+
+.modal-btns_session{
+& .cta-primary{
+	margin: 10px;
+    width: 70%;
+    line-height: 3.125rem;
+    height: 50px;
+    border-radius: 15px;
+	padding: 0px 50px;
+}
+}

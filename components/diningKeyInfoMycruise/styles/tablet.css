@@ -1,0 +1,74 @@
+.dining-key-info {
+    padding-bottom: 0;
+    & .infocard {
+        padding: 40px 40px 0;
+        lost-utility: clearfix;
+    }
+    & .infocard-back {
+        line-height: 50px;
+    }
+    & .ht-background {
+        min-height: 260px;
+    }
+    & .key-facts {
+        margin-bottom: 34px;
+    }
+    & .desc ~ .cta-holder {
+        margin-top: 56px;
+    }
+    & .cta-holder a {
+        @mixin cta-primary;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    & .key-list {
+        margin-top: 37px;
+    }
+
+    & .dining-close {
+        display: none;
+    }
+    & .infocard {
+        & .dining-variant-tooltip {
+            text-align: left;
+            position: absolute;
+            top: 55px;
+            left: -20px;
+            max-width: 350px;
+            min-width: 250px;
+            height: auto;
+            padding: 30px;
+            width: auto;
+            &:before {
+                content: '';
+                position: absolute;
+                top: -20px;
+                left: 10px;
+                content: '';
+                width: 45px;
+                height: 45px;
+                position: absolute;
+                top: -6px;
+                display: block;
+                transform: rotate(-45deg);
+            }
+        }
+        & .dining-variant-tooltip p {
+            position: relative;
+        }
+    }
+    & .infocard .subtitle {
+        margin-bottom: 0;
+        display: inline-block;
+    }
+    & .infocard ul.subtitle li {
+        display: inline-block;
+    }
+    & .infocard .subtitle-availability {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    & .infocard .subtitle-ageRestricted {
+        display: inline-block;
+    }
+}

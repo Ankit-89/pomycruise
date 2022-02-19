@@ -1,0 +1,29 @@
+{
+	"type": "confirmationHeroMycruise",
+	"id": "1510906221628",
+	"attributes": {
+		"labels": {
+			"bookingConfirmationMsg": "Thank you for choosing P&O",
+			"confirmationNumber": "Order number",
+			"bookingConfirmationEmail": "Booking Confirmation email has been sent to <b>{emailAddress}</b>"
+		},
+		"image": {
+			"alt": "C039Desktop",
+			"0": {
+				"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+				"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+			},
+			"376": {
+				"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+				"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+			},
+			"769": {
+				"1x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg",
+				"2x": "http://bitcarnival.s3.amazonaws.com/pno/img/canvas/santorini.jpg"
+			}
+		}
+	},
+	"meta": {
+		"render": "dynamic"
+	}
+}

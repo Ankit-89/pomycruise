@@ -1,0 +1,8 @@
+.log-in-container {
+    & .login-wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+

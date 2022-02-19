@@ -1,0 +1,251 @@
+
+.log-in-container {
+    position: relative;
+    @mixin grid-wrap;
+
+    & .login-image {
+        display: none;
+    }
+    & .title-component h2 {
+        margin-bottom: 10px;
+    }
+
+    & .checkbox-label {
+        display: none;
+    }
+    & .input-text {
+        padding: 18px 15px 18px 15px;
+        display: block;
+        width: 90%;
+    }
+    & .input-email {
+        padding: 18px 15px 18px 15px;
+        display: block;
+        width: 90%;
+    }
+    & select::-ms-expand {
+        display: none;
+    }
+    & .submit-wrap {
+        clear: both;
+        text-align: center;
+    }
+    & .login-button {
+        padding: 20px 60px 20px 60px;
+        cursor: pointer;
+        margin-top: 20px;
+        min-width: 160px;
+    }
+    & .input-active {
+        display: block;
+    }
+    & .input-label {
+        display: block;
+        padding: 0;
+        display: none;
+    }
+    & .input-label.show {
+        display: block;
+        clear: both;
+    }
+    & .error-label {
+        visibility: hidden;
+        display: none;
+    }
+    & .error-label.show {
+        visibility: visible;
+        display: block;
+    }
+    & .error-label.show {
+        float: left;
+        padding-left: 2.75rem;
+        margin-top: -1.9rem;
+    }
+    & select {
+        width: 100%;
+    }
+    & .input-checkbox {
+        display: inline-block;
+    }
+    & .tnc-wrap {
+        @mixin checkbox-group;
+        clear: both;
+    }
+    & .input-check {
+        width: 25px;
+        height: 25px;
+        box-sizing: border-box;
+        border: 1px solid var(--color-secondary5);
+        appearance: none;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    & .input-check:checked {
+        background: var(--color-primary3) url(~postbooking-theme/images/check.svg) no-repeat center center;
+        background-size: 18px;
+    }
+    & .tnc {
+        display: inline-block;
+        padding-left: 10px;
+        @mixin style-body3;
+        color: var(--color-primary3);
+        text-decoration: underline;
+        font-family: 'PraxisCom-Semibold';
+    }
+    & .faild-message {
+        margin-top: 40px;
+        vertical-align: top;
+        padding-left: 35px;
+        position: relative;
+        &:before {
+            font-family: var(--font-icomoon);
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: top;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    & .faild-message.hide {
+        display: none;
+    }
+    & .privacy-wrap {
+        /* width: 100%; */
+        clear: both;
+    }
+    & .privacy-wrap p {
+        width: auto;
+        float: none;
+    }
+    & .error-label.show {
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+    }
+    & .success-wrap {
+        &.hide {
+            display: none;
+        }
+    }
+    & .privacy-wrap {
+        margin-top: 20px;
+        text-align: center;
+        padding-right: 20px;
+    }
+    & .input-email {
+        margin-bottom: 10px;
+    }
+    & .error-wrap.show-label {
+        display: block;
+    }
+    & .error-holder ul {
+        padding-left: 18px;
+    }
+    & .tnc {
+        padding-left: 0;
+    }
+    & .login-wrapper .description {
+        padding-top: 10px;
+    }
+    & .login-wrapper .form-has-error .error-msg.show-msg {
+	display: none;
+    }
+    /*bithdate*/
+    & .bithdate {
+        margin-top: 35px;
+    }
+
+    & .select-group.select-day {
+        width: calc(28% - 10px);
+    }
+    & .select-group.select-month {
+        width: calc(40% - 10px);
+    }
+    & .select-group.select-year {
+        width: 32%;
+        margin-right: 0;
+    }
+
+    & .birthdate-title {
+        margin-bottom: 15px;
+    }
+
+    & .bithdate .select-group {
+        display: inline-block;
+        margin-right: 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    & .bithdate .select-group:last-child {
+        margin-right: 0;
+    }
+    & .common-input-group {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/*Clear auto contacts symbol in safari*/
+
+.log-in-container {
+    & input::-webkit-contacts-auto-fill-button {
+        visibility: hidden;
+        display: none;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+    }
+}
+
+
+/*Clear x symbol in IE*/
+
+.log-in-container {
+    & input::-ms-clear {
+        display: none;
+    }
+}
+
+.privacy-cookie-container{
+    display: inline-flex;
+}
+
+.aria-modal {
+    min-height: auto;
+    width: auto;
+
+    &.close{
+        &:after{
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.faild-message {
+    vertical-align: top;
+    padding: 0px 0px 35px 35px ;
+    position: relative;
+    &:before {
+        content: "\E908";
+        font-size: 1.25rem;
+        color: #e30513;
+        font-family: var(--font-icomoon);
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: top;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+.modal-btns{
+    text-align: center;
+}
+
+.modal-btns .cta-primary{
+    margin: 10px;
+}

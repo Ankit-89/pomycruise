@@ -1,0 +1,29 @@
+.copy-block {
+    font-family: PraxisCom-Regular;
+    @mixin box-sizing;
+    width: 100%;
+    clear: both;
+    lost-utility: clearfix;
+    lost-center: var(--max-width);
+    overflow: hidden;
+    & ul {
+        margin: 0;
+        width: auto;
+    }
+    & p {
+        margin: 0;
+        padding-bottom: 40px;
+    }
+    
+    & .inner-copy-block {
+        lost-column: 1;
+        padding-right: 5px; 
+    }
+
+    & .table-container {
+        overflow-x: scroll; 
+    }
+    & .table-container td {
+        padding: 4px 8px;
+    }
+}

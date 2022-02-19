@@ -1,0 +1,18 @@
+.card-component {
+    //margin: 0 10px 0 10px;
+}
+
+.card-container {
+    & .cta-addToCart a {
+        line-height: 1.125rem;
+    }
+    & .content-holder {
+        padding: 35px 30px 0 40px;
+    }
+    & .image-holder img {
+        display: block;
+        /* height: 433px;
+        width: 292px;
+        min-width: 292px; */
+    }
+}

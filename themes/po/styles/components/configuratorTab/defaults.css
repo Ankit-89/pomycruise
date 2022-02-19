@@ -1,0 +1,76 @@
+.configuratorTab {
+    & .tabs {
+        &:before {
+            background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        }
+        &:after {
+            background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+            background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        }
+    }      
+    &:after {
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    }
+    @mixin style-body1;
+    & .tabs-labels {
+        & a {
+            @mixin cta-secondary;
+            &:before {
+                display: none;
+            }
+        }
+        & a.active:before {
+            display: block;
+            bottom: -10px;
+            height: 2px;
+        }
+    }
+    & .tabs-labels {
+        border-bottom: 1px solid var(--color-secondary6);
+    }
+    & .radio--readOnly {
+        background: var(--color-secondary9);
+    }
+    &  .configurator__info h5{
+        font-size: 20px;
+    }
+    &  .configurator__info h4{
+        font-size: 16px;
+    }
+    & .configurator__par {
+        @mixin style-body3;
+        & a {
+            font-family: var(--font-cta);
+            color: var(--color-primary3);
+            text-decoration: underline;
+        }
+    }
+    & fieldset {
+        @mixin radio-button;
+    }
+    & .section-wrapper .cta-secondary {
+        @mixin cta-secondary-up;
+        font-size: 12px;
+    }
+    & form {
+        & .input-label {
+            @mixin style-body3;
+            color: var(--color-primary5);
+        }
+    }
+    & .configurator__moreInfo {
+        color: var(--color-secondary5);
+    }
+    & .tooltip__icon {
+        color: var(--color-secondary5);
+    }
+    & .image__label {
+        @mixin style-small-text;
+        padding-top: 4px;
+    }     
+}

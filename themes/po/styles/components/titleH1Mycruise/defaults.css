@@ -1,0 +1,24 @@
+.title-component {
+    & p {
+        @mixin style-body1;
+    }
+    & .icon-heading {
+        &:after {
+            content: "\e91c";
+            font-size: 40px;
+            color: var(--color-primary4);
+        }
+    }
+    & .icon-heading:after {
+        content: "\e91c";
+        font-size: 40px;
+        color: var(--color-primary4);
+    }
+    
+    & .title-decorator.divider-text {
+        @mixin style-body1;
+    }
+    & .title {
+        margin: 0;
+    }
+}

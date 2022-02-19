@@ -1,0 +1,12 @@
+.summaryAccordion {
+    & .deckInfo__images {
+        background: none;
+    }
+    & .deckInfo__left {
+        background: var(--color-secondary6);
+        padding: 50px;
+    }
+    & .deckInfo__rightText {
+        border: 6px solid var(--color-secondary6);
+    }
+}

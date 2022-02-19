@@ -1,0 +1,10 @@
+{
+    "type": "notificationBannerClose",
+    "attributes": {
+		"title": "Title",
+        "description": "Description"
+    },
+    "meta": {
+		"render": "dynamic"
+	}
+}

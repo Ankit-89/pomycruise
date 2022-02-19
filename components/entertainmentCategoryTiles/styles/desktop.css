@@ -1,0 +1,17 @@
+.spa-tiles-container {
+    & .tiles-container {
+        margin: auto;
+    }
+
+    & .tile-detail {
+        width: 33.30%;
+    }
+    & .bottom-pagination {
+        display: inline-block;
+    }
+
+    & .pagination {
+        margin-top: 25px;
+    }
+
+}

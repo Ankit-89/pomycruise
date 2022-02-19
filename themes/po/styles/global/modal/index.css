@@ -1,0 +1,7 @@
+@import '../../config/index.css';
+/*@import '../../../../../components/commons/styles/modal/index.css';*/
+
+@import 'defaults.css';
+@import 'mobile-landscape.css' (--mobile-landscape);
+@import 'tablet-portrait.css' (--tablet);
+@import 'desktop.css' (--desktop);

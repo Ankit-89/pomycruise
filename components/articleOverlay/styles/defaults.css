@@ -1,0 +1,60 @@
+.article--overlay {
+    padding: 0;
+    display: block;
+    & .react-component {
+        margin-bottom: 0;
+    }
+    & .aria-modal {
+        padding: 0;
+    }
+    & .aria-modal .modal-close-wrap {
+        height: auto;
+        width: auto;
+        border-bottom: none;
+        left: auto;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+    }
+    & .aria-modal .close {
+        height: 45px;
+        width: 45px;
+        padding: 0;
+        margin:0;
+        border-radius: 50%;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
+    }
+    & .aria-modal .close:after {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0;
+        vertical-align: middle;
+        display: block;
+    }
+    & .aria-modal .close-label {
+        display: none;
+    }
+    & .modal-content {
+        width: 100%;
+    }
+    & .modal-content-wrapper {
+        box-sizing: border-box;
+    }
+    & .modal-footer {
+        padding: 50px;
+        text-align: center;
+    }
+    & .article--title_paragraph {
+        padding: 30px 20px;
+        margin: 0 auto;
+        & ol {
+            padding: 0 20px;
+        }
+    }
+	 & #react-aria-modal-dialog{
+    OVERFLOW-Y: SCROLL;
+    HEIGHT: -webkit-fill-available;
+    display: block;
+	}
+	
+}

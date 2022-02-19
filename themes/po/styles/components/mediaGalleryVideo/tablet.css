@@ -1,0 +1,6 @@
+.gallery-container {
+    & .gallery-carousel-controls {
+        font-size: 16px;
+    }
+}
+

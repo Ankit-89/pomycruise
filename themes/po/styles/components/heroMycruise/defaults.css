@@ -1,0 +1,371 @@
+
+.heroMycruise {
+    margin-top: -55px;
+}
+.hero-container {
+    @mixin box-sizing;
+    & .filter-item {
+        border: none;
+        background: var(--color-primary1);
+    }
+    & h2 {
+        @mixin style-h2;
+        color: var(--color-primary1);
+    }
+    & .slide {
+        min-height: 240px;
+    }
+    & .search-holder {
+        @mixin box-sizing;
+        @mixin grid-wrap;
+        padding: 0;
+    }
+    & .header-rv {
+        background: var(--color-primary3);
+        color: var(--color-primary1);
+    }
+    & .header-rv h3 {
+        @mixin style-h3;
+        color: var(--color-primary1);
+    }
+    /* & .info-card-positioning {
+        background-color: var(--color-primary1);
+        height: auto;
+    } */
+    & .left .info-card {
+        text-align: left;
+
+    }
+    & .hero-slides {
+        background: var(--color-primary1);
+        /* max-width: var(--max-width-full-bleed-image); */
+        margin: auto;
+    }
+    & .price-block .disclaimer-text {
+        max-width: 150px;
+    }
+
+    & .price-block .disclaimer-text a {
+        font-size: 10px;
+        text-transform: none;
+        text-transform: none;
+        border-bottom: none;
+    }
+    & .price-block-tab {
+        display: none;
+    }
+    & .price-block .currency {
+        @mixin style-h4;
+        color: var(--color-primary1);
+    }
+
+    & .price-block .label-two {
+        line-height: 12px;
+        text-align: left;
+        margin-top: 3px;
+    }
+    & .title-description span {
+        display: inline;
+    }
+    & .close {
+        top: 5px;
+    }
+}
+.hero-container .info-card {
+    color: var(--color-primary5);
+    text-align: center;
+    & h2 {
+        font-family: var(--font-h2);
+        font-size: 28px;
+    }
+    & p {
+        @mixin style-body1;
+        font-size: 16px;
+    }
+    & .disclaimer-text p {
+        @mixin style-cta-medium;
+        color: var(--color-secondary2);
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: none;
+        border-bottom: none;
+        font-family: var(--font-body1);
+        font-feature-settings: "lnum" 1;
+    }
+    & .disclaimer-text p a {
+        font-family: var(--font-body1);
+        font-feature-settings: "lnum" 1;
+    }
+    & p.title-description {
+        display: none;        
+    }
+    & a {
+        @mixin style-cta-medium;
+        color: var(--color-secondary2);
+        text-transform: uppercase;
+        text-decoration: none;
+        border-bottom: 1px solid var(--color-secondary2);
+        font-family: var(--font-h5);
+    }
+    & .price-block {
+        padding: 0;
+    }
+    & .slide-cta {
+        @mixin cta-secondary-up;
+        /* font-family: var(--font-cta); */
+        color: var(--color-primary1);
+        &:hover {
+            color: var(--color-primary1);
+        }
+    }
+    & .roundels p,
+    &.no-price .roundels .text-holder p {
+        color: var(--color-primary5);
+        line-height: 1;
+        font-size: 12px;
+    }
+    & .roundels .text-holder .text-regular,
+    & .roundels .text-holder .price,
+    & .roundels .text-holder .text-bold {
+        line-height: 1.1rem;
+        font-size: 12px;
+    }
+}
+
+.hero-container .slide-controls {
+    & .button {
+        background-color: var(--color-primary1);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 1px solid var(--color-primary1);
+    }
+    & .button:before {
+        content: "\e903";
+        color: var(--color-secondary1);
+        font-family: var(--font-icomoon);
+        speak: none;
+        font-size: 22px;
+        line-height: 50px;
+    }
+    & .button.prev-btn:before {
+        transform: rotate(90deg);
+    }
+    & .button.next-btn:before {
+        transform: rotate(-90deg);
+    }
+}
+
+.hero-container .slick-dots {
+    text-align: center;
+    bottom: 40px;
+    & li {
+        border: 1px solid var(--color-primary1);
+        border-radius: 50%;
+    }
+    & li.slick-active {
+        background: var(--color-primary1);
+    }
+    & button {
+        text-indent: 9999px;
+        background: transparent;
+        border: 0px solid var(--color-tertiary1);
+        border: none;
+        border-radius: 50%;
+    }
+}
+
+
+.hero-container .recently-viewed {
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    left: 0;
+    margin-top: 10px;
+    & a {
+        text-decoration: none;
+        color: var(--color-primary3);
+        border-bottom: 1px solid var(--color-primary3);
+        font-size: 12px;
+        padding-top: 16px;
+        line-height: 1.5;
+        border-radius: 0;
+        /* font-family: var(--font-text-regular); */
+    }
+}
+
+.hero-container .info-card .price-section {
+    @mixin style-body2;
+    float: left;
+    padding-top: 17px;
+    padding-left: 25px;    
+    & .heading {
+        font-size: 10px;
+        text-align: center;
+        /* font-family: var(--font-body1-demi); */
+        display: inline-block;
+        width: 35%;
+    }
+    & .amount-section {
+        font-size: 27px;
+        color: var(--color-primary5);
+        display: inline-block;
+        width: 74%;
+    }
+    & .currency {
+        @mixin style-h4;
+        color: var(--color-primary3);
+    }
+    & .amount {
+        color: var(--color-primary3);
+    }
+    & .per-text {
+        color: var(--color-primary5);
+        font-size: 10px;
+        top: 90px;
+        padding-left: 8px;
+    }
+    & .person-text {
+        color: var(--color-primary3);
+        font-size: 10px;
+    }
+    & .tnc {
+        /* font-family: var(--font-body1-demi); */
+        font-size: 10px;
+        text-align: center;
+        color: var(--color-primary6);
+        text-decoration: underline;
+        margin-top: -6px;
+    }
+    & .tnc a {
+        text-transform: none;
+        text-align: center;
+    }
+}
+
+.hero-container .cta-with-price {
+    display: block;
+    text-align: center;
+    font-family: var(--font-body1);
+    font-feature-settings: 'lnum' 1;
+    & .table-cell {
+        padding: 0 25px;
+        border-right: 1px solid var(--color-primary1);
+    }
+    & .table-cell:first-child {
+        padding-left: 0;
+    }
+    & .table-cell:last-child {
+        padding-right: 0;
+        border-right: none;
+    }
+    & .table-cell,
+    & .label,
+    & .price {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    & .label,
+    & .inclusions-text {
+        @mixin style-small-text;
+    }
+    & .price {
+        font-size: 32px;
+        /* font-family: var(--font-h4-demi); */
+        padding: 0 5px;
+    }
+    & .price sup {
+        font-size: 60%;
+        top: -10px;
+    }
+}
+
+.hero-container .hero-slides.price-container {
+    & .slick-dots {
+        top: 56%;
+    }
+}
+
+.hero-container .slide {
+    /* & .info-card-positioning {
+        position: absolute;
+        background: transparent;
+    } */
+    & .no-price-container .info-card-logo {
+        position: relative;
+    }
+    & .no-price-container .info-card-logo.right {
+        position: relative;
+        float: right;
+    }
+    & .no-price-container .info-card-logo.left {
+        position: relative;
+        float: left;
+    }
+    & .info-card.right,
+    & .info-card.left {
+        left: auto;
+        right: auto;
+    }
+    & .info-card.no-price h2,
+    & .info-card.no-price p,
+    & .info-card.no-price a {
+        color: var(--color-primary1);
+    }
+    & .info-card.no-price a {
+        border-bottom: 1px solid var(--color-primary1);
+    }
+    & .info-card p.title-description {
+        display: block;
+        color: var(--color-primary1);
+    }
+    & .info-card.no-price.right {
+        left: auto;
+        right: 0;
+        padding: 25px;
+        text-align: right;
+        clear: both;
+    }
+    & .info-card.no-price.right .detail-section,
+    & .info-card.no-price.right .detail-section .arrow-icon {
+        text-align: right;
+        padding: 0;
+        margin-top: 20px;
+    }
+    & .info-card.no-price.left {
+        left: 0;
+        right: auto;
+        padding: 25px;
+        text-align: left;
+        clear: both;
+    }
+    & .info-card.no-price.left .detail-section,
+    & .info-card.no-price.left .detail-section .arrow-icon {
+        text-align: left;
+        padding: 0;
+    }
+    & .info-card.no-price.center {
+        left: 0;
+        right: 0;
+    }
+}
+.hero-container .info-card.center {
+    float: none;
+    & h2 {
+        display: inline-block;
+    }
+}
+.hero-container.hero-disabled {
+    background: none;
+
+    & .recently-viewed a {
+        color: var(--color-secondary2);
+    }
+}
+
+.heroMycruise {
+    & .hero-container .slide .info-card.no-price a {
+        border-bottom: none;
+    }
+}

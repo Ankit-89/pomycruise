@@ -1,0 +1,5 @@
+.global-header-container {
+    & .main-nav-link {
+        font-size: 18px;
+    }
+}

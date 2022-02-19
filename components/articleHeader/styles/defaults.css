@@ -1,0 +1,6 @@
+.article-header {
+    padding: 40px 12px 35px;
+    & img {
+        display: none;
+    }
+}

@@ -1,0 +1,143 @@
+.filter-sort-bar-container {
+    & .content-wrapper {
+        padding: 15px 10px;
+    }
+
+    & .results-count,
+    & .filters-container {
+        height: 50px;
+        line-height: 50px;
+
+    }
+    & .results-count {
+        padding: 0 20px 0 0;
+    }
+    & .filters-container {
+        float: right;
+        position: relative;
+        right: 0;
+        top: inherit;
+
+    }
+
+    /* sort by dropdown styles */
+
+    & .sort-dropdown {
+        clear: none;
+        float: left;
+        width: auto;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        & .dropdown-toggle {
+            line-height: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+        & .custom-dropdown-wrapper {
+            margin-left: -1px;
+            height: 50px;
+        }
+        & .custom-dropdown-wrapper.open {
+            z-index: 9;
+        }
+
+        & .dropdown-label {
+            padding-left: 20px;
+        }
+        & .dropdown-item {
+            border-bottom: 0;
+            padding: 15px 0;
+        }
+        & .dropdown-menu {
+            padding: 10px 20px;
+        }
+    }
+
+    & .results-count {
+        padding-right: 20px;
+    }
+
+
+    & .sort-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    & .sort-dropdown.large-view {
+        display: inline-block;
+        padding: 20px;
+        float: left;
+    }
+    & .dropdown-list .dropdown-item > a {
+        text-transform: capitalize;
+    }
+    & .dropdown-menu {
+        position: absolute;
+        z-index: 15;
+        width: calc(100% - 40px);
+        left: -1px;
+        padding: 10px 20px;
+        line-height: 1em;
+        top: 48px;
+    }
+    
+    & .tiles-container {
+        margin: auto;
+    }
+
+    & .tile-detail {
+        width: 33.30%;
+    }
+    & .bottom-pagination {
+        display: inline-block;
+    }
+
+    & .pagination {
+        margin-top: 25px;
+    }
+
+}
+
+.filter-sort-bar-container .filter-sort-bar-main {
+    padding-left: 60px;
+    padding-right: 60px;
+    & .pagination {
+        display: inline-block;
+    }
+
+    & .filters .select {
+        padding-right: 60px;
+        padding-left: 30px;
+
+    }
+    & .filters .select:after {
+        right: 20px;
+    }
+}
+
+
+.filter-sort-bar-container .filter-container {
+    position: relative;
+    -webkit-transition: none;
+    transition: none;
+    right: 0;
+    display: none;
+    & .filter-content {
+        width: 745px;
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        @mixin box-sizing;
+        max-height: none;
+        overflow: visible;
+    }
+    & .cta-holder .btn-secondary {
+        display: block;
+    }
+    & .filter-head {
+        display: none;
+    }
+    &.open {
+        z-index: 9;
+    }
+}

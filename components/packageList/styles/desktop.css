@@ -1,0 +1,6 @@
+.packages-detail {
+    & .packages-list {
+        padding: 70px 0px;
+        margin: 0 60px;
+    }
+}

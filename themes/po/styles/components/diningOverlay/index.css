@@ -1,0 +1,6 @@
+@import 'react-day-picker/lib/style.css';
+@import '../../../../../components/diningOverlay/styles/index.css';
+
+@import 'defaults.css';
+@import 'tablet.css' ( --tablet );
+@import 'desktop.css' ( --desktop );

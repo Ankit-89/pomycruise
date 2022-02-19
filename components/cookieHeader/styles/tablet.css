@@ -1,0 +1,15 @@
+.alert-messaging-inner-container {
+    padding: 18px 37px 18px 40px;
+    & .close {
+        width: auto;
+    }
+    & .alert-text {
+        width: 80%;
+    }
+    & .alert-icon {
+        margin-right: 15px;
+    }
+    & .close {
+        right: 25px;
+    }
+}

@@ -1,0 +1,5 @@
+@import '../../../../../components/commons/CUK/tabs/styles/index.css';
+@import '../../../../../components/configuratorTab/styles/index.css';
+
+@import 'defaults.css';
+@import 'tablet.css' (--tablet);

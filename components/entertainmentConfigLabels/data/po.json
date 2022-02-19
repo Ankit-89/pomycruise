@@ -1,0 +1,45 @@
+{
+    "type": "entertainmentConfigLabels",
+    "id": "po",
+    "attributes": {
+        "labels": {
+            "selectGuestsLabel": "Select a guest for Treatment",
+            "selectTreatmentLabel": "Select Treatment Duration",
+            "selectDateDescriptionLabel": "Don't miss on discounts upto 20% or more, pick a date of your choice and proceed to time-slot section.",
+            "addToCartLabel": "Add to cart",
+            "amountLabel": "Amount",
+            "currencyLabel": "£",
+            "pleaseWaitlabel":"Please Wait while it's loading.",
+            "selectGuestLabel": "Select guest",
+            "wheelChairLabel": "Wheelchair Spaces required",
+            "backLabel": "Back",
+            "ageRestrictedLabel": "Age Restricted",
+            "estimatedTimeLabel": "Estimated Time",
+            "reserveSeatsLabel": "Reserve your seats",
+            "locationLabel": "Location",
+            "selectguestLabel": "Select guest",
+            "wheelchairLabel": "Wheelchair Spaces required",
+            "inculdedHolidayLabel": "Inculded with your holiday",
+            "addtoBasketLabel": "Add To Basket",
+            "allSeatsSoldOutTitleLabel": "All seats are sold out at the moment",
+            "allSeatsSoldOutDescriptionLabel": "Keep a watch as seats do get available if there are any cancellations. You can also contact Deck 4 Cinema Hall - Screen 5 reception onboard for availability due to lastminute cancellations.",
+            "viewOtherEventsLabel": "view other events",
+            "wheelChairMessageLabel": "We are only able to allocate ‘one’wheelchair space per booking. If you require more wheelchair spaces, a separate booking will have to be made. Or you can contact the Contact Centre or the Entertainment Team once they get on board the ship.",
+            "seaDayTitleLabel": "Sea day",
+            "portDayTitleLabel": "{port}",
+            "embarkationDayTitleLabel": "Embarkation Day",
+            "disembarkationDayTitleLabel": "Disembarkation Day",
+            "depLabel": "DEP:",
+            "selectDateLabel": "Select Date",
+            "selectTimeLabel": "Select Time For"
+        },
+        "portDetailsServletUrl": "/services/en_GB/mycruise/ports.itinerary.{port_code}.json"
+    },
+    "services": {
+        "urls": {
+            "updateCartApi": "/services/cart-update.json",
+            "instancesApi": "/services/venues/productInstances.{{code}}.json",
+            "spaAppointmentsAvailableTimeSlotApi" : "/api-mc/v2/spaservices/{brand}/vessels/{vesselCode}/services/{serviceId}/opentimeslots/days/{startDate}/{endDate}"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "type": "spaConfigPage",
+    "id": "po",
+    "attributes": {
+        "labels": {
+            "selectGuestsLabel": "Select a guest for Treatment",
+            "selectTreatmentLabel": "Select Treatment Duration",
+            "selectDateLabel": "Select a date",
+            "selectDateDescriptionLabel": "Don't miss on discounts upto 20% or more, pick a date of your choice and proceed to time-slot section.",
+            "selectTimeLabel": "Select Time For",
+            "addToCartLabel": "Add to cart",
+            "ageRestrictedLabel": "age restricted",
+            "amountLabel": "Amount",
+            "currencyLabel": "£",
+            "seaDayTitleLabel": "Sea day",
+            "portDayTitleLabel": "{port}",
+            "embarkationDayTitleLabel": "Embarkation Day",
+            "disembarkationDayTitleLabel": "Disembarkation Day",
+            "pleaseWaitlabel":"Please Wait while it's loading."
+        },
+        "portDetailsServletUrl": "/services/en_GB/mycruise/ports.itinerary.{port_code}.json"
+    },
+    "services": {
+        "urls": {
+            "updateCartApi": "/services/cart-update.json",
+            "instancesApi": "/services/venues/productInstances.{{code}}.json",
+            "spaAppointmentsAvailableTimeSlotApi" : "/api-mc/v2/spaservices/{brand}/vessels/{vesselCode}/services/{serviceId}/opentimeslots/days/{startDate}/{endDate}"
+        }
+    }
+}

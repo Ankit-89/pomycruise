@@ -1,0 +1,136 @@
+.filter-sort-bar-container {
+    & .results-count {
+        color: var(--color-primary3);
+        font-family: 'PraxisCom-Bold';
+        font-size: 12px;
+    }
+    & .sort-dropdown {
+        border-top: 1px solid var(--color-secondary2);
+        color: var(--color-primary3);
+        font-family: var(--font-body1);
+        font-size: 12px;
+    }
+    & .filters .select {
+        color: var(--color-primary3);
+        font-family: var(--font-body1);
+        font-size: 12px;
+        &:after {
+            font-size: 8px;
+        }
+    }
+    & .filters .select:after {
+        color: var(--color-primary3);
+        content: '\e902';
+        font-size: 10px;
+    }
+    & .dropdown-btn {
+        color: var(--color-primary3);
+        font-family: var(--font-body1);
+        font-size: 12px;
+        &:after {
+            font-size: 8px;
+        }
+    }
+
+    & .dropdown-btn::after {
+        color: var(--color-primary3);
+        content: '\e902';
+        font-size: 10px;
+    }
+
+    & .dropdown-list {
+        background: var(--color-tertiary1);
+    }
+
+    & .filter-container {
+        & .filter-head {
+            background: #fff;
+        }
+
+        & .filter-head span {
+            color: var(--color-primary3);
+            font-family: var(--font-body1);
+            font-size: 14px;
+        }
+
+        & .filter-close:after {
+            content: '\e906';
+        }
+    }
+    & .counter {
+        background: var(--color-primary3);
+        color: #fff;
+        font-size: 12px;
+    }
+    & .dropdown-item {
+        border-bottom: 1px solid var(--color-secondary2);
+        & a {
+            @mixin style-h6;
+        }
+    }
+    & .action-bar {
+        & button {
+            @mixin cta-menu-close;
+        }
+        & span {
+            color: var(--color-primary3);
+            font-family: var(--font-body1);
+            font-size: 14px;
+        }
+    }
+    & .filter-container .content {
+        background: var(--color-secondary2);
+    }
+
+    & .filter-sort-bar-main {
+        & .content-wrapper {
+            border-top: 1px solid var(--color-secondary2);
+        }
+    }
+    & .filter-container .content button {
+        background: #d2d9e7;
+        color: var(--color-primary3);
+        font-family: var(--font-body2);
+        font-size: 12px;
+        &:hover {
+            background: #dce4f2;
+        }
+        &.selected {
+            background: var(--color-primary3);
+            color: var(--color-primary1);
+        }
+        &.selected:after {
+            color: var(--color-primary1);
+            font-family: var(--font-icomoon);
+            content: '\e906';
+        }
+    }
+    & .filter-container .head {
+        border-bottom: 1px solid var(--color-secondary2);
+        @mixin style-h6;
+        &:after {
+            color: var(--color-primary4);
+            font-family: var(--font-icomoon);
+            content: '\e912';
+        }
+    }
+    & .item.open .head:after {
+        content: '\e90f';
+    }
+
+    & .cta-holder .btn {
+        @mixin cta-primary;
+    }
+    & .cta-holder .btn-secondary {
+        @mixin style-h6;
+        &:hover {
+            color: var(--color-secondary1);
+        }
+    }
+    & .cta-holder .btn-secondary:before {
+        color: var(--color-primary4);
+        font-family: var(--font-icomoon);
+        font-size: 20px;
+        content: '\e914';
+    }
+}

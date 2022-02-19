@@ -1,0 +1,10 @@
+.image-copy-block {
+    & .video-icon {
+        background-image: url(../../../images/SVG/Play_Icon.svg);
+    }
+}
+
+.tabs-labels{
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+}

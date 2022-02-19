@@ -1,0 +1,93 @@
+{
+	"type": "diningTiles",
+	"id": "",
+	"attributes": {
+		"productSearchServlet": "/services/dining",		
+		"labels": {
+			"closeLabel": "Close",
+			"outOfStock": "Sold Out",
+			"limitedAvailability": "limited Availability",
+			"from": "From",
+			"seeDetailsLabel": "See details",
+			"notOnSaleAnymore": "Not on Sale",
+			"addToCartLabel": "Add to cart",
+			"includedLabel": "Included",
+			"additionalLabel": "Additional",
+			"bookableOnBoardLabel": "Book On Board",
+			"comingSoonLabel": "Coming Soon"
+		},
+		"childComponents": [{
+				"type": "titleH1Mycruise",
+				"id": "1520848724668",
+				"attributes": {
+					"title": "Title",
+					"description": "Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text Title Description Text ",
+					"type": "h1",
+					"showIcon": false
+				},
+				"meta": {
+					"render": "serverside"
+				}
+			},
+			{
+				"type": "diningOverlay",
+				"attributes": {
+					"labels": {
+						"selectGuestsLabel": "Select guests:",
+						"limitedAvailabilityPluralLabel": "There are only {places} places left for this option",
+						"limitedAvailabilitySingularLabel": "There is only {places} place left for this option",
+						"addToCartLabel": "Add to cart",
+						"closeLabel": "Close",
+						"totalLabel": "Total cost:",
+						"ageRestrictedLabel": "Age resctricted",
+						"mealTimeTitle": "Meal period",
+						"mealTimeLabel": "Select period",
+						"entertainerTitle": "Entertainer",
+						"entertainerLabel": "Select an entertainer",
+						"classTitle": "Class",
+						"classLabel": "Select a class",
+						"guestsTitle": "Guests",
+						"guestsLabel": "Select number of guests",
+						"calendarPickerTitle": "Date",
+						"calendarPickerLabel": "Select a date",
+						"hoursTitle": "Time",
+						"hoursLabel": "Select the time of event",
+						"timeSlotTitle": "Date - Time",
+						"timeSlotLabel": "Select a date and time",
+						"resetLabel": "Reset",
+						"pricePerPersonLabel": "Price per person",
+						"searchFiltersLabel":"Search by date or time",
+						"searchFiltersCookeryLabel":"Search by class or date-time",
+						"searchFiltersLimelightLabel":"Search by entertainer or date-time",
+						"disclaimerMessage": "To book for more than 6 people please call our contact center",
+						"errorLimitedAvailability": "There is not enough availability for the number of guests you previously selected! Please, try again with another day / timeslot.",
+						"errorOutOfStockInstance": "The option you previously selected is out of stock! Please, try again with another day / timeslot",
+						"errorOutOfStockProduct": "This product is out of stock! Please, try with another one",
+						"errorNoPurchasable": "Sorry you are no longer able to purchase this product on My Cruise but you may still be able to buy it onboard. Please try with another shorex for now"
+					},
+					"portDetailsServletUrl": "/services/en_GB/mycruise/ports.itinerary.{port_code}.json",
+					"services": {
+						"urls": {
+							"updateCartApi": "/services/cart-update.json",
+							"mycruiseSummaryApi": "https://dev.api.mycruise-temp.com/mc-cruisesummary",
+							"diningOverlayApi": "/services/venues/productInstances.{{shipCode}}_{{code}}.json"
+						}
+					}
+				}
+			}
+		]
+	},
+	"meta": {
+		"render": "dynamic"
+	},
+	"services": {
+		"urls": {
+			"dininigAvailabilityApi": ""
+		},
+		"headers": {
+			"brand": "po",
+			"locale": "en_GB",
+			"country": "US"
+		}
+	}
+}

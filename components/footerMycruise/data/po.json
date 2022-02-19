@@ -1,0 +1,195 @@
+{
+  "type": "footerMycruise",
+  "id": "1488974185266",
+  "attributes": {
+    "skipToContentLabel": "Skip",
+    "footerLogo": {
+      "image": "../../../content/PO/logo-white.png",
+      "alt": "",
+      "url": "/content/hal/en_us",
+      "isExternal": false
+    },
+    "ctaBrand": {
+      "label":"Go to brand website",
+      "url":"#",
+      "isExternal": true
+    },
+    "topNavList": [
+      {
+        "title": "Lorem ipsum",
+        "sublinkList": [
+          {
+            "subLinkCta": {
+              "label": "Booking Summary",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal": false
+            }
+          },
+          {
+            "subLinkCta": {
+              "label": "Itinerary Planner",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal": false
+            }
+          },
+          {
+            "subLinkCta": {
+              "label": "Before You Sail",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal":false
+            }
+          },
+          {
+            "subLinkCta": {
+              "label": "Flights",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal":false
+            }
+          }
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "sublinkList": [
+          {
+            "subLinkCta": {
+              "label": "Shore Excursions",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal":false
+            }
+          },
+          {
+            "subLinkCta": {
+              "label": "Dining",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal":false
+            }
+          },
+          {
+            "subLinkCta": {
+              "label": "Spa",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal": false
+            }
+          },
+          {
+            "subLinkCta": {
+              "label": "Gifts",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal": false
+            }
+          },
+          {
+            "subLinkCta": {
+              "label": "Drinks",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal": false
+            }
+          },
+          {
+            "subLinkCta": {
+              "label": "Travel Extras",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal": false
+            }
+          }
+        ]
+      },
+      {
+        "title": "Lorem ipsum",
+        "sublinkList": [
+          {
+            "subLinkCta": {
+              "label": "My Cart",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal": false
+            }
+          },
+          {
+            "subLinkCta": {
+              "label": "My Orders",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal": true
+            }
+          },
+          {
+            "subLinkCta": {
+              "label": "Log Out",
+              "url": "/content/carnival/hal/en_us/home.html",
+              "isExternal": false
+            }
+          }
+        ]
+      }
+    ],
+    "subNavList": [
+      {
+        "textCta": {
+          "label": "Website terms of use ",
+          "url": "/content/carnival/hal/en_us/home.html",
+          "isExternal": true
+        }
+      },
+      {
+        "textCta": {
+          "label": "Privacy Section",
+          "url": "/content/carnival/hal/en_us/home.html",
+          "isExternal": false
+        }
+      }
+    ],
+    "socialList": [
+      {
+        "icon": "facebook",
+        "socialIconCta": {
+          "label": "",
+          "url": "https://www.facebook.com/",
+          "isExternal": true
+        }
+      },
+      {
+        "icon": "twitter",
+        "socialIconCta": {
+          "label": "",
+          "url": "https://twitter.com/",
+          "isExternal": true
+        }
+      },
+      {
+        "icon": "instagram",
+        "socialIconCta": {
+          "label": "",
+          "url": "https://instagram.com/",
+          "isExternal": true
+        }
+      },
+      {
+        "icon": "youtube",
+        "socialIconCta": {
+          "label": "",
+          "url": "https://www.youtube.com/",
+          "isExternal": true
+        }
+      },
+      {
+        "icon": "googlePlus",
+        "socialIconCta": {
+          "label": "",
+          "url": "https://plus.google.com/discover",
+          "isExternal": true
+        }
+      },
+      {
+        "icon": "pinterest",
+        "socialIconCta": {
+          "label": "",
+          "url": "https://www.pinterest.it/",
+          "isExternal": true
+        }
+      }
+    ]
+  },
+  "meta": {
+    "render": "dynamic"
+  }
+}

@@ -1,0 +1,102 @@
+.image-copy-block {
+    & .title {
+        color: var(--color-primary5);
+    }
+    & .title h3 {
+        @mixin style-h2;
+    }
+    & .text-holder .description-block {
+        @mixin style-body2;
+        color: var(--color-primary6);
+    }
+
+    & .text-holder .description-block.quote {
+        @mixin style-body1;
+        color: var(--color-secondary5);
+        font-style: italic;
+    }
+
+    & .quote-details {
+        @mixin style-body3;
+    }
+    & .quote-details .quote-author {
+        text-transform: uppercase;
+    }
+    & .description-block span {
+        @mixin style-body2;
+    }
+    
+    & .subtitle:before,
+    & .subtitle:after {
+        vertical-align: bottom;
+    }
+
+    & a,
+    & button {
+        @mixin cta-secondary-up;
+        text-decoration: none;
+    }
+    & button {
+        background: transparent;
+        border: none;
+    }
+    & .cta-icon-group.video-link button {
+        text-decoration: none;
+    }
+    & .video-icon {
+        background-image: url(~postbooking-theme/images/SVG/PlayButton_Icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    & .carousel-modal {
+        background: white;
+    }
+    & .carousel-close button {
+        font-family: var(--font-cta-light);
+        color: var(--color-primary5);
+    }
+    & .carousel-close button:after {
+        background: url(~postbooking-theme/images/SVG/ModalClose_X.svg) 99% center no-repeat;
+    }
+    & .cta-icon-group button {
+        background: transparent;
+        border: none;
+    }
+    & .terms-link a {
+        @mixin style-small-text;
+        font-size: 11px;
+        color: var(--color-primary5);
+    }
+    & .carousel-link button {
+        text-transform: uppercase;
+    }
+    & .icons-list-label h3 {
+        color: var(--color-primary5);
+        font-size: 12px;
+        line-height: 1.1em;
+    }
+    & .icons-list-icon {
+        &:after {
+            color: var(--color-primary4);
+            font-size: 26px;
+        }
+    }
+    & .icons-list-icon.i-parking {
+        &:after {
+            content: "\e911";
+        }
+    }
+    & .icons-list-icon.i-hotel {
+        &:after {
+            content: "\e90a";
+        }
+    }
+    & .icons-list-icon.i-lounge {
+        &:after {
+            content: "\e90e";
+        }
+    }
+    & .video-link button:after{
+        content: none;
+    }
+}

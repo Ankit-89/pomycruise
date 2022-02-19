@@ -1,0 +1,22 @@
+.alert-messaging-inner-container {
+    padding: 18px 56px 18px 60px;
+    & .alert-icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        float: none;
+        vertical-align: top;
+        margin-top: 2px;
+    }
+    & .alert-text {
+        width: auto;
+        max-width: 80%;
+    }
+    & .close {
+        right: 33px;
+    }
+}
+
+
+
+

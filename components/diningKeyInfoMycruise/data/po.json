@@ -1,0 +1,144 @@
+{
+    "type": "diningKeyInfoMycruise",
+    "id": "1522849749303",
+    "attributes": {
+        "labels": {
+            "durationLabel": "Duration",
+             "datesLabel": "Dates",
+             "priceLabel": "Price",
+             "hoursLabel": "Hours",
+             "minutesLabel": "Minutes",
+             "buttonLabel": "Book Now"
+         },
+        "highlightedEventOnDining": ["limelight","cookery","speciality_bookable"],
+        "solrCollectionName": "mycruise_events_po_en_gb",	
+		"solrCollectionNameVenue": "mycruise_venues_po_en_gb",
+        "name": "Ketchikan Wildlife Tour",
+        "type": "image",
+        "included": false,
+        "urlsList": {
+            "default": "http://localhost:3033/template/diningProductDetailsPage",
+            "D": "http://localhost:3033/template/diningProductDetailsPage",
+            "Q": "http://localhost:3033/template/diningProductDetailsPage"
+        },
+        "includedLabel": "Included",
+        "additionalLabel": "Additional",
+        "fromLabel": "from",
+        "bookableOnBoardLabel": "Book on board",
+        "bookableOnBoardInfo": "Book on board",
+        "comingSoonLabel": "Coming Soon",
+        "comingSoonInfo": "Coming Soon info",
+        "perPersonLabel": "per person",
+        "viewMenuLabel": "View Menu",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kdjLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kdjLoremLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kdjLoremLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kdjLoremLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kdjLoremLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kdjLorem",
+        "image": {
+            "alt": "",
+            "0": {
+                "1x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_375x281.jpg",
+                "2x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "aspectRatio": 1.3321492007104796
+            },
+            "376": {
+                "1x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_768x575.jpg",
+                "2x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_1536x1150.jpg",
+                "aspectRatio": 1.3356521739130436
+            },
+            "769": {
+                "1x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_1480x482.jpg",
+                "2x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_2960x964.jpg",
+                "aspectRatio": 3.070539419087137
+            }
+        },
+        "ctaLink": "/content/costa/master_website/it_IT/cruises.html",
+        "fromPriceLabel": "From",
+        "backLabel": "Back",
+        "readMore": "Read more",
+        "diningId": "0104",
+        "diningPageUrl": "/content/pno/master_website/it_IT/mycruise/test_shorex_pdp.html",
+        "readLess": "Read less",
+        "pdfMenuPath": "#",
+        "childComponents": [
+            {
+				"type": "diningOverlay",
+				"attributes": {
+					"labels": {
+						"selectGuestsLabel": "Select guests:",
+						"limitedAvailabilityPluralLabel": "There are only {places} places left for this option",
+						"limitedAvailabilitySingularLabel": "There is only {places} place left for this option",
+						"addToCartLabel": "Add to cart",
+						"closeLabel": "Close",
+						"totalLabel": "Total cost:",
+						"ageRestrictedLabel": "Age resctricted",
+						"mealTimeTitle": "Meal period",
+						"mealTimeLabel": "Select period",
+						"entertainerTitle": "Entertainer",
+						"entertainerLabel": "Select an entertainer",
+						"classTitle": "Class",
+						"classLabel": "Select a class",
+						"guestsTitle": "Guests",
+						"guestsLabel": "Select number of guests",
+						"calendarPickerTitle": "Date",
+						"calendarPickerLabel": "Select a date",
+						"hoursTitle": "Time",
+						"hoursLabel": "Select the time of event",
+						"timeSlotTitle": "Date - Time",
+						"timeSlotLabel": "Select a date and time",
+						"resetLabel": "Reset",
+						"pricePerPersonLabel": "Price per person",
+						"searchFiltersLabel":"Search by date or time",
+						"searchFiltersCookeryLabel":"Search by class or date-time",
+						"searchFiltersLimelightLabel":"Search by entertainer or date-time",
+						"disclaimerMessage": "To book for more than 6 people please call our contact center",
+						"errorLimitedAvailability": "There is not enough availability for the number of guests you previously selected! Please, try again with another day / timeslot.",
+						"errorOutOfStockInstance": "The option you previously selected is out of stock! Please, try again with another day / timeslot",
+						"errorOutOfStockProduct": "This product is out of stock! Please, try with another one",
+						"errorNoPurchasable": "Sorry you are no longer able to purchase this product on My Cruise but you may still be able to buy it onboard. Please try with another shorex for now"
+					},
+					"portDetailsServletUrl": "/services/en_GB/mycruise/ports.itinerary.{port_code}.json",
+					"services": {
+						"urls": {
+							"updateCartApi": "/services/cart-update-error.json",
+							"mycruiseSummaryApi": "https://dev.api.mycruise-temp.com/mc-cruisesummary",
+							"diningOverlayApi": "/services/venues/productInstances.{{shipCode}}_{{code}}.json"
+						}
+					}
+				}
+			}
+        ],
+        "sliderImage": {
+            "alt": "",
+            "0": {
+                "1x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "2x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "aspectRatio": 1.3333333333333333
+            },
+            "376": {
+                "1x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "2x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "aspectRatio": 1.3333333333333333
+            },
+            "769": {
+                "1x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "2x": "https://s3-eu-west-1.amazonaws.com/de.costa.dam/zc11_f29f9854910c45a3b8e05ad3e2428883/f_im_jpg_750x563.jpg",
+                "aspectRatio": 1.3333333333333333
+            }
+        },
+        "video": {
+            
+        },
+        "addToCartLabel": "Add to cart"            
+    },
+    "meta": {
+        "render": "dynamic"
+    },
+    "services": {
+        "urls": {
+            "productDetailsApi": "/services/pdp-dining.json"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "IT"
+        }
+    }
+}

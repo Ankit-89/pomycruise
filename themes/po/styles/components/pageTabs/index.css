@@ -1,0 +1,11 @@
+@import '../../components/titleH1Mycruise/index.css';
+@import '../../../../../components/commons/CUK/tabs/styles/index.css';
+@import '../../components/editorialInformation/index.css';
+@import '../../components/mediaGalleryVideoServlet/index.css';
+@import '../../components/shipsGrid/index.css';
+@import '../../components/summaryAccordion/index.css';
+@import '../../../../../components/pageTabs/styles/index.css';
+
+@import 'defaults.css';
+
+

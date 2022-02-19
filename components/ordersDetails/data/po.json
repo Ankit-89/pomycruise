@@ -1,0 +1,79 @@
+{
+  "type":"ordersDetails",
+  "id":"1519980816351",
+  "attributes": {
+    "title": "My Orders",
+    "labels": {
+      "imageAlt":"Redirect to PDP",
+      "cancelledMsg": "This item has been cancelled by {user} on {date} at {hour}.",
+      "orderNumberLabel": "Order Number:",
+      "placedLabel": "Placed on:",
+      "cancelledLabel": "Cancelled",
+      "cancellingLabel": "Cancelling",
+      "billingInfoLabel": "Billing Information",
+      "paymentDetailsLabel": "Payment Details",
+      "pricingLabel": "Pricing",
+      "subtotalLabel": "Subtotal:",
+      "loyaltyDiscountLabel": "Loyalty Discount",
+      "loyaltyDiscountTotalLabel": "Total Loyalty Discount",
+      "childDiscountLabel": "Child Discount",
+      "childDiscountTotalLabel": "Total Drinks Discount",
+      "childDiscountDescription": "You received this discount because you bought the alcohol package.",
+      "totalLabel": "Total:",
+      "detailsLabel": "Details",
+      "cancelLabel": "Cancel",
+      "guestsLabel": "Guests:",
+      "yesLabel": "Yes",
+      "noLabel": "No",
+      "refundableProductLabel": "This product is refundable.",
+      "notRefundableProductLabel": "This product is NOT refundable.",
+      "cancelPassangerLabel": "Are you sure you want to cancel this passenger from this shorex?",
+      "cancelShorexLabel": "Are you sure you want to cancel this shorex?",
+      "emailRefer": "Please refer to your order confirmation email for full terms and conditions",
+      "cancelledItemLabel": "This item has been cancelled. You will receive an email with further details",
+      "allInclusiveLabel":"All Inclusive",
+      "drinksLabel": "Drinks",
+      "cruiseLengthLabel": "Cruise length",
+      "diningLabel": "Dining",
+      "mealPeriodLabel": "Meal period:",
+      "guestNumberLabel": "Number of guests:",
+      "reservationLabel": "Reservation details:",
+      "eventLabel": "Event:",
+      "entertainerTitle": "Entertainer:",
+      "spaLabel": "Spa",
+      "treatmentLabel": "Treatment details:",
+      "durationLabel": "Duration:",
+      "guestLabel": "Guest:",
+      "minLabel": " mins",
+      "variation": "Hair length: ",
+      "daysLabel":"days"
+    },
+    "accesibilityLabels": {
+      "imageAlt":"Redirect to PDP"
+    },
+    "hairLengthLabels":{
+      "S": "Short",
+      "M": "Medium",
+      "L": "Long"
+    },
+    "diningBasePath": "/",
+    "childComponents": [{
+      "type": "emptyState",
+      "id": "1521450986453",
+      "attributes": {
+        "title": "There currently are no purchased products in your My Orders page",
+        "description": "You have no purchased yet"
+      }
+    }]
+  },
+  "services": {
+    "urls": {
+      "orderHistoryApi": "https://dev.api.mycruise-temp.com:443/v1/mc-orders/PO-Site/users/current/orders/",
+      "orderCancellationApi": "/services/orders-cancel.json",
+      "orderDetailsApi": "https://dev.api.mycruise-temp.com:443/v1/mc-orders/PO-Site/users/current/orders/"
+    }
+  },
+  "meta":{
+    "render":"dynamic"
+  }
+}

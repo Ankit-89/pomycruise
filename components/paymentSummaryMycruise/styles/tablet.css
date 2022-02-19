@@ -1,0 +1,11 @@
+.paymentSummaryMycruise {
+    margin-bottom: 70px;
+}
+.payment-summary {
+    margin: 0;
+}
+.payment-summary-content {
+    & .pay-now-cta {
+        width: auto;
+    }
+}

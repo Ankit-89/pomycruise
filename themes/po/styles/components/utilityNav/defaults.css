@@ -1,0 +1,57 @@
+.utility-nav-container {
+    & .nav .nav-item {
+        @mixin style-body2;
+        border-bottom: 1px solid var(--color-secondary7);
+    }
+    & .nav-item .nav-link {
+
+        @mixin style-body3;
+        color: var(--color-primary3);
+        font-size: 16px;
+        line-height: 30px;
+        text-decoration: none;
+    }
+    & .nav-link::before {
+        font-family: var(--font-icomoon);
+        speak: none;
+        font-size: 14px;
+    }
+    & .nav-item .nav-text {
+        color: var(--color-primary5);
+        @mixin style-body2;
+        font-family: var(--font-h5);
+        border-right: 1px solid var(--color-primary5);
+        line-height: 14px;
+    }
+    & .nav-item .nav__countdown .nav-text {
+        color: var(--color-primary4);
+        font-size: 14px;
+    }
+    & .nav-link.login::before {
+        content: "\e912";
+        color: var(--color-primary5);
+        backface-visibility: hidden;        
+    }
+    & .nav-link.logout::before {
+        content: "\e90d";
+        color: var(--color-primary4);
+        backface-visibility: hidden;
+    }
+    & .nav-link.orders::before {
+        content: "\e910";
+        color: var(--color-primary4);
+        backface-visibility: hidden; 
+    }
+    & .nav-link.cart::before {
+        content: "\e904";
+        color: var(--color-primary4);
+        backface-visibility: hidden;        
+
+    }
+    & .nav-item .cart-label {
+        background: var(--color-secondary1);
+        color: var(--color-primary1);
+        font-size: 10px;
+        backface-visibility: hidden;        
+    }
+}

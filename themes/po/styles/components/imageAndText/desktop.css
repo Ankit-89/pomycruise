@@ -1,0 +1,5 @@
+.article--image_text {
+    & .tile-title {
+        font-size: 24px;
+    }
+}

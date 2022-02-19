@@ -1,0 +1,9 @@
+.printDeclaration_container{
+    & .tileH1-section {
+        & .title-component {
+            & p {
+                max-width: 80%;
+            }
+        }
+    }
+}

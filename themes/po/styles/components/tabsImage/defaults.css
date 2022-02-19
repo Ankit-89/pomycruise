@@ -1,0 +1,109 @@
+.tabsImage {
+    @mixin grid-wrap;
+    & .tabs-labels {
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;       
+        & a {
+            @mixin style-h5;
+            white-space: normal;
+            line-height: 1.2;
+            text-decoration: none;
+            padding: 0 10px;
+            display: block;
+            max-width: 170px;
+            position: relative;
+        }
+        & span {
+            min-height: 48px;
+            display: block;
+        }
+        & .active:after {
+            border-top: 1px solid #A6B4CF;
+            border-right: 1px solid #A6B4CF;
+        }
+        & .active {
+            & img {
+                border: 4px solid var(--color-secondary1);
+            }
+        }
+        & .tab-image::before {
+            content: "\e905";
+            font-family: var(--font-icomoon);
+            background: var(--color-primary3);
+            color: var(--color-primary1);
+            transform: scale(0);
+            transition: transform .3s var(--animation-smooth) .2s;
+        }
+    }
+    & .tabs-labels {
+        /* padding: 40px 0;
+        /* border-bottom: 1px solid var(--color-secondary6); */
+        /* text-align: center;
+        position: relative; */
+        &:after {
+            /* content: '';
+            display: block;
+            position: absolute;
+            bottom: 1px;
+            height: 1px;
+            width: 100%;
+            background: var(--color-secondary5); */
+        }
+        & li {
+            border-bottom: 1px solid var(--color-secondary5);
+        }
+    }
+    & .tabs-content {
+        margin-top: 40px;
+    }
+    & .image-copy-block .tile-holder:nth-child(odd) {
+        direction: ltr;
+    }
+    & .description-block {
+        @mixin style-body2; 
+    }
+
+    & .image-copy-block {
+        & .title-decorator-image {
+            display: none;
+        }
+        & .content {
+            text-align: center;
+        }
+        & .tile-holder {
+            max-width: 1440px;
+            width: 100%;
+            position: relative;
+        }
+        & .tile-holder:last-of-type {
+            padding-bottom: 0;
+        }
+        & .tile-holder:last-of-type .terms-link {
+            margin-bottom: 0;
+        }
+        & .image-holder img {
+            width: 100%;
+        }
+        & .title {
+            margin-bottom: 22px;
+        }
+        & .title h3 {
+            margin: 0;
+        }
+        & .description-block,
+        & .quote-details {
+            margin-bottom: 15px;
+        }
+        & .quote-details {
+            width: 70%;
+            margin: 0 auto;
+        }
+        & .icon-holder .gridIcon {
+            height: 7px;
+            margin-bottom: 24px;
+            display: inline-block;
+            width: 155px;
+        }
+    }
+}

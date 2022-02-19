@@ -1,0 +1,17 @@
+.dining-card-container {
+    & .dining-card {
+        text-align: left;
+    }
+    & .cta-block {
+        padding: 0;
+    }
+    & .cta-content {
+        padding: 0 30px 45px 30px;
+    }
+    & .content-holder {
+        padding: 35px 30px 0 30px;
+    }
+    & .cta-addToCart a {
+        line-height: 1.125rem;
+    }
+}

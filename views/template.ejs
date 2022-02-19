@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=1">
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<script>
+    var amp;
+    var SR = {components:{data:<%- componentData %>}, doDebugging: true };
+    var configs = <%- templateConfig(brand, templateName, title); %>;
+    var dtm_digitalData = <%- templateAnalytics(brand) %>;
+  </script>
+  <!-- <script>
+    (function() {
+    var did = configs.disableAnalyticsCookieId, d = decodeURIComponent, cs = document.cookie.split('; ').map(function(c){ return c.split('=')}).reduce(function(a,v){ try {a[v[0]] = JSON.parse(d(v[1]));} catch(e) {a[v[0]] = d(v[1]);} return a;}, {});
+    (did !== '' && (cs[did] === false || cs[did] === 'false'))  ? console.log('analytics disabled by user') : document.write('<script src="\/\/assets.adobedtm.com\/9e06488bf71878f142d953279ba1538ebb08c67a\/satelliteLib\u002Dcaac9aaa678a400c41add4dcf98ba546ae295c42\u002Dstaging.js"></' + 'script>');
+    })();
+    </script> -->
+    <script src="/etc/designs/carnival/po/postbooking/library/js/vendor/videoPlayer/amp/amp.min.js"></script>
+  </head>
+  <body>
+  <div id='main'></div>
+    <%- scripts %>
+  </body>
+</html>

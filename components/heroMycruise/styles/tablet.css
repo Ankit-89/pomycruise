@@ -1,0 +1,138 @@
+.hero-container .info-card {
+    top: 50px;
+    & h2 {
+        margin: 0 0 15px 0;
+        line-height: 3rem;
+    }
+    & .detail-section .price-block-mob,
+    & .detail-section .arrow-icon {
+        width: auto;
+    }
+    & .detail-section {
+        padding: 0;
+    }
+}
+
+.hero-container.search-enabled {
+    & .slick-dots {
+        bottom: 55px;
+        top: auto;
+    }
+}
+
+.info-card .price-section {
+    padding-right: 25px;
+}
+.hero-container .recently-viewed {
+    bottom: 55px;
+    display: block;
+    & a {
+        line-height: 25px;
+    }
+}
+.hero-container .info-section {
+    display: inline-block;
+}
+
+.hero-container {
+    & .slide-controls {
+        display: block;
+    }
+    & .slide-controls-wrapper {
+        position: relative;
+        @define grid-wrap;
+        height: 0;
+        max-width: 100%;
+        padding: 0; 
+    }
+    & .slide-controls {
+        height: 0;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    & .slide-controls-wrapper {
+        position: absolute;
+        top: 45%;
+        width: 100%;
+        transform: translateY(-45%);
+        max-width: none;
+    }
+    & .slide-controls .button.prev-btn,
+    & .slide-controls .button.next-btn {
+        position: relative;
+        top: 0;
+        left: 20px;
+    }
+    & .slide-controls .button.next-btn {
+        float: right;
+        left: auto;
+        right: 20px;
+    }    
+
+    & .center {
+        & .detail-section {
+            text-align: center;
+        }
+    }
+    
+    & .info-card-logo {
+        width: 100%;
+        margin-bottom: 0;
+        position: relative;
+        top: auto;        
+    }
+    & .info-card-logo img {
+        max-height: 70px;
+        max-width: 410px;
+    }
+    & .info-card-logo.left {
+        left: auto
+    }
+    & .info-card-logo.left img {
+        text-align: left;
+    }
+    & .info-card-logo.center {
+        max-width: 100%;
+        text-align: center;
+    }
+    & .info-card-logo.center img {
+        text-align: center;
+        display: inline;
+    }
+    & .info-card-logo.right {
+        display: block;
+        padding-right: 15px;
+        right: auto;
+        text-align: right;
+    }
+    & .info-card-logo.right img {
+        text-align: right;
+        display: inline;
+    }
+    & .info-card {
+        padding-top: 0;
+    }
+    & .info-card .info-section {
+        max-width: 405px;
+    }
+    & .slide .image-lazy-loader:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        /* background: var(--gradient-image-hero); */
+        height: 110px;
+        width: 100%;
+    }
+    /* & .info-card-positioning {
+        position: relative;
+    } */
+    & .info-card-logo.right {
+        padding-right: 65px;
+    }
+    & .info-card-logo.right img {
+        margin-right: 0;
+    }
+}

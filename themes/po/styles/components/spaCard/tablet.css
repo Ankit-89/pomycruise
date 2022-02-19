@@ -1,0 +1,5 @@
+.spa-card {
+    & .spa-card-description {
+        font-size: 14px;
+    }
+}

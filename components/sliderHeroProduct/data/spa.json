@@ -1,0 +1,272 @@
+{
+    "type": "sliderHeroProduct",
+    "id": "",
+    "attributes": {
+        "productCategory": "BESTSELLER",
+        "productType": "SPA",
+        "spaSearchServlet": "/services/spa",
+        "diningSearchServlet": "/services/dining",
+        "labels": {
+            "addToCartLabel": "Add to cart",
+            "seeDetailsLabel": "See details",
+            "includedLabel": "Included",
+            "additionalLabel": "Additional",
+            "bookableOnBoardLabel": "Bookable Onboard",
+            "notOnSaleAnymore": "Not On Sale",
+            "ageRestrictedLabel": "Age resctricted some propertes for this",
+            "limitedAvailability": " limited availability",
+            "outOfStock": "Sold Out",
+            "from": "From",
+            "multipleDates": "Multiple dates"
+        },
+        "childComponents": [
+            {
+                "type": "titleH1Mycruise",
+                "id": "",
+                "attributes": {
+                    "title": "Learn from the best",
+                    "type": "h1",
+                    "showIcon": false
+                },
+                "meta": {
+                    "render": "serverside"
+                }
+            },
+            {
+                "type": "diningOverlay",
+                "attributes": {
+                    "labels": {
+                        "selectGuestsLabel": "Select guests:",
+                        "limitedAvailabilityPluralLabel":
+                            "There are only {places} places left for this option",
+                        "limitedAvailabilitySingularLabel":
+                            "There is only {places} place left for this option",
+                        "addToCartLabel": "Add to cart",
+                        "closeLabel": "Close",
+                        "totalLabel": "Total cost:",
+                        "ageRestrictedLabel": "Age resctricted",
+                        "mealTimeTitle": "Meal period",
+                        "mealTimeLabel": "Select period",
+                        "entertainerTitle": "Entertainer",
+                        "entertainerLabel": "Select an entertainer",
+                        "classTitle": "Class",
+                        "classLabel": "Select a class",
+                        "guestsTitle": "Guests",
+                        "guestsLabel": "Select number of guests",
+                        "calendarPickerTitle": "Date",
+                        "calendarPickerLabel": "Select a date",
+                        "hoursTitle": "Time",
+                        "hoursLabel": "Select the time of event",
+                        "timeSlotTitle": "Date - Time",
+                        "timeSlotLabel": "Select a date and time",
+                        "resetLabel": "Reset",
+                        "pricePerPersonLabel": "Price per person",
+                        "searchFiltersLabel": "Search by date or time",
+                        "searchFiltersCookeryLabel":
+                            "Search by class or date-time",
+                        "searchFiltersLimelightLabel":
+                            "Search by entertainer or date-time",
+                        "disclaimerMessage":
+                            "To book for more than 6 people please call our contact center",
+                        "errorLimitedAvailability":
+                            "There is not enough availability for the number of guests you previously selected! Please, try again with another day / timeslot.",
+                        "errorOutOfStockInstance":
+                            "The option you previously selected is out of stock! Please, try again with another day / timeslot",
+                        "errorOutOfStockProduct":
+                            "This product is out of stock! Please, try with another one",
+                        "errorNoPurchasable":
+                            "Sorry you are no longer able to purchase this product on My Cruise but you may still be able to buy it onboard. Please try with another shorex for now"
+                    },
+                    "portDetailsServletUrl":
+                        "/services/en_GB/mycruise/ports.itinerary.{port_code}.json",
+                    "services": {
+                        "urls": {
+                            "updateCartApi": "/services/cart-update.json",
+                            "mycruiseSummaryApi":
+                                "https://dev.api.mycruise-temp.com/mc-cruisesummary",
+                            "diningOverlayApi":
+                                "/services/venues/productInstances.{{code}}.json"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "shorexOverlay",
+                "attributes": {
+                    "labels": {
+                        "guestsLabel": "Select guests:",
+                        "limitedAvailabilityPluralLabel":
+                            "There are only {places} places left for this option, to select more please register your interest",
+                        "limitedAvailabilitySingularLabel":
+                            "There is only {places} place left for this option, to select more please register your interest",
+                        "registerInterestLabel": "Register interest",
+                        "registerInterestMessage":
+                            "This product is sold out, please register your interest",
+                        "registerInterestDisclaimer":
+                            "You can register your interest to be notified by email when this product will become available again for the quantity you have selected.",
+                        "registerInterestConfirmTitle": "Thank you",
+                        "registerInterestConfirmText":
+                            "We registered your interest for this product",
+                        "addToCartLabel": "Add to cart",
+                        "closeLabel": "Close",
+                        "totalLabel": "Total cost:",
+                        "ageRestrictedLabel": "Age resctricted",
+                        "errorLimitedAvailability":
+                            "There is not enough availability for the number of guests you previously selected! Please, register you interest",
+                        "errorOutOfStockInstance":
+                            "The option you previously selected is out of stock! Please, register your interest",
+                        "errorOutOfStockProduct":
+                            "This product is out of stock! Please, register your interest",
+                        "genericError":
+                            "This product is out of stock! Please change choice",
+                        "errorNoPurchasable":
+                            "Sorry you are no longer able to purchase this product on My Cruise but you may still be able to buy it onboard. Please try with another shorex for now"
+                    },
+                    "guideLanguages": {
+                        "options": [
+                            {
+                                "en": {
+                                    "label": "English Guide",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "de": {
+                                    "label": "German Guide",
+                                    "value": ""
+                                }
+                            },
+                            {
+                                "it": {
+                                    "label": "Italian Guide",
+                                    "value": ""
+                                }
+                            }
+                        ]
+                    },
+                    "continueShopping": {
+                        "icons": [
+                            {
+                                "iconName": "Shore Excursion",
+                                "iconImage": "/content/PO/excursion.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Dining",
+                                "iconImage": "/content/PO/dining.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Spa",
+                                "iconImage": "/content/PO/spa.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Drinks",
+                                "iconImage": "/content/PO/drinks.png",
+                                "iconUrl": "pages/T011"
+                            },
+                            {
+                                "iconName": "Gift",
+                                "iconImage": "/content/PO/gifts.png",
+                                "iconUrl": "pages/T011"
+                            }
+                        ],
+                        "titleLabel": "Continue Shopping"
+                    },
+                    "services": {
+                        "urls": {
+                            "updateCartApi": "/services/cart-update.json",
+                            "registerInterestApi":
+                                "/services/registerInterest.json",
+                            "instancesApi":
+                                "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products/{{productCode}}/instances"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "spaOverlay",
+                "attributes": {
+                    "labels": {
+                        "selectGuestsLabel": "Select guests:",
+                        "selectGuestsDisclaimer":
+                            "You can select only one passenger for each Spa treatment.",
+                        "limitedAvailabilityPluralLabel":
+                            "There are only {places} places left for this option",
+                        "limitedAvailabilitySingularLabel":
+                            "There is only {places} place left for this option",
+                        "addToCartLabel": "Add to cart",
+                        "closeLabel": "Close",
+                        "totalLabel": "Total cost:",
+                        "ageRestrictedLabel": "Age resctricted",
+                        "mealTimeTitle": "Meal period",
+                        "mealTimeLabel": "Select period",
+                        "entertainerTitle": "Entertainer",
+                        "entertainerLabel": "Select an entertainer",
+                        "classTitle": "Class",
+                        "classLabel": "Select a class",
+                        "durationsTitle": "Duration",
+                        "durationsLabel": "Select duration",
+                        "calendarPickerTitle": "Date",
+                        "calendarPickerLabel": "Select a date",
+                        "hoursTitle": "Time",
+                        "hoursLabel": "Select the time of event",
+                        "timeSlotTitle": "Date - Time",
+                        "timeSlotLabel": "Select a date and time",
+                        "resetLabel": "Reset",
+                        "pricePerPersonLabel": "Price per person",
+                        "searchFiltersLabel": "Search by date or time",
+                        "searchFiltersCookeryLabel":
+                            "Search by class or date-time",
+                        "searchFiltersLimelightLabel":
+                            "Search by entertainer or date-time",
+                        "disclaimerMessage":
+                            "To book for more than 6 people please call our contact center",
+                        "errorLimitedAvailability":
+                            "There is not enough availability for the number of guests you previously selected! Please, try again with another day / timeslot.",
+                        "errorOutOfStockInstance":
+                            "The option you previously selected is out of stock! Please, try again with another day / timeslot",
+                        "errorOutOfStockProduct":
+                            "This product is out of stock! Please, try with another one",
+                        "errorNoPurchasable":
+                            "Sorry you are no longer able to purchase this product on My Cruise but you may still be able to buy it onboard. Please try with another shorex for now"
+                    },
+                    "services": {
+                        "urls": {
+                            "updateCartApi": "https://dev.api.mycruise-temp.com:443/v1/mc-shopping-basket/PO-Site/users/current/carts/current/entries",
+                            "mycruiseSummaryApi":
+                                "https://dev.api.mycruise-temp.com/mc-cruise-summary/v1"
+                        },
+                        "headers": {
+                            "brand": "po",
+                            "locale": "en_GB",
+                            "country": "US"
+                        }
+                    },
+                    "meta": {
+                        "render": "dynamic"
+                    }
+                }
+            }
+        ],
+        "sliderAutoplay": 4000
+    },
+    "services": {
+        "urls": {
+            "productSearchApi":
+                "https://dev.api.mycruise-temp.com:443/v1/mc-products/PO-Site/products/search",
+            "spaHeroApi": "/services/spaHero.json",
+            "spaAppointmentsApi":
+                "https://dev.api.mycruise-temp.com/v1/mc-spa-appointments/search"
+        },
+        "headers": {
+            "brand": "po",
+            "locale": "en_GB",
+            "country": "US"
+        }
+    },
+    "meta": {
+        "render": "dynamic"
+    }
+}

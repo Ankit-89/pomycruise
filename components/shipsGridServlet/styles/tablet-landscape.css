@@ -1,0 +1,79 @@
+.image-copy-block {
+    & .tile-holder {
+        display: table;
+        position: relative;
+        margin: 0 auto;
+    }
+    & .tileGrid {
+        display: table-cell;
+        width: 50%;
+        vertical-align: middle;
+        position: relative;
+    }
+    & .tile-holder:nth-child(odd) {
+        direction: rtl;
+    }
+    & .tile-holder:nth-child(odd) .tileGrid {
+        direction: ltr;
+    }
+    &.inverted {
+        & .tile-holder:nth-child(even) {
+            direction: rtl;
+        }
+        & .tile-holder:nth-child(even) .tileGrid {
+            direction: ltr;
+        }
+    }
+    & .content .spacing-container {
+        padding: 0 10%;
+        margin-bottom: 0;
+        @media (--desktop-xl) {
+            padding: 0 15%;
+        }
+    }
+    & .cta-icon-group .cta-link {
+        margin-bottom: 30px;
+    }
+    & .text-holder .description-block {
+        margin-bottom: 25px;
+        max-height: 155px;
+        overflow: hidden;
+    }
+    & .text-holder .quote-details {
+        margin-bottom: 25px;
+    }
+    & .tileGrid.image-holder {
+        vertical-align: top;
+    }
+    & .content .spacing-container .title {
+        margin: 25px 0 30px;
+    }
+    & .text-holder .description-block {
+        max-height: 230px;
+    }
+    & .tileGrid.content {
+        padding-top: 5px;
+    }
+    & .text-holder {
+        padding-bottom: 0;
+    }
+    & .icons-list-item {
+        width: auto;
+    }
+    & .icons-list-label {
+        display: inline-block;
+        vertical-align: middle;
+        width: 70px;
+        text-align: left;
+    }
+    & .icons-list-icon {
+        margin-bottom: 0;
+        margin-right: 8px;
+    }
+}
+
+.gridImageCopyBlockPort {
+    & .image-copy-block-port .view-all-wrap {
+        margin-top: 25px;
+    }
+}

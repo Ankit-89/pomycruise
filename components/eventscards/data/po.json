@@ -1,0 +1,34 @@
+{
+    "type": "eventscards",
+    "id": "1623923162936",
+    "attributes": {
+      "labels": {
+        "bookingConfirmationMsg": "Thank you, your payment has been made. You will receive a confirmation of your purchase shortly.",
+        "confirmationNumber": "Order Number",
+        "bookingConfirmationEmail": "Purchase confirmation email has been sent to {emailAddress}.",
+        "loadMoreLabel": "Load More",
+        "notAvaialbeLabel": "Sold Out",
+        "alreadyBookedLabel": "Already Booked",
+        "cardLoadVisibleLabel": "Card Load Visible",
+        "noEventsAvailableLabel": "No events available for your cruise",
+        "goBackLabel": "Go Back"
+      },
+      "solrCollectionName": "mycruise_events_po_en_gb"
+    },
+    "meta": {
+      "render": "dynamic"
+    },
+    "services": {
+      "urls": {
+        "finaliseOrderApi": "/api-mc/v1/mc-orders/PO-Site/users/current/orders",
+        "pathSolrHandler": "https://sit.my-np.pocruises.com/mcsearch/",
+        "reversalTransactionApi": "https://api-integration.pxp-solutions.net/transactionservice/api/v5/transactions/{transactionId}/operations",
+        "shipEventAPi": "https://sit.my-np.pocruises.com/api-mc/v2/shipEvents/ship"
+      },
+      "headers": {
+        "brand": "po",
+        "locale": "en_GB",
+        "country": "GB"
+      }
+    }
+  }

@@ -1,0 +1,25 @@
+
+.tableInformation {
+    & .table {
+        & .table__opener {
+            font-family: var(--font-semibold);
+            border-bottom: 1px solid var(--color-secondary6);
+            &:after {
+                font-family: var(--font-icomoon);
+                color: var(--color-primary3);     
+                content: "\e90c";       
+            }
+        }
+    }
+    & .table__header {
+        background: var(--color-secondary6);
+        @mixin style-h5;
+        line-height: 1.4;
+    }
+    & .table__row {
+        @mixin style-body2;
+    }
+    & .visible + .table__row .table__opener {
+        border-top: 1px solid var(--color-secondary6);
+    }
+}

@@ -1,0 +1,147 @@
+/*
+Media Queries
+---------------------------*/
+
+/*@custom-media --smvp ( max-width: 375px);
+@custom-media --mvp ( min-width: 376px);
+@custom-media --tbvp ( min-width: 600px);
+@custom-media --lgvp ( min-width: 769px);
+@custom-media --xlgvp ( min-width: 1481px);*/
+
+
+
+@custom-media --mobile-landscape (min-width: 481px);
+@custom-media --tablet ( min-width: 768px);
+@custom-media --tablet-landscape ( min-width: 981px);
+@custom-media --desktop ( min-width: 1025px);
+@custom-media --desktop-xl ( min-width: 1281px);
+
+
+/* Max-width */
+:root {
+    --max-width: 1280px;
+
+}
+
+
+/*
+Navigation Media Queries
+---------------------------*/
+@custom-media --nav-mvp ( min-width: 376px );
+@custom-media --nav-lgvp ( min-width: 1025px );
+@custom-media --nav-xlgvp ( min-width: 1481px );
+
+:root {
+    /* Widths */
+    --width-svp: 0px;
+    --width-mvp: 376px;
+    --width-lvp: 769px;
+    --width-max: 1480px;
+
+    /* Colors */
+    /* PNO colors */
+    --color-primary1: #FFFFFF; /* WHITE */
+    --color-primary2: #B10F26; /* ROUGE */
+    --color-primary3: #002776; /* NAVY BLUE */
+    --color-primary4: #988642; /* GOLD */
+    --color-primary5: #666666; /* GRAY */
+    --color-primary6: #666666; /* GRAY */
+    --color-secondary1: #0076CE;  /* BLUE */
+    --color-secondary2: #F2F0E8;  /* PAMAPAS */
+    --color-secondary3: #E30513;  /* RED */
+    --color-secondary4: #011949;  /* DEEP NAVY */
+    --color-secondary5: #A6B4CF;  /* FUN BLUE */
+    --color-secondary6: #EDF1F7;  /* FUN BLUE Light*/
+    --color-secondary7: #E6E9F0;  /* FUN BLUE Lighter*/
+    --color-secondary8: #F8F8F8;
+    --color-secondary9: #D3DEF0; /*BORDER BLUE*/
+    --color-secondary10: #2F76C8;
+    --color-secondary11: #F2F0E9;
+    ; /*BORDER BLUE*/
+
+
+    --color-tertiary1: #FAF9F7;
+    --color-tertiary3: #CFCFCF;
+    --color-tertiary4: #FAF9F7;
+    --color-focus: #002776;
+
+
+    /* Transparent Colors */
+    --color-primary1-opacity-40: rgba(255, 255, 255, 0.4);
+    --tile-border-color: rgba(0,39,118, .35);
+    --divider: rgba(254,254,254,0.6);
+    --color-carousel-arrow-background: rgba(59, 63, 113, 0.8);
+    --color-separator: rgb(167,167,167,0.5);
+    --color-primary3-opacity-35: rgb(0,39,118,0.35); 
+
+    /* Fonts */
+    /* PNO Fonts */
+    --font-h1: 'GreycliffCF-light';
+    --font-h2: 'GreycliffCF-light';
+    --font-h3: 'GreycliffCF-medium';
+    --font-h4: 'GreycliffCF-medium';
+    --font-h5: 'GreycliffCF-bold';
+    --font-h6: 'GreycliffCF-bold';
+    --font-h6-light: 'GreycliffCF-light';
+    --font-body1: 'PraxisCom-Regular';
+    --font-body2: 'PraxisCom-Regular';
+    --font-body3: 'PraxisCom-Regular';
+    --font-bold: 'PraxisCom-Bold';
+    --font-small-text: 'PraxisCom-Regular';
+    --font-semibold: 'PraxisCom-Semibold';
+    --font-cta: 'GreycliffCF-bold';
+    --font-cta-light: 'GreycliffCF-light';
+
+    --font-icomoon: 'Icomoon';
+
+    /*--font-body1: 'NeutraText-book';
+    --font-body1-demi: 'NeutraText-demi';
+    --font-body2: 'NeutraText-book';
+    --font-body2-demi: 'NeutraText-demi';
+    --font-body3: 'NeutraText-book';
+    --font-body3-text-demi: 'NeutraText-demi';
+    --font-small-text: 'NeutraText-book';
+    --font-cta: 'NeutraDisplay-bold';
+    --font-cta-medium: 'NeutraDisplay-medium';
+    --font-cta-sabon: 'Sabon-roman';
+    --font-cta-demi: 'NeutraText-demi';
+    --font-cta-SabonLTStd-Italic: 'Sabon-italic';
+    --font-cta-book: 'NeutraText-book';
+    --font-italic: 'Sabon-italic';
+    --font-bold: 'NeutraText-bold';
+    --font-legend: 'NeutraDisplay-bold';
+    --font-neutra-text-bold: 'NeutraText-bold';
+    --font-neutra-text-demi: 'NeutraText-demi';*/
+
+    /* Opaque backgrounds */
+    --opaque-background1: rgba(0, 0, 0, .3); /* LIGHT BLACK */
+    --opaque-background2: rgba(1, 25, 73, .85); /* BLUE */
+    --opaque-background4: rgba(0, 0, 0, .75); /* DEEP BLACK */
+    --opaque-background3: rgba(255, 255, 255, .3); /* WHITE */
+    --opaque-background5: rgba(0, 0, 0, .9); /* Media Image Background*/
+    --opaque-background6: rgba(32, 40, 91, .8); /* DEEP BLUE */
+    --opaque-background7: rgba(32, 40, 91, .54); /* OVERLAY BLUE */
+    --opaque-background8: rgba(166,180,207, .2);
+    --opaque-background9: rgb(227, 226, 232,.7);
+    --opaque-background10: rgba(255, 255, 255, 0);
+    --opaque-background11: rgba(0,0,0,0.1);
+    
+    /* Box  shadow*/
+    --box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+
+
+    /* Icons */
+    --icon-check : '../../../images/check.png';
+
+    /* Gradient */
+    --gradient-primary1: rgba(0, 0, 0, 0.1);
+    --gradient-image: linear-gradient(to top, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, 0.2) 35%, transparent 100%);
+    --gallery-gradient-transparent-dark: linear-gradient(to top, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, 0.2) 35%, transparent 100%);
+    --gallery-gradient-dark-transparent: linear-gradient(to bottom, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, 0.2) 35%, transparent 100%);
+
+    /*transition*/
+    --animation-smooth: cubic-bezier(0.77, 0.03, 0.25, 1);
+
+    --global-header-gradient: linear-gradient(to top, rgba(255, 255, 255, .3) 0%, rgba(255, 255, 255, .9) 60%, rgba(255, 255, 255, 1) 100%)
+
+}

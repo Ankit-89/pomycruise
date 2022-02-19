@@ -1,0 +1,149 @@
+.bookingSummaryMycruise {
+    @mixin grid-wrap;
+    padding: 0;
+    & .title-component {
+        margin-bottom: 15px;
+    }
+    & .tileH1-section {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    & .bookingSummary__info {
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    & .cruiseInfo__data {
+        display: inline-block;
+        margin-top: 10px;
+        &:first-child {
+            margin-right: 20px;
+            padding-right: 20px;
+        }
+        
+    }
+    & .image-lazy-loader {
+        overflow: hidden;
+    }
+    & .bookingSummary {
+        transform: translate(0);
+    }
+    & h5 {
+        margin-bottom: 2px;
+        display: block;
+    }    
+    & .cruiseInfo__subtitle {
+        margin-bottom: 12px;
+    }    
+    & h2 {
+        line-height: 1.6;
+    }
+    & .nextSteps {
+        @mixin internal-tooltip;   
+        position: relative;     
+        & p {
+            margin-top: 20px;
+        }
+    }
+    & .cruiseInfo__ports {
+        display: flex;
+        margin: 20px 0 30px;
+    }
+    & .cruiseInfo__portData {
+        margin-right: 30px;
+        min-width: 25%;
+        line-height: 1.4;
+    }
+
+    & .nextSteps__list {
+        display: block;
+    }
+    & .nextSteps__item {
+        list-style: none;
+        padding-right: 10px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        &.active .iconSummary {
+
+            opacity: 1;
+            &:before {
+                opacity: 1;
+            }
+        }
+        & .iconSummary:before {
+            opacity: 0.6;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            line-height: 50px;
+            display: block;
+            font-size: 20px;
+            margin: 0px auto 8px;
+        }
+        &:last-child {
+            padding-right: 0;
+        }
+        & .iconSummary {
+            opacity: 0.5;
+            display: block;
+            text-decoration: none;
+            max-width: 100px;
+        }
+    
+    }
+    & .tooltip__dd {
+        text-align: left;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 60px 30px;
+        z-index: 9999;
+        box-sizing: border-box;
+        background: var(--color-primary1);
+    }
+    & .tooltip__close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+    }
+}
+.overlay-text {
+    max-width: 670px;
+    margin: 0 auto;
+    padding: 30px 30px 50px 30px;
+    /* & h1 {
+        text-align: center;
+        margin: 0 0 15px;
+        font-weight: normal;
+        &:before {
+            font-family: var(--font-icomoon);
+            display: block;
+            width: 58px;
+            height: 42px;
+            margin: 0 auto 6px;
+            text-align: center;
+        }
+    } */
+    & p {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    & li {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+    & li::before {
+        font-family: var(--font-icomoon);
+        font-size: 5px;
+        display: inline-block;
+        transform: rotate(-90deg);
+        text-align: center;
+        float: left;
+        margin-right: 7px;
+    }
+
+}
